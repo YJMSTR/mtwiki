@@ -1,0 +1,890 @@
+[
+  {
+    "id": "sources-source-cache-locality",
+    "title": "Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计",
+    "path": "sources/source-cache-locality.md",
+    "type": "source",
+    "source_url": "https://en.algorithmica.org/hpc/cpu-cache/prefetching/",
+    "source_type": "blog",
+    "tags": [
+      "hpc",
+      "multithreading",
+      "cpp",
+      "cache-locality",
+      "prefetching",
+      "data-oriented-design"
+    ],
+    "keywords": [
+      "cache-locality",
+      "AoS",
+      "SoA",
+      "prefetching",
+      "data-oriented-design",
+      "DOD",
+      "loop-tiling",
+      "hot-cold-split"
+    ]
+  },
+  {
+    "id": "sources-source-cpp-memory-model",
+    "title": "C++ 内存模型与 Atomic 操作：从 happens-before 到 acquire-release",
+    "path": "sources/source-cpp-memory-model.md",
+    "type": "source",
+    "source_url": "https://en.cppreference.com/w/cpp/atomic/memory_order",
+    "source_type": "doc",
+    "tags": [
+      "hpc",
+      "multithreading",
+      "cpp",
+      "memory-model",
+      "atomic",
+      "happens-before"
+    ],
+    "keywords": [
+      "memory-order",
+      "acquire-release",
+      "seq-cst",
+      "relaxed",
+      "happens-before",
+      "synchronizes-with",
+      "fences"
+    ]
+  },
+  {
+    "id": "sources-source-false-sharing",
+    "title": "False Sharing 检测与修复：高性能多线程编程的隐形杀手",
+    "path": "sources/source-false-sharing.md",
+    "type": "source",
+    "source_url": "https://coffeebeforearch.github.io/2020/06/23/false-sharing.html",
+    "source_type": "blog",
+    "tags": [
+      "hpc",
+      "multithreading",
+      "cpp",
+      "cache-line",
+      "false-sharing",
+      "memory-model"
+    ],
+    "keywords": [
+      "false-sharing",
+      "cache-line",
+      "alignas",
+      "cache-line-invalidation",
+      "MESI",
+      "perf-c2c",
+      "VTune",
+      "pahole"
+    ]
+  },
+  {
+    "id": "sources-source-gem5-parallelization",
+    "title": "gem5 仿真器并行化分析",
+    "path": "sources/source-gem5-parallelization.md",
+    "type": "source",
+    "source_url": "https://github.com/gem5/gem5",
+    "source_type": "github-code",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "simulator",
+      "gem5",
+      "pdes",
+      "multi-core"
+    ],
+    "keywords": [
+      "gem5",
+      "parallel-discrete-event-simulation",
+      "PDES",
+      "par-gem5",
+      "parti-gem5",
+      "timing-mode",
+      "quantum-based"
+    ]
+  },
+  {
+    "id": "sources-source-hpx-runtime",
+    "title": "HPX 并行运行时分析",
+    "path": "sources/source-hpx-runtime.md",
+    "type": "source",
+    "source_url": "https://github.com/STEllAR-GROUP/hpx",
+    "source_type": "github-code",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "hpx",
+      "parallex",
+      "task-based",
+      "async"
+    ],
+    "keywords": [
+      "HPX",
+      "ParalleX",
+      "AGAS",
+      "lightweight-task",
+      "work-stealing",
+      "global-address-space",
+      "async"
+    ]
+  },
+  {
+    "id": "sources-source-lock-free-cpp",
+    "title": "C++ Lock-Free 数据结构：从原子操作到无锁队列",
+    "path": "sources/source-lock-free-cpp.md",
+    "type": "source",
+    "source_url": "https://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++",
+    "source_type": "blog",
+    "tags": [
+      "hpc",
+      "multithreading",
+      "cpp",
+      "lock-free",
+      "data-structures",
+      "atomic"
+    ],
+    "keywords": [
+      "lock-free",
+      "wait-free",
+      "CAS",
+      "compare-and-swap",
+      "ABA-problem",
+      "hazard-pointer",
+      "moodycamel",
+      "concurrent-queue"
+    ]
+  },
+  {
+    "id": "sources-source-manticore-date23",
+    "title": "Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)",
+    "path": "sources/source-manticore-date23.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/abs/2301.09413 / https://dl.acm.org/doi/10.1145/3623278.3624750",
+    "source_type": "paper",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "hardware-acceleration",
+      "FPGA",
+      "BSP",
+      "static-scheduling",
+      "many-core"
+    ],
+    "keywords": [
+      "Manticore",
+      "RTL simulation",
+      "hardware accelerator",
+      "bulk-synchronous parallelism",
+      "static scheduling",
+      "FPGA",
+      "225-core",
+      "Verilator comparison"
+    ]
+  },
+  {
+    "id": "sources-source-metro-mpi",
+    "title": "Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)",
+    "path": "sources/source-metro-mpi.md",
+    "type": "source",
+    "source_url": "https://past.date-conference.com/proceedings-archive/2023/DATA/170.pdf / https://jbalkind.github.io/docs/date_2023_camera_ready.pdf",
+    "source_type": "paper",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "distributed",
+      "MPI",
+      "SoC",
+      "NoC",
+      "HPC",
+      "Verilator"
+    ],
+    "keywords": [
+      "Metro-MPI",
+      "RTL simulation",
+      "distributed simulation",
+      "MPI",
+      "network-on-chip",
+      "OpenPiton",
+      "Verilator",
+      "multi-tile granule",
+      "latency-insensitive interface"
+    ]
+  },
+  {
+    "id": "sources-source-numa-optimization",
+    "title": "NUMA 优化与 Thread Pinning：让内存访问不再跨节点",
+    "path": "sources/source-numa-optimization.md",
+    "type": "source",
+    "source_url": "https://www.abhik.ai/concepts/systems/numa-architecture",
+    "source_type": "blog",
+    "tags": [
+      "hpc",
+      "multithreading",
+      "cpp",
+      "numa",
+      "thread-affinity",
+      "memory-locality"
+    ],
+    "keywords": [
+      "numa",
+      "thread-pinning",
+      "first-touch",
+      "numactl",
+      "libnuma",
+      "local-memory",
+      "remote-memory"
+    ]
+  },
+  {
+    "id": "sources-source-onetbb-scheduler",
+    "title": "OneTBB 任务调度器与 Work-Stealing 实现分析",
+    "path": "sources/source-onetbb-scheduler.md",
+    "type": "source",
+    "source_url": "https://github.com/oneapi-src/oneTBB",
+    "source_type": "github-code",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "task-scheduler",
+      "work-stealing",
+      "onetbb"
+    ],
+    "keywords": [
+      "oneTBB",
+      "TBB",
+      "task-scheduler",
+      "work-stealing",
+      "deque",
+      "depth-first",
+      "breadth-first"
+    ]
+  },
+  {
+    "id": "sources-source-parendi-asplos25",
+    "title": "Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)",
+    "path": "sources/source-parendi-asplos25.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/abs/2403.04714",
+    "source_type": "paper",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "parallelism",
+      "IPU",
+      "thousand-core",
+      "Graphcore",
+      "partitioning"
+    ],
+    "keywords": [
+      "Parendi",
+      "RTL simulation",
+      "Graphcore IPU",
+      "massive parallelism",
+      "fine-grained parallelism",
+      "synchronization cost",
+      "partitioning",
+      "compilation"
+    ]
+  },
+  {
+    "id": "sources-source-pdes-making-of-field",
+    "title": "Parallel Discrete Event Simulation: The Making of a Field",
+    "path": "sources/source-pdes-making-of-field.md",
+    "type": "source",
+    "source_url": "https://ieeexplore.ieee.org/document/8247793",
+    "source_type": "paper",
+    "tags": [
+      "pdes",
+      "history",
+      "synchronization",
+      "conservative",
+      "optimistic",
+      "time-warp",
+      "survey"
+    ],
+    "keywords": [
+      "parallel-discrete-event-simulation",
+      "making-of-a-field",
+      "logical-processes",
+      "chandy-misra-bryant",
+      "time-warp",
+      "virtual-time"
+    ]
+  },
+  {
+    "id": "sources-source-pdes-rtlsim-modern",
+    "title": "Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism",
+    "path": "sources/source-pdes-rtlsim-modern.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/html/2403.04714v1",
+    "source_type": "paper",
+    "tags": [
+      "pdes",
+      "rtl-sim",
+      "parallel-rtl",
+      "verilator",
+      "ipu",
+      "message-passing",
+      "shared-memory",
+      "million-gate"
+    ],
+    "keywords": [
+      "parendi",
+      "verilator",
+      "parallel-rtl",
+      "bsp",
+      "ipu",
+      "message-passing",
+      "cycle-accurate",
+      "full-cycle-simulation"
+    ]
+  },
+  {
+    "id": "sources-source-pdes-sync-comparison",
+    "title": "Optimistic vs Conservative Synchronization in PDES for Circuit Simulation",
+    "path": "sources/source-pdes-sync-comparison.md",
+    "type": "source",
+    "source_url": "https://www.informs-sim.org/wsc17papers/includes/files/058.pdf",
+    "source_type": "paper",
+    "tags": [
+      "pdes",
+      "synchronization",
+      "conservative",
+      "optimistic",
+      "comparison",
+      "rtl-sim",
+      "null-message",
+      "rollback"
+    ],
+    "keywords": [
+      "conservative-vs-optimistic",
+      "null-message",
+      "lookahead",
+      "rollback",
+      "time-warp",
+      "cmb",
+      "yawns",
+      "circuit-simulation"
+    ]
+  },
+  {
+    "id": "sources-source-pdes-vhdl-lungeanu",
+    "title": "Parallel and Distributed VHDL Simulation",
+    "path": "sources/source-pdes-vhdl-lungeanu.md",
+    "type": "source",
+    "source_url": "https://dl.acm.org/doi/pdf/10.1145/343647.343884",
+    "source_type": "paper",
+    "tags": [
+      "pdes",
+      "vhdl",
+      "rtl-sim",
+      "synchronization",
+      "delta-cycle",
+      "optimistic",
+      "conservative",
+      "digital-circuit"
+    ],
+    "keywords": [
+      "vhdl-simulation",
+      "parallel-vhdl",
+      "delta-cycle",
+      "lamport-logical-clock",
+      "lookahead-free",
+      "self-adaptive"
+    ]
+  },
+  {
+    "id": "sources-source-spike-parallelization",
+    "title": "Spike RISC-V 模拟器并行化分析",
+    "path": "sources/source-spike-parallelization.md",
+    "type": "source",
+    "source_url": "https://github.com/riscv-software-src/riscv-isa-sim",
+    "source_type": "github-code",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "simulator",
+      "riscv",
+      "spike",
+      "interpretive"
+    ],
+    "keywords": [
+      "spike",
+      "riscv-isa-sim",
+      "interpretive",
+      "lock-step",
+      "functional-simulation",
+      "tandem-verification"
+    ]
+  },
+  {
+    "id": "sources-source-thread-local-storage",
+    "title": "Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator",
+    "path": "sources/source-thread-local-storage.md",
+    "type": "source",
+    "source_url": "https://maskray.me/blog/2021-02-14-all-about-thread-local-storage",
+    "source_type": "blog",
+    "tags": [
+      "hpc",
+      "multithreading",
+      "cpp",
+      "thread-local",
+      "tls",
+      "memory-allocation",
+      "performance"
+    ],
+    "keywords": [
+      "thread-local",
+      "tls",
+      "tcmalloc",
+      "jemalloc",
+      "per-thread-cache",
+      "constinit",
+      "tls-model"
+    ]
+  },
+  {
+    "id": "sources-source-timewarp-algorithm",
+    "title": "Time Warp: Virtual Time and Optimistic Synchronization",
+    "path": "sources/source-timewarp-algorithm.md",
+    "type": "source",
+    "source_url": "https://worrydream.com/refs/Jefferson_1987_-_Distributed_Simulation_and_the_Time_Warp_Operating_System.pdf",
+    "source_type": "paper",
+    "tags": [
+      "pdes",
+      "time-warp",
+      "optimistic",
+      "rollback",
+      "antimessage",
+      "virtual-time",
+      "synchronization"
+    ],
+    "keywords": [
+      "time-warp",
+      "virtual-time",
+      "optimistic-synchronization",
+      "rollback",
+      "antimessage",
+      "gvt",
+      "distributed-simulation"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-issue-2913",
+    "title": "Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown",
+    "path": "sources/source-verilator-issue-2913.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/issues/2913",
+    "source_type": "github-issue",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "verilator",
+      "synchronization",
+      "overhead"
+    ],
+    "keywords": [
+      "verilator",
+      "multithreading",
+      "slowdown",
+      "tiny design",
+      "thread overhead",
+      "Gantt",
+      "macro-task"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-mt-code-analysis",
+    "title": "Verilator 多线程源码分析",
+    "path": "sources/source-verilator-mt-code-analysis.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-code",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "rtl-simulator",
+      "verilator",
+      "thread-pool"
+    ],
+    "keywords": [
+      "verilator",
+      "V3ThreadPool",
+      "V3ThreadScope",
+      "V3OrderParallel",
+      "edge-contraction",
+      "critical-path",
+      "partitioner"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-mt-doc",
+    "title": "Verilator 官方文档：多线程仿真与性能优化",
+    "path": "sources/source-verilator-mt-doc.md",
+    "type": "source",
+    "source_url": "https://verilator.org/guide/latest/verilating.html#multithreading / https://verilator.org/guide/latest/simulating.html",
+    "source_type": "doc",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "verilator",
+      "documentation",
+      "performance",
+      "NUMA",
+      "PGO"
+    ],
+    "keywords": [
+      "verilator",
+      "--threads",
+      "macro-task",
+      "thread affinity",
+      "NUMA",
+      "profile-guided optimization",
+      "numactl",
+      "lstopo",
+      "L3 cluster"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-mt-prs",
+    "title": "Verilator 多线程相关 PR 分析",
+    "path": "sources/source-verilator-mt-prs.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/pulls",
+    "source_type": "github-pr",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "verilator",
+      "thread-pool",
+      "pr-analysis"
+    ],
+    "keywords": [
+      "verilator",
+      "thread-pool",
+      "V3ThreadPool",
+      "MT_DISABLED",
+      "partitioner",
+      "edge-contraction"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-v3variableorder",
+    "title": "Verilator V3VariableOrder: 变量排序优化与多线程感知",
+    "path": "sources/source-verilator-v3variableorder.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/blob/master/src/V3VariableOrder.cpp / https://github.com/verilator/verilator/blob/master/src/V3VariableOrder.h",
+    "source_type": "\"github-pr\"  # 核心改进来自 PR #5406",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "verilator",
+      "variable-ordering",
+      "cache-optimization",
+      "MTask",
+      "parallelism"
+    ],
+    "keywords": [
+      "V3VariableOrder",
+      "variable ordering",
+      "MTask affinity",
+      "cache line alignment",
+      "macro-task",
+      "parallel variable ordering",
+      "memory layout"
+    ]
+  },
+  {
+    "id": "sources-source-warped2-pdes-engine",
+    "title": "Warped2: An Open-Source PDES Engine with Time Warp Synchronization",
+    "path": "sources/source-warped2-pdes-engine.md",
+    "type": "source",
+    "source_url": "https://github.com/wilseypa/warped2",
+    "source_type": "github",
+    "tags": [
+      "pdes",
+      "time-warp",
+      "optimistic",
+      "open-source",
+      "c++",
+      "multi-core",
+      "shared-memory",
+      "mpi"
+    ],
+    "keywords": [
+      "warped2",
+      "time-warp-kernel",
+      "pdes-engine",
+      "ltsf-queue",
+      "pending-event-set",
+      "multi-threaded"
+    ]
+  },
+  {
+    "id": "sources-source-work-stealing",
+    "title": "Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术",
+    "path": "sources/source-work-stealing.md",
+    "type": "source",
+    "source_url": "https://www.cs.cmu.edu/~guyb/papers/BL99.pdf",
+    "source_type": "paper",
+    "tags": [
+      "hpc",
+      "multithreading",
+      "cpp",
+      "work-stealing",
+      "scheduling",
+      "task-parallelism"
+    ],
+    "keywords": [
+      "work-stealing",
+      "Cilk",
+      "TBB",
+      "Rayon",
+      "Chase-Lev-deque",
+      "task-DAG",
+      "load-balancing"
+    ]
+  },
+  {
+    "id": "wiki-wiki-cache-and-memory",
+    "title": "Cache与内存优化",
+    "path": "wiki/wiki-cache-and-memory.md",
+    "type": "wiki",
+    "tags": [
+      "cache",
+      "memory",
+      "false-sharing",
+      "numa",
+      "thread-local",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "cache locality",
+      "false sharing",
+      "NUMA",
+      "thread-local storage",
+      "SOA",
+      "AOS",
+      "hot-cold splitting",
+      "alignas"
+    ],
+    "related_sources": [
+      "source-false-sharing",
+      "source-cache-locality",
+      "source-numa-optimization",
+      "source-thread-local-storage",
+      "source-cpp-memory-model"
+    ]
+  },
+  {
+    "id": "wiki-wiki-code-patterns",
+    "title": "可复用的代码模式",
+    "path": "wiki/wiki-code-patterns.md",
+    "type": "wiki",
+    "tags": [
+      "code-patterns",
+      "cpp",
+      "lock-free",
+      "atomic",
+      "thread-local",
+      "work-stealing"
+    ],
+    "keywords": [
+      "per-thread accumulator",
+      "SPSC queue",
+      "lock-free",
+      "atomic fence",
+      "NUMA first-touch",
+      "work-stealing deque",
+      "thread-local event pool"
+    ],
+    "related_sources": [
+      "source-false-sharing",
+      "source-cache-locality",
+      "source-cpp-memory-model",
+      "source-numa-optimization",
+      "source-work-stealing",
+      "source-onetbb-scheduler",
+      "source-thread-local-storage",
+      "source-lock-free-cpp"
+    ]
+  },
+  {
+    "id": "wiki-wiki-overview",
+    "title": "多线程RTL仿真器优化概述",
+    "path": "wiki/wiki-overview.md",
+    "type": "wiki",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "overview",
+      "sparse-computation"
+    ],
+    "keywords": [
+      "RTL仿真",
+      "多线程",
+      "稀疏计算",
+      "同步开销",
+      "并行化"
+    ],
+    "related_sources": [
+      "source-verilator-issue-2913",
+      "source-parendi-asplos25",
+      "source-manticore-date23",
+      "source-verilator-mt-doc"
+    ]
+  },
+  {
+    "id": "wiki-wiki-pdes-for-rtl",
+    "title": "PDES在RTL仿真中的应用",
+    "path": "wiki/wiki-pdes-for-rtl.md",
+    "type": "wiki",
+    "tags": [
+      "pdes",
+      "rtl-sim",
+      "time-warp",
+      "conservative",
+      "optimistic",
+      "synchronization",
+      "delta-cycle"
+    ],
+    "keywords": [
+      "PDES",
+      "Time Warp",
+      "conservative synchronization",
+      "optimistic synchronization",
+      "anti-message",
+      "delta cycle",
+      "GVT",
+      "rollback",
+      "full-cycle simulation"
+    ],
+    "related_sources": [
+      "source-pdes-making-of-field",
+      "source-timewarp-algorithm",
+      "source-pdes-vhdl-lungeanu",
+      "source-pdes-sync-comparison",
+      "source-pdes-rtlsim-modern",
+      "source-warped2-pdes-engine"
+    ]
+  },
+  {
+    "id": "wiki-wiki-scheduling",
+    "title": "调度与负载均衡",
+    "path": "wiki/wiki-scheduling.md",
+    "type": "wiki",
+    "tags": [
+      "scheduling",
+      "load-balancing",
+      "work-stealing",
+      "partitioning",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "work stealing",
+      "static partition",
+      "task granularity",
+      "critical path",
+      "macro-task",
+      "micro-task",
+      "NUMA-aware"
+    ],
+    "related_sources": [
+      "source-work-stealing",
+      "source-onetbb-scheduler",
+      "source-verilator-mt-code-analysis",
+      "source-parendi-asplos25"
+    ]
+  },
+  {
+    "id": "wiki-wiki-sparse-parallelization",
+    "title": "稀疏计算并行化策略",
+    "path": "wiki/wiki-sparse-parallelization.md",
+    "type": "wiki",
+    "tags": [
+      "rtl-sim",
+      "sparse-computation",
+      "parallelization",
+      "partitioning",
+      "scheduling"
+    ],
+    "keywords": [
+      "稀疏计算",
+      "静态分区",
+      "动态调度",
+      "时间片并行",
+      "空间分区",
+      "macro-task",
+      "micro-task"
+    ],
+    "related_sources": [
+      "source-verilator-issue-2913",
+      "source-verilator-v3variableorder",
+      "source-metro-mpi",
+      "source-pdes-rtlsim-modern"
+    ]
+  },
+  {
+    "id": "wiki-wiki-sync-overhead",
+    "title": "同步开销分析与对策",
+    "path": "wiki/wiki-sync-overhead.md",
+    "type": "wiki",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "synchronization",
+      "cache-coherence",
+      "false-sharing",
+      "performance"
+    ],
+    "keywords": [
+      "同步开销",
+      "MESI",
+      "barrier",
+      "false sharing",
+      "lock-free",
+      "relaxed atomics",
+      "cache coherence"
+    ],
+    "related_sources": [
+      "source-verilator-issue-2913",
+      "source-verilator-mt-prs",
+      "source-verilator-mt-code-analysis",
+      "source-pdes-sync-comparison",
+      "source-cpp-memory-model"
+    ]
+  },
+  {
+    "id": "wiki-wiki-verilator-lessons",
+    "title": "Verilator多线程化经验总结",
+    "path": "wiki/wiki-verilator-lessons.md",
+    "type": "wiki",
+    "tags": [
+      "rtl-sim",
+      "verilator",
+      "multithreading",
+      "lessons-learned",
+      "optimization"
+    ],
+    "keywords": [
+      "Verilator",
+      "V3Partition",
+      "V3Order",
+      "V3VariableOrder",
+      "Thread PGO",
+      "NUMA",
+      "macro-task"
+    ],
+    "related_sources": [
+      "source-verilator-issue-2913",
+      "source-verilator-mt-doc",
+      "source-verilator-mt-prs",
+      "source-verilator-mt-code-analysis",
+      "source-verilator-v3variableorder"
+    ]
+  }
+]
