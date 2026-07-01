@@ -51,7 +51,8 @@ def read_file(path: Path) -> str:
 
 def make_id(path: Path, category: str) -> str:
     """Generate a stable id like 'wiki-parallel-pdes' or 'source-verilator-mt'."""
-    rel = path.relative_to(WIKI_ROOT / category)
+    category_dir = "sources" if category == "source" else category
+    rel = path.relative_to(WIKI_ROOT / category_dir)
     stem = rel.with_suffix("").as_posix().replace("/", "-")
     return f"{category}-{stem}"
 
