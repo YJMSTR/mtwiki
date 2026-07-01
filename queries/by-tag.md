@@ -1,6 +1,6 @@
 ---
 title: Index by Tag
-generated: 2026-07-02T01:25:23.024374
+generated: 2026-07-02T01:39:05.205355
 ---
 
 # Index by Tag
@@ -18,18 +18,41 @@ generated: 2026-07-02T01:25:23.024374
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
 
+## AI
+
+- [RTL 硬件木马检测与可信验证研究综述](../sources/source-hardware-security.md) `source`
+
 ## AI-regression
 
 - [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
+## AMS
+
+- [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
 
 ## AOT
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
 - [JIT/AOT编译与代码生成](../wiki/wiki-jit-and-compiler.md) `wiki`
 
+## AST
+
+- [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
+## AXI
+
+- [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
 ## ArcSim
 
 - [JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation](../sources/source-jit-simulation.md) `source`
+
+## BFM
+
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
 
 ## BMC
 
@@ -49,18 +72,32 @@ generated: 2026-07-02T01:25:23.024374
 
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 
+## CDC
+
+- [CDC Verification & Metastability Simulation in RTL](../sources/source-cdc-verification.md) `source`
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
+
 ## CDV
 
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
 
 ## CIRCT
 
+- [Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比](../sources/source-hardware-ir.md) `source`
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
 - [JIT/AOT编译与代码生成](../wiki/wiki-jit-and-compiler.md) `wiki`
+
+## CIRCT-HLS
+
+- [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
 
 ## CLOCK_MONOTONIC
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
+
+## CPA
+
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
 
 ## CRV
 
@@ -71,17 +108,40 @@ generated: 2026-07-02T01:25:23.024374
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 
+## Co-emulation
+
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+
 ## DAC
 
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+
+## DDR
+
+- [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
+## DIFT
+
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
+## DPA
+
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
 
 ## DeLorean
 
 - [Deterministic RTL Simulation / Record & Replay](../sources/source-deterministic-replay.md) `source`
 
+## EDA
+
+- [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
+
 ## FIRRTL
 
+- [Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比](../sources/source-hardware-ir.md) `source`
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
 ## FPGA
 
@@ -91,6 +151,10 @@ generated: 2026-07-02T01:25:23.024374
 ## FPGA-emulation
 
 - [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+
+## FPGA-prototyping
+
+- [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
 
 ## FSDB
 
@@ -102,9 +166,28 @@ generated: 2026-07-02T01:25:23.024374
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 - [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
 
+## FastSPICE
+
+- [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
+## GALS
+
+- [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
+
 ## GDB
 
 - [操作系统调度与多线程调试](../wiki/wiki-os-and-debugging.md) `wiki`
+
+## GLIFT
+
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
+## GNN
+
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
 
 ## GPU
 
@@ -134,6 +217,11 @@ generated: 2026-07-02T01:25:23.024374
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
 
+## HIR
+
+- [Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比](../sources/source-hardware-ir.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
 ## HLS
 
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
@@ -144,13 +232,38 @@ generated: 2026-07-02T01:25:23.024374
 - [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
 
+## High-Speed-Interface
+
+- [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
+
+## IBIS-AMI
+
+- [Physical Layer / SerDes Simulation](../sources/source-phy-serdes.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
 ## IC3
 
 - [形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证](../sources/source-formal-verification.md) `source`
 
+## ICG
+
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
+
+## IFT
+
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
+
 ## IPU
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+
+## IR
+
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
+## IR-optimization
+
+- [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
 
 ## InfluxDB
 
@@ -169,13 +282,19 @@ generated: 2026-07-02T01:25:23.024374
 
 - [形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证](../sources/source-formal-verification.md) `source`
 
+## KIR
+
+- [Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比](../sources/source-hardware-ir.md) `source`
+
 ## KVM
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 
 ## LLHD
 
+- [Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比](../sources/source-hardware-ir.md) `source`
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
 ## LLVM
 
@@ -198,7 +317,9 @@ generated: 2026-07-02T01:25:23.024374
 
 ## MLIR
 
+- [Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比](../sources/source-hardware-ir.md) `source`
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 - [JIT/AOT编译与代码生成](../wiki/wiki-jit-and-compiler.md) `wiki`
 
 ## MPI
@@ -234,20 +355,39 @@ generated: 2026-07-02T01:25:23.024374
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 
+## PCIe
+
+- [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
 ## PGO
 
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 
+## PHY
+
+- [Physical Layer / SerDes Simulation](../sources/source-phy-serdes.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
 ## PREEMPT_RT
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 - [操作系统调度与多线程调试](../wiki/wiki-os-and-debugging.md) `wiki`
 
+## PipeRTL
+
+- [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
 ## Prometheus
 
 - [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
+
+## Protocol-Checker
+
+- [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
 
 ## QEMU
 
@@ -257,6 +397,11 @@ generated: 2026-07-02T01:25:23.024374
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
 - [JIT/AOT编译与代码生成](../wiki/wiki-jit-and-compiler.md) `wiki`
 
+## RDC
+
+- [Reset Synchronization & Glitch-Free Clock Gating in RTL](../sources/source-reset-clock.md) `source`
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
+
 ## RISC-V
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
@@ -264,7 +409,22 @@ generated: 2026-07-02T01:25:23.024374
 ## RTL
 
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
+- [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
 - [形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证](../sources/source-formal-verification.md) `source`
+- [RTL 硬件木马检测与可信验证研究综述](../sources/source-hardware-security.md) `source`
+- [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
+- [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
+
+## RTL-Simulation
+
+- [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
+
+## RTL-coding
+
+- [Reset Synchronization & Glitch-Free Clock Gating in RTL](../sources/source-reset-clock.md) `source`
 
 ## RTL-optimization
 
@@ -273,7 +433,9 @@ generated: 2026-07-02T01:25:23.024374
 ## RTL-simulation
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
+- [CDC Verification & Metastability Simulation in RTL](../sources/source-cdc-verification.md) `source`
 - [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+- [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
 - [JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation](../sources/source-jit-simulation.md) `source`
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
@@ -291,6 +453,11 @@ generated: 2026-07-02T01:25:23.024374
 
 - [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
 
+## RTLIFT
+
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## ReEmu
 
 - [Deterministic RTL Simulation / Record & Replay](../sources/source-deterministic-replay.md) `source`
@@ -299,9 +466,34 @@ generated: 2026-07-02T01:25:23.024374
 
 - [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 
+## SCAR
+
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
+## SCE-MI
+
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
+## SIFT
+
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## SOSP
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
+
+## SPICE
+
+- [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
+- [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
+## SSA
+
+- [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
 ## STREAM
 
@@ -313,9 +505,31 @@ generated: 2026-07-02T01:25:23.024374
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
 
+## SerDes
+
+- [Physical Layer / SerDes Simulation](../sources/source-phy-serdes.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
+## Signal-Integrity
+
+- [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
+
+## Simulation
+
+- [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
+
+## Simulation-Acceleration
+
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+
 ## SoC
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
+
+## Surelog
+
+- [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
 ## Surfer
 
@@ -328,6 +542,8 @@ generated: 2026-07-02T01:25:23.024374
 ## SystemVerilog
 
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
+- [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
+- [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
 
 ## TBB
 
@@ -355,11 +571,23 @@ generated: 2026-07-02T01:25:23.024374
 
 - [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
 
+## UHDM
+
+- [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
+
+## USB
+
+- [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
+
 ## UVM
 
+- [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
+- [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
 
 ## VCD
 
@@ -371,9 +599,23 @@ generated: 2026-07-02T01:25:23.024374
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 - [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
 
+## VIP
+
+- [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
+## Veloce
+
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
 ## Verdi
 
 - [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
+## Verification-IP
+
+- [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
 
 ## Verilator
 
@@ -381,6 +623,16 @@ generated: 2026-07-02T01:25:23.024374
 - [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
 - [JIT/AOT编译与代码生成](../wiki/wiki-jit-and-compiler.md) `wiki`
+
+## Verilog-AMS
+
+- [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
+## XLS
+
+- [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
 ## Xcelium
 
@@ -439,6 +691,14 @@ generated: 2026-07-02T01:25:23.024374
 
 - [HPX 并行运行时分析](../sources/source-hpx-runtime.md) `source`
 - [Rust Async / Tokio 在事件驱动仿真器中的应用](../sources/source-rust-async-sim.md) `source`
+
+## asynchronous
+
+- [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
+
+## asynchronous-fifo
+
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 
 ## atomic
 
@@ -568,6 +828,10 @@ generated: 2026-07-02T01:25:23.024374
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 
+## channel simulation
+
+- [Physical Layer / SerDes Simulation](../sources/source-phy-serdes.md) `source`
+
 ## checklist
 
 - [操作系统调度与多线程调试](../wiki/wiki-os-and-debugging.md) `wiki`
@@ -614,6 +878,14 @@ generated: 2026-07-02T01:25:23.024374
 - [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
+## clock-domain-crossing
+
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
+
+## clock-gating
+
+- [Reset Synchronization & Glitch-Free Clock Gating in RTL](../sources/source-reset-clock.md) `source`
+
 ## clock_gettime
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
@@ -621,7 +893,10 @@ generated: 2026-07-02T01:25:23.024374
 ## co-simulation
 
 - [ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真](../sources/source-chisel-firrtl.md) `source`
+- [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
+- [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
 - [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
 
 ## co_await
 
@@ -649,6 +924,7 @@ generated: 2026-07-02T01:25:23.024374
 
 ## compiler-frontend
 
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 - [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
 
 ## compiler-ir
@@ -680,6 +956,10 @@ generated: 2026-07-02T01:25:23.024374
 ## concurrent-queue
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
+
+## confidentiality
+
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
 
 ## conservative
 
@@ -789,6 +1069,10 @@ generated: 2026-07-02T01:25:23.024374
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
 
+## dataflow-IR
+
+- [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
+
 ## deduplication
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
@@ -882,6 +1166,10 @@ generated: 2026-07-02T01:25:23.024374
 
 - [ECS（Entity-Component-System）架构在仿真与数据并行中的应用](../sources/source-ecs-architecture.md) `source`
 
+## equalization
+
+- [Physical Layer / SerDes Simulation](../sources/source-phy-serdes.md) `source`
+
 ## essent
 
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
@@ -893,6 +1181,10 @@ generated: 2026-07-02T01:25:23.024374
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
 - [Rust Async / Tokio 在事件驱动仿真器中的应用](../sources/source-rust-async-sim.md) `source`
+
+## event-driven-simulation
+
+- [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
 
 ## event-queue
 
@@ -926,9 +1218,14 @@ generated: 2026-07-02T01:25:23.024374
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 
+## formal-security
+
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## formal-verification
 
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
 - [形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证](../sources/source-formal-verification.md) `source`
 - [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
@@ -995,6 +1292,10 @@ generated: 2026-07-02T01:25:23.024374
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
 
+## glitch-free
+
+- [Reset Synchronization & Glitch-Free Clock Gating in RTL](../sources/source-reset-clock.md) `source`
+
 ## gnn
 
 - [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
@@ -1029,6 +1330,10 @@ generated: 2026-07-02T01:25:23.024374
 
 - [C++ 内存模型与 Atomic 操作：从 happens-before 到 acquire-release](../sources/source-cpp-memory-model.md) `source`
 
+## hardware-IR
+
+- [Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比](../sources/source-hardware-ir.md) `source`
+
 ## hardware-acceleration
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
@@ -1042,6 +1347,11 @@ generated: 2026-07-02T01:25:23.024374
 
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
 
+## hardware-security
+
+- [RTL 硬件木马检测与可信验证研究综述](../sources/source-hardware-security.md) `source`
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## hdl
 
 - [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
@@ -1054,6 +1364,10 @@ generated: 2026-07-02T01:25:23.024374
 ## high-resolution-timer
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
+
+## high-speed serial
+
+- [Physical Layer / SerDes Simulation](../sources/source-phy-serdes.md) `source`
 
 ## history
 
@@ -1102,6 +1416,10 @@ generated: 2026-07-02T01:25:23.024374
 
 - [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
 
+## information-flow
+
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
+
 ## inline
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
@@ -1109,6 +1427,10 @@ generated: 2026-07-02T01:25:23.024374
 ## instruction-set-simulator
 
 - [JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation](../sources/source-jit-simulation.md) `source`
+
+## integrity
+
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
 
 ## intel
 
@@ -1275,6 +1597,11 @@ generated: 2026-07-02T01:25:23.024374
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 
+## metastability
+
+- [CDC Verification & Metastability Simulation in RTL](../sources/source-cdc-verification.md) `source`
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
+
 ## metro-mpi
 
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
@@ -1295,6 +1622,12 @@ generated: 2026-07-02T01:25:23.024374
 
 - [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## mixed-signal
+
+- [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
+- [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
 
 ## ml
 
@@ -1318,6 +1651,11 @@ generated: 2026-07-02T01:25:23.024374
 ## mpmc
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
+
+## multi-clock
+
+- [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 
 ## multi-core
 
@@ -1490,6 +1828,14 @@ generated: 2026-07-02T01:25:23.024374
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
 
+## parser
+
+- [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
+
+## parser-combinator
+
+- [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
+
 ## partitioning
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
@@ -1542,6 +1888,10 @@ generated: 2026-07-02T01:25:23.024374
 
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
 
+## power-analysis
+
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
+
 ## power-correlation
 
 - [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
@@ -1558,6 +1908,10 @@ generated: 2026-07-02T01:25:23.024374
 ## pre-rtl
 
 - [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+
+## pre-silicon
+
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
 
 ## prefetching
 
@@ -1577,6 +1931,10 @@ generated: 2026-07-02T01:25:23.024374
 - [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## protocol-verification
+
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
 
 ## prototyping
 
@@ -1624,6 +1982,10 @@ generated: 2026-07-02T01:25:23.024374
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 - [操作系统调度与多线程调试](../wiki/wiki-os-and-debugging.md) `wiki`
 
+## reconvergence
+
+- [CDC Verification & Metastability Simulation in RTL](../sources/source-cdc-verification.md) `source`
+
 ## record-replay
 
 - [Deterministic RTL Simulation / Record & Replay](../sources/source-deterministic-replay.md) `source`
@@ -1644,6 +2006,11 @@ generated: 2026-07-02T01:25:23.024374
 ## reinforcement-learning
 
 - [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
+
+## reset-synchronization
+
+- [Reset Synchronization & Glitch-Free Clock Gating in RTL](../sources/source-reset-clock.md) `source`
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 
 ## reverse-debugging
 
@@ -1695,12 +2062,14 @@ generated: 2026-07-02T01:25:23.024374
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
@@ -1767,6 +2136,10 @@ generated: 2026-07-02T01:25:23.024374
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
+## security
+
+- [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
+
 ## seqlock
 
 - [Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用](../sources/source-linux-kernel-sync.md) `source`
@@ -1786,6 +2159,11 @@ generated: 2026-07-02T01:25:23.024374
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 - [Warped2: An Open-Source PDES Engine with Time Warp Synchronization](../sources/source-warped2-pdes-engine.md) `source`
 
+## side-channel
+
+- [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## signal-probability
 
 - [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
@@ -1800,6 +2178,7 @@ generated: 2026-07-02T01:25:23.024374
 
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
 - [FPGA 仿真（Emulation）与软件仿真的性能对比及 FireSim 框架](../sources/source-fpga-emulation.md) `source`
+- [RTL 硬件木马检测与可信验证研究综述](../sources/source-hardware-security.md) `source`
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
 - [Rust Async / Tokio 在事件驱动仿真器中的应用](../sources/source-rust-async-sim.md) `source`
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
@@ -1827,7 +2206,9 @@ generated: 2026-07-02T01:25:23.024374
 
 ## slang
 
+- [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
 - [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 - [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
 
 ## snapshot
@@ -1916,6 +2297,10 @@ generated: 2026-07-02T01:25:23.024374
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
+
+## synchronizer
+
+- [CDC Verification & Metastability Simulation in RTL](../sources/source-cdc-verification.md) `source`
 
 ## systemc
 
@@ -2039,6 +2424,16 @@ generated: 2026-07-02T01:25:23.024374
 ## tree-barrier
 
 - [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
+
+## trojan-detection
+
+- [RTL 硬件木马检测与可信验证研究综述](../sources/source-hardware-security.md) `source`
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
+## trust-verification
+
+- [RTL 硬件木马检测与可信验证研究综述](../sources/source-hardware-security.md) `source`
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
 
 ## uhdm
 

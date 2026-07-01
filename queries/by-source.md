@@ -1,6 +1,6 @@
 ---
 title: Index by Source
-generated: 2026-07-02T01:25:23.026384
+generated: 2026-07-02T01:39:05.207370
 ---
 
 # Index by Source
@@ -13,9 +13,21 @@ generated: 2026-07-02T01:25:23.026384
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
 
+## source-ast-parser
+
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
+## source-axi-protocol
+
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
 ## source-barrier-variants
 
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## source-bfm-vip
+
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
 
 ## source-branch-prediction
 
@@ -25,6 +37,10 @@ generated: 2026-07-02T01:25:23.026384
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+
+## source-cdc-verification
+
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 
 ## source-checkpoint-replay
 
@@ -60,6 +76,10 @@ generated: 2026-07-02T01:25:23.026384
 
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 
+## source-ddr-pcie
+
+- [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
 ## source-deterministic-replay
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
@@ -89,6 +109,10 @@ generated: 2026-07-02T01:25:23.026384
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## source-formal-security
+
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## source-formal-verification
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
@@ -109,6 +133,14 @@ generated: 2026-07-02T01:25:23.026384
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
 
+## source-hardware-ir
+
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
+## source-hardware-security
+
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## source-hugepages-thp
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
@@ -120,6 +152,10 @@ generated: 2026-07-02T01:25:23.026384
 ## source-industry-rtlsim-practices
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## source-ir-optimization
+
+- [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
 ## source-latest-rtlsim-papers
 
@@ -153,9 +189,17 @@ generated: 2026-07-02T01:25:23.026384
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
+## source-mixed-signal
+
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
 ## source-ml-simulation
 
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
+## source-multiclock-async
+
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 
 ## source-noc-simulation
 
@@ -203,9 +247,17 @@ generated: 2026-07-02T01:25:23.026384
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## source-phy-serdes
+
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
 ## source-power-rtl
 
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## source-reset-clock
+
+- [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 
 ## source-rust-async-sim
 
@@ -215,9 +267,17 @@ generated: 2026-07-02T01:25:23.026384
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
 
+## source-side-channel
+
+- [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
 ## source-simd-rtl-simulation
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## source-spice-interface
+
+- [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
 
 ## source-state-compression
 
