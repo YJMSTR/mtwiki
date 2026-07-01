@@ -1,14 +1,26 @@
 ---
 title: Index by Source
-generated: 2026-07-01T12:28:48.621209
+generated: 2026-07-01T20:43:43.759372
 ---
 
 # Index by Source
+
+## source-barrier-variants
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## source-branch-prediction
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
 ## source-cache-locality
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+
+## source-coz-causal-profiling
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
 ## source-cpp-memory-model
 
@@ -21,6 +33,30 @@ generated: 2026-07-01T12:28:48.621209
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## source-github-rtlsim-projects
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## source-hugepages-thp
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## source-icache-optimization
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## source-industry-rtlsim-practices
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## source-latest-rtlsim-papers
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## source-linux-perf-tools
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
 ## source-lock-free-cpp
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
@@ -28,6 +64,14 @@ generated: 2026-07-01T12:28:48.621209
 ## source-manticore-date23
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
+
+## source-memory-allocators
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## source-memory-bandwidth
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
 
 ## source-metro-mpi
 
@@ -42,6 +86,10 @@ generated: 2026-07-01T12:28:48.621209
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
+
+## source-parallel-frameworks
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 
 ## source-parendi-asplos25
 
@@ -65,6 +113,15 @@ generated: 2026-07-01T12:28:48.621209
 ## source-pdes-vhdl-lungeanu
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
+
+## source-pgo-lto
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## source-simd-rtl-simulation
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
 ## source-thread-local-storage
 
@@ -102,6 +159,10 @@ generated: 2026-07-01T12:28:48.621209
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+
+## source-vtune-uprof
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
 ## source-warped2-pdes-engine
 

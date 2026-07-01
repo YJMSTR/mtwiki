@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-07-01T12:28:48.621372
+generated: 2026-07-01T20:43:43.759877
 ---
 
 # Index by Keyword
@@ -8,6 +8,10 @@ generated: 2026-07-01T12:28:48.621372
 ## --threads
 
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
+
+## -march=native
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 
 ## 225-core
 
@@ -25,29 +29,125 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 
+## AVX-512
+
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## AVX2
+
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
 ## AoS
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
+
+## Arcilator
+
+- [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+
+## BOLT
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## BOLT binary optimizer
+
+- [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
+
+## C++ parallel algorithms
+
+- [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 
 ## CAS
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
 
+## CCSS
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## CI
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## CPU profiling
+
+- [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
+
+## CUDA
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+
 ## Chase-Lev-deque
 
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
+
+## Chipyard
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+
+## ChiselSim
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
 
 ## Cilk
 
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
 
+## Coz
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
 ## DOD
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 
+## ECM model
+
+- [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
+
+## ESSENT
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+- [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+
+## Effective CPU Utilization
+
+- [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
+
 ## FPGA
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
+
+## FPGA-emulation
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+
+## FireSim
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## GEM
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## GPU
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+
+## GPU RTL simulation
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## GSIM
+
+- [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
 ## GVT
 
@@ -61,13 +161,43 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
 
+## HITM
+
+- [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
+
 ## HPX
 
 - [HPX 并行运行时分析](../sources/source-hpx-runtime.md) `source`
 
+## HugePages
+
+- [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## I-cache
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
 ## L3 cluster
 
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
+
+## LD_PRELOAD
+
+- [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## LTO
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## LTO whole program optimization
+
+- [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
+
+## MADV_HUGEPAGE
+
+- [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
 
 ## MESI
 
@@ -94,6 +224,14 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
 
+## Microarchitecture Analysis
+
+- [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
+
+## Multisim
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
 ## NUMA
 
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
@@ -108,6 +246,18 @@ generated: 2026-07-01T12:28:48.621372
 
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 
+## OmniSim
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## OpenMP
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## OpenMP task
+
+- [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
+
 ## OpenPiton
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
@@ -117,6 +267,16 @@ generated: 2026-07-01T12:28:48.621372
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 
+## PGO
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## PGO RTL simulation
+
+- [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
+
 ## ParalleX
 
 - [HPX 并行运行时分析](../sources/source-hpx-runtime.md) `source`
@@ -124,20 +284,43 @@ generated: 2026-07-01T12:28:48.621372
 ## Parendi
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## ROHD
+
+- [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
 ## RTL simulation
 
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
 
 ## RTL仿真
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## RTeAAL Sim
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
 ## Rayon
 
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
+
+## Roofline model
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## SIMD
+
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
 ## SOA
 
@@ -147,22 +330,61 @@ generated: 2026-07-01T12:28:48.621372
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## STREAM benchmark
+
+- [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
 ## SoA
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
+
+## TAGE
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 
 ## TBB
 
 - [OneTBB 任务调度器与 Work-Stealing 实现分析](../sources/source-onetbb-scheduler.md) `source`
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## TBB parallel_for
+
+- [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
+
+## THP
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## TLB miss
+
+- [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
+
+## TaroRTL
+
+- [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
 ## Thread PGO
 
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
 
+## Threading Analysis
+
+- [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
 ## Time Warp
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
+
+## Top-Down
+
+- [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
+
+## Transparent HugePages
+
+- [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
 
 ## V3Order
 
@@ -193,11 +415,20 @@ generated: 2026-07-01T12:28:48.621372
 ## VTune
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
 ## Verilator
 
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+- [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+
+## Verilator Thread PGO
+
+- [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
 
 ## Verilator comparison
 
@@ -228,9 +459,38 @@ generated: 2026-07-01T12:28:48.621372
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## bandwidth wall
+
+- [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
+
 ## barrier
 
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
+
+## benchmark
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## bit-level splitting
+
+- [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+
+## bit-vector
+
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## branch misprediction
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+
+## branch prediction
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+
+## branchless code
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 
 ## breadth-first
 
@@ -247,6 +507,14 @@ generated: 2026-07-01T12:28:48.621372
 ## cache coherence
 
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
+
+## cache coherence traffic
+
+- [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
+
+## cache contention
+
+- [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
 
 ## cache line alignment
 
@@ -268,6 +536,15 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 
+## causal profiling
+
+- [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## centralized barrier
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
 ## chandy-misra-bryant
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
@@ -280,6 +557,14 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
 
+## code layout
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
+## code size
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
 ## compare-and-swap
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
@@ -287,6 +572,10 @@ generated: 2026-07-01T12:28:48.621372
 ## compilation
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+
+## complementary branch predictor
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 
 ## concurrent-queue
 
@@ -306,11 +595,16 @@ generated: 2026-07-01T12:28:48.621372
 
 ## critical path
 
+- [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 
 ## critical-path
 
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
+
+## cxxrtl
+
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 
 ## cycle-accurate
 
@@ -336,6 +630,11 @@ generated: 2026-07-01T12:28:48.621372
 
 - [OneTBB 任务调度器与 Work-Stealing 实现分析](../sources/source-onetbb-scheduler.md) `source`
 
+## dissemination barrier
+
+- [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
 ## distributed simulation
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
@@ -349,9 +648,18 @@ generated: 2026-07-01T12:28:48.621372
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
 
+## event pool
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## event-driven simulation
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+
 ## false sharing
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 
 ## false-sharing
@@ -370,6 +678,10 @@ generated: 2026-07-01T12:28:48.621372
 
 - [NUMA 优化与 Thread Pinning：让内存访问不再跨节点](../sources/source-numa-optimization.md) `source`
 
+## frontend-bound
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
 ## full-cycle simulation
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
@@ -378,9 +690,25 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 
+## function inlining
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
 ## functional-simulation
 
 - [Spike RISC-V 模拟器并行化分析](../sources/source-spike-parallelization.md) `source`
+
+## futex barrier
+
+- [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
+
+## gate-level simulation
+
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+
+## gem
+
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 
 ## gem5
 
@@ -389,6 +717,10 @@ generated: 2026-07-01T12:28:48.621372
 ## global-address-space
 
 - [HPX 并行运行时分析](../sources/source-hpx-runtime.md) `source`
+
+## gsim
+
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 
 ## gvt
 
@@ -414,6 +746,14 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 
+## hugetlbfs
+
+- [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
+
+## instruction cache
+
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
 ## interpretive
 
 - [Spike RISC-V 模拟器并行化分析](../sources/source-spike-parallelization.md) `source`
@@ -422,13 +762,26 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 
+## jacquard
+
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
+
 ## jemalloc
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## jemalloc per-thread arena
+
+- [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
 
 ## lamport-logical-clock
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
+
+## latency
+
+- [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 
 ## latency-insensitive interface
 
@@ -449,6 +802,10 @@ generated: 2026-07-01T12:28:48.621372
 ## local-memory
 
 - [NUMA 优化与 Thread Pinning：让内存访问不再跨节点](../sources/source-numa-optimization.md) `source`
+
+## lock contention
+
+- [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
 
 ## lock-free
 
@@ -484,6 +841,14 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Warped2: An Open-Source PDES Engine with Time Warp Synchronization](../sources/source-warped2-pdes-engine.md) `source`
 
+## lyra
+
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
+
+## macro-fusion
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
 ## macro-task
 
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
@@ -497,9 +862,22 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
 
+## malloc benchmark
+
+- [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
+
 ## massive parallelism
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+
+## memory bandwidth
+
+- [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## memory bandwidth bottleneck
+
+- [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
 
 ## memory layout
 
@@ -518,6 +896,14 @@ generated: 2026-07-01T12:28:48.621372
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
+## mimalloc
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## mimalloc thread local
+
+- [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
+
 ## moodycamel
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
@@ -529,6 +915,10 @@ generated: 2026-07-01T12:28:48.621372
 ## multi-tile granule
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
+
+## multisim
+
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 
 ## multithreading
 
@@ -551,9 +941,17 @@ generated: 2026-07-01T12:28:48.621372
 - [NUMA 优化与 Thread Pinning：让内存访问不再跨节点](../sources/source-numa-optimization.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 
+## object pool
+
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
 ## oneTBB
 
 - [OneTBB 任务调度器与 Work-Stealing 实现分析](../sources/source-onetbb-scheduler.md) `source`
+
+## operational intensity
+
+- [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
 
 ## optimistic synchronization
 
@@ -570,6 +968,10 @@ generated: 2026-07-01T12:28:48.621372
 ## par-gem5
 
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
+
+## parallel bitwise
+
+- [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
 
 ## parallel variable ordering
 
@@ -621,9 +1023,27 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
 
+## perf c2c
+
+- [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## perf record
+
+- [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## perf stat
+
+- [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
+
 ## perf-c2c
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
+
+## performance pitfalls
+
+- [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 
 ## prefetching
 
@@ -631,7 +1051,13 @@ generated: 2026-07-01T12:28:48.621372
 
 ## profile-guided optimization
 
+- [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## progress point
+
+- [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 
 ## quantum-based
 
@@ -653,15 +1079,31 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Spike RISC-V 模拟器并行化分析](../sources/source-spike-parallelization.md) `source`
 
+## rohd
+
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
+
 ## rollback
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
 - [Time Warp: Virtual Time and Optimistic Synchronization](../sources/source-timewarp-algorithm.md) `source`
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 
+## roofline model
+
+- [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
+
 ## self-adaptive
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
+
+## sense-reversal
+
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## sense-reversal barrier
+
+- [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
 
 ## seq-cst
 
@@ -670,6 +1112,10 @@ generated: 2026-07-01T12:28:48.621372
 ## slowdown
 
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
+
+## sparse computation
+
+- [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 
 ## spike
 
@@ -682,6 +1128,15 @@ generated: 2026-07-01T12:28:48.621372
 ## static scheduling
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
+
+## std::execution::par
+
+- [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## supernode partitioning
+
+- [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
 
 ## synchronization cost
 
@@ -710,6 +1165,11 @@ generated: 2026-07-01T12:28:48.621372
 ## tcmalloc
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
+- [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## tcmalloc size class
+
+- [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
 
 ## thread affinity
 
@@ -739,6 +1199,14 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
 
+## throughput
+
+- [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
+
+## ticket barrier
+
+- [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
+
 ## time-warp
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
@@ -765,12 +1233,22 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
 
+## tree barrier
+
+- [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
+- [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## uProf
+
+- [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
+
 ## variable ordering
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
 
 ## verilator
 
+- [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
@@ -780,6 +1258,10 @@ generated: 2026-07-01T12:28:48.621372
 ## vhdl-simulation
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
+
+## virtual speedup
+
+- [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 
 ## virtual-time
 
@@ -812,6 +1294,18 @@ generated: 2026-07-01T12:28:48.621372
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
 
+## 代码布局
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## 函数内联
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## 分支预测
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
 ## 动态调度
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
@@ -829,9 +1323,21 @@ generated: 2026-07-01T12:28:48.621372
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 
+## 性能回归
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## 指令缓存
+
+- [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
 ## 时间片并行
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
+
+## 火焰图
+
+- [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
 ## 稀疏计算
 
