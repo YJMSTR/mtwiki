@@ -54,6 +54,32 @@
     ]
   },
   {
+    "id": "sources-source-approximation-algorithms",
+    "title": "近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用",
+    "path": "sources/source-approximation-algorithms.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "approximation-algorithm",
+      "online-algorithm",
+      "competitive-ratio",
+      "VLSI",
+      "scheduling",
+      "partitioning",
+      "routing"
+    ],
+    "keywords": [
+      "近似算法",
+      "在线算法",
+      "竞争比",
+      "贪心调度",
+      "VLSI划分",
+      "RTL仿真",
+      "多线程调度"
+    ]
+  },
+  {
     "id": "sources-source-assertion-verification",
     "title": "断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一",
     "path": "sources/source-assertion-verification.md",
@@ -423,6 +449,32 @@
     ]
   },
   {
+    "id": "sources-source-constraint-solving",
+    "title": "约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用",
+    "path": "sources/source-constraint-solving.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "SAT",
+      "SMT",
+      "constraint-solving",
+      "RTL-verification",
+      "formal-verification",
+      "equivalence-checking",
+      "EDA"
+    ],
+    "keywords": [
+      "SAT求解器",
+      "SMT",
+      "约束求解",
+      "RTL可满足性",
+      "形式验证",
+      "等效性检查",
+      "电路优化"
+    ]
+  },
+  {
     "id": "sources-source-container-eda",
     "title": "Docker 与 Kubernetes 在 EDA 仿真中的容器化实践",
     "path": "sources/source-container-eda.md",
@@ -542,6 +594,40 @@
       "happens-before",
       "synchronizes-with",
       "fences"
+    ]
+  },
+  {
+    "id": "sources-source-critical-path",
+    "title": "关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用",
+    "path": "sources/source-critical-path.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "critical-path",
+      "longest-path",
+      "DAG",
+      "slack",
+      "timing-analysis",
+      "STA",
+      "Design-Compiler",
+      "path-based",
+      "WNS",
+      "TNS"
+    ],
+    "keywords": [
+      "critical path",
+      "longest path",
+      "DAG longest path",
+      "slack",
+      "setup time",
+      "hold time",
+      "arrival time",
+      "required time",
+      "WNS",
+      "TNS",
+      "path-based timing analysis",
+      "Design Compiler"
     ]
   },
   {
@@ -670,6 +756,31 @@
       "FFT hardware simulation",
       "digital filter RTL verification",
       "multithreaded RTL"
+    ]
+  },
+  {
+    "id": "sources-source-dynamic-programming",
+    "title": "动态规划在 VLSI / RTL 设计与仿真中的应用",
+    "path": "sources/source-dynamic-programming.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "dynamic-programming",
+      "VLSI",
+      "technology-mapping",
+      "scheduling",
+      "resource-allocation",
+      "tree-covering"
+    ],
+    "keywords": [
+      "动态规划",
+      "技术映射",
+      "FPGA",
+      "树覆盖",
+      "任务调度",
+      "资源分配",
+      "RTL仿真"
     ]
   },
   {
@@ -981,6 +1092,55 @@
     ]
   },
   {
+    "id": "sources-source-gnn-optimization",
+    "title": "图神经网络（GNN）与组合优化前沿综述",
+    "path": "sources/source-gnn-optimization.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "paper",
+    "tags": [
+      "gnn",
+      "graph-neural-network",
+      "combinatorial-optimization",
+      "eda",
+      "placement",
+      "routing",
+      "auto-gnn",
+      "neural-solver"
+    ],
+    "keywords": [
+      "GNN combinatorial optimization",
+      "graph neural network solver",
+      "neural combinatorial optimization",
+      "learn to optimize EDA",
+      "diffusion model optimization"
+    ]
+  },
+  {
+    "id": "sources-source-gpu-optimization",
+    "title": "GPU加速组合优化求解综述",
+    "path": "sources/source-gpu-optimization.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "gpu",
+      "cuda",
+      "combinatorial-optimization",
+      "sat-solver",
+      "branch-and-bound",
+      "graph-partitioning",
+      "parallel-computing"
+    ],
+    "keywords": [
+      "GPU SAT solver",
+      "CUDA combinatorial optimization",
+      "parallel branch and bound",
+      "GPU constraint solving",
+      "GPU graph partitioning"
+    ]
+  },
+  {
     "id": "sources-source-gpu-rtl-simulation",
     "title": "GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估",
     "path": "sources/source-gpu-rtl-simulation.md",
@@ -1005,6 +1165,36 @@
       "AIG",
       "Boolean processor",
       "VLIW"
+    ]
+  },
+  {
+    "id": "sources-source-graph-traversal",
+    "title": "BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用",
+    "path": "sources/source-graph-traversal.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "graph-traversal",
+      "topological-sort",
+      "BFS",
+      "DFS",
+      "levelization",
+      "compiled-simulation",
+      "dependency-analysis",
+      "reachability"
+    ],
+    "keywords": [
+      "topological sort",
+      "levelization",
+      "BFS",
+      "DFS",
+      "reachability",
+      "RTL simulation",
+      "compiled simulation",
+      "feedback loop",
+      "dependency graph",
+      "net dependency"
     ]
   },
   {
@@ -1086,6 +1276,39 @@
     ]
   },
   {
+    "id": "sources-source-heuristic-search",
+    "title": "A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用",
+    "path": "sources/source-heuristic-search.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "A*",
+      "heuristic-search",
+      "maze-routing",
+      "Lee-algorithm",
+      "global-routing",
+      "pathfinding",
+      "VLSI",
+      "EDA",
+      "Soukup",
+      "Hadlock",
+      "congestion"
+    ],
+    "keywords": [
+      "A* algorithm",
+      "Lee's algorithm",
+      "maze routing",
+      "Manhattan distance",
+      "heuristic search",
+      "VLSI routing",
+      "global routing",
+      "detour number",
+      "congestion cost",
+      "line search"
+    ]
+  },
+  {
     "id": "sources-source-hls-rtl",
     "title": "High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态",
     "path": "sources/source-hls-rtl.md",
@@ -1164,6 +1387,35 @@
     ]
   },
   {
+    "id": "sources-source-hypergraph-partitioning",
+    "title": "超图划分在 RTL 电路分区中的应用",
+    "path": "sources/source-hypergraph-partitioning.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/pdf/1802.03587",
+    "source_type": "paper",
+    "tags": [
+      "hypergraph-partitioning",
+      "VLSI",
+      "Metis",
+      "hMETIS",
+      "KaHyPar",
+      "FM-algorithm",
+      "Kernighan-Lin",
+      "multilevel",
+      "RTL"
+    ],
+    "keywords": [
+      "hypergraph partitioning",
+      "circuit partitioning",
+      "multilevel",
+      "FM",
+      "KL",
+      "KaHyPar",
+      "hMETIS",
+      "Metis"
+    ]
+  },
+  {
     "id": "sources-source-icache-optimization",
     "title": "Instruction Cache Optimization for RTL Simulators",
     "path": "sources/source-icache-optimization.md",
@@ -1192,6 +1444,34 @@
       "RTL simulation",
       "Verilator",
       "frontend-bound"
+    ]
+  },
+  {
+    "id": "sources-source-ilp-mip-eda",
+    "title": "ILP / MIP / CP-SAT 在 EDA 中的应用",
+    "path": "sources/source-ilp-mip-eda.md",
+    "type": "source",
+    "source_url": "https://d-krupke.github.io/cpsat-primer/07_under_the_hood.html",
+    "source_type": "doc",
+    "tags": [
+      "ILP",
+      "MIP",
+      "CP-SAT",
+      "EDA",
+      "RTL-partitioning",
+      "scheduling",
+      "OR-Tools",
+      "Gurobi"
+    ],
+    "keywords": [
+      "integer linear programming",
+      "mixed integer programming",
+      "constraint programming",
+      "lazy clause generation",
+      "branch and cut",
+      "EDA optimization",
+      "RTL scheduling",
+      "floorplanning"
     ]
   },
   {
@@ -1316,6 +1596,31 @@
       "Arcilator",
       "supernode partitioning",
       "bit-level splitting"
+    ]
+  },
+  {
+    "id": "sources-source-learn-to-optimize",
+    "title": "量子计算、强化学习与本征优化（Learn-to-Optimize）在 EDA 中的应用综述",
+    "path": "sources/source-learn-to-optimize.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "paper",
+    "tags": [
+      "quantum-annealing",
+      "reinforcement-learning",
+      "learn-to-optimize",
+      "neural-mip-solver",
+      "chip-placement",
+      "eda",
+      "floorplanning",
+      "vlsi"
+    ],
+    "keywords": [
+      "quantum annealing VLSI",
+      "reinforcement learning combinatorial optimization",
+      "learn to optimize placement",
+      "AlphaTensor style EDA",
+      "neural MIP solver"
     ]
   },
   {
@@ -1546,6 +1851,33 @@
     ]
   },
   {
+    "id": "sources-source-metaheuristic-eda",
+    "title": "遗传算法与模拟退火在 VLSI EDA 中的应用",
+    "path": "sources/source-metaheuristic-eda.md",
+    "type": "source",
+    "source_url": "https://www.mecs-press.org/ijisa/ijisa-v13-n2/IJISA-V13-N2-5.pdf",
+    "source_type": "paper",
+    "tags": [
+      "genetic-algorithm",
+      "simulated-annealing",
+      "VLSI",
+      "floorplanning",
+      "EDA",
+      "metaheuristic",
+      "placement"
+    ],
+    "keywords": [
+      "genetic algorithm",
+      "simulated annealing",
+      "VLSI floorplanning",
+      "metaheuristic EDA",
+      "evolutionary algorithm",
+      "MCNC benchmark",
+      "area optimization",
+      "wirelength minimization"
+    ]
+  },
+  {
     "id": "sources-source-metro-mpi",
     "title": "Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)",
     "path": "sources/source-metro-mpi.md",
@@ -1670,6 +2002,34 @@
       "data race",
       "deadlock",
       "heisenbug"
+    ]
+  },
+  {
+    "id": "sources-source-network-flow",
+    "title": "网络流最小割在 RTL 电路分区中的应用",
+    "path": "sources/source-network-flow.md",
+    "type": "source",
+    "source_url": "https://dl.acm.org/doi/pdf/10.5555/191326.191354",
+    "source_type": "paper",
+    "tags": [
+      "max-flow",
+      "min-cut",
+      "network-flow",
+      "Stoer-Wagner",
+      "Gomory-Hu",
+      "circuit-partitioning",
+      "VLSI",
+      "FBB",
+      "RTL"
+    ],
+    "keywords": [
+      "max flow min cut",
+      "Stoer-Wagner",
+      "Gomory-Hu tree",
+      "flow based partitioning",
+      "circuit partition",
+      "FBB",
+      "balanced min-cut"
     ]
   },
   {
@@ -2270,6 +2630,31 @@
     ]
   },
   {
+    "id": "sources-source-spectral-clustering",
+    "title": "谱聚类与图拉普拉斯在 RTL 电路分区中的应用",
+    "path": "sources/source-spectral-clustering.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/pdf/1903.05193",
+    "source_type": "paper",
+    "tags": [
+      "spectral-clustering",
+      "graph-Laplacian",
+      "Fiedler-vector",
+      "VLSI",
+      "eigenvalue",
+      "partitioning",
+      "RTL"
+    ],
+    "keywords": [
+      "spectral clustering",
+      "Fiedler vector",
+      "graph Laplacian",
+      "algebraic connectivity",
+      "VLSI partitioning",
+      "eigenvalue partitioning"
+    ]
+  },
+  {
     "id": "sources-source-spice-interface",
     "title": "SPICE / FastSPICE Interface and Co-Simulation",
     "path": "sources/source-spice-interface.md",
@@ -2392,6 +2777,35 @@
       "slang SystemVerilog",
       "开源SystemVerilog",
       "UHDM"
+    ]
+  },
+  {
+    "id": "sources-source-swarm-intelligence",
+    "title": "禁忌搜索、蚁群与粒子群优化在 EDA 中的应用",
+    "path": "sources/source-swarm-intelligence.md",
+    "type": "source",
+    "source_url": "https://www.intechopen.com/online-first/1249416",
+    "source_type": "doc",
+    "tags": [
+      "tabu-search",
+      "ant-colony-optimization",
+      "particle-swarm-optimization",
+      "swarm-intelligence",
+      "EDA",
+      "VLSI",
+      "placement",
+      "QAP"
+    ],
+    "keywords": [
+      "tabu search",
+      "ant colony optimization",
+      "particle swarm optimization",
+      "swarm intelligence",
+      "ACO",
+      "PSO",
+      "VLSI placement",
+      "circuit design",
+      "metaheuristic"
     ]
   },
   {
@@ -2981,6 +3395,38 @@
     ]
   },
   {
+    "id": "wiki-wiki-advanced-optimization",
+    "title": "前沿优化技术",
+    "path": "wiki/wiki-advanced-optimization.md",
+    "type": "wiki",
+    "tags": [
+      "advanced-optimization",
+      "GPU",
+      "GNN",
+      "learn-to-optimize",
+      "reinforcement-learning",
+      "quantum-annealing",
+      "EDA",
+      "RTL-sim"
+    ],
+    "keywords": [
+      "GPU加速",
+      "GNN优化",
+      "强化学习",
+      "神经MIP求解器",
+      "量子退火",
+      "CMOS退火",
+      "Learn-to-Optimize",
+      "DREAMPlace",
+      "TransPlace"
+    ],
+    "related_sources": [
+      "source-gpu-optimization",
+      "source-gnn-optimization",
+      "source-learn-to-optimize"
+    ]
+  },
+  {
     "id": "wiki-wiki-advanced-sync",
     "title": "高级同步原语与内核技术",
     "path": "wiki/wiki-advanced-sync.md",
@@ -3213,6 +3659,43 @@
     ]
   },
   {
+    "id": "wiki-wiki-combinatorial-optimization",
+    "title": "组合优化在EDA中的应用",
+    "path": "wiki/wiki-combinatorial-optimization.md",
+    "type": "wiki",
+    "tags": [
+      "combinatorial-optimization",
+      "ILP",
+      "MIP",
+      "metaheuristic",
+      "swarm-intelligence",
+      "dynamic-programming",
+      "SAT",
+      "approximation-algorithm",
+      "EDA"
+    ],
+    "keywords": [
+      "整数线性规划",
+      "模拟退火",
+      "遗传算法",
+      "粒子群优化",
+      "蚁群优化",
+      "动态规划",
+      "SAT求解",
+      "近似算法",
+      "在线算法",
+      "EDA优化"
+    ],
+    "related_sources": [
+      "source-ilp-mip-eda",
+      "source-metaheuristic-eda",
+      "source-swarm-intelligence",
+      "source-dynamic-programming",
+      "source-constraint-solving",
+      "source-approximation-algorithms"
+    ]
+  },
+  {
     "id": "wiki-wiki-compiler-frontend",
     "title": "编译器前端与IR设计",
     "path": "wiki/wiki-compiler-frontend.md",
@@ -3412,6 +3895,41 @@
       "source-gpu-rtl-simulation",
       "source-circt-arcilator",
       "source-fpga-emulation"
+    ]
+  },
+  {
+    "id": "wiki-wiki-graph-algorithms",
+    "title": "图算法在RTL仿真中的应用",
+    "path": "wiki/wiki-graph-algorithms.md",
+    "type": "wiki",
+    "tags": [
+      "graph-algorithms",
+      "hypergraph-partitioning",
+      "spectral-clustering",
+      "network-flow",
+      "graph-traversal",
+      "heuristic-search",
+      "critical-path",
+      "RTL-sim"
+    ],
+    "keywords": [
+      "超图划分",
+      "谱聚类",
+      "Fiedler向量",
+      "网络流",
+      "拓扑排序",
+      "A*搜索",
+      "关键路径",
+      "DAG最长路径",
+      "RTL电路分区"
+    ],
+    "related_sources": [
+      "source-hypergraph-partitioning",
+      "source-spectral-clustering",
+      "source-network-flow",
+      "source-graph-traversal",
+      "source-heuristic-search",
+      "source-critical-path"
     ]
   },
   {

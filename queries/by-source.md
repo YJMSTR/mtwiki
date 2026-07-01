@@ -1,6 +1,6 @@
 ---
 title: Index by Source
-generated: 2026-07-02T01:57:02.321603
+generated: 2026-07-02T02:11:59.807633
 ---
 
 # Index by Source
@@ -8,6 +8,10 @@ generated: 2026-07-02T01:57:02.321603
 ## source-activity-factor
 
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## source-approximation-algorithms
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## source-assertion-verification
 
@@ -66,6 +70,10 @@ generated: 2026-07-02T01:57:02.321603
 
 - [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
 
+## source-constraint-solving
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
 ## source-container-eda
 
 - [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
@@ -83,6 +91,10 @@ generated: 2026-07-02T01:57:02.321603
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
+
+## source-critical-path
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
 
 ## source-cxxrtl
 
@@ -103,6 +115,10 @@ generated: 2026-07-02T01:57:02.321603
 ## source-dsp-rtl
 
 - [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
+
+## source-dynamic-programming
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## source-ecs-architecture
 
@@ -149,9 +165,21 @@ generated: 2026-07-02T01:57:02.321603
 
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
+## source-gnn-optimization
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
+## source-gpu-optimization
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
 ## source-gpu-rtl-simulation
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
+
+## source-graph-traversal
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
 
 ## source-hardware-ir
 
@@ -161,13 +189,25 @@ generated: 2026-07-02T01:57:02.321603
 
 - [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
 
+## source-heuristic-search
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## source-hugepages-thp
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
 
+## source-hypergraph-partitioning
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## source-icache-optimization
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## source-ilp-mip-eda
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## source-industry-rtlsim-practices
 
@@ -184,6 +224,10 @@ generated: 2026-07-02T01:57:02.321603
 ## source-latest-rtlsim-papers
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## source-learn-to-optimize
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
 ## source-license-burst
 
@@ -213,6 +257,10 @@ generated: 2026-07-02T01:57:02.321603
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
 
+## source-metaheuristic-eda
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
 ## source-metro-mpi
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
@@ -228,6 +276,10 @@ generated: 2026-07-02T01:57:02.321603
 ## source-multiclock-async
 
 - [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
+
+## source-network-flow
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
 
 ## source-noc-simulation
 
@@ -311,6 +363,10 @@ generated: 2026-07-02T01:57:02.321603
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## source-spectral-clustering
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## source-spice-interface
 
 - [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
@@ -322,6 +378,10 @@ generated: 2026-07-02T01:57:02.321603
 ## source-state-compression
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## source-swarm-intelligence
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## source-synthesis-impact
 

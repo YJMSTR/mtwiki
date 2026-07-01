@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-07-02T01:57:02.322602
+generated: 2026-07-02T02:11:59.807633
 ---
 
 # Index by Keyword
@@ -46,9 +46,21 @@ generated: 2026-07-02T01:57:02.322602
 
 - [通信基带 RTL 仿真：从 OFDM 调制解调器到 5G 硬件验证](../sources/source-communication-rtl.md) `source`
 
+## A* algorithm
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
+## A*搜索
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## ABA-problem
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
+
+## ACO
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
 
 ## AGAS
 
@@ -118,6 +130,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
+## AlphaTensor style EDA
+
+- [量子计算、强化学习与本征优化（Learn-to-Optimize）在 EDA 中的应用综述](../sources/source-learn-to-optimize.md) `source`
+
 ## Amaranth HDL
 
 - [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
@@ -142,6 +158,10 @@ generated: 2026-07-02T01:57:02.322602
 ## Azure HBv3
 
 - [云EDA与SaaS仿真：从Synopsys Cloud到Azure弹性计算的产业迁移](../sources/source-cloud-eda.md) `source`
+
+## BFS
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
 ## BOLT
 
@@ -257,6 +277,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真](../sources/source-circt-arcilator.md) `source`
 
+## CMOS退火
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
 ## CPA
 
 - [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
@@ -280,6 +304,10 @@ generated: 2026-07-02T01:57:02.322602
 ## CUDA
 
 - [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+
+## CUDA combinatorial optimization
+
+- [GPU加速组合优化求解综述](../sources/source-gpu-optimization.md) `source`
 
 ## CUDA gate-level simulation
 
@@ -356,9 +384,21 @@ generated: 2026-07-02T01:57:02.322602
 
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
+## DAG longest path
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+
+## DAG最长路径
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## DDR simulation
 
 - [DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法](../sources/source-ddr-pcie.md) `source`
+
+## DFS
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
 ## DOD
 
@@ -376,6 +416,10 @@ generated: 2026-07-02T01:57:02.322602
 ## DPI-C
 
 - [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+
+## DREAMPlace
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
 ## DSP RTL
 
@@ -397,6 +441,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
+## Design Compiler
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
 ## Digital-on-Top
 
@@ -434,6 +482,14 @@ generated: 2026-07-02T01:57:02.322602
 
 - [EDA 许可证管理与弹性仿真：从固定许可证到按需计费的范式转移](../sources/source-license-burst.md) `source`
 
+## EDA optimization
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
+
+## EDA优化
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
 ## ESSENT
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
@@ -448,6 +504,10 @@ generated: 2026-07-02T01:57:02.322602
 ## Entity-Based SDC
 
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
+
+## FBB
+
+- [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 
 ## FFT hardware simulation
 
@@ -472,8 +532,13 @@ generated: 2026-07-02T01:57:02.322602
 
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
+## FM
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
+
 ## FPGA
 
+- [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
 
 ## FPGA emulation
@@ -545,6 +610,14 @@ generated: 2026-07-02T01:57:02.322602
 
 - [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
 
+## Fiedler vector
+
+- [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
+
+## Fiedler向量
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## FireSim
 
 - [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
@@ -603,9 +676,17 @@ generated: 2026-07-02T01:57:02.322602
 
 - [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
 
+## GNN combinatorial optimization
+
+- [图神经网络（GNN）与组合优化前沿综述](../sources/source-gnn-optimization.md) `source`
+
 ## GNN gate-level prediction
 
 - [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
+
+## GNN优化
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
 ## GNN侧信道
 
@@ -636,6 +717,22 @@ generated: 2026-07-02T01:57:02.322602
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
 
+## GPU SAT solver
+
+- [GPU加速组合优化求解综述](../sources/source-gpu-optimization.md) `source`
+
+## GPU constraint solving
+
+- [GPU加速组合优化求解综述](../sources/source-gpu-optimization.md) `source`
+
+## GPU graph partitioning
+
+- [GPU加速组合优化求解综述](../sources/source-gpu-optimization.md) `source`
+
+## GPU加速
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
 ## GSIM
 
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
@@ -664,6 +761,10 @@ generated: 2026-07-02T01:57:02.322602
 ## Golden Gate
 
 - [FPGA 仿真（Emulation）与软件仿真的性能对比及 FireSim 框架](../sources/source-fpga-emulation.md) `source`
+
+## Gomory-Hu tree
+
+- [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 
 ## GraPhSyM
 
@@ -777,6 +878,14 @@ generated: 2026-07-02T01:57:02.322602
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
 
+## KL
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
+
+## KaHyPar
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
+
 ## Kubernetes
 
 - [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
@@ -834,6 +943,14 @@ generated: 2026-07-02T01:57:02.322602
 
 - [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
 
+## Learn-to-Optimize
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
+## Lee's algorithm
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
 ## LegUp HLS
 
 - [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
@@ -845,6 +962,10 @@ generated: 2026-07-02T01:57:02.322602
 ## MADV_HUGEPAGE
 
 - [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
+
+## MCNC benchmark
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
 
 ## MESI
 
@@ -876,6 +997,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
 
+## Manhattan distance
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
 ## Manticore
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
@@ -884,6 +1009,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
 - [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
+## Metis
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
 
 ## Metro-MPI
 
@@ -1021,6 +1150,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 
+## PSO
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+
 ## PULP
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
@@ -1131,10 +1264,15 @@ generated: 2026-07-02T01:57:02.322602
 
 - [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
 
+## RTL scheduling
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
+
 ## RTL simulation
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 - [ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真](../sources/source-chisel-firrtl.md) `source`
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
@@ -1182,12 +1320,22 @@ generated: 2026-07-02T01:57:02.322602
 
 ## RTL仿真
 
+- [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+- [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
 ## RTL仿真器前端
 
 - [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
+
+## RTL可满足性
+
+- [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
+
+## RTL电路分区
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
 
 ## RTL调试
 
@@ -1243,7 +1391,12 @@ generated: 2026-07-02T01:57:02.322602
 
 ## SAT求解
 
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 - [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
+## SAT求解器
+
+- [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
 
 ## SCAR
 
@@ -1282,6 +1435,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## SMT
+
+- [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
 
 ## SMT solver
 
@@ -1376,6 +1533,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
+## Stoer-Wagner
+
+- [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
+
 ## Stratus HLS
 
 - [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
@@ -1456,6 +1617,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
 
+## TNS
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+
 ## TROJAN-GUARD
 
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
@@ -1501,6 +1666,10 @@ generated: 2026-07-02T01:57:02.322602
 ## Top-Down
 
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
+
+## TransPlace
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
 ## Transactor
 
@@ -1623,6 +1792,26 @@ generated: 2026-07-02T01:57:02.322602
 
 - [GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估](../sources/source-gpu-rtl-simulation.md) `source`
 
+## VLSI floorplanning
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
+## VLSI partitioning
+
+- [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
+
+## VLSI placement
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+
+## VLSI routing
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
+## VLSI划分
+
+- [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+
 ## VPI DPI 性能
 
 - [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
@@ -1732,6 +1921,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
 
+## WNS
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+
 ## X optimism
 
 - [X-Propagation & Initialization in RTL Simulation](../sources/source-x-propagation.md) `source`
@@ -1793,6 +1986,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
 
+## algebraic connectivity
+
+- [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
+
 ## alignas
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
@@ -1806,6 +2003,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
 
+## ant colony optimization
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+
 ## anti-message
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
@@ -1817,6 +2018,14 @@ generated: 2026-07-02T01:57:02.322602
 ## archetype
 
 - [ECS（Entity-Component-System）架构在仿真与数据并行中的应用](../sources/source-ecs-architecture.md) `source`
+
+## area optimization
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
+## arrival time
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
 ## assertion generation
 
@@ -1861,6 +2070,10 @@ generated: 2026-07-02T01:57:02.322602
 ## average power
 
 - [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+
+## balanced min-cut
+
+- [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 
 ## bandwidth wall
 
@@ -1915,6 +2128,10 @@ generated: 2026-07-02T01:57:02.322602
 ## bounded model checking
 
 - [形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证](../sources/source-formal-verification.md) `source`
+
+## branch and cut
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
 
 ## branch coverage
 
@@ -2009,6 +2226,18 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
 
+## circuit design
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+
+## circuit partition
+
+- [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
+
+## circuit partitioning
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
+
 ## circuit-simulation
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
@@ -2080,6 +2309,7 @@ generated: 2026-07-02T01:57:02.322602
 ## compiled simulation
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
 ## complementary branch predictor
 
@@ -2105,6 +2335,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
 
+## congestion cost
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
 ## conservative synchronization
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
@@ -2120,6 +2354,10 @@ generated: 2026-07-02T01:57:02.322602
 ## constrained random verification
 
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
+
+## constraint programming
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
 
 ## context import
 
@@ -2160,6 +2398,7 @@ generated: 2026-07-02T01:57:02.322602
 ## critical path
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 - [静态时序分析（STA）与 RTL 仿真之间的相关性](../sources/source-sta-timing.md) `source`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 
@@ -2217,6 +2456,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
 
+## dependency graph
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
+
 ## depth-first
 
 - [OneTBB 任务调度器与 Work-Stealing 实现分析](../sources/source-onetbb-scheduler.md) `source`
@@ -2241,6 +2484,14 @@ generated: 2026-07-02T01:57:02.322602
 ## deterministic time
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
+
+## detour number
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
+## diffusion model optimization
+
+- [图神经网络（GNN）与组合优化前沿综述](../sources/source-gnn-optimization.md) `source`
 
 ## digital filter RTL verification
 
@@ -2283,6 +2534,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+
+## eigenvalue partitioning
+
+- [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 
 ## elastic EDA
 
@@ -2333,6 +2588,10 @@ generated: 2026-07-02T01:57:02.322602
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
 
+## evolutionary algorithm
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
 ## false sharing
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
@@ -2350,6 +2609,10 @@ generated: 2026-07-02T01:57:02.322602
 ## fastspice simulation
 
 - [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
+
+## feedback loop
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
 ## fences
 
@@ -2378,6 +2641,14 @@ generated: 2026-07-02T01:57:02.322602
 ## fixed-point quantization
 
 - [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
+
+## floorplanning
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
+
+## flow based partitioning
+
+- [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 
 ## formal security verification
 
@@ -2442,9 +2713,17 @@ generated: 2026-07-02T01:57:02.322602
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
 
+## genetic algorithm
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
 ## glitch
 
 - [Reset Synchronization & Glitch-Free Clock Gating in RTL](../sources/source-reset-clock.md) `source`
+
+## global routing
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
 
 ## global-address-space
 
@@ -2459,9 +2738,17 @@ generated: 2026-07-02T01:57:02.322602
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
 
+## graph Laplacian
+
+- [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
+
 ## graph neural network hardware
 
 - [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
+
+## graph neural network solver
+
+- [图神经网络（GNN）与组合优化前沿综述](../sources/source-gnn-optimization.md) `source`
 
 ## graph representation RTL
 
@@ -2474,6 +2761,10 @@ generated: 2026-07-02T01:57:02.322602
 ## gvt
 
 - [Time Warp: Virtual Time and Optimistic Synchronization](../sources/source-timewarp-algorithm.md) `source`
+
+## hMETIS
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
 
 ## happens-before
 
@@ -2519,6 +2810,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
 
+## heuristic search
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
 ## high resolution timer
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
@@ -2537,6 +2832,7 @@ generated: 2026-07-02T01:57:02.322602
 
 ## hold time
 
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 - [静态时序分析（STA）与 RTL 仿真之间的相关性](../sources/source-sta-timing.md) `source`
 
 ## hot block translation
@@ -2554,6 +2850,10 @@ generated: 2026-07-02T01:57:02.322602
 ## hugetlbfs
 
 - [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
+
+## hypergraph partitioning
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
 
 ## icount virtual clock
 
@@ -2574,6 +2874,10 @@ generated: 2026-07-02T01:57:02.322602
 ## instruction cache
 
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
+## integer linear programming
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
 
 ## integrity
 
@@ -2650,6 +2954,18 @@ generated: 2026-07-02T01:57:02.322602
 - [分布式 RTL 仿真（Multi-Node MPI）资料汇编](../sources/source-distributed-rtl.md) `source`
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
 
+## lazy clause generation
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
+
+## learn to optimize EDA
+
+- [图神经网络（GNN）与组合优化前沿综述](../sources/source-gnn-optimization.md) `source`
+
+## learn to optimize placement
+
+- [量子计算、强化学习与本征优化（Learn-to-Optimize）在 EDA 中的应用综述](../sources/source-learn-to-optimize.md) `source`
+
 ## legion ecs parallel
 
 - [ECS（Entity-Component-System）架构在仿真与数据并行中的应用](../sources/source-ecs-architecture.md) `source`
@@ -2657,6 +2973,10 @@ generated: 2026-07-02T01:57:02.322602
 ## level shifter
 
 - [UPF Power Intent & Low-Power Simulation in RTL](../sources/source-upf-power.md) `source`
+
+## levelization
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
 ## libnuma
 
@@ -2673,6 +2993,10 @@ generated: 2026-07-02T01:57:02.322602
 ## line coverage
 
 - [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
+
+## line search
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
 
 ## llvm circt simulator
 
@@ -2707,6 +3031,10 @@ generated: 2026-07-02T01:57:02.322602
 ## logical-processes
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
+
+## longest path
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
 ## lookahead
 
@@ -2765,6 +3093,14 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
 
+## max flow min cut
+
+- [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
+
+## maze routing
+
+- [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
 ## memory bandwidth
 
 - [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
@@ -2794,6 +3130,14 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 
+## metaheuristic
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+
+## metaheuristic EDA
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
 ## metastability injection
 
 - [CDC Verification & Metastability Simulation in RTL](../sources/source-cdc-verification.md) `source`
@@ -2822,6 +3166,10 @@ generated: 2026-07-02T01:57:02.322602
 ## mimalloc thread local
 
 - [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
+
+## mixed integer programming
+
+- [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
 
 ## mixed signal simulation
 
@@ -2867,6 +3215,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
 
+## multilevel
+
+- [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
+
 ## multiple clock domains
 
 - [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
@@ -2891,9 +3243,21 @@ generated: 2026-07-02T01:57:02.322602
 
 - [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
 
+## net dependency
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
+
 ## network-on-chip
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
+
+## neural MIP solver
+
+- [量子计算、强化学习与本征优化（Learn-to-Optimize）在 EDA 中的应用综述](../sources/source-learn-to-optimize.md) `source`
+
+## neural combinatorial optimization
+
+- [图神经网络（GNN）与组合优化前沿综述](../sources/source-gnn-optimization.md) `source`
 
 ## neural network circuit simulation
 
@@ -2956,6 +3320,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
 
+## parallel branch and bound
+
+- [GPU加速组合优化求解综述](../sources/source-gpu-optimization.md) `source`
+
 ## parallel gate evaluation
 
 - [GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估](../sources/source-gpu-rtl-simulation.md) `source`
@@ -2993,6 +3361,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
 
+## particle swarm optimization
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+
 ## partitioner
 
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
@@ -3001,6 +3373,10 @@ generated: 2026-07-02T01:57:02.322602
 ## partitioning
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+
+## path-based timing analysis
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
 ## path-group
 
@@ -3126,6 +3502,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [定点量化与字长优化：从 bit-true 仿真到 RTL 实现](../sources/source-fixed-point.md) `source`
 
+## quantum annealing VLSI
+
+- [量子计算、强化学习与本征优化（Learn-to-Optimize）在 EDA 中的应用综述](../sources/source-learn-to-optimize.md) `source`
+
 ## quantum-based
 
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
@@ -3149,6 +3529,10 @@ generated: 2026-07-02T01:57:02.322602
 ## rdtsc simulation
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
+
+## reachability
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
 ## read-copy-update
 
@@ -3182,6 +3566,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
 
+## reinforcement learning combinatorial optimization
+
+- [量子计算、强化学习与本征优化（Learn-to-Optimize）在 EDA 中的应用综述](../sources/source-learn-to-optimize.md) `source`
+
 ## reinforcement learning simulation scheduling
 
 - [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
@@ -3197,6 +3585,10 @@ generated: 2026-07-02T01:57:02.322602
 ## remote-memory
 
 - [NUMA 优化与 Thread Pinning：让内存访问不再跨节点](../sources/source-numa-optimization.md) `source`
+
+## required time
+
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
 ## reset domain crossing
 
@@ -3314,6 +3706,7 @@ generated: 2026-07-02T01:57:02.322602
 
 ## setup time
 
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 - [静态时序分析（STA）与 RTL 仿真之间的相关性](../sources/source-sta-timing.md) `source`
 
 ## setup/hold
@@ -3327,6 +3720,10 @@ generated: 2026-07-02T01:57:02.322602
 ## simd rtl
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
+
+## simulated annealing
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
 
 ## simulation acceleration
 
@@ -3358,6 +3755,7 @@ generated: 2026-07-02T01:57:02.322602
 
 ## slack
 
+- [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 - [静态时序分析（STA）与 RTL 仿真之间的相关性](../sources/source-sta-timing.md) `source`
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
 
@@ -3380,6 +3778,10 @@ generated: 2026-07-02T01:57:02.322602
 ## sparse computation
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+
+## spectral clustering
+
+- [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 
 ## spike
 
@@ -3422,6 +3824,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
 
+## swarm intelligence
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+
 ## switching activity
 
 - [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
@@ -3449,6 +3855,10 @@ generated: 2026-07-02T01:57:02.322602
 ## synthesis
 
 - [逻辑综合与工艺映射对 RTL 仿真精度的影响](../sources/source-synthesis-impact.md) `source`
+
+## tabu search
+
+- [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
 
 ## tandem-verification
 
@@ -3605,6 +4015,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Rust Async / Tokio 在事件驱动仿真器中的应用](../sources/source-rust-async-sim.md) `source`
 
+## topological sort
+
+- [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
+
 ## torn-read
 
 - [Seqlock / Sequence Lock — 内核实现与用户空间 C++ 实现](../sources/source-seqlock.md) `source`
@@ -3704,6 +4118,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 
+## wirelength minimization
+
+- [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
 ## wireless communication RTL verification
 
 - [通信基带 RTL 仿真：从 OFDM 调制解调器到 5G 硬件验证](../sources/source-communication-rtl.md) `source`
@@ -3775,6 +4193,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## 任务调度
+
+- [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
+
 ## 仿真I/O优化
 
 - [VCD 替代波形格式与性能对比调研](../sources/source-vcd-alternatives.md) `source`
@@ -3793,6 +4215,7 @@ generated: 2026-07-02T01:57:02.322602
 
 ## 关键路径
 
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
 
 ## 内核同步
@@ -3814,6 +4237,11 @@ generated: 2026-07-02T01:57:02.322602
 ## 分支预测
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## 动态规划
+
+- [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## 动态调度
 
@@ -3840,6 +4268,11 @@ generated: 2026-07-02T01:57:02.322602
 
 - [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
 
+## 在线算法
+
+- [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
 ## 复位同步
 
 - [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
@@ -3855,6 +4288,10 @@ generated: 2026-07-02T01:57:02.322602
 ## 多线程
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
+
+## 多线程调度
+
+- [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
 
 ## 实时波形
 
@@ -3890,6 +4327,10 @@ generated: 2026-07-02T01:57:02.322602
 - [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 - [复位策略与初始化](../wiki/wiki-reset-and-initialization.md) `wiki`
 
+## 强化学习
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
 ## 形式化仿真协同
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
@@ -3897,6 +4338,10 @@ generated: 2026-07-02T01:57:02.322602
 ## 形式化安全验证
 
 - [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
+## 形式验证
+
+- [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
 
 ## 快速信号跟踪
 
@@ -3906,9 +4351,21 @@ generated: 2026-07-02T01:57:02.322602
 
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
+## 技术映射
+
+- [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
+
+## 拓扑排序
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## 指令缓存
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## 整数线性规划
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## 断言驱动验证
 
@@ -3929,6 +4386,14 @@ generated: 2026-07-02T01:57:02.322602
 ## 有界模型检查
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
+
+## 树覆盖
+
+- [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
+
+## 模拟退火
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## 波形压缩
 
@@ -3960,6 +4425,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [复位策略与初始化](../wiki/wiki-reset-and-initialization.md) `wiki`
 
+## 电路优化
+
+- [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
+
 ## 直线代码优化
 
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
@@ -3984,6 +4453,10 @@ generated: 2026-07-02T01:57:02.322602
 
 - [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
 
+## 神经MIP求解器
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
 ## 稀疏计算
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
@@ -3997,6 +4470,22 @@ generated: 2026-07-02T01:57:02.322602
 
 - [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
 
+## 竞争比
+
+- [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+
+## 等效性检查
+
+- [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
+
+## 粒子群优化
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
+## 约束求解
+
+- [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
+
 ## 约束随机
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
@@ -4004,6 +4493,14 @@ generated: 2026-07-02T01:57:02.322602
 ## 编译时间
 
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
+
+## 网络流
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
+## 蚁群优化
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## 覆盖率并行
 
@@ -4017,9 +4514,30 @@ generated: 2026-07-02T01:57:02.322602
 
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
+## 谱聚类
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
+## 贪心调度
+
+- [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+
+## 资源分配
+
+- [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
+
+## 超图划分
+
+- [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
 ## 跨层仿真
 
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
+
+## 近似算法
+
+- [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
 ## 选择性追踪
 
@@ -4028,6 +4546,14 @@ generated: 2026-07-02T01:57:02.322602
 ## 逻辑综合
 
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
+
+## 遗传算法
+
+- [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
+## 量子退火
+
+- [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
 ## 隔离单元
 
