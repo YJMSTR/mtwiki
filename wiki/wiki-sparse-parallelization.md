@@ -203,5 +203,6 @@ XiangShan/CoreMark + NEMU diff 的 `gsim-mt` A110 后续实验给出一个可复
 - direct static-bound branch 复制 serial-inline body，v54 `22546ms` vs v53 `22206ms`，代码体积/I-cache 成本超过少量 compare/assignment 收益。
 - boolean gate 形态不复制 body，但 v51 `24392ms` vs v49 `22619ms`，分支形态明显更差。
 - coarse guard accumulator 用 `mtCoarseAny` 替换长 OR 表达式，三轮结果混合：`22521ms` vs `22420ms`、`22784ms` vs `22936ms`、`22495ms` vs `22428ms`，不能推广。
+- clean-region batching 需要先跑 segment report；当前 v57 的 conservative contiguous bidirectional boundary check 得到 `clean_region_count=423`、`segment_count=423`、`max_segment_regions=1`，没有可批量合并的 multi-region clean segment。不要在没有更强 visibility/order proof 前实现 batching。
 
 工程规则：在稀疏 RTL 仿真里，先删除默认热路径上的固定诊断分支、popcount、额外 body 复制和不稳定 guard 改形；只有当热串行 fallback 足够轻之后，再尝试 clean-region batching 或调度层优化。
