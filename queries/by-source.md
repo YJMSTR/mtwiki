@@ -1,9 +1,13 @@
 ---
 title: Index by Source
-generated: 2026-07-01T20:43:43.759372
+generated: 2026-07-02T00:17:59.216946
 ---
 
 # Index by Source
+
+## source-assertion-verification
+
+- [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
 
 ## source-barrier-variants
 
@@ -18,6 +22,22 @@ generated: 2026-07-01T20:43:43.759372
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## source-checkpoint-replay
+
+- [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## source-chisel-firrtl
+
+- [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
+
+## source-circt-arcilator
+
+- [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
+
+## source-coroutine-simulation
+
+- [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
+
 ## source-coz-causal-profiling
 
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
@@ -28,14 +48,46 @@ generated: 2026-07-01T20:43:43.759372
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 
+## source-cxxrtl
+
+- [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
+
+## source-deterministic-replay
+
+- [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## source-essent-simulator
+
+- [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
+
+## source-event-passing
+
+- [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
+
+## source-event-scheduler
+
+- [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
+
 ## source-false-sharing
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## source-formal-verification
+
+- [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
+
+## source-fpga-emulation
+
+- [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
+
 ## source-github-rtlsim-projects
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## source-gpu-rtl-simulation
+
+- [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
 
 ## source-hugepages-thp
 
@@ -123,6 +175,10 @@ generated: 2026-07-01T20:43:43.759372
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## source-state-compression
+
+- [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
 ## source-thread-local-storage
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
@@ -131,6 +187,10 @@ generated: 2026-07-01T20:43:43.759372
 ## source-timewarp-algorithm
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
+
+## source-verification-methodology
+
+- [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
 
 ## source-verilator-issue-2913
 

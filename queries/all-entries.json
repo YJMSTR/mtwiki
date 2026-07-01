@@ -1,5 +1,31 @@
 [
   {
+    "id": "sources-source-assertion-verification",
+    "title": "断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一",
+    "path": "sources/source-assertion-verification.md",
+    "type": "source",
+    "source_url": "https://www.mdpi.com/2079-9292/14/8/1687",
+    "source_type": "paper",
+    "tags": [
+      "SVA",
+      "ABV",
+      "assertion-based-verification",
+      "SystemVerilog",
+      "simulation-overhead",
+      "formal-verification",
+      "RTL"
+    ],
+    "keywords": [
+      "SystemVerilog assertion",
+      "SVA runtime overhead",
+      "immediate assertion",
+      "concurrent assertion",
+      "assertion-based verification",
+      "simulation performance",
+      "formal semantics"
+    ]
+  },
+  {
     "id": "sources-source-barrier-variants",
     "title": "Barrier Synchronization Variants 性能对比与实现",
     "path": "sources/source-barrier-variants.md",
@@ -79,6 +105,113 @@
     ]
   },
   {
+    "id": "sources-source-checkpoint-replay",
+    "title": "RTL Simulation Checkpoint / Snapshot Save & Restore",
+    "path": "sources/source-checkpoint-replay.md",
+    "type": "source",
+    "source_url": "https://tomverbeure.github.io/2020/10/26/Simulation-Save-Restore-with-CXXRTL.html",
+    "source_type": "\"blog\"  # blog, doc, paper, github-pr, github-issue",
+    "tags": [
+      "checkpoint",
+      "snapshot",
+      "save-restore",
+      "CXXRTL",
+      "ModelSim",
+      "Xcelium",
+      "VCS",
+      "UVM"
+    ],
+    "keywords": [
+      "RTL simulation checkpoint",
+      "simulator snapshot",
+      "warm restore",
+      "cold restore",
+      "Siloti"
+    ]
+  },
+  {
+    "id": "sources-source-chisel-firrtl",
+    "title": "ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真",
+    "path": "sources/source-chisel-firrtl.md",
+    "type": "source",
+    "source_url": "https://github.com/chipsalliance/chisel",
+    "source_type": "github-repo",
+    "tags": [
+      "chisel",
+      "firrtl",
+      "chiselsim",
+      "treadle",
+      "verilator",
+      "gem",
+      "gpu-simulation",
+      "co-simulation",
+      "scala"
+    ],
+    "keywords": [
+      "Chisel",
+      "FIRRTL",
+      "ChiselSim",
+      "Treadle",
+      "RTL simulation",
+      "Verilator backend",
+      "GEM GPU",
+      "CFC",
+      "ChiselTest",
+      "CIRCT",
+      "firtool"
+    ]
+  },
+  {
+    "id": "sources-source-circt-arcilator",
+    "title": "CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真",
+    "path": "sources/source-circt-arcilator.md",
+    "type": "source",
+    "source_url": "https://github.com/llvm/circt",
+    "source_type": "github-repo",
+    "tags": [
+      "circt",
+      "arcilator",
+      "mlir",
+      "llvm",
+      "rtl-simulation",
+      "compiler-ir",
+      "chisel",
+      "systemverilog"
+    ],
+    "keywords": [
+      "CIRCT Arcilator",
+      "mlir rtl simulation",
+      "llvm circt simulator",
+      "Arcilator performance",
+      "cycle-accurate",
+      "hardware simulation"
+    ]
+  },
+  {
+    "id": "sources-source-coroutine-simulation",
+    "title": "C++20 协程在事件驱动仿真器中的应用",
+    "path": "sources/source-coroutine-simulation.md",
+    "type": "source",
+    "source_url": "https://github.com/cflaviu/co_fsm",
+    "source_type": "\"github\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "cpp20",
+      "coroutine",
+      "event-driven",
+      "simulation",
+      "fsm",
+      "co_await",
+      "state-machine"
+    ],
+    "keywords": [
+      "C++20 coroutine",
+      "event-driven simulation",
+      "co_await simulator",
+      "symmetric transfer",
+      "stackless coroutine"
+    ]
+  },
+  {
     "id": "sources-source-coz-causal-profiling",
     "title": "Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用",
     "path": "sources/source-coz-causal-profiling.md",
@@ -128,6 +261,131 @@
     ]
   },
   {
+    "id": "sources-source-cxxrtl",
+    "title": "cxxrtl / Yosys C++ Backend",
+    "path": "sources/source-cxxrtl.md",
+    "type": "source",
+    "source_url": "https://github.com/YosysHQ/yosys/tree/main/backends/cxxrtl",
+    "source_type": "doc",
+    "tags": [
+      "cxxrtl",
+      "yosys",
+      "c++-backend",
+      "rtl-simulation",
+      "open-source",
+      "cycle-based"
+    ],
+    "keywords": [
+      "cxxrtl",
+      "Yosys",
+      "C++ simulation",
+      "RTLIL",
+      "write_cxxrtl",
+      "blackbox",
+      "introspection",
+      "VCD"
+    ]
+  },
+  {
+    "id": "sources-source-deterministic-replay",
+    "title": "Deterministic RTL Simulation / Record & Replay",
+    "path": "sources/source-deterministic-replay.md",
+    "type": "source",
+    "source_url": "https://rr-project.org/",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "deterministic-replay",
+      "record-replay",
+      "rr",
+      "DeLorean",
+      "ReEmu",
+      "multithreaded",
+      "parallel"
+    ],
+    "keywords": [
+      "deterministic RTL simulation",
+      "record replay",
+      "multithreaded replay",
+      "rr debugger",
+      "CREW protocol",
+      "hardware-assisted replay"
+    ]
+  },
+  {
+    "id": "sources-source-essent-simulator",
+    "title": "ESSENT: High-Performance RTL Simulator",
+    "path": "sources/source-essent-simulator.md",
+    "type": "source",
+    "source_url": "https://github.com/ucsc-vama/essent",
+    "source_type": "github-repo",
+    "tags": [
+      "essent",
+      "firrtl",
+      "chisel",
+      "rtl-simulation",
+      "cycle-based",
+      "activity-factor",
+      "c++-backend"
+    ],
+    "keywords": [
+      "ESSENT",
+      "RTL simulator",
+      "FIRRTL",
+      "Chisel",
+      "UCSC",
+      "Berkeley",
+      "high-performance simulation",
+      "acyclic partitioning"
+    ]
+  },
+  {
+    "id": "sources-source-event-passing",
+    "title": "零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道",
+    "path": "sources/source-event-passing.md",
+    "type": "source",
+    "source_url": "https://github.com/cameron314/concurrentqueue",
+    "source_type": "\"github\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "lock-free",
+      "event-queue",
+      "spsc",
+      "mpmc",
+      "disruptor",
+      "zero-copy",
+      "concurrent-queue"
+    ],
+    "keywords": [
+      "lock-free event queue simulation",
+      "SPSC event queue",
+      "moodycamel concurrentqueue",
+      "disruptor pattern event passing"
+    ]
+  },
+  {
+    "id": "sources-source-event-scheduler",
+    "title": "事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮",
+    "path": "sources/source-event-scheduler.md",
+    "type": "source",
+    "source_url": "https://sigsim.acm.org/conf/mskr/Courseware/Fujimoto/Slides/FujimotoSlides-03-FutureEventList.pdf",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "event-queue",
+      "calendar-queue",
+      "ladder-queue",
+      "splay-tree",
+      "des",
+      "scheduler",
+      "priority-queue"
+    ],
+    "keywords": [
+      "event queue optimization",
+      "calendar queue simulation",
+      "ladder queue event driven",
+      "splay tree event scheduler",
+      "event wheel digital simulation"
+    ]
+  },
+  {
     "id": "sources-source-false-sharing",
     "title": "False Sharing 检测与修复：高性能多线程编程的隐形杀手",
     "path": "sources/source-false-sharing.md",
@@ -151,6 +409,59 @@
       "perf-c2c",
       "VTune",
       "pahole"
+    ]
+  },
+  {
+    "id": "sources-source-formal-verification",
+    "title": "形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证",
+    "path": "sources/source-formal-verification.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/html/2502.13605v1",
+    "source_type": "paper",
+    "tags": [
+      "formal-verification",
+      "BMC",
+      "k-induction",
+      "IC3",
+      "RTL",
+      "Yosys",
+      "SymbiYosys",
+      "rIC3",
+      "JasperGold"
+    ],
+    "keywords": [
+      "bounded model checking",
+      "k-induction",
+      "hardware model checking",
+      "SAT solver",
+      "SMT solver",
+      "RTL verification",
+      "formal simulation tandem"
+    ]
+  },
+  {
+    "id": "sources-source-fpga-emulation",
+    "title": "FPGA 仿真（Emulation）与软件仿真的性能对比及 FireSim 框架",
+    "path": "sources/source-fpga-emulation.md",
+    "type": "source",
+    "source_url": "https://github.com/firesim/firesim",
+    "source_type": "github-repo",
+    "tags": [
+      "fpga",
+      "emulation",
+      "simulation",
+      "firesim",
+      "golden-gate",
+      "fireaxe",
+      "prototyping",
+      "cycle-accurate"
+    ],
+    "keywords": [
+      "FPGA emulation vs simulation",
+      "FireSim performance",
+      "FPGA prototyping RTL speedup",
+      "Golden Gate",
+      "cloud FPGA"
     ]
   },
   {
@@ -204,6 +515,33 @@
       "cxxrtl",
       "rohd",
       "multisim"
+    ]
+  },
+  {
+    "id": "sources-source-gpu-rtl-simulation",
+    "title": "GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估",
+    "path": "sources/source-gpu-rtl-simulation.md",
+    "type": "source",
+    "source_url": "https://github.com/NVlabs/GEM",
+    "source_type": "github-repo",
+    "tags": [
+      "gpu",
+      "cuda",
+      "rtl-simulation",
+      "gate-level",
+      "nvidia",
+      "gem",
+      "aig",
+      "vliw"
+    ],
+    "keywords": [
+      "GPU RTL simulation",
+      "NVIDIA GEM",
+      "CUDA gate-level simulation",
+      "parallel gate evaluation",
+      "AIG",
+      "Boolean processor",
+      "VLIW"
     ]
   },
   {
@@ -772,6 +1110,30 @@
     ]
   },
   {
+    "id": "sources-source-state-compression",
+    "title": "Simulation State Compression / Deduplication & Waveform Compression",
+    "path": "sources/source-state-compression.md",
+    "type": "source",
+    "source_url": "https://numbda.cs.tsinghua.edu.cn/papers/glsvlsi23_2.pdf",
+    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "state-compression",
+      "waveform-compression",
+      "VCD",
+      "FSDB",
+      "FST",
+      "deduplication",
+      "value-change-dump"
+    ],
+    "keywords": [
+      "simulation state compression",
+      "VCD compression",
+      "FSDB compression",
+      "waveform compression",
+      "Siloti"
+    ]
+  },
+  {
     "id": "sources-source-thread-local-storage",
     "title": "Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator",
     "path": "sources/source-thread-local-storage.md",
@@ -821,6 +1183,32 @@
       "antimessage",
       "gvt",
       "distributed-simulation"
+    ]
+  },
+  {
+    "id": "sources-source-verification-methodology",
+    "title": "基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证",
+    "path": "sources/source-verification-methodology.md",
+    "type": "source",
+    "source_url": "https://locusit.com/learning/advanced-and-trending-it-trainings/testbench-architecture-verification-methodology/",
+    "source_type": "doc",
+    "tags": [
+      "UVM",
+      "CRV",
+      "CDV",
+      "verification-methodology",
+      "testbench-acceleration",
+      "RTL-simulation",
+      "coverage"
+    ],
+    "keywords": [
+      "constrained random verification",
+      "UVM",
+      "coverage-driven verification",
+      "testbench acceleration",
+      "hardware-assisted emulation",
+      "co-modeling",
+      "transaction-level modeling"
     ]
   },
   {
@@ -1094,6 +1482,39 @@
     ]
   },
   {
+    "id": "wiki-wiki-chisel-and-essent",
+    "title": "Chisel/FIRRTL生态与高性能仿真器",
+    "path": "wiki/wiki-chisel-and-essent.md",
+    "type": "wiki",
+    "tags": [
+      "chisel",
+      "firrtl",
+      "essent",
+      "cxxrtl",
+      "chiselsim",
+      "rtl-simulation",
+      "straight-line-code",
+      "c++-backend"
+    ],
+    "keywords": [
+      "ESSENT",
+      "CXXRTL",
+      "ChiselSim",
+      "Treadle",
+      "FIRRTL",
+      "直线代码优化",
+      "分支误预测",
+      "编译时间",
+      "Verilator后端",
+      "二进制缓存"
+    ],
+    "related_sources": [
+      "source-essent-simulator",
+      "source-cxxrtl",
+      "source-chisel-firrtl"
+    ]
+  },
+  {
     "id": "wiki-wiki-code-patterns",
     "title": "可复用的代码模式",
     "path": "wiki/wiki-code-patterns.md",
@@ -1124,6 +1545,104 @@
       "source-onetbb-scheduler",
       "source-thread-local-storage",
       "source-lock-free-cpp"
+    ]
+  },
+  {
+    "id": "wiki-wiki-coroutine-and-scheduler",
+    "title": "协程与事件调度引擎",
+    "path": "wiki/wiki-coroutine-and-scheduler.md",
+    "type": "wiki",
+    "tags": [
+      "coroutine",
+      "cpp20",
+      "event-scheduler",
+      "event-queue",
+      "lock-free",
+      "zero-copy",
+      "calendar-queue",
+      "ladder-queue",
+      "disruptor",
+      "rtl-simulation"
+    ],
+    "keywords": [
+      "C++20协程",
+      "事件驱动仿真",
+      "无锁队列",
+      "零拷贝事件传递",
+      "Calendar Queue",
+      "Ladder Queue",
+      "Splay Tree",
+      "事件调度引擎"
+    ],
+    "related_sources": [
+      "source-coroutine-simulation",
+      "source-event-scheduler",
+      "source-event-passing"
+    ]
+  },
+  {
+    "id": "wiki-wiki-formal-and-verification",
+    "title": "形式化验证与仿真协同",
+    "path": "wiki/wiki-formal-and-verification.md",
+    "type": "wiki",
+    "tags": [
+      "formal-verification",
+      "BMC",
+      "k-induction",
+      "UVM",
+      "CRV",
+      "SVA",
+      "ABV",
+      "tandem-verification",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "有界模型检查",
+      "K-Induction",
+      "IC3",
+      "断言驱动验证",
+      "约束随机",
+      "覆盖率驱动",
+      "SystemVerilog断言",
+      "形式化仿真协同",
+      "Portfolio并行"
+    ],
+    "related_sources": [
+      "source-formal-verification",
+      "source-verification-methodology",
+      "source-assertion-verification"
+    ]
+  },
+  {
+    "id": "wiki-wiki-gpu-and-hardware",
+    "title": "GPU与硬件加速RTL仿真",
+    "path": "wiki/wiki-gpu-and-hardware.md",
+    "type": "wiki",
+    "tags": [
+      "gpu",
+      "fpga",
+      "emulation",
+      "cuda",
+      "mlir",
+      "rtl-simulation",
+      "hardware-acceleration",
+      "gem",
+      "arcilator",
+      "firesim"
+    ],
+    "keywords": [
+      "GPU RTL仿真",
+      "FPGA原型验证",
+      "GEM仿真器",
+      "Arcilator",
+      "FireSim",
+      "仿真vs仿真",
+      "硬件加速EDA"
+    ],
+    "related_sources": [
+      "source-gpu-rtl-simulation",
+      "source-circt-arcilator",
+      "source-fpga-emulation"
     ]
   },
   {
@@ -1379,6 +1898,43 @@
       "source-verilator-v3variableorder",
       "source-metro-mpi",
       "source-pdes-rtlsim-modern"
+    ]
+  },
+  {
+    "id": "wiki-wiki-state-management",
+    "title": "状态管理与确定性重放",
+    "path": "wiki/wiki-state-management.md",
+    "type": "wiki",
+    "tags": [
+      "state-management",
+      "checkpoint",
+      "deterministic-replay",
+      "state-compression",
+      "copy-on-write",
+      "multithreading",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "checkpoint",
+      "snapshot",
+      "save-restore",
+      "deterministic replay",
+      "record-replay",
+      "state compression",
+      "copy-on-write",
+      "Time Warp",
+      "rollback",
+      "CXXRTL",
+      "ModelSim",
+      "Xcelium",
+      "rr",
+      "DeLorean",
+      "ReEmu"
+    ],
+    "related_sources": [
+      "source-checkpoint-replay",
+      "source-state-compression",
+      "source-deterministic-replay"
     ]
   },
   {
