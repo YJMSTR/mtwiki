@@ -785,6 +785,7 @@ gsim-mt 的最终生成形态为了避免 body 复制，保留一个 `activeBits
 - 不要把 hot path 改成复制 serial-inline body 的 `if (likely(threshold >= staticMax)) { body } else { old_gate }`。gsim-mt v54 在 static-bound/no-subchunk 后仍从 v53 `22206ms` 退到 `22546ms`。
 - 不要用 boolean gate 替代简单 `activeBits = staticMax; activeBits <= threshold`，除非实测证明分支形态更好。gsim-mt v51 从 v49 `22619ms` 退到 `24392ms`。
 - 不要为了缩短大 OR guard 表达式而在 copy loop 中增加 per-word OR/store，除非稳定获益。gsim-mt v55 三轮结果混合，未推广。
+- 不要假设给已经稳定偏向的 threshold gate 加 `likely()` 一定更快。gsim-mt v56 对 `mtCoarseInlineThreshold > 0` 和 `activeBits <= threshold` 加 hint 后仍从 v53 `22657ms/22332ms` 退到 `22789ms/22393ms`。
 
 ### 验证方法
 - 生成代码 spot-check：确认低-threshold fallback 仍包含 popcount，默认 path 跳过 popcount。
