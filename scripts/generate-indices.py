@@ -139,7 +139,7 @@ def build_indices():
         for tag in sorted(by_tag.keys()):
             f.write(f"## {tag}\n\n")
             for eid, title, epath, etype in sorted(by_tag[tag]):
-                f.write(f"- [{title}]({WIKI_ROOT / epath}) `{'source' if etype == 'source' else 'wiki'}`\n")
+                f.write(f"- [{title}](../{epath}) `{'source' if etype == 'source' else 'wiki'}`\n")
             f.write("\n")
     
     # by-source.md
@@ -152,7 +152,7 @@ def build_indices():
         for src_id in sorted(by_source.keys()):
             f.write(f"## {src_id}\n\n")
             for eid, title, epath, etype in sorted(by_source[src_id]):
-                f.write(f"- [{title}]({WIKI_ROOT / epath}) `wiki`\n")
+                f.write(f"- [{title}](../{epath}) `wiki`\n")
             f.write("\n")
     
     # by-keyword.md
@@ -165,7 +165,7 @@ def build_indices():
         for kw in sorted(by_keyword.keys()):
             f.write(f"## {kw}\n\n")
             for eid, title, epath, etype in sorted(by_keyword[kw]):
-                f.write(f"- [{title}]({WIKI_ROOT / epath}) `{'source' if etype == 'source' else 'wiki'}`\n")
+                f.write(f"- [{title}](../{epath}) `{'source' if etype == 'source' else 'wiki'}`\n")
             f.write("\n")
     
     # all-entries.json
