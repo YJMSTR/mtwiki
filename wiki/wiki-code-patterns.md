@@ -751,11 +751,11 @@ void evaluate_gate_with_pool(uint32_t gate_idx) {
 
 ## 模式7：Static upper-bound fast path for sparse serial fallback
 
-**来源**: gsim-mt XiangShan/CoreMark A110 后续实测（2026-07-01）。
+**来源**: 稀疏 RTL 仿真器 codegen 通用模式。
 
 ### 问题描述
 
-稀疏 RTL 仿真器常在每个 coarse region 入口做 runtime popcount：复制 active words、清零全局 flags、统计 active bit 数，再决定走 serial-inline fallback 还是并行 dispatch。对于默认阈值远大于 region 静态最大 active bits 的场景，这个 popcount 每周期都在做可静态证明为多余的工作。
+稀疏 RTL 仿真器常在每个 coarse region 入口做 runtime popcount：复制 active words、清零全局 flags、统计 active bit 数，再决定走 serial-inline fallback 还是并行 dispatch。若默认阈值远大于 region 的静态最大 active bits，这个 popcount 就是可由 codegen 静态证明为多余的热路径工作。
 
 ### 解决方案
 
@@ -763,10 +763,10 @@ void evaluate_gate_with_pool(uint32_t gate_idx) {
 
 ```cpp
 int staticMaxBits = activeWordSpan * ACTIVE_WIDTH;
-if (unlikely(mtCoarseInlineThreshold < staticMaxBits)) {
+if (unlikely(inlineThreshold < staticMaxBits)) {
     int activeBits = 0;
     for (word : words) activeBits += popcount(word);
-    if (activeBits <= mtCoarseInlineThreshold) serial_inline();
+    if (activeBits <= inlineThreshold) serial_inline();
     else dispatch_parallel();
 } else {
     // 静态保证 activeBits <= threshold，不需要 runtime popcount。
@@ -774,7 +774,7 @@ if (unlikely(mtCoarseInlineThreshold < staticMaxBits)) {
 }
 ```
 
-gsim-mt 的最终生成形态为了避免 body 复制，保留一个 `activeBits = staticMaxBits; activeBits <= threshold` gate，而不是把 `serial_inline()` 复制到 hot branch。实测表明：复制 body 的 direct branch 虽少一个 compare/assignment，但更慢。
+若 `serial_inline()` body 很大，通常不要为了少一次比较而复制 body。更稳妥的生成形态是保留单一 body，用静态上界给 `activeBits` 赋常量后继续走原有 gate。
 
 ### 适用场景
 - region 的最大 active bits 可以在编译期给出保守上界。
@@ -782,15 +782,15 @@ gsim-mt 的最终生成形态为了避免 body 复制，保留一个 `activeBits
 - fallback body 很大，复制 body 会增加 I-cache 压力。
 
 ### 反模式
-- 不要把 hot path 改成复制 serial-inline body 的 `if (likely(threshold >= staticMax)) { body } else { old_gate }`。gsim-mt v54 在 static-bound/no-subchunk 后仍从 v53 `22206ms` 退到 `22546ms`。
-- 不要用 boolean gate 替代简单 `activeBits = staticMax; activeBits <= threshold`，除非实测证明分支形态更好。gsim-mt v51 从 v49 `22619ms` 退到 `24392ms`。
-- 不要为了缩短大 OR guard 表达式而在 copy loop 中增加 per-word OR/store，除非稳定获益。gsim-mt v55 三轮结果混合，未推广。
-- 不要假设给已经稳定偏向的 threshold gate 加 `likely()` 一定更快。gsim-mt v56 对 `mtCoarseInlineThreshold > 0` 和 `activeBits <= threshold` 加 hint 后仍从 v53 `22657ms/22332ms` 退到 `22789ms/22393ms`。
+- 不要默认把 hot path 改成复制 serial-inline body 的 `if (likely(threshold >= staticMax)) { body } else { old_gate }`；少量 compare/assignment 的收益可能被代码体积和 I-cache 成本抵消。
+- 不要仅凭直觉把简单整数 gate 改成额外 boolean gate；分支形态变化需要独立测量。
+- 不要为了缩短大 OR guard 表达式而在 copy loop 中增加 per-word OR/store，除非稳定获益。
+- 不要假设给已经稳定偏向的 threshold gate 加 `likely()` 一定更快；编译器和硬件分支预测可能已经足够好。
 
 ### 验证方法
 - 生成代码 spot-check：确认低-threshold fallback 仍包含 popcount，默认 path 跳过 popcount。
-- C=5000 NEMU diff smoke：验证 sparse-evaluation 语义。
-- C=50000 profile-off A/B：固定 CPU mask、无 profile env、Difftest enabled；只以 profile-off wall/host time 做性能结论。
+- 小规模 correctness smoke：验证 sparse-evaluation 语义不变。
+- profile-off A/B：固定 CPU mask、关闭诊断 profile，仅用真实 workload wall/host time 做性能结论。
 
 ---
 
