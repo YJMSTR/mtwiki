@@ -1,6 +1,6 @@
 ---
 title: Index by Source
-generated: 2026-07-02T01:39:05.207370
+generated: 2026-07-02T01:57:02.321603
 ---
 
 # Index by Source
@@ -58,6 +58,18 @@ generated: 2026-07-02T01:39:05.207370
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
 
+## source-cloud-eda
+
+- [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
+
+## source-communication-rtl
+
+- [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
+
+## source-container-eda
+
+- [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
+
 ## source-coroutine-simulation
 
 - [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
@@ -88,6 +100,10 @@ generated: 2026-07-02T01:39:05.207370
 
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
 
+## source-dsp-rtl
+
+- [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
+
 ## source-ecs-architecture
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
@@ -108,6 +124,10 @@ generated: 2026-07-02T01:39:05.207370
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+
+## source-fixed-point
+
+- [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
 
 ## source-formal-security
 
@@ -153,6 +173,10 @@ generated: 2026-07-02T01:39:05.207370
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
+## source-interactive-debug
+
+- [波形可视化与交互调试](../wiki/wiki-visualization-and-debugging.md) `wiki`
+
 ## source-ir-optimization
 
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
@@ -160,6 +184,10 @@ generated: 2026-07-02T01:39:05.207370
 ## source-latest-rtlsim-papers
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## source-license-burst
+
+- [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
 
 ## source-linux-perf-tools
 
@@ -259,6 +287,10 @@ generated: 2026-07-02T01:39:05.207370
 
 - [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 
+## source-reset-strategy
+
+- [复位策略与初始化](../wiki/wiki-reset-and-initialization.md) `wiki`
+
 ## source-rust-async-sim
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
@@ -266,6 +298,10 @@ generated: 2026-07-02T01:39:05.207370
 ## source-rust-simd-rayon
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
+
+## source-sdc-constraints
+
+- [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
 
 ## source-side-channel
 
@@ -279,9 +315,17 @@ generated: 2026-07-02T01:39:05.207370
 
 - [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
 
+## source-sta-timing
+
+- [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
+
 ## source-state-compression
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## source-synthesis-impact
+
+- [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
 
 ## source-thermal-rtl
 
@@ -295,6 +339,14 @@ generated: 2026-07-02T01:39:05.207370
 ## source-timewarp-algorithm
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
+
+## source-upf-power
+
+- [复位策略与初始化](../wiki/wiki-reset-and-initialization.md) `wiki`
+
+## source-vcd-alternatives
+
+- [波形可视化与交互调试](../wiki/wiki-visualization-and-debugging.md) `wiki`
 
 ## source-verification-methodology
 
@@ -336,8 +388,16 @@ generated: 2026-07-02T01:39:05.207370
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 
+## source-waveform-viz
+
+- [波形可视化与交互调试](../wiki/wiki-visualization-and-debugging.md) `wiki`
+
 ## source-work-stealing
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
+
+## source-x-propagation
+
+- [复位策略与初始化](../wiki/wiki-reset-and-initialization.md) `wiki`
 

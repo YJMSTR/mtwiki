@@ -374,6 +374,79 @@
     ]
   },
   {
+    "id": "sources-source-cloud-eda",
+    "title": "云EDA与SaaS仿真：从Synopsys Cloud到Azure弹性计算的产业迁移",
+    "path": "sources/source-cloud-eda.md",
+    "type": "source",
+    "source_url": "https://www.embedded.com/chip-design-in-the-cloud-now-you-can-have-pay-as-you-go-eda/",
+    "source_type": "blog",
+    "tags": [
+      "cloud-eda",
+      "saas-simulation",
+      "azure-eda",
+      "aws-eda",
+      "flexeda",
+      "burst-compute"
+    ],
+    "keywords": [
+      "Synopsys Cloud",
+      "FlexEDA",
+      "Cadence Cloud",
+      "Rescale",
+      "Azure HBv3",
+      "cloud RTL simulation",
+      "SaaS EDA"
+    ]
+  },
+  {
+    "id": "sources-source-communication-rtl",
+    "title": "通信基带 RTL 仿真：从 OFDM 调制解调器到 5G 硬件验证",
+    "path": "sources/source-communication-rtl.md",
+    "type": "source",
+    "source_url": "https://www.design-reuse.com/article/58253-vlsi-implementation-of-ofdm-modem/",
+    "source_type": "blog",
+    "tags": [
+      "OFDM",
+      "RTL-simulation",
+      "communication",
+      "baseband",
+      "5G",
+      "co-simulation",
+      "Verilog"
+    ],
+    "keywords": [
+      "OFDM RTL simulation",
+      "modem hardware simulation",
+      "5G baseband RTL",
+      "wireless communication RTL verification",
+      "bit-true"
+    ]
+  },
+  {
+    "id": "sources-source-container-eda",
+    "title": "Docker 与 Kubernetes 在 EDA 仿真中的容器化实践",
+    "path": "sources/source-container-eda.md",
+    "type": "source",
+    "source_url": "https://github.com/zhutmost/eda-in-container",
+    "source_type": "github-repo",
+    "tags": [
+      "docker-eda",
+      "kubernetes-eda",
+      "containerized-simulation",
+      "verilator",
+      "cicd",
+      "github-actions"
+    ],
+    "keywords": [
+      "Docker RTL simulation",
+      "EDA container",
+      "Kubernetes workload",
+      "Verilator Docker",
+      "EDA in container",
+      "eda-in-container"
+    ]
+  },
+  {
     "id": "sources-source-coroutine-simulation",
     "title": "C++20 协程在事件驱动仿真器中的应用",
     "path": "sources/source-coroutine-simulation.md",
@@ -578,6 +651,28 @@
     ]
   },
   {
+    "id": "sources-source-dsp-rtl",
+    "title": "DSP RTL 仿真与并行加速：从 FFT/滤波器到大规模 SoC",
+    "path": "sources/source-dsp-rtl.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/abs/2507.08406",
+    "source_type": "paper",
+    "tags": [
+      "RTL-simulation",
+      "DSP",
+      "FFT",
+      "parallel-simulation",
+      "hardware-accelerated-simulation"
+    ],
+    "keywords": [
+      "DSP RTL simulation",
+      "fixed point arithmetic RTL",
+      "FFT hardware simulation",
+      "digital filter RTL verification",
+      "multithreaded RTL"
+    ]
+  },
+  {
     "id": "sources-source-ecs-architecture",
     "title": "ECS（Entity-Component-System）架构在仿真与数据并行中的应用",
     "path": "sources/source-ecs-architecture.md",
@@ -699,6 +794,29 @@
       "perf-c2c",
       "VTune",
       "pahole"
+    ]
+  },
+  {
+    "id": "sources-source-fixed-point",
+    "title": "定点量化与字长优化：从 bit-true 仿真到 RTL 实现",
+    "path": "sources/source-fixed-point.md",
+    "type": "source",
+    "source_url": "https://hls.academy/topics/mathworks/",
+    "source_type": "doc",
+    "tags": [
+      "fixed-point",
+      "quantization",
+      "word-length-optimization",
+      "RTL",
+      "HLS",
+      "bit-true"
+    ],
+    "keywords": [
+      "fixed point quantization RTL",
+      "bit true simulation",
+      "word length optimization RTL",
+      "quantization noise simulation",
+      "SQNR"
     ]
   },
   {
@@ -1104,6 +1222,32 @@
     ]
   },
   {
+    "id": "sources-source-interactive-debug",
+    "title": "交互式RTL仿真调试与GUI体验调研",
+    "path": "sources/source-interactive-debug.md",
+    "type": "source",
+    "source_url": "https://surfer-project.org/",
+    "source_type": "doc",
+    "tags": [
+      "interactive-debug",
+      "RTL-debugger",
+      "GUI",
+      "GDBWave",
+      "VSRTL",
+      "Surfer",
+      "real-time",
+      "simulator-integration"
+    ],
+    "keywords": [
+      "交互式仿真",
+      "实时波形",
+      "GDB服务器",
+      "后仿真调试",
+      "可视化仿真",
+      "RISC-V调试"
+    ]
+  },
+  {
     "id": "sources-source-ir-optimization",
     "title": "IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术",
     "path": "sources/source-ir-optimization.md",
@@ -1172,6 +1316,30 @@
       "Arcilator",
       "supernode partitioning",
       "bit-level splitting"
+    ]
+  },
+  {
+    "id": "sources-source-license-burst",
+    "title": "EDA 许可证管理与弹性仿真：从固定许可证到按需计费的范式转移",
+    "path": "sources/source-license-burst.md",
+    "type": "source",
+    "source_url": "https://www.synopsys.com/blogs/chip-design/5-ways-flexeda-saas-model-transforms-chip-design.html",
+    "source_type": "blog",
+    "tags": [
+      "eda-license",
+      "flexeda",
+      "burst-simulation",
+      "byol",
+      "subscription-licensing",
+      "cloud-elasticity"
+    ],
+    "keywords": [
+      "EDA license server",
+      "burst simulation",
+      "elastic EDA",
+      "pay-per-use",
+      "token-based licensing",
+      "on-demand simulation"
     ]
   },
   {
@@ -1923,6 +2091,33 @@
     ]
   },
   {
+    "id": "sources-source-reset-strategy",
+    "title": "Reset Strategy & Power-On Initialization in RTL Simulation",
+    "path": "sources/source-reset-strategy.md",
+    "type": "source",
+    "source_url": "https://www.realintent.com/reset-domain-crossing-methodology-ai-llm-chips-rivos/",
+    "source_type": "blog",
+    "tags": [
+      "reset-strategy",
+      "power-on-reset",
+      "async-reset-sync-release",
+      "reset-tree",
+      "RDC",
+      "initialization",
+      "RTL-simulation"
+    ],
+    "keywords": [
+      "asynchronous reset",
+      "synchronous reset",
+      "reset synchronizer",
+      "reset domain crossing",
+      "power-on reset",
+      "reset tree",
+      "boot sequence",
+      "POR"
+    ]
+  },
+  {
     "id": "sources-source-rust-async-sim",
     "title": "Rust Async / Tokio 在事件驱动仿真器中的应用",
     "path": "sources/source-rust-async-sim.md",
@@ -1969,6 +2164,30 @@
       "portable simd rust",
       "rayon data parallelism",
       "work-stealing"
+    ]
+  },
+  {
+    "id": "sources-source-sdc-constraints",
+    "title": "SDC 综合约束与 RTL 仿真的关系",
+    "path": "sources/source-sdc-constraints.md",
+    "type": "source",
+    "source_url": "https://www.intel.com/content/www/us/en/docs/programmable/683236/22-3/applying-the-sdc-on-rtl-constraints.html",
+    "source_type": "doc",
+    "tags": [
+      "SDC",
+      "timing-constraints",
+      "synthesis",
+      "RTL",
+      "multi-cycle-path",
+      "false-path"
+    ],
+    "keywords": [
+      "create_clock",
+      "set_false_path",
+      "set_multicycle_path",
+      "SDC-on-RTL",
+      "path-group",
+      "timing-exception"
     ]
   },
   {
@@ -2099,6 +2318,32 @@
     ]
   },
   {
+    "id": "sources-source-sta-timing",
+    "title": "静态时序分析（STA）与 RTL 仿真之间的相关性",
+    "path": "sources/source-sta-timing.md",
+    "type": "source",
+    "source_url": "https://inskill.in/training/vlsi/why-timing-constraints-are-crucial-in-rtl-to-gdsii-flow/",
+    "source_type": "blog",
+    "tags": [
+      "STA",
+      "static-timing-analysis",
+      "setup-hold",
+      "timing-closure",
+      "RTL-simulation",
+      "gate-level-simulation",
+      "correlation"
+    ],
+    "keywords": [
+      "setup time",
+      "hold time",
+      "timing path",
+      "slack",
+      "critical path",
+      "SDF",
+      "timing correlation"
+    ]
+  },
+  {
     "id": "sources-source-state-compression",
     "title": "Simulation State Compression / Deduplication & Waveform Compression",
     "path": "sources/source-state-compression.md",
@@ -2147,6 +2392,31 @@
       "slang SystemVerilog",
       "开源SystemVerilog",
       "UHDM"
+    ]
+  },
+  {
+    "id": "sources-source-synthesis-impact",
+    "title": "逻辑综合与工艺映射对 RTL 仿真精度的影响",
+    "path": "sources/source-synthesis-impact.md",
+    "type": "source",
+    "source_url": "https://www.leadsoc.com/rtl-vs-gate-level-simulation-whats-the-difference/",
+    "source_type": "blog",
+    "tags": [
+      "logic-synthesis",
+      "technology-mapping",
+      "RTL-simulation",
+      "gate-level-simulation",
+      "synthesis-mismatch",
+      "X-propagation"
+    ],
+    "keywords": [
+      "synthesis",
+      "GLS",
+      "SDF back-annotation",
+      "X-optimism",
+      "X-pessimism",
+      "timing mismatch",
+      "incomplete sensitivity list"
     ]
   },
   {
@@ -2317,6 +2587,60 @@
       "VCS",
       "Verdi",
       "coverage closure"
+    ]
+  },
+  {
+    "id": "sources-source-upf-power",
+    "title": "UPF Power Intent & Low-Power Simulation in RTL",
+    "path": "sources/source-upf-power.md",
+    "type": "source",
+    "source_url": "https://verificationacademy.com/topics/low-power/a-guide-to-upf-based-power-intent-verification-questa-one/",
+    "source_type": "doc",
+    "tags": [
+      "UPF",
+      "IEEE-1801",
+      "power-gating",
+      "low-power",
+      "isolation-cell",
+      "retention-register",
+      "power-aware-simulation",
+      "RTL"
+    ],
+    "keywords": [
+      "UPF",
+      "power intent",
+      "power domain",
+      "isolation",
+      "retention",
+      "level shifter",
+      "power aware simulation",
+      "low power verification"
+    ]
+  },
+  {
+    "id": "sources-source-vcd-alternatives",
+    "title": "VCD 替代波形格式与性能对比调研",
+    "path": "sources/source-vcd-alternatives.md",
+    "type": "source",
+    "source_url": "https://veripool.org/guide/latest/faq.html",
+    "source_type": "doc",
+    "tags": [
+      "VCD",
+      "FST",
+      "FSDB",
+      "GHW",
+      "waveform-format",
+      "compression",
+      "performance",
+      "dump-format"
+    ],
+    "keywords": [
+      "波形格式",
+      "VCD替代",
+      "快速信号跟踪",
+      "二进制波形",
+      "流式dump",
+      "仿真I/O优化"
     ]
   },
   {
@@ -2578,6 +2902,32 @@
     ]
   },
   {
+    "id": "sources-source-waveform-viz",
+    "title": "波形可视化工具全景调研",
+    "path": "sources/source-waveform-viz.md",
+    "type": "source",
+    "source_url": "https://github.com/TM90/awesome-hwd-tools",
+    "source_type": "doc",
+    "tags": [
+      "waveform",
+      "visualization",
+      "GTKWave",
+      "Surfer",
+      "Verdi",
+      "VaporView",
+      "WaveDrom",
+      "debug"
+    ],
+    "keywords": [
+      "波形查看器",
+      "VCD",
+      "FST",
+      "RTL调试",
+      "开源EDA",
+      "VSCode扩展"
+    ]
+  },
+  {
     "id": "sources-source-work-stealing",
     "title": "Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术",
     "path": "sources/source-work-stealing.md",
@@ -2600,6 +2950,34 @@
       "Chase-Lev-deque",
       "task-DAG",
       "load-balancing"
+    ]
+  },
+  {
+    "id": "sources-source-x-propagation",
+    "title": "X-Propagation & Initialization in RTL Simulation",
+    "path": "sources/source-x-propagation.md",
+    "type": "source",
+    "source_url": "https://www.einfochips.com/blog/x-propagation-simulation-a-powerful-feature/",
+    "source_type": "blog",
+    "tags": [
+      "X-propagation",
+      "X-optimism",
+      "X-pessimism",
+      "initialization",
+      "RTL-simulation",
+      "SystemVerilog",
+      "GLS"
+    ],
+    "keywords": [
+      "X propagation",
+      "unknown state",
+      "uninitialized register",
+      "X optimism",
+      "X pessimism",
+      "SystemVerilog 4-state",
+      "VCS xprop",
+      "Xcelium",
+      "gate-level simulation"
     ]
   },
   {
@@ -2764,6 +3142,44 @@
     ]
   },
   {
+    "id": "wiki-wiki-cloud-and-eda",
+    "title": "云原生EDA与容器化",
+    "path": "wiki/wiki-cloud-and-eda.md",
+    "type": "wiki",
+    "tags": [
+      "cloud-eda",
+      "containerization",
+      "docker",
+      "kubernetes",
+      "flexeda",
+      "byol",
+      "burst-simulation",
+      "saas-eda",
+      "numa",
+      "cicd"
+    ],
+    "keywords": [
+      "云EDA",
+      "容器化",
+      "Docker",
+      "Kubernetes",
+      "FlexEDA",
+      "BYOL",
+      "突发仿真",
+      "Synopsys Cloud",
+      "Rescale",
+      "Azure",
+      "GitHub Actions",
+      "NUMA",
+      "静态链接"
+    ],
+    "related_sources": [
+      "source-cloud-eda",
+      "source-container-eda",
+      "source-license-burst"
+    ]
+  },
+  {
     "id": "wiki-wiki-code-patterns",
     "title": "可复用的代码模式",
     "path": "wiki/wiki-code-patterns.md",
@@ -2894,6 +3310,44 @@
       "per-thread buffer"
     ],
     "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-dsp-and-signal",
+    "title": "DSP与信号处理RTL仿真",
+    "path": "wiki/wiki-dsp-and-signal.md",
+    "type": "wiki",
+    "tags": [
+      "dsp",
+      "rtl-sim",
+      "fixed-point",
+      "quantization",
+      "communication",
+      "baseband",
+      "fft",
+      "viterbi",
+      "OFDM",
+      "5G"
+    ],
+    "keywords": [
+      "DSP RTL",
+      "FFT simulation",
+      "FIR filter RTL",
+      "Viterbi decoder",
+      "fixed-point quantization",
+      "bit-true",
+      "WLO",
+      "SQNR",
+      "OFDM baseband",
+      "co-simulation",
+      "CCSS",
+      "Parendi",
+      "Verilator"
+    ],
+    "related_sources": [
+      "source-dsp-rtl",
+      "source-fixed-point",
+      "source-communication-rtl"
+    ]
   },
   {
     "id": "wiki-wiki-formal-and-verification",
@@ -3379,6 +3833,41 @@
     ]
   },
   {
+    "id": "wiki-wiki-reset-and-initialization",
+    "title": "复位策略与初始化",
+    "path": "wiki/wiki-reset-and-initialization.md",
+    "type": "wiki",
+    "tags": [
+      "reset-strategy",
+      "initialization",
+      "X-propagation",
+      "X-optimism",
+      "X-pessimism",
+      "UPF",
+      "power-domain",
+      "low-power",
+      "RDC",
+      "4-state"
+    ],
+    "keywords": [
+      "复位策略",
+      "异步置位同步释放",
+      "X-传播",
+      "SystemVerilog 4-state",
+      "UPF",
+      "电源域",
+      "隔离单元",
+      "保持寄存器",
+      "RDC",
+      "复位同步器"
+    ],
+    "related_sources": [
+      "source-reset-strategy",
+      "source-x-propagation",
+      "source-upf-power"
+    ]
+  },
+  {
     "id": "wiki-wiki-rust-and-ecs",
     "title": "Rust与ECS架构在仿真器中的应用",
     "path": "wiki/wiki-rust-and-ecs.md",
@@ -3604,6 +4093,42 @@
     ]
   },
   {
+    "id": "wiki-wiki-synthesis-and-constraints",
+    "title": "综合约束与逻辑综合影响",
+    "path": "wiki/wiki-synthesis-and-constraints.md",
+    "type": "wiki",
+    "tags": [
+      "SDC",
+      "logic-synthesis",
+      "STA",
+      "timing-constraints",
+      "synthesis-mismatch",
+      "SDF-back-annotation",
+      "multicycle-path",
+      "false-path",
+      "entity-based-SDC"
+    ],
+    "keywords": [
+      "SDC约束",
+      "逻辑综合",
+      "STA",
+      "setup/hold",
+      "slack",
+      "关键路径",
+      "RTL vs GLS",
+      "SDF反标",
+      "UDSM",
+      "FTGS",
+      "Entity-Based SDC",
+      "CPE约束传播"
+    ],
+    "related_sources": [
+      "source-sdc-constraints",
+      "source-synthesis-impact",
+      "source-sta-timing"
+    ]
+  },
+  {
     "id": "wiki-wiki-verilator-lessons",
     "title": "Verilator多线程化经验总结",
     "path": "wiki/wiki-verilator-lessons.md",
@@ -3630,6 +4155,41 @@
       "source-verilator-mt-prs",
       "source-verilator-mt-code-analysis",
       "source-verilator-v3variableorder"
+    ]
+  },
+  {
+    "id": "wiki-wiki-visualization-and-debugging",
+    "title": "波形可视化与交互调试",
+    "path": "wiki/wiki-visualization-and-debugging.md",
+    "type": "wiki",
+    "tags": [
+      "waveform",
+      "visualization",
+      "debugging",
+      "GTKWave",
+      "Surfer",
+      "VaporView",
+      "FST",
+      "VCD",
+      "interactive-debug",
+      "trace"
+    ],
+    "keywords": [
+      "波形查看器",
+      "FST格式",
+      "VCD替代",
+      "交互式调试",
+      "GDBWave",
+      "实时波形",
+      "流式dump",
+      "trace buffer",
+      "选择性追踪",
+      "VSCode集成"
+    ],
+    "related_sources": [
+      "source-waveform-viz",
+      "source-interactive-debug",
+      "source-vcd-alternatives"
     ]
   }
 ]
