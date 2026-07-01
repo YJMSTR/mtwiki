@@ -1,5 +1,30 @@
 [
   {
+    "id": "sources-source-aot-binary-translation",
+    "title": "AOT Compilation & Binary Translation in RTL/Hardware Simulation",
+    "path": "sources/source-aot-binary-translation.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/abs/2005.11357",
+    "source_type": "paper",
+    "tags": [
+      "AOT",
+      "binary-translation",
+      "QEMU",
+      "TCG",
+      "Verilator",
+      "RTL-simulation",
+      "RISC-V",
+      "FPGA"
+    ],
+    "keywords": [
+      "ahead-of-time compilation",
+      "dynamic binary translation",
+      "compiled simulation",
+      "translation block",
+      "Tiny Code Generator"
+    ]
+  },
+  {
     "id": "sources-source-assertion-verification",
     "title": "断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一",
     "path": "sources/source-assertion-verification.md",
@@ -127,6 +152,37 @@
       "warm restore",
       "cold restore",
       "Siloti"
+    ]
+  },
+  {
+    "id": "sources-source-chiplet-simulation",
+    "title": "Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编",
+    "path": "sources/source-chiplet-simulation.md",
+    "type": "source",
+    "source_url": "https://dl.acm.org/doi/10.1145/3665314.3680474",
+    "source_type": "paper",
+    "tags": [
+      "chiplet",
+      "multi-die",
+      "interposer",
+      "cross-layer-simulation",
+      "rtl-emulation",
+      "fpga",
+      "serial-link",
+      "2.5d-ic"
+    ],
+    "keywords": [
+      "chiplet simulation",
+      "multi-die RTL",
+      "interposer",
+      "3D IC",
+      "Serial Link",
+      "AXI",
+      "X-HEEP",
+      "PULP",
+      "gem5",
+      "Verilator",
+      "FPGA emulation"
     ]
   },
   {
@@ -309,6 +365,58 @@
       "rr debugger",
       "CREW protocol",
       "hardware-assisted replay"
+    ]
+  },
+  {
+    "id": "sources-source-distributed-rtl",
+    "title": "分布式 RTL 仿真（Multi-Node MPI）资料汇编",
+    "path": "sources/source-distributed-rtl.md",
+    "type": "source",
+    "source_url": "https://upcommons.upc.edu/handle/2117/390396",
+    "source_type": "paper",
+    "tags": [
+      "distributed-rtl",
+      "mpi",
+      "multi-node",
+      "hpc",
+      "verilator",
+      "parallel-simulation",
+      "bsp"
+    ],
+    "keywords": [
+      "Metro-MPI",
+      "Parendi",
+      "MPI barrier",
+      "Verilator multithreading",
+      "BSP",
+      "latency-insensitive interface",
+      "OpenPiton",
+      "IPU",
+      "HPC cluster"
+    ]
+  },
+  {
+    "id": "sources-source-ecs-architecture",
+    "title": "ECS（Entity-Component-System）架构在仿真与数据并行中的应用",
+    "path": "sources/source-ecs-architecture.md",
+    "type": "source",
+    "source_url": "https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs",
+    "source_type": "github-pr",
+    "tags": [
+      "ecs",
+      "entity-component-system",
+      "data-oriented-design",
+      "bevy",
+      "parallel",
+      "cache-locality",
+      "rust"
+    ],
+    "keywords": [
+      "ECS digital circuit simulation",
+      "bevy ecs",
+      "legion ecs parallel",
+      "data-oriented design",
+      "archetype"
     ]
   },
   {
@@ -653,6 +761,30 @@
     ]
   },
   {
+    "id": "sources-source-jit-simulation",
+    "title": "JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation",
+    "path": "sources/source-jit-simulation.md",
+    "type": "source",
+    "source_url": "https://groups.inf.ed.ac.uk/pasta/pub/projects/proposals/llvm-jit-backend-arcsim.pdf",
+    "source_type": "paper",
+    "tags": [
+      "JIT",
+      "LLVM",
+      "RTL-simulation",
+      "instruction-set-simulator",
+      "ArcSim",
+      "ORCJIT",
+      "MCJIT"
+    ],
+    "keywords": [
+      "just-in-time compilation",
+      "LLVM backend",
+      "simulator performance",
+      "trace JIT",
+      "hot block translation"
+    ]
+  },
+  {
     "id": "sources-source-latest-rtlsim-papers",
     "title": "最新 RTL 并行仿真论文汇总（2023-2026）",
     "path": "sources/source-latest-rtlsim-papers.md",
@@ -677,6 +809,35 @@
     ]
   },
   {
+    "id": "sources-source-linux-kernel-sync",
+    "title": "Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用",
+    "path": "sources/source-linux-kernel-sync.md",
+    "type": "source",
+    "source_url": "https://kernel-internals.org/locking/futex/",
+    "source_type": "doc",
+    "tags": [
+      "futex",
+      "percpu",
+      "kernel-sync",
+      "userspace-emulator",
+      "rtl-simulation",
+      "barrier",
+      "seqlock",
+      "rcu"
+    ],
+    "keywords": [
+      "futex",
+      "fast userspace mutex",
+      "per-CPU variable",
+      "kernel synchronization",
+      "FUTEX_WAIT",
+      "FUTEX_WAKE",
+      "FUTEX_REQUEUE",
+      "PI futex",
+      "emulator"
+    ]
+  },
+  {
     "id": "sources-source-linux-perf-tools",
     "title": "Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析",
     "path": "sources/source-linux-perf-tools.md",
@@ -698,6 +859,32 @@
       "HITM",
       "cache contention",
       "CPU profiling"
+    ]
+  },
+  {
+    "id": "sources-source-llvm-mlir-rtl",
+    "title": "LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes",
+    "path": "sources/source-llvm-mlir-rtl.md",
+    "type": "source",
+    "source_url": "https://circt.llvm.org/",
+    "source_type": "doc",
+    "tags": [
+      "LLVM",
+      "MLIR",
+      "CIRCT",
+      "RTL-optimization",
+      "hardware-dialect",
+      "FIRRTL",
+      "LLHD",
+      "HLS"
+    ],
+    "keywords": [
+      "MLIR dialect",
+      "CIRCT",
+      "hardware compiler",
+      "RTL lowering",
+      "optimization pass",
+      "PipeRTL"
     ]
   },
   {
@@ -830,6 +1017,66 @@
     ]
   },
   {
+    "id": "sources-source-multithread-debugging",
+    "title": "多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放",
+    "path": "sources/source-multithread-debugging.md",
+    "type": "source",
+    "source_url": "https://undo.io/resources/gdb-watchpoint/debugging-multithreaded-code-gdb-thread-names/",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "gdb",
+      "lldb",
+      "rr",
+      "record-replay",
+      "multithreaded-debugging",
+      "deterministic-debugging",
+      "QEMU",
+      "reverse-debugging",
+      "simulation",
+      "race-condition"
+    ],
+    "keywords": [
+      "gdb multithread",
+      "rr record replay",
+      "deterministic replay",
+      "reverse debugging",
+      "thread-specific breakpoint",
+      "QEMU replay",
+      "data race",
+      "deadlock",
+      "heisenbug"
+    ]
+  },
+  {
+    "id": "sources-source-noc-simulation",
+    "title": "Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编",
+    "path": "sources/source-noc-simulation.md",
+    "type": "source",
+    "source_url": "https://www.andrew.cmu.edu/user/sobla/projects/noc/",
+    "source_type": "doc",
+    "tags": [
+      "noc",
+      "rtl-simulation",
+      "axi",
+      "mesh",
+      "torus",
+      "fpga",
+      "interconnect"
+    ],
+    "keywords": [
+      "NoC",
+      "RTL simulation",
+      "AXI-Stream",
+      "mesh topology",
+      "torus topology",
+      "Verilator",
+      "BookSim",
+      "Garnet",
+      "ReCONNECT",
+      "Proteus"
+    ]
+  },
+  {
     "id": "sources-source-numa-optimization",
     "title": "NUMA 优化与 Thread Pinning：让内存访问不再跨节点",
     "path": "sources/source-numa-optimization.md",
@@ -877,6 +1124,37 @@
       "deque",
       "depth-first",
       "breadth-first"
+    ]
+  },
+  {
+    "id": "sources-source-os-scheduling",
+    "title": "Linux 调度器与 CPU 隔离对实时仿真器性能的影响",
+    "path": "sources/source-os-scheduling.md",
+    "type": "source",
+    "source_url": "https://access.redhat.com/documentation/zh-cn/red_hat_openstack_platform/10/html/ovs-dpdk_end_to_end_troubleshooting_guide/_about_the_impact_of_isolcpus_on_emulator_thread_scheduling",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "linux-scheduler",
+      "cpu-isolation",
+      "isolcpus",
+      "cpuset",
+      "taskset",
+      "PREEMPT_RT",
+      "real-time",
+      "emulator",
+      "QEMU",
+      "KVM"
+    ],
+    "keywords": [
+      "isolcpus",
+      "cgroup cpuset",
+      "taskset",
+      "emulator thread scheduling",
+      "CFS scheduler",
+      "PREEMPT_RT",
+      "real-time simulation",
+      "CPU affinity",
+      "irqaffinity"
     ]
   },
   {
@@ -1059,6 +1337,106 @@
     ]
   },
   {
+    "id": "sources-source-rcu-userspace",
+    "title": "RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现",
+    "path": "sources/source-rcu-userspace.md",
+    "type": "source",
+    "source_url": "https://lwn.net/Articles/573424/",
+    "source_type": "doc",
+    "tags": [
+      "rcu",
+      "liburcu",
+      "userspace-rcu",
+      "lock-free",
+      "synchronization",
+      "qemu"
+    ],
+    "keywords": [
+      "RCU",
+      "read-copy-update",
+      "liburcu",
+      "QSBR",
+      "grace period",
+      "synchronize_rcu",
+      "rcu_read_lock",
+      "userspace"
+    ]
+  },
+  {
+    "id": "sources-source-rust-async-sim",
+    "title": "Rust Async / Tokio 在事件驱动仿真器中的应用",
+    "path": "sources/source-rust-async-sim.md",
+    "type": "source",
+    "source_url": "https://github.com/rupakm/DesCartes",
+    "source_type": "github-pr",
+    "tags": [
+      "rust",
+      "async",
+      "tokio",
+      "des",
+      "event-driven",
+      "simulation",
+      "concurrency"
+    ],
+    "keywords": [
+      "rust async simulation",
+      "tokio simulation engine",
+      "discrete event simulation",
+      "deterministic simulation",
+      "async await des"
+    ]
+  },
+  {
+    "id": "sources-source-rust-simd-rayon",
+    "title": "Rust SIMD 与 Rayon 数据并行在数值仿真中的实践",
+    "path": "sources/source-rust-simd-rayon.md",
+    "type": "source",
+    "source_url": "https://docs.rs/rayon",
+    "source_type": "doc",
+    "tags": [
+      "rust",
+      "simd",
+      "rayon",
+      "parallel",
+      "data-parallelism",
+      "avx",
+      "vectorization",
+      "performance"
+    ],
+    "keywords": [
+      "rust rayon parallel simulation",
+      "rust simd avx",
+      "portable simd rust",
+      "rayon data parallelism",
+      "work-stealing"
+    ]
+  },
+  {
+    "id": "sources-source-seqlock",
+    "title": "Seqlock / Sequence Lock — 内核实现与用户空间 C++ 实现",
+    "path": "sources/source-seqlock.md",
+    "type": "source",
+    "source_url": "https://github.com/rigtorp/Seqlock",
+    "source_type": "github",
+    "tags": [
+      "seqlock",
+      "sequence-lock",
+      "lock-free",
+      "c++11",
+      "memory-order",
+      "kernel"
+    ],
+    "keywords": [
+      "seqlock",
+      "sequence lock",
+      "memory_order_acquire",
+      "atomic_signal_fence",
+      "writer-priority",
+      "torn-read",
+      "retry"
+    ]
+  },
+  {
     "id": "sources-source-simd-rtl-simulation",
     "title": "SIMD/Vectorization in RTL Simulation and Gate-Level Simulation",
     "path": "sources/source-simd-rtl-simulation.md",
@@ -1157,6 +1535,38 @@
       "per-thread-cache",
       "constinit",
       "tls-model"
+    ]
+  },
+  {
+    "id": "sources-source-timekeeping-simulation",
+    "title": "仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟",
+    "path": "sources/source-timekeeping-simulation.md",
+    "type": "source",
+    "source_url": "https://www.qemu.org/docs/master/devel/replay.html",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "rdtsc",
+      "TSC",
+      "invariant-tsc",
+      "clock_gettime",
+      "CLOCK_MONOTONIC",
+      "high-resolution-timer",
+      "timekeeping",
+      "simulation",
+      "QEMU",
+      "icount",
+      "vDSO"
+    ],
+    "keywords": [
+      "rdtsc simulation",
+      "TSC frequency",
+      "clock_gettime vDSO",
+      "icount virtual clock",
+      "deterministic time",
+      "time stamp counter",
+      "cross-CPU TSC sync",
+      "HPET",
+      "high resolution timer"
     ]
   },
   {
@@ -1415,6 +1825,32 @@
     ]
   },
   {
+    "id": "wiki-wiki-advanced-sync",
+    "title": "高级同步原语与内核技术",
+    "path": "wiki/wiki-advanced-sync.md",
+    "type": "wiki",
+    "tags": [
+      "rcu",
+      "seqlock",
+      "futex",
+      "per-cpu",
+      "kernel-sync",
+      "rtl-simulation",
+      "lock-free"
+    ],
+    "keywords": [
+      "RCU",
+      "seqlock",
+      "futex",
+      "per-CPU",
+      "grace period",
+      "QSBR",
+      "双重缓冲",
+      "内核同步"
+    ],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-barrier-and-compiler",
     "title": "同步屏障与编译器优化",
     "path": "wiki/wiki-barrier-and-compiler.md",
@@ -1646,6 +2082,26 @@
     ]
   },
   {
+    "id": "wiki-wiki-jit-and-compiler",
+    "title": "JIT/AOT编译与代码生成",
+    "path": "wiki/wiki-jit-and-compiler.md",
+    "type": "wiki",
+    "tags": [
+      "JIT",
+      "AOT",
+      "LLVM",
+      "CIRCT",
+      "MLIR",
+      "Verilator",
+      "QEMU",
+      "TCG",
+      "binary-translation",
+      "compiler-pipeline"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-latest-landscape",
     "title": "最新研究 landscape (2023-2026)",
     "path": "wiki/wiki-latest-landscape.md",
@@ -1715,6 +2171,65 @@
       "source-hugepages-thp",
       "source-memory-bandwidth"
     ]
+  },
+  {
+    "id": "wiki-wiki-noc-and-distributed",
+    "title": "NoC与分布式RTL仿真",
+    "path": "wiki/wiki-noc-and-distributed.md",
+    "type": "wiki",
+    "tags": [
+      "noc",
+      "distributed-rtl",
+      "mpi",
+      "chiplet",
+      "multi-die",
+      "axistream",
+      "metro-mpi",
+      "parendi",
+      "parallel-simulation",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "NoC",
+      "Network-on-Chip",
+      "分布式RTL仿真",
+      "Metro-MPI",
+      "Parendi",
+      "ReCONNECT",
+      "Proteus",
+      "Chiplet仿真",
+      "Serial Link",
+      "AXI-Stream",
+      "延迟不敏感接口",
+      "跨层仿真",
+      "BSP",
+      "MPI"
+    ],
+    "related_sources": [
+      "source-noc-simulation",
+      "source-distributed-rtl",
+      "source-chiplet-simulation"
+    ]
+  },
+  {
+    "id": "wiki-wiki-os-and-debugging",
+    "title": "操作系统调度与多线程调试",
+    "path": "wiki/wiki-os-and-debugging.md",
+    "type": "wiki",
+    "tags": [
+      "linux-scheduler",
+      "multithread-debugging",
+      "rdtsc",
+      "rr",
+      "GDB",
+      "cpuset",
+      "PREEMPT_RT",
+      "isolcpus",
+      "real-time",
+      "checklist"
+    ],
+    "keywords": [],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-overview",
@@ -1806,6 +2321,35 @@
       "source-linux-perf-tools",
       "source-vtune-uprof",
       "source-coz-causal-profiling"
+    ]
+  },
+  {
+    "id": "wiki-wiki-rust-and-ecs",
+    "title": "Rust与ECS架构在仿真器中的应用",
+    "path": "wiki/wiki-rust-and-ecs.md",
+    "type": "wiki",
+    "tags": [
+      "rust",
+      "ecs",
+      "data-oriented-design",
+      "concurrency",
+      "rtl-simulation",
+      "bevy",
+      "rayon"
+    ],
+    "keywords": [
+      "rust rtl simulation",
+      "ecs architecture",
+      "entity component system",
+      "bevy archetype",
+      "rayon work stealing",
+      "simd rtl",
+      "data oriented design"
+    ],
+    "related_sources": [
+      "source-rust-async-sim",
+      "source-ecs-architecture",
+      "source-rust-simd-rayon"
     ]
   },
   {

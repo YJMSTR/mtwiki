@@ -1,6 +1,6 @@
 ---
 title: Index by Source
-generated: 2026-07-02T00:17:59.216946
+generated: 2026-07-02T00:49:10.710427
 ---
 
 # Index by Source
@@ -25,6 +25,10 @@ generated: 2026-07-02T00:17:59.216946
 ## source-checkpoint-replay
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## source-chiplet-simulation
+
+- [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
 
 ## source-chisel-firrtl
 
@@ -55,6 +59,14 @@ generated: 2026-07-02T00:17:59.216946
 ## source-deterministic-replay
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## source-distributed-rtl
+
+- [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
+
+## source-ecs-architecture
+
+- [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
 
 ## source-essent-simulator
 
@@ -129,6 +141,10 @@ generated: 2026-07-02T00:17:59.216946
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
+## source-noc-simulation
+
+- [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
+
 ## source-numa-optimization
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
@@ -170,6 +186,14 @@ generated: 2026-07-02T00:17:59.216946
 
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## source-rust-async-sim
+
+- [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
+
+## source-rust-simd-rayon
+
+- [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
 
 ## source-simd-rtl-simulation
 
