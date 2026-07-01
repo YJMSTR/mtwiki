@@ -1,9 +1,13 @@
 ---
 title: Index by Source
-generated: 2026-07-02T00:49:10.710427
+generated: 2026-07-02T01:25:23.026384
 ---
 
 # Index by Source
+
+## source-activity-factor
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## source-assertion-verification
 
@@ -97,6 +101,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
+## source-gnn-circuit
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
 ## source-gpu-rtl-simulation
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
@@ -121,6 +129,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
+## source-llm-verification
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
 ## source-lock-free-cpp
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
@@ -140,6 +152,10 @@ generated: 2026-07-02T00:49:10.710427
 ## source-metro-mpi
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
+
+## source-ml-simulation
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
 ## source-noc-simulation
 
@@ -187,6 +203,10 @@ generated: 2026-07-02T00:49:10.710427
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## source-power-rtl
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
 ## source-rust-async-sim
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
@@ -202,6 +222,10 @@ generated: 2026-07-02T00:49:10.710427
 ## source-state-compression
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## source-thermal-rtl
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## source-thread-local-storage
 

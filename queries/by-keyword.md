@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-07-02T00:49:10.710427
+generated: 2026-07-02T01:25:23.027382
 ---
 
 # Index by Keyword
@@ -21,6 +21,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
 
+## 3D IC thermal
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+
+## 3D IC热仿真
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
 ## ABA-problem
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
@@ -29,9 +37,29 @@ generated: 2026-07-02T00:49:10.710427
 
 - [HPX 并行运行时分析](../sources/source-hpx-runtime.md) `source`
 
+## AI assisted hardware verification
+
+- [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
+
+## AI driven simulation acceleration
+
+- [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
+
+## AI verification
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
 ## AIG
 
 - [GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估](../sources/source-gpu-rtl-simulation.md) `source`
+
+## AIG embedding
+
+- [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
+
+## AIG嵌入
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
 ## AOS
 
@@ -55,6 +83,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编](../sources/source-noc-simulation.md) `source`
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
+
+## Activity Factor
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## Amaranth HDL
+
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
 
 ## AoS
 
@@ -84,9 +120,17 @@ generated: 2026-07-02T00:49:10.710427
 - [分布式 RTL 仿真（Multi-Node MPI）资料汇编](../sources/source-distributed-rtl.md) `source`
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
 
+## Bambu HLS
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
 ## Berkeley
 
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
+
+## Bluespec BSV
+
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
 
 ## BookSim
 
@@ -95,6 +139,10 @@ generated: 2026-07-02T00:49:10.710427
 ## Boolean processor
 
 - [GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估](../sources/source-gpu-rtl-simulation.md) `source`
+
+## C++ HLS Xilinx
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
 
 ## C++ parallel algorithms
 
@@ -132,6 +180,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
+## CI EDA
+
+- [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
+
 ## CIRCT
 
 - [ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真](../sources/source-chisel-firrtl.md) `source`
@@ -166,13 +218,26 @@ generated: 2026-07-02T00:49:10.710427
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
 
+## Cadence Joules
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+
 ## Calendar Queue
 
 - [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
 
+## Catapult HLS
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
 ## Chase-Lev-deque
 
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
+
+## ChipNeMo
+
+- [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
 ## Chiplet仿真
 
@@ -186,6 +251,7 @@ generated: 2026-07-02T00:49:10.710427
 
 - [ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真](../sources/source-chisel-firrtl.md) `source`
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
 
 ## ChiselSim
 
@@ -201,6 +267,11 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
 
+## CoMeT
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
 ## Coz
 
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
@@ -209,9 +280,26 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 
+## DPI overhead
+
+- [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+
+## DPI-C
+
+- [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+
 ## DeLorean
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## DeepGate
+
+- [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
+## DynamicRTL
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
 ## ECM model
 
@@ -262,9 +350,25 @@ generated: 2026-07-02T00:49:10.710427
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
 
+## FSDB
+
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
+
 ## FSDB compression
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
+
+## FSM coverage
+
+- [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
+
+## FST
+
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
+
+## FST 45x
+
+- [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
 
 ## FUTEX_REQUEUE
 
@@ -301,6 +405,26 @@ generated: 2026-07-02T00:49:10.710427
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
 
+## GNN circuit representation
+
+- [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
+
+## GNN gate-level prediction
+
+- [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
+
+## GNN电路嵌入
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
+## GPA
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
+## GPT RTL code generation
+
+- [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
+
 ## GPU
 
 - [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
@@ -319,6 +443,10 @@ generated: 2026-07-02T00:49:10.710427
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
+## GTKWave
+
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
+
 ## GVT
 
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
@@ -335,13 +463,29 @@ generated: 2026-07-02T00:49:10.710427
 
 - [FPGA 仿真（Emulation）与软件仿真的性能对比及 FireSim 框架](../sources/source-fpga-emulation.md) `source`
 
+## GraPhSyM
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
+## Grafana
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
+
 ## Graphcore IPU
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
 
+## HDL生态
+
+- [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
+
 ## HITM
 
 - [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
+
+## HLS编译器
+
+- [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
 
 ## HPC cluster
 
@@ -354,6 +498,20 @@ generated: 2026-07-02T00:49:10.710427
 ## HPX
 
 - [HPX 并行运行时分析](../sources/source-hpx-runtime.md) `source`
+
+## High-Level Synthesis
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
+## Hot-LEGO
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## HotSpot
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## HugePages
 
@@ -372,6 +530,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [分布式 RTL 仿真（Multi-Node MPI）资料汇编](../sources/source-distributed-rtl.md) `source`
 
+## InfluxDB
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
+
+## Joules RTL Power
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
 ## K-Induction
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
@@ -380,10 +546,22 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 
+## LAAG-RV
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
 ## LD_PRELOAD
 
 - [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## LLM formal verification
+
+- [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
+
+## LLM verilog verification
+
+- [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
 
 ## LLVM backend
 
@@ -400,6 +578,10 @@ generated: 2026-07-02T00:49:10.710427
 ## Ladder Queue
 
 - [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
+
+## LegUp HLS
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
 
 ## MADV_HUGEPAGE
 
@@ -452,6 +634,10 @@ generated: 2026-07-02T00:49:10.710427
 ## Multisim
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
+
+## MyHDL
+
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
 
 ## NUMA
 
@@ -516,6 +702,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用](../sources/source-linux-kernel-sync.md) `source`
 
+## PLI
+
+- [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+
 ## PREEMPT_RT
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
@@ -539,14 +729,39 @@ generated: 2026-07-02T00:49:10.710427
 
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
 
+## PolarGate
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
 ## Portfolio并行
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
+
+## PrimePower
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+
+## PrimeTime PX
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## Prometheus
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
 
 ## Proteus
 
 - [Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编](../sources/source-noc-simulation.md) `source`
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
+
+## PyMTL3
+
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
+
+## Q-learning
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
 ## QEMU replay
 
@@ -556,6 +771,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
+
+## RC thermal network
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
 
 ## RCU
 
@@ -570,6 +789,10 @@ generated: 2026-07-02T00:49:10.710427
 ## RTL lowering
 
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
+
+## RTL power
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
 
 ## RTL simulation
 
@@ -590,6 +813,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
 
+## RTL trace
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
 ## RTL verification
 
 - [形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证](../sources/source-formal-verification.md) `source`
@@ -602,6 +829,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## RTL仿真器前端
+
+- [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
 
 ## RTeAAL Sim
 
@@ -623,6 +854,12 @@ generated: 2026-07-02T00:49:10.710427
 ## Roofline model
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## SAIF
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## SAT solver
 
@@ -672,13 +909,49 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 
+## SpinalHDL
+
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
+
 ## Splay Tree
 
 - [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
 
+## Static Probability
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## Stratus HLS
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
+## Surelog UHDM
+
+- [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
+
+## Surelog parser
+
+- [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
+
+## Surfer
+
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
+
+## SystemC HLS
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
 ## SystemVerilog assertion
 
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
+
+## SystemVerilog compiler
+
+- [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
+
+## SystemVerilog前端
+
+- [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
 
 ## SystemVerilog断言
 
@@ -706,6 +979,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
 
+## TROJAN-GUARD
+
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
 ## TSC frequency
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
@@ -728,9 +1005,17 @@ generated: 2026-07-02T00:49:10.710427
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
 
+## TimescaleDB
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
+
 ## Tiny Code Generator
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
+
+## Toggle Rate
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## Top-Down
 
@@ -749,8 +1034,13 @@ generated: 2026-07-02T00:49:10.710427
 
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
 
+## UHDM
+
+- [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
+
 ## UVM
 
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
 
 ## V3Order
@@ -781,20 +1071,53 @@ generated: 2026-07-02T00:49:10.710427
 
 ## VCD
 
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
 - [cxxrtl / Yosys C++ Backend](../sources/source-cxxrtl.md) `source`
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## VCD compression
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 
+## VCD power analysis
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+
+## VCS
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
 ## VLIW
 
 - [GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估](../sources/source-gpu-rtl-simulation.md) `source`
+
+## VPI DPI 性能
+
+- [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
+
+## VPI callback
+
+- [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
 
 ## VTune
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## Verdi
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
+
+## VeriAssist
+
+- [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
+- [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
+
+## Verible lint
+
+- [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
 
 ## Verilator
 
@@ -810,6 +1133,10 @@ generated: 2026-07-02T00:49:10.710427
 ## Verilator Thread PGO
 
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
+
+## Verilator UVM
+
+- [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
 
 ## Verilator backend
 
@@ -827,6 +1154,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 
+## Verilator多线程
+
+- [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
+
+## Vitis HLS
+
+- [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
 ## X-HEEP
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
@@ -842,6 +1177,10 @@ generated: 2026-07-02T00:49:10.710427
 ## acquire-release
 
 - [C++ 内存模型与 Atomic 操作：从 happens-before 到 acquire-release](../sources/source-cpp-memory-model.md) `source`
+
+## activity factor
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
 
 ## acyclic partitioning
 
@@ -868,6 +1207,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [ECS（Entity-Component-System）架构在仿真与数据并行中的应用](../sources/source-ecs-architecture.md) `source`
 
+## assertion generation
+
+- [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
+
 ## assertion-based verification
 
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
@@ -888,6 +1231,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Seqlock / Sequence Lock — 内核实现与用户空间 C++ 实现](../sources/source-seqlock.md) `source`
 
+## autograding
+
+- [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
+
+## average power
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+
 ## bandwidth wall
 
 - [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
@@ -895,6 +1246,10 @@ generated: 2026-07-02T00:49:10.710427
 ## barrier
 
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
+
+## batch simulation
+
+- [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
 
 ## benchmark
 
@@ -924,6 +1279,10 @@ generated: 2026-07-02T00:49:10.710427
 ## bounded model checking
 
 - [形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证](../sources/source-formal-verification.md) `source`
+
+## branch coverage
+
+- [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
 
 ## branch misprediction
 
@@ -1014,6 +1373,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
 
+## clock gating
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
+
 ## clock_gettime vDSO
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
@@ -1046,6 +1409,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 
+## compact thermal model
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+
 ## compare-and-swap
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
@@ -1062,6 +1429,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 
+## compression
+
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
+
 ## concurrent assertion
 
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
@@ -1069,6 +1440,10 @@ generated: 2026-07-02T00:49:10.710427
 ## concurrent-queue
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
+
+## condition coverage
+
+- [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
 
 ## conservative synchronization
 
@@ -1086,13 +1461,33 @@ generated: 2026-07-02T00:49:10.710427
 
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
 
+## context import
+
+- [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+
 ## copy-on-write
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
 
+## coverage
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
+## coverage closure
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
+## coverage merge
+
+- [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
+
 ## coverage-driven verification
 
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
+
+## covergroup
+
+- [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
 
 ## critical path
 
@@ -1220,6 +1615,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
 
+## event propagation
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
+
 ## event queue optimization
 
 - [事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮](../sources/source-event-scheduler.md) `source`
@@ -1325,6 +1724,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
+
+## graph neural network hardware
+
+- [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
+
+## graph representation RTL
+
+- [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
 
 ## gsim
 
@@ -1488,6 +1895,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [HPX 并行运行时分析](../sources/source-hpx-runtime.md) `source`
 
+## line coverage
+
+- [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
+
 ## llvm circt simulator
 
 - [CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真](../sources/source-circt-arcilator.md) `source`
@@ -1546,6 +1957,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 
+## machine learning RTL simulation
+
+- [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
+
 ## macro-fusion
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
@@ -1600,10 +2015,22 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 
+## metric-driven verification
+
+- [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
+
+## metrics
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
+
 ## micro-task
 
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
+
+## microfluidic cooling
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
 
 ## mimalloc
 
@@ -1649,9 +2076,21 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 
+## nMigen
+
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
+
 ## network-on-chip
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
+
+## neural network circuit simulation
+
+- [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
+
+## nightly regression
+
+- [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
 
 ## null-message
 
@@ -1706,6 +2145,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估](../sources/source-gpu-rtl-simulation.md) `source`
 
+## parallel simulation
+
+- [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+
 ## parallel variable ordering
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
@@ -1744,6 +2187,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Warped2: An Open-Source PDES Engine with Time Warp Synchronization](../sources/source-warped2-pdes-engine.md) `source`
 
+## peak power
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+
 ## pending-event-set
 
 - [Warped2: An Open-Source PDES Engine with Time Warp Synchronization](../sources/source-warped2-pdes-engine.md) `source`
@@ -1759,6 +2206,14 @@ generated: 2026-07-02T00:49:10.710427
 ## per-thread accumulator
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+
+## per-thread buffer
+
+- [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
+
+## per-thread counter
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## per-thread-cache
 
@@ -1790,6 +2245,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Rust SIMD 与 Rayon 数据并行在数值仿真中的实践](../sources/source-rust-simd-rayon.md) `source`
 
+## power correlation RTL gate level
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
+
+## pre-RTL thermal simulator
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+
 ## prefetching
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
@@ -1804,9 +2267,17 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 
+## pure function
+
+- [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
+
 ## quantum-based
 
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
+
+## random-access
+
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
 
 ## rayon data parallelism
 
@@ -1839,6 +2310,22 @@ generated: 2026-07-02T00:49:10.710427
 ## record-replay
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## regression
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
+## regression dashboard
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
+
+## regression suite
+
+- [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
+
+## reinforcement learning simulation scheduling
+
+- [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
 
 ## relaxed
 
@@ -1936,9 +2423,21 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Seqlock / Sequence Lock — 内核实现与用户空间 C++ 实现](../sources/source-seqlock.md) `source`
 
+## signal probability
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
+
 ## simd rtl
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
+
+## simulation log
+
+- [RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试](../sources/source-trace-analytics.md) `source`
+
+## simulation monitoring
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
 
 ## simulation performance
 
@@ -1955,6 +2454,10 @@ generated: 2026-07-02T00:49:10.710427
 ## simulator snapshot
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
+
+## slang SystemVerilog
+
+- [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
 
 ## slowdown
 
@@ -1988,6 +2491,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 
+## static probability
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
+
 ## static scheduling
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
@@ -2000,6 +2507,14 @@ generated: 2026-07-02T00:49:10.710427
 ## supernode partitioning
 
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+
+## surrogate model EDA
+
+- [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
+
+## switching activity
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
 
 ## symmetric transfer
 
@@ -2046,9 +2561,17 @@ generated: 2026-07-02T00:49:10.710427
 
 - [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
 
+## temperature aware simulation
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
+
 ## testbench acceleration
 
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
+
+## thermal model
+
+- [RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析](../sources/source-thermal-rtl.md) `source`
 
 ## thread affinity
 
@@ -2094,6 +2617,14 @@ generated: 2026-07-02T00:49:10.710427
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
 
+## time-based power
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
+
+## time-series
+
+- [时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana](../sources/source-timeseries-db.md) `source`
+
 ## time-warp
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
@@ -2119,6 +2650,14 @@ generated: 2026-07-02T00:49:10.710427
 ## tls-model
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
+
+## toggle coverage
+
+- [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
+
+## toggle rate
+
+- [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
 
 ## tokio simulation engine
 
@@ -2153,6 +2692,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
 
+## urg
+
+- [RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证](../sources/source-regression-testing.md) `source`
+
 ## userspace
 
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
@@ -2160,6 +2703,10 @@ generated: 2026-07-02T00:49:10.710427
 ## variable ordering
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
+
+## vector-free
+
+- [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
 
 ## verilator
 
@@ -2194,6 +2741,10 @@ generated: 2026-07-02T00:49:10.710427
 ## warped2
 
 - [Warped2: An Open-Source PDES Engine with Time Warp Synchronization](../sources/source-warped2-pdes-engine.md) `source`
+
+## waveform
+
+- [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
 
 ## waveform compression
 
@@ -2279,6 +2830,10 @@ generated: 2026-07-02T00:49:10.710427
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 
+## 回归测试 CI
+
+- [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
+
 ## 多线程
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
@@ -2290,6 +2845,10 @@ generated: 2026-07-02T00:49:10.710427
 ## 延迟不敏感接口
 
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
+
+## 开源SystemVerilog
+
+- [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
 
 ## 形式化仿真协同
 
@@ -2311,6 +2870,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [协程与事件调度引擎](../wiki/wiki-coroutine-and-scheduler.md) `wiki`
 
+## 时序数据库
+
+- [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
+
 ## 时间片并行
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
@@ -2318,6 +2881,10 @@ generated: 2026-07-02T00:49:10.710427
 ## 有界模型检查
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
+
+## 波形压缩
+
+- [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
 
 ## 火焰图
 
@@ -2330,6 +2897,10 @@ generated: 2026-07-02T00:49:10.710427
 ## 硬件加速EDA
 
 - [GPU与硬件加速RTL仿真](../wiki/wiki-gpu-and-hardware.md) `wiki`
+
+## 硬件描述语言对比
+
+- [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
 
 ## 稀疏计算
 
@@ -2348,6 +2919,10 @@ generated: 2026-07-02T00:49:10.710427
 
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 
+## 覆盖率并行
+
+- [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
+
 ## 覆盖率驱动
 
 - [形式化验证与仿真协同](../wiki/wiki-formal-and-verification.md) `wiki`
@@ -2355,6 +2930,10 @@ generated: 2026-07-02T00:49:10.710427
 ## 跨层仿真
 
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
+
+## 零延迟传播
+
+- [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
 ## 零拷贝事件传递
 
