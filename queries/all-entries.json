@@ -99,6 +99,30 @@
     ]
   },
   {
+    "id": "sources-source-auto-vectorization",
+    "title": "向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用",
+    "path": "sources/source-auto-vectorization.md",
+    "type": "source",
+    "source_url": "https://developers.redhat.com/articles/2023/12/08/vectorization-optimization-gcc",
+    "source_type": "doc",
+    "tags": [
+      "auto-vectorization",
+      "GCC",
+      "Clang",
+      "pragma",
+      "restrict",
+      "vectorization-report"
+    ],
+    "keywords": [
+      "auto-vectorization",
+      "#pragma omp simd",
+      "#pragma clang loop vectorize",
+      "-fopt-info-vec",
+      "restrict keyword",
+      "vectorization"
+    ]
+  },
+  {
     "id": "sources-source-autotuning",
     "title": "自动调优（AutoTuning）与超参数搜索在仿真器中的应用",
     "path": "sources/source-autotuning.md",
@@ -392,6 +416,33 @@
     ]
   },
   {
+    "id": "sources-source-circuit-partitioning-tool",
+    "title": "电路网表超图划分工具与 RTL 实践",
+    "path": "sources/source-circuit-partitioning-tool.md",
+    "type": "source",
+    "source_url": "https://circuitpartitioning.org/",
+    "source_type": "doc",
+    "tags": [
+      "电路划分",
+      "VLSI",
+      "hMETIS",
+      "RTL分区",
+      "netlist",
+      "OpenROAD",
+      "ISPD98",
+      "benchmark"
+    ],
+    "keywords": [
+      "hMETIS",
+      "hgr format",
+      "netlist hypergraph",
+      "gate-level partitioning",
+      "RTL module partition",
+      "circuit benchmark",
+      "TritonPart"
+    ]
+  },
+  {
     "id": "sources-source-cocotb-pyuvm",
     "title": "cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题",
     "path": "sources/source-cocotb-pyuvm.md",
@@ -417,6 +468,31 @@
       "external_waiter",
       "GPI",
       "cosimulation"
+    ]
+  },
+  {
+    "id": "sources-source-compiler-flags",
+    "title": "GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响",
+    "path": "sources/source-compiler-flags.md",
+    "type": "source",
+    "source_url": "https://www.phoronix.com/review/clang-12-opt",
+    "source_type": "\"blog\"  # blog, doc, paper, github-pr, github-issue, competition",
+    "tags": [
+      "compiler-optimization",
+      "GCC",
+      "Clang",
+      "LTO",
+      "PGO",
+      "performance"
+    ],
+    "keywords": [
+      "-O3",
+      "-Ofast",
+      "-march=native",
+      "-flto",
+      "-fprofile-generate",
+      "-ffast-math",
+      "-fomit-frame-pointer"
     ]
   },
   {
@@ -915,6 +991,30 @@
     ]
   },
   {
+    "id": "sources-source-fiber-scheduler",
+    "title": "协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环",
+    "path": "sources/source-fiber-scheduler.md",
+    "type": "source",
+    "source_url": "https://poniesandlight.co.uk/reflect/coroutines_job_system/",
+    "source_type": "blog",
+    "tags": [
+      "coroutine",
+      "fiber",
+      "task-scheduler",
+      "C++20",
+      "boost-context",
+      "user-level-threading",
+      "job-system"
+    ],
+    "keywords": [
+      "C++20 coroutine task scheduler",
+      "fiber task switching",
+      "boost::context fcontext",
+      "user-level threading simulation",
+      "coroutine event loop"
+    ]
+  },
+  {
     "id": "sources-source-gate-optimization",
     "title": "RTL 编译时门级优化：常量传播、门折叠与逻辑重写",
     "path": "sources/source-gate-optimization.md",
@@ -1369,6 +1469,57 @@
     ]
   },
   {
+    "id": "sources-source-kahypar-api",
+    "title": "KaHyPar C++ API 使用指南与代码示例",
+    "path": "sources/source-kahypar-api.md",
+    "type": "source",
+    "source_url": "https://github.com/kahypar/mt-kahypar",
+    "source_type": "github",
+    "tags": [
+      "KaHyPar",
+      "超图划分",
+      "C++ API",
+      "Mt-KaHyPar",
+      "RTL分区",
+      "多线程"
+    ],
+    "keywords": [
+      "mtkahypar.h",
+      "mt_kahypar_context_t",
+      "hypergraph creation",
+      "partition",
+      "fixed vertices",
+      "block weights"
+    ]
+  },
+  {
+    "id": "sources-source-kahypar-tuning",
+    "title": "KaHyPar 参数调优与配置详解",
+    "path": "sources/source-kahypar-tuning.md",
+    "type": "source",
+    "source_url": "https://github.com/kahypar/mt-kahypar/tree/master/config",
+    "source_type": "github",
+    "tags": [
+      "KaHyPar",
+      "参数调优",
+      "preset",
+      "coarsening",
+      "refinement",
+      "FM",
+      "flow",
+      "质量指标"
+    ],
+    "keywords": [
+      "default_preset.ini",
+      "quality_preset",
+      "highest_quality",
+      "coarsening threshold",
+      "refinement rounds",
+      "V-cycle",
+      "parameter tuning"
+    ]
+  },
+  {
     "id": "sources-source-latest-rtlsim-papers",
     "title": "最新 RTL 并行仿真论文汇总（2023-2026）",
     "path": "sources/source-latest-rtlsim-papers.md",
@@ -1495,6 +1646,30 @@
       "hazard-pointer",
       "moodycamel",
       "concurrent-queue"
+    ]
+  },
+  {
+    "id": "sources-source-lockfree-queue-impl",
+    "title": "SPSC / MPMC Lock-Free Queue Implementation",
+    "path": "sources/source-lockfree-queue-impl.md",
+    "type": "source",
+    "source_url": "https://github.com/cameron314/readerwriterqueue",
+    "source_type": "github-repo",
+    "tags": [
+      "lock-free",
+      "SPSC",
+      "MPMC",
+      "queue",
+      "C++11",
+      "concurrentqueue"
+    ],
+    "keywords": [
+      "moodycamel",
+      "ReaderWriterQueue",
+      "ConcurrentQueue",
+      "boost::lockfree",
+      "atomic_queue",
+      "wait-free"
     ]
   },
   {
@@ -2254,6 +2429,32 @@
     ]
   },
   {
+    "id": "sources-source-ring-buffer-sim",
+    "title": "Ring Buffer / Event Queue for Simulation",
+    "path": "sources/source-ring-buffer-sim.md",
+    "type": "source",
+    "source_url": "https://github.com/hangukquant/disruptor_cpp",
+    "source_type": "github-repo",
+    "tags": [
+      "lock-free",
+      "ring-buffer",
+      "LMAX-Disruptor",
+      "event-queue",
+      "simulation",
+      "SPSC",
+      "MPMC",
+      "C++20"
+    ],
+    "keywords": [
+      "disruptor",
+      "ring buffer",
+      "sequence barrier",
+      "wait strategy",
+      "event processor",
+      "simulation"
+    ]
+  },
+  {
     "id": "sources-source-roofline-rtl",
     "title": "Roofline 模型在 RTL 仿真中的性能分析",
     "path": "sources/source-roofline-rtl.md",
@@ -2375,6 +2576,31 @@
       "UVMC",
       "Verilated-RTL",
       "MINRES-SCC"
+    ]
+  },
+  {
+    "id": "sources-source-simd-gate-eval",
+    "title": "SIMD 在门级（Gate-Level）评估中的具体实现",
+    "path": "sources/source-simd-gate-eval.md",
+    "type": "source",
+    "source_url": "https://markaicode.com/simd-programming-cpp23-avx512/",
+    "source_type": "blog",
+    "tags": [
+      "SIMD",
+      "AVX2",
+      "AVX-512",
+      "gate-evaluation",
+      "bit-vector",
+      "RTL"
+    ],
+    "keywords": [
+      "AVX2",
+      "AVX-512",
+      "_mm256_and_si256",
+      "_mm512_and_epi64",
+      "bitwise SIMD",
+      "parallel gate evaluation",
+      "bit-vector simulation"
     ]
   },
   {
@@ -2684,6 +2910,29 @@
     ]
   },
   {
+    "id": "sources-source-task-scheduler",
+    "title": "任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性",
+    "path": "sources/source-task-scheduler.md",
+    "type": "source",
+    "source_url": "https://maxliani.wordpress.com/2022/07/27/anatomy-of-a-task-scheduler/",
+    "source_type": "blog",
+    "tags": [
+      "task-scheduler",
+      "load-balancing",
+      "work-stealing",
+      "priority-queue",
+      "thread-affinity",
+      "nested-parallelism"
+    ],
+    "keywords": [
+      "task scheduler C++",
+      "work stealing scheduler",
+      "load balancing thread pool",
+      "task queue priority",
+      "scheduler thread affinity"
+    ]
+  },
+  {
     "id": "sources-source-thread-local-storage",
     "title": "Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator",
     "path": "sources/source-thread-local-storage.md",
@@ -2707,6 +2956,29 @@
       "per-thread-cache",
       "constinit",
       "tls-model"
+    ]
+  },
+  {
+    "id": "sources-source-thread-pool-impl",
+    "title": "C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列",
+    "path": "sources/source-thread-pool-impl.md",
+    "type": "source",
+    "source_url": "https://github.com/ashvardanian/fork_union",
+    "source_type": "github-repo",
+    "tags": [
+      "thread-pool",
+      "C++",
+      "fork-join",
+      "work-stealing",
+      "Chase-Lev",
+      "header-only"
+    ],
+    "keywords": [
+      "std::thread pool",
+      "task-based thread pool",
+      "fork-join thread pool",
+      "lightweight thread pool",
+      "C++11 thread pool"
     ]
   },
   {
@@ -2922,6 +3194,59 @@
     ]
   },
   {
+    "id": "sources-source-verilator-mt-issues",
+    "title": "Verilator 多线程性能 Issue 与调度器重设计讨论合集",
+    "path": "sources/source-verilator-mt-issues.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/issues",
+    "source_type": "github-issue",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "performance",
+      "scheduler",
+      "issue",
+      "discussion"
+    ],
+    "keywords": [
+      "MTask",
+      "slowdown",
+      "scheduler",
+      "generated clock",
+      "active region",
+      "nba region",
+      "trace",
+      "prof-exec"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-mt-prs-detailed",
+    "title": "Verilator 多线程相关 PR 深度分析合集",
+    "path": "sources/source-verilator-mt-prs-detailed.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-pr",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "mtask",
+      "partition",
+      "scheduler",
+      "v3partition",
+      "v3order"
+    ],
+    "keywords": [
+      "MTask",
+      "ExecMTask",
+      "V3Partition",
+      "V3Order",
+      "ThreadSchedule",
+      "PartContraction",
+      "V3Sched",
+      "V3ExecGraph"
+    ]
+  },
+  {
     "id": "sources-source-verilator-mt-prs",
     "title": "Verilator 多线程相关 PR 分析",
     "path": "sources/source-verilator-mt-prs.md",
@@ -2943,6 +3268,32 @@
       "MT_DISABLED",
       "partitioner",
       "edge-contraction"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-partition-evolution",
+    "title": "V3Partition / V3Order 代码演进历史（2020-2025）",
+    "path": "sources/source-verilator-partition-evolution.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-commit",
+    "tags": [
+      "verilator",
+      "v3partition",
+      "v3order",
+      "code-evolution",
+      "refactoring",
+      "multithreading"
+    ],
+    "keywords": [
+      "V3Partition",
+      "V3Order",
+      "V3OrderParallel",
+      "V3ExecGraph",
+      "V3Sched",
+      "PartContraction",
+      "MTask",
+      "commit-history"
     ]
   },
   {
@@ -3069,6 +3420,32 @@
       "ltsf-queue",
       "pending-event-set",
       "multi-threaded"
+    ]
+  },
+  {
+    "id": "sources-source-work-stealing-deque",
+    "title": "Work-Stealing Deque Implementation",
+    "path": "sources/source-work-stealing-deque.md",
+    "type": "source",
+    "source_url": "https://github.com/taskflow/taskflow/blob/master/taskflow/core/wsq.hpp",
+    "source_type": "github-repo",
+    "tags": [
+      "lock-free",
+      "work-stealing",
+      "deque",
+      "Chase-Lev",
+      "SPMC",
+      "C++17",
+      "C++20"
+    ],
+    "keywords": [
+      "work-stealing deque",
+      "Chase-Lev",
+      "taskflow",
+      "riften::Deque",
+      "pop",
+      "steal",
+      "CAS"
     ]
   },
   {
@@ -3409,6 +3786,24 @@
     "related_sources": []
   },
   {
+    "id": "wiki-wiki-compiler-and-simd",
+    "title": "编译器优化与SIMD实现",
+    "path": "wiki/wiki-compiler-and-simd.md",
+    "type": "wiki",
+    "tags": [
+      "compiler-optimization",
+      "SIMD",
+      "AVX2",
+      "AVX-512",
+      "auto-vectorization",
+      "LTO",
+      "PGO",
+      "RTL仿真器"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-compiler-frontend",
     "title": "编译器前端与IR设计",
     "path": "wiki/wiki-compiler-frontend.md",
@@ -3571,6 +3966,24 @@
     ]
   },
   {
+    "id": "wiki-wiki-lockfree-queues",
+    "title": "锁-free队列实现代码库",
+    "path": "wiki/wiki-lockfree-queues.md",
+    "type": "wiki",
+    "tags": [
+      "lock-free",
+      "SPSC",
+      "MPMC",
+      "work-stealing",
+      "ring-buffer",
+      "disruptor",
+      "Chase-Lev",
+      "RTL仿真器"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-logging-and-tracing",
     "title": "多线程日志与追踪系统",
     "path": "wiki/wiki-logging-and-tracing.md",
@@ -3729,6 +4142,23 @@
       "GL0AM",
       "GSIM"
     ],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-partitioning-implementation",
+    "title": "分区算法实现指南",
+    "path": "wiki/wiki-partitioning-implementation.md",
+    "type": "wiki",
+    "tags": [
+      "KaHyPar",
+      "超图划分",
+      "电路分区",
+      "RTL分区",
+      "hMetis",
+      "OpenROAD",
+      "VLSI"
+    ],
+    "keywords": [],
     "related_sources": []
   },
   {
@@ -3992,6 +4422,23 @@
     "related_sources": []
   },
   {
+    "id": "wiki-wiki-thread-pool-and-scheduler",
+    "title": "线程池与调度器实现代码库",
+    "path": "wiki/wiki-thread-pool-and-scheduler.md",
+    "type": "wiki",
+    "tags": [
+      "thread-pool",
+      "task-scheduler",
+      "work-stealing",
+      "fork-join",
+      "C++20-coroutine",
+      "fiber",
+      "RTL仿真器"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-verilator-deep-dive",
     "title": "Verilator多线程源码深度剖析",
     "path": "wiki/wiki-verilator-deep-dive.md",
@@ -4056,5 +4503,22 @@
       "source-verilator-mt-code-analysis",
       "source-verilator-v3variableorder"
     ]
+  },
+  {
+    "id": "wiki-wiki-verilator-prs",
+    "title": "Verilator多线程PR演进与Issue地图",
+    "path": "wiki/wiki-verilator-prs.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "PR演进",
+      "MTask",
+      "V3Partition",
+      "V3Order",
+      "调度器"
+    ],
+    "keywords": [],
+    "related_sources": []
   }
 ]

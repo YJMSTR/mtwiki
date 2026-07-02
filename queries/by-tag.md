@@ -1,6 +1,6 @@
 ---
 title: Index by Tag
-generated: 2026-07-03T01:49:01.384763
+generated: 2026-07-03T02:03:03.652584
 ---
 
 # Index by Tag
@@ -51,6 +51,16 @@ generated: 2026-07-03T01:49:01.384763
 
 - [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
 
+## AVX-512
+
+- [SIMD 在门级（Gate-Level）评估中的具体实现](../sources/source-simd-gate-eval.md) `source`
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
+
+## AVX2
+
+- [SIMD 在门级（Gate-Level）评估中的具体实现](../sources/source-simd-gate-eval.md) `source`
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
+
 ## Amdahl
 
 - [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
@@ -91,10 +101,30 @@ generated: 2026-07-03T01:49:01.384763
 - [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
 - [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
 - [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
+- [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
+
+## C++ API
+
+- [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
+
+## C++11
+
+- [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
 
 ## C++17
 
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
+- [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
+
+## C++20
+
+- [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
+- [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
+
+## C++20-coroutine
+
+- [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
 
 ## CIRCT
 
@@ -122,6 +152,17 @@ generated: 2026-07-03T01:49:01.384763
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 - [GitHub开源项目代码分析](../wiki/wiki-github-projects.md) `wiki`
+
+## Chase-Lev
+
+- [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
+- [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
+
+## Clang
+
+- [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
+- [GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响](../sources/source-compiler-flags.md) `source`
 
 ## DAC
 
@@ -195,6 +236,10 @@ generated: 2026-07-03T01:49:01.384763
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
 
+## FM
+
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+
 ## FM-algorithm
 
 - [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
@@ -216,6 +261,11 @@ generated: 2026-07-03T01:49:01.384763
 ## Fiedler-vector
 
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
+
+## GCC
+
+- [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
+- [GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响](../sources/source-compiler-flags.md) `source`
 
 ## GDB
 
@@ -302,6 +352,10 @@ generated: 2026-07-03T01:49:01.384763
 
 - [RTL并行仿真论文全景](../wiki/wiki-papers-landscape.md) `wiki`
 
+## ISPD98
+
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
+
 ## ITLB
 
 - [Micro-op Fusion, ITLB & TLB Optimization in RTL Simulation](../sources/source-microarchitecture.md) `source`
@@ -342,6 +396,9 @@ generated: 2026-07-03T01:49:01.384763
 ## KaHyPar
 
 - [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
+- [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+- [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
 
 ## Kernighan-Lin
 
@@ -358,10 +415,16 @@ generated: 2026-07-03T01:49:01.384763
 - [JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation](../sources/source-jit-simulation.md) `source`
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
 
+## LMAX-Disruptor
+
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
+
 ## LTO
 
+- [GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响](../sources/source-compiler-flags.md) `source`
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
 
 ## Lee-algorithm
 
@@ -395,9 +458,16 @@ generated: 2026-07-03T01:49:01.384763
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
 - [SST (Structural Simulation Toolkit) 与高性能离散事件仿真框架](../sources/source-sst-mana.md) `source`
 
+## MPMC
+
+- [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
+
 ## MTask
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
+- [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
 
 ## Mercury
 
@@ -410,6 +480,10 @@ generated: 2026-07-03T01:49:01.384763
 ## ModelSim
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
+
+## Mt-KaHyPar
+
+- [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
 
 ## NUMA
 
@@ -439,6 +513,8 @@ generated: 2026-07-03T01:49:01.384763
 ## OpenROAD
 
 - [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
+- [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
 
 ## OpenTuner
 
@@ -450,14 +526,20 @@ generated: 2026-07-03T01:49:01.384763
 
 ## PGO
 
+- [GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响](../sources/source-compiler-flags.md) `source`
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
 
 ## PREEMPT_RT
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 - [操作系统调度与多线程调试](../wiki/wiki-os-and-debugging.md) `wiki`
+
+## PR演进
+
+- [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
 
 ## Parendi
 
@@ -494,6 +576,7 @@ generated: 2026-07-03T01:49:01.384763
 - [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
 - [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 - [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+- [SIMD 在门级（Gate-Level）评估中的具体实现](../sources/source-simd-gate-eval.md) `source`
 - [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 - [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
@@ -554,6 +637,18 @@ generated: 2026-07-03T01:49:01.384763
 
 - [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
 
+## RTL仿真器
+
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
+- [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
+
+## RTL分区
+
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
+- [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
+- [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
+
 ## ReEmu
 
 - [Deterministic RTL Simulation / Record & Replay](../sources/source-deterministic-replay.md) `source`
@@ -567,6 +662,11 @@ generated: 2026-07-03T01:49:01.384763
 - [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
 - [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
+## SIMD
+
+- [SIMD 在门级（Gate-Level）评估中的具体实现](../sources/source-simd-gate-eval.md) `source`
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
+
 ## SMT
 
 - [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
@@ -574,6 +674,16 @@ generated: 2026-07-03T01:49:01.384763
 ## SOSP
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
+
+## SPMC
+
+- [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
+
+## SPSC
+
+- [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
 
 ## SSA
 
@@ -685,6 +795,14 @@ generated: 2026-07-03T01:49:01.384763
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 
+## V3Order
+
+- [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
+
+## V3Partition
+
+- [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
+
 ## VCD
 
 - [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
@@ -697,6 +815,7 @@ generated: 2026-07-03T01:49:01.384763
 ## VLSI
 
 - [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
 - [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
 - [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
 - [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
@@ -704,6 +823,7 @@ generated: 2026-07-03T01:49:01.384763
 - [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 - [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
+- [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
 
 ## VPI
 
@@ -816,6 +936,11 @@ generated: 2026-07-03T01:49:01.384763
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## auto-vectorization
+
+- [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
+
 ## autotuning
 
 - [自动调优（AutoTuning）与超参数搜索在仿真器中的应用](../sources/source-autotuning.md) `source`
@@ -843,6 +968,7 @@ generated: 2026-07-03T01:49:01.384763
 
 - [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
 - [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
 - [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
@@ -864,12 +990,17 @@ generated: 2026-07-03T01:49:01.384763
 
 ## bit-vector
 
+- [SIMD 在门级（Gate-Level）评估中的具体实现](../sources/source-simd-gate-eval.md) `source`
 - [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
 
 ## bolt
 
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## boost-context
+
+- [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
 
 ## branch-prediction
 
@@ -1007,10 +1138,18 @@ generated: 2026-07-03T01:49:01.384763
 
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
 
+## coarsening
+
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+
 ## cocotb
 
 - [cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题](../sources/source-cocotb-pyuvm.md) `source`
 - [GitHub开源项目代码分析](../wiki/wiki-github-projects.md) `wiki`
+
+## code-evolution
+
+- [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
 
 ## code-layout
 
@@ -1065,8 +1204,10 @@ generated: 2026-07-03T01:49:01.384763
 
 ## compiler-optimization
 
+- [GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响](../sources/source-compiler-flags.md) `source`
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+- [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
 
 ## complementary-predictor
 
@@ -1079,6 +1220,10 @@ generated: 2026-07-03T01:49:01.384763
 ## concurrent-queue
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
+
+## concurrentqueue
+
+- [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
 
 ## conditional-compilation
 
@@ -1114,6 +1259,7 @@ generated: 2026-07-03T01:49:01.384763
 ## coroutine
 
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
+- [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
 ## coz
@@ -1226,6 +1372,10 @@ generated: 2026-07-03T01:49:01.384763
 
 - [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
+## deque
+
+- [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
+
 ## des
 
 - [事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮](../sources/source-event-scheduler.md) `source`
@@ -1247,9 +1397,14 @@ generated: 2026-07-03T01:49:01.384763
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
 
+## discussion
+
+- [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
+
 ## disruptor
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
 
 ## dissemination
 
@@ -1330,6 +1485,7 @@ generated: 2026-07-03T01:49:01.384763
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
 - [事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮](../sources/source-event-scheduler.md) `source`
 - [哈希表与字典优化在 RTL 仿真器中的应用](../sources/source-hash-optimization.md) `source`
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
 
 ## event-scheduler
 
@@ -1355,6 +1511,11 @@ generated: 2026-07-03T01:49:01.384763
 
 - [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
 - [插件系统与FFI线程安全](../wiki/wiki-plugin-and-ffi.md) `wiki`
+
+## fiber
+
+- [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
+- [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
 
 ## firrtl
 
@@ -1382,6 +1543,15 @@ generated: 2026-07-03T01:49:01.384763
 
 - [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
 
+## flow
+
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+
+## fork-join
+
+- [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
+- [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
+
 ## formal-verification
 
 - [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
@@ -1403,6 +1573,10 @@ generated: 2026-07-03T01:49:01.384763
 
 - [Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用](../sources/source-linux-kernel-sync.md) `source`
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
+
+## gate-evaluation
+
+- [SIMD 在门级（Gate-Level）评估中的具体实现](../sources/source-simd-gate-eval.md) `source`
 
 ## gate-folding
 
@@ -1492,7 +1666,12 @@ generated: 2026-07-03T01:49:01.384763
 
 ## hMETIS
 
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
 - [超图划分在 RTL 电路分区中的应用](../sources/source-hypergraph-partitioning.md) `source`
+
+## hMetis
+
+- [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
 
 ## happens-before
 
@@ -1515,6 +1694,10 @@ generated: 2026-07-03T01:49:01.384763
 
 - [哈希表与字典优化在 RTL 仿真器中的应用](../sources/source-hash-optimization.md) `source`
 - [内存布局与数据结构优化](../wiki/wiki-memory-data-structures.md) `wiki`
+
+## header-only
+
+- [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
 
 ## heuristic-search
 
@@ -1629,6 +1812,10 @@ generated: 2026-07-03T01:49:01.384763
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 - [操作系统调度与多线程调试](../wiki/wiki-os-and-debugging.md) `wiki`
 
+## issue
+
+- [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
+
 ## iverilog
 
 - [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
@@ -1640,6 +1827,10 @@ generated: 2026-07-03T01:49:01.384763
 
 - [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
+
+## job-system
+
+- [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
 
 ## kernel
 
@@ -1707,18 +1898,23 @@ generated: 2026-07-03T01:49:01.384763
 
 ## load-balancing
 
+- [任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性](../sources/source-task-scheduler.md) `source`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 
 ## lock-free
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
+- [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
 - [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
 - [Seqlock / Sequence Lock — 内核实现与用户空间 C++ 实现](../sources/source-seqlock.md) `source`
+- [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
 - [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
 
 ## logging
 
@@ -1836,6 +2032,7 @@ generated: 2026-07-03T01:49:01.384763
 ## mtask
 
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+- [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## multi-abstraction
@@ -1911,6 +2108,9 @@ generated: 2026-07-03T01:49:01.384763
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
+- [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
+- [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
+- [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
 - [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
@@ -1924,10 +2124,19 @@ generated: 2026-07-03T01:49:01.384763
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+- [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
 
 ## mutex
 
 - [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
+
+## nested-parallelism
+
+- [任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性](../sources/source-task-scheduler.md) `source`
+
+## netlist
+
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
 
 ## network-flow
 
@@ -2070,6 +2279,7 @@ generated: 2026-07-03T01:49:01.384763
 ## partition
 
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+- [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## partitioning
@@ -2116,11 +2326,13 @@ generated: 2026-07-03T01:49:01.384763
 
 ## performance
 
+- [GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响](../sources/source-compiler-flags.md) `source`
 - [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 - [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
+- [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
 - [多线程日志与追踪系统](../wiki/wiki-logging-and-tracing.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 
@@ -2160,14 +2372,23 @@ generated: 2026-07-03T01:49:01.384763
 
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
 
+## pragma
+
+- [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
+
 ## prefetching
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 - [Prefetching & Cache Line Utilization in RTL Simulation](../sources/source-prefetching.md) `source`
 
+## preset
+
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+
 ## priority-queue
 
 - [事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮](../sources/source-event-scheduler.md) `source`
+- [任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性](../sources/source-task-scheduler.md) `source`
 
 ## profile-guided
 
@@ -2208,6 +2429,10 @@ generated: 2026-07-03T01:49:01.384763
 
 - [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
+## queue
+
+- [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
+
 ## race-condition
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
@@ -2245,6 +2470,14 @@ generated: 2026-07-03T01:49:01.384763
 
 - [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
 
+## refactoring
+
+- [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
+
+## refinement
+
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+
 ## reinforcement-learning
 
 - [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
@@ -2267,9 +2500,18 @@ generated: 2026-07-03T01:49:01.384763
 
 - [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
 
+## restrict
+
+- [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
+
 ## reverse-debugging
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
+
+## ring-buffer
+
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
 
 ## riscv
 
@@ -2372,6 +2614,8 @@ generated: 2026-07-03T01:49:01.384763
 
 - [事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮](../sources/source-event-scheduler.md) `source`
 - [SystemC Kernel Implementation & Scheduler Internals](../sources/source-systemc-kernel.md) `source`
+- [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
+- [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
 
 ## scheduling
 
@@ -2432,6 +2676,7 @@ generated: 2026-07-03T01:49:01.384763
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
 - [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
+- [Ring Buffer / Event Queue for Simulation](../sources/source-ring-buffer-sim.md) `source`
 - [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
 - [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
@@ -2627,7 +2872,10 @@ generated: 2026-07-03T01:49:01.384763
 
 ## task-scheduler
 
+- [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
 - [OneTBB 任务调度器与 Work-Stealing 实现分析](../sources/source-onetbb-scheduler.md) `source`
+- [任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性](../sources/source-task-scheduler.md) `source`
+- [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
 
 ## taskset
 
@@ -2663,6 +2911,7 @@ generated: 2026-07-03T01:49:01.384763
 ## thread-affinity
 
 - [NUMA 优化与 Thread Pinning：让内存访问不再跨节点](../sources/source-numa-optimization.md) `source`
+- [任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性](../sources/source-task-scheduler.md) `source`
 
 ## thread-count
 
@@ -2677,9 +2926,11 @@ generated: 2026-07-03T01:49:01.384763
 
 ## thread-pool
 
+- [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+- [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## thread-safety
@@ -2766,6 +3017,10 @@ generated: 2026-07-03T01:49:01.384763
 
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
 
+## user-level-threading
+
+- [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
+
 ## userspace-emulator
 
 - [Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用](../sources/source-linux-kernel-sync.md) `source`
@@ -2777,6 +3032,16 @@ generated: 2026-07-03T01:49:01.384763
 ## uvm-systemc
 
 - [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
+
+## v3order
+
+- [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
+- [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
+
+## v3partition
+
+- [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
+- [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
 
 ## vDSO
 
@@ -2796,6 +3061,10 @@ generated: 2026-07-03T01:49:01.384763
 - [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
 - [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 
+## vectorization-report
+
+- [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
+
 ## verilator
 
 - [ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真](../sources/source-chisel-firrtl.md) `source`
@@ -2806,10 +3075,14 @@ generated: 2026-07-03T01:49:01.384763
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
+- [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+- [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
+- [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+- [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
 
 ## version-embedding
 
@@ -2869,9 +3142,14 @@ generated: 2026-07-03T01:49:01.384763
 ## work-stealing
 
 - [OneTBB 任务调度器与 Work-Stealing 实现分析](../sources/source-onetbb-scheduler.md) `source`
+- [任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性](../sources/source-task-scheduler.md) `source`
+- [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
+- [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+- [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
+- [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
 
 ## x86
 
@@ -2904,9 +3182,14 @@ generated: 2026-07-03T01:49:01.384763
 
 - [cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题](../sources/source-cocotb-pyuvm.md) `source`
 
+## 参数调优
+
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+
 ## 多线程
 
 - [cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题](../sources/source-cocotb-pyuvm.md) `source`
+- [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
 - [SST (Structural Simulation Toolkit) 与高性能离散事件仿真框架](../sources/source-sst-mana.md) `source`
 - [GitHub开源项目代码分析](../wiki/wiki-github-projects.md) `wiki`
 
@@ -2918,9 +3201,30 @@ generated: 2026-07-03T01:49:01.384763
 
 - [Icarus Verilog (IVL) 与其他开源仿真器：vthread 模拟线程与事件调度机制](../sources/source-other-simulators.md) `source`
 
+## 电路分区
+
+- [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
+
+## 电路划分
+
+- [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
+
 ## 离散事件仿真
 
 - [SST (Structural Simulation Toolkit) 与高性能离散事件仿真框架](../sources/source-sst-mana.md) `source`
+
+## 调度器
+
+- [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
+
+## 质量指标
+
+- [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
+
+## 超图划分
+
+- [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
+- [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
 
 ## 高性能仿真
 
