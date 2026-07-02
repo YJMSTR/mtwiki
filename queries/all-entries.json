@@ -1,5 +1,30 @@
 [
   {
+    "id": "sources-source-4state-logic",
+    "title": "4-State Logic Implementation in RTL Simulation",
+    "path": "sources/source-4state-logic.md",
+    "type": "source",
+    "source_url": "https://github.com/ucsc-vama/essent",
+    "source_type": "paper",
+    "tags": [
+      "4-state-logic",
+      "X-propagation",
+      "resolution-function",
+      "simulation-encoding",
+      "SystemVerilog"
+    ],
+    "keywords": [
+      "4-state logic",
+      "Verilog X",
+      "logic type",
+      "truth table",
+      "inertial delay",
+      "transport delay",
+      "Z state",
+      "multi-driver resolution"
+    ]
+  },
+  {
     "id": "sources-source-activity-factor",
     "title": "RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联",
     "path": "sources/source-activity-factor.md",
@@ -177,6 +202,55 @@
       "dissemination barrier",
       "ticket barrier",
       "cache coherence traffic"
+    ]
+  },
+  {
+    "id": "sources-source-benchmark-methodology",
+    "title": "RTL 仿真器性能基准测试方法论",
+    "path": "sources/source-benchmark-methodology.md",
+    "type": "source",
+    "source_url": "https://ar5iv.labs.arxiv.org/html/2301.09413",
+    "source_type": "paper",
+    "tags": [
+      "benchmark",
+      "speedup",
+      "parallel-simulation",
+      "Verilator",
+      "Amdahl"
+    ],
+    "keywords": [
+      "RTL simulation benchmark",
+      "speedup measurement",
+      "multithreading",
+      "cycle-accurate simulation",
+      "full-cycle simulation"
+    ]
+  },
+  {
+    "id": "sources-source-benchmark-suites",
+    "title": "标准 RTL 基准测试集汇总",
+    "path": "sources/source-benchmark-suites.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "benchmark",
+      "test-suite",
+      "RISC-V",
+      "OpenCores",
+      "IWLS",
+      "VTR",
+      "EPFL",
+      "OpenROAD"
+    ],
+    "keywords": [
+      "RISC-V benchmark",
+      "OpenCores",
+      "IWLS benchmarks",
+      "VTR benchmark",
+      "EPFL benchmark",
+      "OpenROAD benchmarks",
+      "digital-design-dataset"
     ]
   },
   {
@@ -631,6 +705,56 @@
     ]
   },
   {
+    "id": "sources-source-cross-layer-parallel",
+    "title": "Cross-Layer Parallelization of Multi-Abstraction Simulation",
+    "path": "sources/source-cross-layer-parallel.md",
+    "type": "source",
+    "source_url": "https://hal.science/tel-01709813v1/file/main.pdf",
+    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "parallel-simulation",
+      "multi-abstraction",
+      "TLM-RTL",
+      "temporal-decoupling",
+      "PDES",
+      "speedup"
+    ],
+    "keywords": [
+      "multi abstraction level parallel",
+      "TLM RTL parallel simulation",
+      "abstraction level speedup",
+      "hierarchical mixed signal simulation",
+      "fast functional RTL simulation"
+    ]
+  },
+  {
+    "id": "sources-source-cxxrtl-internals",
+    "title": "CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值",
+    "path": "sources/source-cxxrtl-internals.md",
+    "type": "source",
+    "source_url": "https://github.com/YosysHQ/yosys",
+    "source_type": "github-repo",
+    "tags": [
+      "cxxrtl",
+      "yosys",
+      "compiled-simulation",
+      "delta-cycle",
+      "rtlil",
+      "feedback-arc-set"
+    ],
+    "keywords": [
+      "cxxrtl",
+      "yosys",
+      "compiled simulator",
+      "eval commit",
+      "wire",
+      "memory",
+      "chunk",
+      "flow graph",
+      "scheduling"
+    ]
+  },
+  {
     "id": "sources-source-cxxrtl",
     "title": "cxxrtl / Yosys C++ Backend",
     "path": "sources/source-cxxrtl.md",
@@ -682,6 +806,43 @@
       "FPGA prototyping",
       "formal verification"
     ]
+  },
+  {
+    "id": "sources-source-dead-code-elimination",
+    "title": "RTL 编译时死代码消除与冗余移除技术",
+    "path": "sources/source-dead-code-elimination.md",
+    "type": "source",
+    "source_url": "https://verilator.org/guide/latest/simulating.html",
+    "source_type": "doc",
+    "tags": [
+      "dead-code-elimination",
+      "redundancy-removal",
+      "unused-signal",
+      "Verilator",
+      "Yosys",
+      "Dart",
+      "ERASER",
+      "RTL-simulation"
+    ],
+    "keywords": [
+      "dead code elimination",
+      "opt_clean",
+      "UNOPTFLAT",
+      "UNUSED",
+      "redundancy-free",
+      "cross-stimulus redundancy",
+      "implicit redundancy"
+    ]
+  },
+  {
+    "id": "sources-source-delay-models",
+    "title": "Delay Model Optimization in RTL Simulation",
+    "path": "sources/source-delay-models.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "unknown",
+    "tags": [],
+    "keywords": []
   },
   {
     "id": "sources-source-deterministic-replay",
@@ -1012,6 +1173,32 @@
       "FPGA prototyping RTL speedup",
       "Golden Gate",
       "cloud FPGA"
+    ]
+  },
+  {
+    "id": "sources-source-gate-optimization",
+    "title": "RTL 编译时门级优化：常量传播、门折叠与逻辑重写",
+    "path": "sources/source-gate-optimization.md",
+    "type": "source",
+    "source_url": "https://blog.eowyn.net/yosys/CHAPTER_Optimize.html",
+    "source_type": "doc",
+    "tags": [
+      "constant-propagation",
+      "gate-folding",
+      "AIG-rewriting",
+      "Yosys",
+      "ABC",
+      "SmaRTLy",
+      "RTL-simulation"
+    ],
+    "keywords": [
+      "constant folding",
+      "gate optimization",
+      "AIG rewriting",
+      "opt_expr",
+      "opt_muxtree",
+      "ABC9",
+      "SAT-based redundancy elimination"
     ]
   },
   {
@@ -1447,6 +1634,32 @@
     ]
   },
   {
+    "id": "sources-source-icarus-ghdl-internals",
+    "title": "Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储",
+    "path": "sources/source-icarus-ghdl-internals.md",
+    "type": "source",
+    "source_url": "https://github.com/steveicarus/iverilog",
+    "source_type": "github-repo",
+    "tags": [
+      "iverilog",
+      "ghdl",
+      "event-scheduler",
+      "simulation-kernel",
+      "vvp",
+      "vhdl"
+    ],
+    "keywords": [
+      "iverilog",
+      "ghdl",
+      "event queue",
+      "stratified event",
+      "vthread",
+      "delta cycle",
+      "signal driver",
+      "transaction"
+    ]
+  },
+  {
     "id": "sources-source-ilp-mip-eda",
     "title": "ILP / MIP / CP-SAT 在 EDA 中的应用",
     "path": "sources/source-ilp-mip-eda.md",
@@ -1472,6 +1685,33 @@
       "EDA optimization",
       "RTL scheduling",
       "floorplanning"
+    ]
+  },
+  {
+    "id": "sources-source-incremental-evaluation",
+    "title": "Incremental Evaluation and Lazy Evaluation in RTL Simulation",
+    "path": "sources/source-incremental-evaluation.md",
+    "type": "source",
+    "source_url": "https://github.com/ucsc-vama/essent",
+    "source_type": "paper",
+    "tags": [
+      "incremental-evaluation",
+      "lazy-evaluation",
+      "levelized-simulation",
+      "activity-factor",
+      "compiled-code",
+      "event-driven"
+    ],
+    "keywords": [
+      "incremental evaluation",
+      "lazy evaluation",
+      "levelized simulation",
+      "activity factor",
+      "compiled code",
+      "event-driven",
+      "full-cycle simulation",
+      "ESSENT",
+      "Parendi"
     ]
   },
   {
@@ -2630,6 +2870,30 @@
     ]
   },
   {
+    "id": "sources-source-simulator-profiling",
+    "title": "仿真器性能分析与 Profiling 指南",
+    "path": "sources/source-simulator-profiling.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "profiling",
+      "perf",
+      "VTune",
+      "cache-analysis",
+      "flamegraph",
+      "multi-threading"
+    ],
+    "keywords": [
+      "simulator profiling",
+      "perf RTL",
+      "VTune cache miss",
+      "branch prediction simulation",
+      "flamegraph",
+      "performance analysis"
+    ]
+  },
+  {
     "id": "sources-source-spectral-clustering",
     "title": "谱聚类与图拉普拉斯在 RTL 电路分区中的应用",
     "path": "sources/source-spectral-clustering.md",
@@ -2753,6 +3017,34 @@
     ]
   },
   {
+    "id": "sources-source-surelog-slang-internals",
+    "title": "Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能",
+    "path": "sources/source-surelog-slang-internals.md",
+    "type": "source",
+    "source_url": "https://github.com/chipsalliance/Surelog",
+    "source_type": "github-repo",
+    "tags": [
+      "surelog",
+      "slang",
+      "uhdm",
+      "systemverilog",
+      "parser",
+      "ast",
+      "antlr4"
+    ],
+    "keywords": [
+      "Surelog",
+      "slang",
+      "UHDM",
+      "SystemVerilog parser",
+      "ANTLR4",
+      "AST",
+      "elaboration",
+      "instance caching",
+      "sv-tests"
+    ]
+  },
+  {
     "id": "sources-source-sv-compiler",
     "title": "SystemVerilog / UVM 编译器与运行时：开源工具链生态",
     "path": "sources/source-sv-compiler.md",
@@ -2831,6 +3123,30 @@
       "X-pessimism",
       "timing mismatch",
       "incomplete sensitivity list"
+    ]
+  },
+  {
+    "id": "sources-source-systemc-kernel",
+    "title": "SystemC Kernel Implementation & Scheduler Internals",
+    "path": "sources/source-systemc-kernel.md",
+    "type": "source",
+    "source_url": "https://errbits.com/articles/systemc-scheduler-internals.html",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "SystemC",
+      "kernel",
+      "scheduler",
+      "DES",
+      "parallel-simulation",
+      "delta-cycle",
+      "event-notification"
+    ],
+    "keywords": [
+      "SystemC kernel implementation",
+      "SystemC scheduler",
+      "SystemC event notification",
+      "SystemC simulation engine",
+      "SystemC parallel simulation"
     ]
   },
   {
@@ -2975,6 +3291,30 @@
     ]
   },
   {
+    "id": "sources-source-tlm-rtl",
+    "title": "TLM-2.0 / Mixed Abstraction Simulation with RTL",
+    "path": "sources/source-tlm-rtl.md",
+    "type": "source",
+    "source_url": "https://dvcon-proceedings.org/wp-content/uploads/bridging-the-gap-between-tlm-2-0-at-models-and-rtl-experiments-and-opportunities.pdf",
+    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "TLM-2.0",
+      "RTL",
+      "mixed-abstraction",
+      "co-simulation",
+      "transactor",
+      "RTL-to-TLM",
+      "virtual-prototype"
+    ],
+    "keywords": [
+      "TLM-2.0 RTL bridge",
+      "mixed abstraction simulation",
+      "transaction level RTL co-simulation",
+      "TLM RTL adapter",
+      "virtual prototype RTL"
+    ]
+  },
+  {
     "id": "sources-source-trace-analytics",
     "title": "RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试",
     "path": "sources/source-trace-analytics.md",
@@ -3055,6 +3395,35 @@
       "二进制波形",
       "流式dump",
       "仿真I/O优化"
+    ]
+  },
+  {
+    "id": "sources-source-vectorization-rtl",
+    "title": "RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂",
+    "path": "sources/source-vectorization-rtl.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/html/2403.04714v1",
+    "source_type": "paper",
+    "tags": [
+      "word-level-simulation",
+      "bit-vector",
+      "bit-slicing",
+      "vectorization",
+      "supernode",
+      "E-AIG",
+      "GEM",
+      "GSIM",
+      "Parendi",
+      "RTL-simulation"
+    ],
+    "keywords": [
+      "word-level simulation",
+      "bit-level splitting",
+      "bit-vector packing",
+      "E-AIG",
+      "supernode",
+      "boomerang executor",
+      "bit-level activation"
     ]
   },
   {
@@ -3395,6 +3764,35 @@
     ]
   },
   {
+    "id": "wiki-wiki-4state-and-evaluation",
+    "title": "4-State 逻辑与增量评估",
+    "path": "wiki/wiki-4state-and-evaluation.md",
+    "type": "wiki",
+    "tags": [
+      "4-state-logic",
+      "incremental-evaluation",
+      "delay-model",
+      "activity-factor",
+      "simd",
+      "lock-free"
+    ],
+    "keywords": [
+      "四值逻辑",
+      "增量评估",
+      "levelization",
+      "activity-factor",
+      "transport-delay",
+      "inertial-delay",
+      "SIMD",
+      "指纹缓存"
+    ],
+    "related_sources": [
+      "source-4state-logic",
+      "source-incremental-evaluation",
+      "source-delay-models"
+    ]
+  },
+  {
     "id": "wiki-wiki-advanced-optimization",
     "title": "前沿优化技术",
     "path": "wiki/wiki-advanced-optimization.md",
@@ -3487,6 +3885,33 @@
       "source-pgo-lto",
       "source-parallel-frameworks"
     ]
+  },
+  {
+    "id": "wiki-wiki-benchmark-and-profiling",
+    "title": "性能基准测试与剖析方法论",
+    "path": "wiki/wiki-benchmark-and-profiling.md",
+    "type": "wiki",
+    "tags": [
+      "benchmark",
+      "profiling",
+      "performance-analysis",
+      "RTL-simulation",
+      "multithreading",
+      "perf",
+      "VTune"
+    ],
+    "keywords": [
+      "speedup",
+      "geometric mean",
+      "Amdahl's law",
+      "Roofline",
+      "picorv32",
+      "NVDLA",
+      "OpenTitan",
+      "flamegraph",
+      "cache miss"
+    ],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-cache-and-memory",
@@ -3694,6 +4119,34 @@
       "source-constraint-solving",
       "source-approximation-algorithms"
     ]
+  },
+  {
+    "id": "wiki-wiki-compile-optimization",
+    "title": "编译时RTL优化技术",
+    "path": "wiki/wiki-compile-optimization.md",
+    "type": "wiki",
+    "tags": [
+      "compile-time-optimization",
+      "gate-optimization",
+      "dead-code-elimination",
+      "vectorization",
+      "RTL-simulation",
+      "multithreading"
+    ],
+    "keywords": [
+      "Yosys opt",
+      "ABC AIG",
+      "SmaRTLy",
+      "UNOPTFLAT",
+      "Dart",
+      "ERASER",
+      "GEM",
+      "GSIM",
+      "Parendi",
+      "word-level simulation",
+      "bit-level splitting"
+    ],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-compiler-frontend",
@@ -4516,6 +4969,37 @@
     ]
   },
   {
+    "id": "wiki-wiki-simulator-internals",
+    "title": "开源仿真器内核实现对比",
+    "path": "wiki/wiki-simulator-internals.md",
+    "type": "wiki",
+    "tags": [
+      "simulator-kernel",
+      "icarus",
+      "ghdl",
+      "cxxrtl",
+      "systemc",
+      "event-scheduler",
+      "parallelization"
+    ],
+    "keywords": [
+      "VVP",
+      "GRT",
+      "delta-cycle",
+      "eval-commit",
+      "FAS",
+      "双缓冲",
+      "stratified-event-queue",
+      "frontend-parser"
+    ],
+    "related_sources": [
+      "source-icarus-ghdl-internals",
+      "source-cxxrtl-internals",
+      "source-surelog-slang-internals",
+      "source-systemc-kernel"
+    ]
+  },
+  {
     "id": "wiki-wiki-sparse-parallelization",
     "title": "稀疏计算并行化策略",
     "path": "wiki/wiki-sparse-parallelization.md",
@@ -4645,6 +5129,24 @@
       "source-synthesis-impact",
       "source-sta-timing"
     ]
+  },
+  {
+    "id": "wiki-wiki-systemc-and-tlm",
+    "title": "SystemC/TLM与RTL协同仿真",
+    "path": "wiki/wiki-systemc-and-tlm.md",
+    "type": "wiki",
+    "tags": [
+      "SystemC",
+      "TLM-2.0",
+      "RTL",
+      "co-simulation",
+      "parallel-simulation",
+      "transactor",
+      "temporal-decoupling",
+      "multi-thread"
+    ],
+    "keywords": [],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-verilator-lessons",

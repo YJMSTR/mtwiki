@@ -1,9 +1,13 @@
 ---
 title: Index by Source
-generated: 2026-07-02T02:11:59.807633
+generated: 2026-07-03T00:56:34.593475
 ---
 
 # Index by Source
+
+## source-4state-logic
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 
 ## source-activity-factor
 
@@ -100,9 +104,17 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 
+## source-cxxrtl-internals
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
 ## source-ddr-pcie
 
 - [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
+
+## source-delay-models
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 
 ## source-deterministic-replay
 
@@ -205,9 +217,17 @@ generated: 2026-07-02T02:11:59.807633
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## source-icarus-ghdl-internals
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
 ## source-ilp-mip-eda
 
 - [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
+## source-incremental-evaluation
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 
 ## source-industry-rtlsim-practices
 
@@ -379,6 +399,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
 
+## source-surelog-slang-internals
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
 ## source-swarm-intelligence
 
 - [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
@@ -386,6 +410,10 @@ generated: 2026-07-02T02:11:59.807633
 ## source-synthesis-impact
 
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
+
+## source-systemc-kernel
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
 
 ## source-thermal-rtl
 

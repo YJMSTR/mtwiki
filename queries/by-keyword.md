@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-07-02T02:11:59.807633
+generated: 2026-07-03T00:56:34.593475
 ---
 
 # Index by Keyword
@@ -42,6 +42,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
+## 4-state logic
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
+
 ## 5G baseband RTL
 
 - [通信基带 RTL 仿真：从 OFDM 调制解调器到 5G 硬件验证](../sources/source-communication-rtl.md) `source`
@@ -57,6 +61,14 @@ generated: 2026-07-02T02:11:59.807633
 ## ABA-problem
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
+
+## ABC AIG
+
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
+
+## ABC9
+
+- [RTL 编译时门级优化：常量传播、门折叠与逻辑重写](../sources/source-gate-optimization.md) `source`
 
 ## ACO
 
@@ -86,6 +98,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [图神经网络（GNN）在电路表示学习与 EDA 中的应用](../sources/source-gnn-circuit.md) `source`
 
+## AIG rewriting
+
+- [RTL 编译时门级优化：常量传播、门折叠与逻辑重写](../sources/source-gate-optimization.md) `source`
+
 ## AIG嵌入
 
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
@@ -94,9 +110,17 @@ generated: 2026-07-02T02:11:59.807633
 
 - [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
 
+## ANTLR4
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
+
 ## AOS
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
+
+## AST
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 
 ## AVX-512
 
@@ -137,6 +161,10 @@ generated: 2026-07-02T02:11:59.807633
 ## Amaranth HDL
 
 - [HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth](../sources/source-hdl-ecosystem.md) `source`
+
+## Amdahl's law
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 
 ## AoS
 
@@ -433,6 +461,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
 
+## Dart
+
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
+
 ## DeLorean
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
@@ -462,6 +494,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
 
+## E-AIG
+
+- [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
+
 ## ECM model
 
 - [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
@@ -490,10 +526,19 @@ generated: 2026-07-02T02:11:59.807633
 
 - [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
 
+## EPFL benchmark
+
+- [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+
+## ERASER
+
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
+
 ## ESSENT
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 
@@ -504,6 +549,10 @@ generated: 2026-07-02T02:11:59.807633
 ## Entity-Based SDC
 
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
+
+## FAS
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
 
 ## FBB
 
@@ -648,6 +697,7 @@ generated: 2026-07-02T02:11:59.807633
 ## GEM
 
 - [业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化](../sources/source-industry-rtlsim-practices.md) `source`
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
 ## GEM GPU
@@ -733,9 +783,14 @@ generated: 2026-07-02T02:11:59.807633
 
 - [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
+## GRT
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
 ## GSIM
 
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
 ## GTKWave
@@ -865,6 +920,10 @@ generated: 2026-07-02T02:11:59.807633
 ## IR optimization RTL
 
 - [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
+
+## IWLS benchmarks
+
+- [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
 
 ## InfluxDB
 
@@ -1056,6 +1115,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 
+## NVDLA
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
+
 ## NVIDIA GEM
 
 - [GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估](../sources/source-gpu-rtl-simulation.md) `source`
@@ -1085,6 +1148,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 
+## OpenCores
+
+- [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+
 ## OpenMP
 
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
@@ -1101,6 +1168,14 @@ generated: 2026-07-02T02:11:59.807633
 ## OpenROAD
 
 - [RTL 硬件木马检测与可信验证研究综述](../sources/source-hardware-security.md) `source`
+
+## OpenROAD benchmarks
+
+- [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+
+## OpenTitan
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 
 ## PAM-4
 
@@ -1165,7 +1240,9 @@ generated: 2026-07-02T02:11:59.807633
 ## Parendi
 
 - [分布式 RTL 仿真（Multi-Node MPI）资料汇编](../sources/source-distributed-rtl.md) `source`
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 - [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
@@ -1243,6 +1320,10 @@ generated: 2026-07-02T02:11:59.807633
 - [时钟域跨越与多时钟仿真](../wiki/wiki-cdc-and-clocking.md) `wiki`
 - [复位策略与初始化](../wiki/wiki-reset-and-initialization.md) `wiki`
 
+## RISC-V benchmark
+
+- [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+
 ## RISC-V调试
 
 - [交互式RTL仿真调试与GUI体验调研](../sources/source-interactive-debug.md) `source`
@@ -1279,6 +1360,10 @@ generated: 2026-07-02T02:11:59.807633
 - [Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编](../sources/source-noc-simulation.md) `source`
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+
+## RTL simulation benchmark
+
+- [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
 
 ## RTL simulation checkpoint
 
@@ -1367,6 +1452,10 @@ generated: 2026-07-02T02:11:59.807633
 - [云EDA与SaaS仿真：从Synopsys Cloud到Azure弹性计算的产业迁移](../sources/source-cloud-eda.md) `source`
 - [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
 
+## Roofline
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
+
 ## Roofline model
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
@@ -1388,6 +1477,10 @@ generated: 2026-07-02T02:11:59.807633
 ## SAT solving
 
 - [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
+
+## SAT-based redundancy elimination
+
+- [RTL 编译时门级优化：常量传播、门折叠与逻辑重写](../sources/source-gate-optimization.md) `source`
 
 ## SAT求解
 
@@ -1434,6 +1527,7 @@ generated: 2026-07-02T02:11:59.807633
 ## SIMD
 
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
 ## SMT
@@ -1512,6 +1606,10 @@ generated: 2026-07-02T02:11:59.807633
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 
+## SmaRTLy
+
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
+
 ## SoA
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
@@ -1540,6 +1638,10 @@ generated: 2026-07-02T02:11:59.807633
 ## Stratus HLS
 
 - [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
+## Surelog
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 
 ## Surelog AST UHDM
 
@@ -1570,6 +1672,26 @@ generated: 2026-07-02T02:11:59.807633
 
 - [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
 
+## SystemC event notification
+
+- [SystemC Kernel Implementation & Scheduler Internals](../sources/source-systemc-kernel.md) `source`
+
+## SystemC kernel implementation
+
+- [SystemC Kernel Implementation & Scheduler Internals](../sources/source-systemc-kernel.md) `source`
+
+## SystemC parallel simulation
+
+- [SystemC Kernel Implementation & Scheduler Internals](../sources/source-systemc-kernel.md) `source`
+
+## SystemC scheduler
+
+- [SystemC Kernel Implementation & Scheduler Internals](../sources/source-systemc-kernel.md) `source`
+
+## SystemC simulation engine
+
+- [SystemC Kernel Implementation & Scheduler Internals](../sources/source-systemc-kernel.md) `source`
+
 ## SystemVerilog 4-state
 
 - [X-Propagation & Initialization in RTL Simulation](../sources/source-x-propagation.md) `source`
@@ -1582,6 +1704,10 @@ generated: 2026-07-02T02:11:59.807633
 ## SystemVerilog compiler
 
 - [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
+
+## SystemVerilog parser
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 
 ## SystemVerilog parser performance
 
@@ -1616,6 +1742,18 @@ generated: 2026-07-02T02:11:59.807633
 ## TLB miss
 
 - [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
+
+## TLM RTL adapter
+
+- [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
+
+## TLM RTL parallel simulation
+
+- [Cross-Layer Parallelization of Multi-Abstraction Simulation](../sources/source-cross-layer-parallel.md) `source`
+
+## TLM-2.0 RTL bridge
+
+- [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
 
 ## TNS
 
@@ -1704,8 +1842,18 @@ generated: 2026-07-02T02:11:59.807633
 
 ## UHDM
 
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 - [SystemVerilog / UVM 编译器与运行时：开源工具链生态](../sources/source-sv-compiler.md) `source`
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
+## UNOPTFLAT
+
+- [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
+
+## UNUSED
+
+- [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
 
 ## UPF
 
@@ -1828,10 +1976,22 @@ generated: 2026-07-02T02:11:59.807633
 
 - [波形可视化与交互调试](../wiki/wiki-visualization-and-debugging.md) `wiki`
 
+## VTR benchmark
+
+- [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+
 ## VTune
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## VTune cache miss
+
+- [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
+
+## VVP
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
 
 ## Veloce
 
@@ -1900,6 +2060,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [HDL语言生态与编译器前端](../wiki/wiki-hdl-ecosystem.md) `wiki`
 
+## Verilog X
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
+
 ## Verilog-AMS
 
 - [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
@@ -1966,9 +2130,21 @@ generated: 2026-07-02T02:11:59.807633
 
 - [cxxrtl / Yosys C++ Backend](../sources/source-cxxrtl.md) `source`
 
+## Yosys opt
+
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
+
+## Z state
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
+
 ## a2d
 
 - [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
+## abstraction level speedup
+
+- [Cross-Layer Parallelization of Multi-Abstraction Simulation](../sources/source-cross-layer-parallel.md) `source`
 
 ## acquire-release
 
@@ -1977,6 +2153,11 @@ generated: 2026-07-02T02:11:59.807633
 ## activity factor
 
 - [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
+
+## activity-factor
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 
 ## acyclic partitioning
 
@@ -2103,9 +2284,15 @@ generated: 2026-07-02T02:11:59.807633
 
 - [定点量化与字长优化：从 bit-true 仿真到 RTL 实现](../sources/source-fixed-point.md) `source`
 
+## bit-level activation
+
+- [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
+
 ## bit-level splitting
 
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
+- [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 
 ## bit-true
 
@@ -2117,9 +2304,17 @@ generated: 2026-07-02T02:11:59.807633
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## bit-vector packing
+
+- [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
+
 ## blackbox
 
 - [cxxrtl / Yosys C++ Backend](../sources/source-cxxrtl.md) `source`
+
+## boomerang executor
+
+- [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
 
 ## boot sequence
 
@@ -2144,6 +2339,10 @@ generated: 2026-07-02T02:11:59.807633
 ## branch prediction
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
+
+## branch prediction simulation
+
+- [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
 
 ## branchless code
 
@@ -2185,6 +2384,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 
+## cache miss
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
+
 ## cache-line
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
@@ -2225,6 +2428,10 @@ generated: 2026-07-02T02:11:59.807633
 ## chiplet simulation
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
+
+## chunk
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
 
 ## circuit design
 
@@ -2306,10 +2513,18 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
 
+## compiled code
+
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
+
 ## compiled simulation
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
 - [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
+
+## compiled simulator
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
 
 ## complementary branch predictor
 
@@ -2346,6 +2561,10 @@ generated: 2026-07-02T02:11:59.807633
 ## conservative-vs-optimistic
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
+
+## constant folding
+
+- [RTL 编译时门级优化：常量传播、门折叠与逻辑重写](../sources/source-gate-optimization.md) `source`
 
 ## constinit
 
@@ -2410,15 +2629,24 @@ generated: 2026-07-02T02:11:59.807633
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
 
+## cross-stimulus redundancy
+
+- [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
+
 ## cxxrtl
 
 - [cxxrtl / Yosys C++ Backend](../sources/source-cxxrtl.md) `source`
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
 - [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
 
 ## cycle-accurate
 
 - [CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真](../sources/source-circt-arcilator.md) `source`
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
+
+## cycle-accurate simulation
+
+- [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
 
 ## d2a
 
@@ -2444,17 +2672,23 @@ generated: 2026-07-02T02:11:59.807633
 
 - [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
 
+## dead code elimination
+
+- [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
+
 ## deadlock
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
 
 ## delta cycle
 
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 
 ## delta-cycle
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
 
 ## dependency graph
 
@@ -2496,6 +2730,10 @@ generated: 2026-07-02T02:11:59.807633
 ## digital filter RTL verification
 
 - [DSP RTL 仿真与并行加速：从 FFT/滤波器到大规模 SoC](../sources/source-dsp-rtl.md) `source`
+
+## digital-design-dataset
+
+- [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
 
 ## discrete event simulation
 
@@ -2539,6 +2777,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 
+## elaboration
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
+
 ## elastic EDA
 
 - [EDA 许可证管理与弹性仿真：从固定许可证到按需计费的范式转移](../sources/source-license-burst.md) `source`
@@ -2563,6 +2805,14 @@ generated: 2026-07-02T02:11:59.807633
 
 - [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
 
+## eval commit
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
+
+## eval-commit
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
 ## event pool
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
@@ -2573,6 +2823,7 @@ generated: 2026-07-02T02:11:59.807633
 
 ## event queue
 
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
 - [Multi-Clock & Asynchronous Design Simulation Frameworks](../sources/source-multiclock-async.md) `source`
 
 ## event queue optimization
@@ -2582,6 +2833,10 @@ generated: 2026-07-02T02:11:59.807633
 ## event wheel digital simulation
 
 - [事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮](../sources/source-event-scheduler.md) `source`
+
+## event-driven
+
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
 
 ## event-driven simulation
 
@@ -2601,6 +2856,10 @@ generated: 2026-07-02T02:11:59.807633
 ## false-sharing
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
+
+## fast functional RTL simulation
+
+- [Cross-Layer Parallelization of Multi-Abstraction Simulation](../sources/source-cross-layer-parallel.md) `source`
 
 ## fast userspace mutex
 
@@ -2642,6 +2901,11 @@ generated: 2026-07-02T02:11:59.807633
 
 - [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
 
+## flamegraph
+
+- [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
+
 ## floorplanning
 
 - [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
@@ -2649,6 +2913,10 @@ generated: 2026-07-02T02:11:59.807633
 ## flow based partitioning
 
 - [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
+
+## flow graph
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
 
 ## formal security verification
 
@@ -2670,8 +2938,14 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 
+## frontend-parser
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
 ## full-cycle simulation
 
+- [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
 - [PDES在RTL仿真中的应用](../wiki/wiki-pdes-for-rtl.md) `wiki`
 
 ## full-cycle-simulation
@@ -2695,6 +2969,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
 
+## gate optimization
+
+- [RTL 编译时门级优化：常量传播、门折叠与逻辑重写](../sources/source-gate-optimization.md) `source`
+
 ## gate-level simulation
 
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
@@ -2716,6 +2994,14 @@ generated: 2026-07-02T02:11:59.807633
 ## genetic algorithm
 
 - [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
+## geometric mean
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
+
+## ghdl
+
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
 
 ## glitch
 
@@ -2814,6 +3100,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
 
+## hierarchical mixed signal simulation
+
+- [Cross-Layer Parallelization of Multi-Abstraction Simulation](../sources/source-cross-layer-parallel.md) `source`
+
 ## high resolution timer
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
@@ -2863,13 +3153,33 @@ generated: 2026-07-02T02:11:59.807633
 
 - [断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一](../sources/source-assertion-verification.md) `source`
 
+## implicit redundancy
+
+- [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
+
 ## incomplete sensitivity list
 
 - [逻辑综合与工艺映射对 RTL 仿真精度的影响](../sources/source-synthesis-impact.md) `source`
 
+## incremental evaluation
+
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
+
+## inertial delay
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
+
+## inertial-delay
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
+
 ## information flow tracking
 
 - [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
+
+## instance caching
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 
 ## instruction cache
 
@@ -2911,6 +3221,10 @@ generated: 2026-07-02T02:11:59.807633
 ## isolcpus
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
+
+## iverilog
+
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
 
 ## jacquard
 
@@ -2958,6 +3272,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
 
+## lazy evaluation
+
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
+
 ## learn to optimize EDA
 
 - [图神经网络（GNN）与组合优化前沿综述](../sources/source-gnn-optimization.md) `source`
@@ -2977,6 +3295,11 @@ generated: 2026-07-02T02:11:59.807633
 ## levelization
 
 - [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
+
+## levelized simulation
+
+- [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
 
 ## libnuma
 
@@ -3027,6 +3350,10 @@ generated: 2026-07-02T02:11:59.807633
 ## lock-step
 
 - [Spike RISC-V 模拟器并行化分析](../sources/source-spike-parallelization.md) `source`
+
+## logic type
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
 
 ## logical-processes
 
@@ -3101,6 +3428,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
 
+## memory
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
+
 ## memory bandwidth
 
 - [HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化](../sources/source-hugepages-thp.md) `source`
@@ -3167,6 +3498,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
 
+## mixed abstraction simulation
+
+- [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
+
 ## mixed integer programming
 
 - [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
@@ -3195,6 +3530,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
 
+## multi abstraction level parallel
+
+- [Cross-Layer Parallelization of Multi-Abstraction Simulation](../sources/source-cross-layer-parallel.md) `source`
+
 ## multi-clock simulation
 
 - [CDC Verification & Metastability Simulation in RTL](../sources/source-cdc-verification.md) `source`
@@ -3202,6 +3541,10 @@ generated: 2026-07-02T02:11:59.807633
 ## multi-die RTL
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
+
+## multi-driver resolution
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
 
 ## multi-level IR
 
@@ -3237,6 +3580,7 @@ generated: 2026-07-02T02:11:59.807633
 
 ## multithreading
 
+- [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 
 ## nMigen
@@ -3295,6 +3639,18 @@ generated: 2026-07-02T02:11:59.807633
 ## operational intensity
 
 - [内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型](../sources/source-memory-bandwidth.md) `source`
+
+## opt_clean
+
+- [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
+
+## opt_expr
+
+- [RTL 编译时门级优化：常量传播、门折叠与逻辑重写](../sources/source-gate-optimization.md) `source`
+
+## opt_muxtree
+
+- [RTL 编译时门级优化：常量传播、门折叠与逻辑重写](../sources/source-gate-optimization.md) `source`
 
 ## optimistic synchronization
 
@@ -3422,6 +3778,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
 
+## perf RTL
+
+- [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
+
 ## perf c2c
 
 - [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
@@ -3440,9 +3800,17 @@ generated: 2026-07-02T02:11:59.807633
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
 
+## performance analysis
+
+- [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
+
 ## performance pitfalls
 
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
+
+## picorv32
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 
 ## portable simd rust
 
@@ -3553,6 +3921,10 @@ generated: 2026-07-02T02:11:59.807633
 ## record-replay
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## redundancy-free
+
+- [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
 
 ## regression
 
@@ -3667,6 +4039,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
 
+## scheduling
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
+
 ## sea-of-nodes
 
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
@@ -3713,6 +4089,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
 
+## signal driver
+
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
+
 ## signal probability
 
 - [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
@@ -3749,6 +4129,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation](../sources/source-jit-simulation.md) `source`
 
+## simulator profiling
+
+- [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
+
 ## simulator snapshot
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
@@ -3758,6 +4142,10 @@ generated: 2026-07-02T02:11:59.807633
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 - [静态时序分析（STA）与 RTL 仿真之间的相关性](../sources/source-sta-timing.md) `source`
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
+
+## slang
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 
 ## slang AST design
 
@@ -3782,6 +4170,14 @@ generated: 2026-07-02T02:11:59.807633
 ## spectral clustering
 
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
+
+## speedup
+
+- [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
+
+## speedup measurement
+
+- [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
 
 ## spike
 
@@ -3816,6 +4212,18 @@ generated: 2026-07-02T02:11:59.807633
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 
+## stratified event
+
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
+
+## stratified-event-queue
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
+## supernode
+
+- [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
+
 ## supernode partitioning
 
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
@@ -3823,6 +4231,10 @@ generated: 2026-07-02T02:11:59.807633
 ## surrogate model EDA
 
 - [ML/AI 用于仿真加速与 EDA 优化](../sources/source-ml-simulation.md) `source`
+
+## sv-tests
+
+- [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 
 ## swarm intelligence
 
@@ -4035,6 +4447,14 @@ generated: 2026-07-02T02:11:59.807633
 
 - [波形可视化与交互调试](../wiki/wiki-visualization-and-debugging.md) `wiki`
 
+## transaction
+
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
+
+## transaction level RTL co-simulation
+
+- [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
+
 ## transaction-level modeling
 
 - [基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证](../sources/source-verification-methodology.md) `source`
@@ -4043,10 +4463,22 @@ generated: 2026-07-02T02:11:59.807633
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
 
+## transport delay
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
+
+## transport-delay
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
+
 ## tree barrier
 
 - [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## truth table
+
+- [4-State Logic Implementation in RTL Simulation](../sources/source-4state-logic.md) `source`
 
 ## uProf
 
@@ -4089,6 +4521,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
 
+## virtual prototype RTL
+
+- [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
+
 ## virtual speedup
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
@@ -4097,6 +4533,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
 - [Time Warp: Virtual Time and Optimistic Synchronization](../sources/source-timewarp-algorithm.md) `source`
+
+## vthread
+
+- [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
 
 ## wait-free
 
@@ -4118,6 +4558,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 
+## wire
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
+
 ## wirelength minimization
 
 - [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
@@ -4129,6 +4573,11 @@ generated: 2026-07-02T02:11:59.807633
 ## word length optimization RTL
 
 - [定点量化与字长优化：从 bit-true 仿真到 RTL 实现](../sources/source-fixed-point.md) `source`
+
+## word-level simulation
+
+- [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
+- [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 
 ## work stealing
 
@@ -4156,6 +4605,10 @@ generated: 2026-07-02T02:11:59.807633
 ## yawns
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
+
+## yosys
+
+- [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
 
 ## 事件调度引擎
 
@@ -4247,6 +4700,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
+## 双缓冲
+
+- [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
 ## 双重缓冲
 
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
@@ -4264,6 +4721,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [交互式RTL仿真调试与GUI体验调研](../sources/source-interactive-debug.md) `source`
 
+## 四值逻辑
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
+
 ## 回归测试 CI
 
 - [仿真数据管理与接口技术](../wiki/wiki-data-and-interfaces.md) `wiki`
@@ -4272,6 +4733,10 @@ generated: 2026-07-02T02:11:59.807633
 
 - [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
 - [组合优化在EDA中的应用](../wiki/wiki-combinatorial-optimization.md) `wiki`
+
+## 增量评估
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 
 ## 复位同步
 
@@ -4362,6 +4827,10 @@ generated: 2026-07-02T02:11:59.807633
 ## 指令缓存
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
+
+## 指纹缓存
+
+- [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
 
 ## 整数线性规划
 
