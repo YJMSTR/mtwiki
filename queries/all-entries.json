@@ -602,6 +602,30 @@
     ]
   },
   {
+    "id": "sources-source-config-system",
+    "title": "C++ 配置系统与参数管理",
+    "path": "sources/source-config-system.md",
+    "type": "source",
+    "source_url": "https://cliutils.github.io/CLI11/book/",
+    "source_type": "doc",
+    "tags": [
+      "configuration",
+      "yaml-cpp",
+      "toml11",
+      "CLI11",
+      "cxxopts",
+      "command-line-parser",
+      "parameter-management"
+    ],
+    "keywords": [
+      "C++ configuration library",
+      "YAML config parser C++",
+      "TOML configuration C++",
+      "command line argument parser C++",
+      "environment variable config"
+    ]
+  },
+  {
     "id": "sources-source-constraint-solving",
     "title": "约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用",
     "path": "sources/source-constraint-solving.md",
@@ -949,6 +973,28 @@
     ]
   },
   {
+    "id": "sources-source-deterministic-reproducibility",
+    "title": "多线程确定性可复现与随机种子管理",
+    "path": "sources/source-deterministic-reproducibility.md",
+    "type": "source",
+    "source_url": "https://www.socratopia.app/library/game-code-anatomy-en/chapter-26",
+    "source_type": "doc",
+    "tags": [
+      "determinism",
+      "reproducibility",
+      "random-seed",
+      "multithreading",
+      "simulation"
+    ],
+    "keywords": [
+      "deterministic multithreaded simulation",
+      "random seed reproducibility",
+      "std::seed_seq",
+      "floating point determinism",
+      "reproducible parallel simulation"
+    ]
+  },
+  {
     "id": "sources-source-distributed-rtl",
     "title": "分布式 RTL 仿真（Multi-Node MPI）资料汇编",
     "path": "sources/source-distributed-rtl.md",
@@ -1148,6 +1194,31 @@
     ]
   },
   {
+    "id": "sources-source-ffi-threadsafe",
+    "title": "多语言外部接口（FFI）的线程安全实现：Python / Rust / C",
+    "path": "sources/source-ffi-threadsafe.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "ffi",
+      "python",
+      "pybind11",
+      "rust",
+      "gil",
+      "thread-safety",
+      "free-threading",
+      "multithreading"
+    ],
+    "keywords": [
+      "Python C API thread safety",
+      "PyBind11 multithreaded",
+      "Rust FFI thread safety",
+      "C foreign function interface",
+      "language binding simulation"
+    ]
+  },
+  {
     "id": "sources-source-fixed-point",
     "title": "定点量化与字长优化：从 bit-true 仿真到 RTL 实现",
     "path": "sources/source-fixed-point.md",
@@ -1278,6 +1349,31 @@
       "opt_muxtree",
       "ABC9",
       "SAT-based redundancy elimination"
+    ]
+  },
+  {
+    "id": "sources-source-gdb-multithread",
+    "title": "Core Dump & GDB Multithreaded Debugging",
+    "path": "sources/source-gdb-multithread.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "multithreading",
+      "debugging",
+      "GDB",
+      "core-dump",
+      "deadlock"
+    ],
+    "keywords": [
+      "gdb multithreaded",
+      "core dump",
+      "thread apply all bt",
+      "scheduler-locking",
+      "deadlock detection",
+      "gdb script",
+      "pstack",
+      "backtrace"
     ]
   },
   {
@@ -2351,6 +2447,30 @@
     ]
   },
   {
+    "id": "sources-source-mt-error-handling",
+    "title": "Multithreaded Error Handling & Assertions in C++",
+    "path": "sources/source-mt-error-handling.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "multithreading",
+      "error-handling",
+      "assertions",
+      "C++",
+      "debugging"
+    ],
+    "keywords": [
+      "thread-safe error handling",
+      "assertion",
+      "std::terminate",
+      "std::system_error",
+      "custom assert",
+      "multithreaded exception",
+      "C++ exception safety"
+    ]
+  },
+  {
     "id": "sources-source-multiclock-async",
     "title": "Multi-Clock & Asynchronous Design Simulation Frameworks",
     "path": "sources/source-multiclock-async.md",
@@ -2401,6 +2521,30 @@
       "data race",
       "deadlock",
       "heisenbug"
+    ]
+  },
+  {
+    "id": "sources-source-multithread-logging",
+    "title": "多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲",
+    "path": "sources/source-multithread-logging.md",
+    "type": "source",
+    "source_url": "https://github.com/gabime/spdlog/wiki/Asynchronous-logging",
+    "source_type": "github-doc",
+    "tags": [
+      "logging",
+      "lock-free",
+      "multithreading",
+      "spdlog",
+      "async",
+      "performance",
+      "C++"
+    ],
+    "keywords": [
+      "lock-free logging",
+      "per-thread log buffer",
+      "spdlog async",
+      "MPMC queue",
+      "multithreaded logging performance"
     ]
   },
   {
@@ -2458,6 +2602,30 @@
       "Garnet",
       "ReCONNECT",
       "Proteus"
+    ]
+  },
+  {
+    "id": "sources-source-notable-simulators",
+    "title": "其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等",
+    "path": "sources/source-notable-simulators.md",
+    "type": "source",
+    "source_url": "https://github.com/steveicarus/iverilog / https://github.com/ngspice/ngspice",
+    "source_type": "github-repo",
+    "tags": [
+      "iverilog",
+      "ngspice",
+      "ghdl",
+      "parallel",
+      "event-driven",
+      "circuit-simulation",
+      "spice"
+    ],
+    "keywords": [
+      "vvp",
+      "shared-ngspice",
+      "parallel-simulation",
+      "event-queue",
+      "mixed-signal"
     ]
   },
   {
@@ -2848,6 +3016,31 @@
     ]
   },
   {
+    "id": "sources-source-plugin-architecture",
+    "title": "C++ 插件系统动态加载（dlopen）的线程安全架构",
+    "path": "sources/source-plugin-architecture.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "plugin",
+      "dlopen",
+      "dynamic-loading",
+      "thread-safety",
+      "shared-library",
+      "hot-reload",
+      "ABI",
+      "C++"
+    ],
+    "keywords": [
+      "dlopen thread safety",
+      "plugin architecture C++",
+      "dynamic loading multithreaded",
+      "shared library reload",
+      "hot reload C++ plugin"
+    ]
+  },
+  {
     "id": "sources-source-power-rtl",
     "title": "RTL 仿真中的功耗估计方法与工具链",
     "path": "sources/source-power-rtl.md",
@@ -3077,6 +3270,33 @@
     ]
   },
   {
+    "id": "sources-source-sanitizers",
+    "title": "Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators",
+    "path": "sources/source-sanitizers.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "doc",
+    "tags": [
+      "multithreading",
+      "sanitizers",
+      "TSan",
+      "ASan",
+      "debugging",
+      "RTL"
+    ],
+    "keywords": [
+      "ThreadSanitizer",
+      "AddressSanitizer",
+      "TSan",
+      "ASan",
+      "data race",
+      "sanitizer",
+      "simulation",
+      "multithreaded performance",
+      "memory leak detector"
+    ]
+  },
+  {
     "id": "sources-source-sdc-constraints",
     "title": "SDC 综合约束与 RTL 仿真的关系",
     "path": "sources/source-sdc-constraints.md",
@@ -3178,6 +3398,30 @@
     ]
   },
   {
+    "id": "sources-source-sim-frameworks",
+    "title": "仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真",
+    "path": "sources/source-sim-frameworks.md",
+    "type": "source",
+    "source_url": "https://github.com/accellera-official/uvm-systemc / https://systemc.org",
+    "source_type": "github-repo",
+    "tags": [
+      "systemc",
+      "uvm-systemc",
+      "tlm",
+      "co-simulation",
+      "multithreading",
+      "virtual-platform"
+    ],
+    "keywords": [
+      "sc_thread",
+      "TLM-2.0",
+      "UVM-Connect",
+      "UVMC",
+      "Verilated-RTL",
+      "MINRES-SCC"
+    ]
+  },
+  {
     "id": "sources-source-simd-rtl-simulation",
     "title": "SIMD/Vectorization in RTL Simulation and Gate-Level Simulation",
     "path": "sources/source-simd-rtl-simulation.md",
@@ -3201,6 +3445,31 @@
       "bit-vector",
       "parallel bitwise",
       "gate-level simulation"
+    ]
+  },
+  {
+    "id": "sources-source-simulation-trace",
+    "title": "仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译",
+    "path": "sources/source-simulation-trace.md",
+    "type": "source",
+    "source_url": "https://www.javanelec.com/stfiles/getappdocument/1/true/db3184f3-3666-4db5-ae1e-eea3d64d48.pdf",
+    "source_type": "doc",
+    "tags": [
+      "simulation",
+      "trace",
+      "VCD",
+      "FSDB",
+      "waveform",
+      "conditional-compilation",
+      "debug",
+      "RTL"
+    ],
+    "keywords": [
+      "simulation trace output",
+      "VCD alternative trace",
+      "FSDB trace format",
+      "simulation debug printf",
+      "conditional compilation debug RTL"
     ]
   },
   {
@@ -3400,6 +3669,30 @@
       "string interning simulation",
       "path compression RTL",
       "symbol table optimization"
+    ]
+  },
+  {
+    "id": "sources-source-structured-logging",
+    "title": "结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化",
+    "path": "sources/source-structured-logging.md",
+    "type": "source",
+    "source_url": "https://github.com/chronoxor/CppSerialization",
+    "source_type": "github-repo",
+    "tags": [
+      "structured-logging",
+      "binary-format",
+      "protobuf",
+      "flatbuffers",
+      "serialization",
+      "trace-event",
+      "performance"
+    ],
+    "keywords": [
+      "structured logging simulation",
+      "binary log format",
+      "protobuf logging",
+      "flatbuffers logging",
+      "chrome trace event format RTL"
     ]
   },
   {
@@ -3888,6 +4181,30 @@
     ]
   },
   {
+    "id": "sources-source-verilator-mt-deep",
+    "title": "Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool",
+    "path": "sources/source-verilator-mt-deep.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-repo",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "mtask",
+      "partition",
+      "thread-pool",
+      "RTL-simulation"
+    ],
+    "keywords": [
+      "V3OrderParallel",
+      "V3ExecGraph",
+      "VlThreadPool",
+      "MTask",
+      "static-scheduling",
+      "critical-path"
+    ]
+  },
+  {
     "id": "sources-source-verilator-mt-doc",
     "title": "Verilator 官方文档：多线程仿真与性能优化",
     "path": "sources/source-verilator-mt-doc.md",
@@ -3963,6 +4280,55 @@
       "macro-task",
       "parallel variable ordering",
       "memory layout"
+    ]
+  },
+  {
+    "id": "sources-source-version-build",
+    "title": "版本控制嵌入与构建可复现性",
+    "path": "sources/source-version-build.md",
+    "type": "source",
+    "source_url": "https://jonathanhamberg.com/posts/cmake-embedding-git-hash/",
+    "source_type": "blog",
+    "tags": [
+      "git",
+      "cmake",
+      "version-embedding",
+      "reproducible-build",
+      "build-system",
+      "version-string"
+    ],
+    "keywords": [
+      "git hash embedding build",
+      "build reproducibility C++",
+      "CMAKE git commit hash",
+      "version string embedding",
+      "reproducible build simulation"
+    ]
+  },
+  {
+    "id": "sources-source-vpi-dpi-threadsafe",
+    "title": "VPI/DPI/PLI 在多线程仿真器中的线程安全实现",
+    "path": "sources/source-vpi-dpi-threadsafe.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "tags": [
+      "vpi",
+      "dpi",
+      "pli",
+      "thread-safety",
+      "multithreading",
+      "simulation",
+      "callback",
+      "mutex"
+    ],
+    "keywords": [
+      "VPI thread safe",
+      "DPI multithreaded",
+      "PLI callback thread safety",
+      "svSetScope",
+      "DPI context",
+      "pthread mutex"
     ]
   },
   {
@@ -4672,6 +5038,31 @@
     ]
   },
   {
+    "id": "wiki-wiki-error-handling-and-debugging",
+    "title": "错误处理与多线程调试",
+    "path": "wiki/wiki-error-handling-and-debugging.md",
+    "type": "wiki",
+    "tags": [
+      "error-handling",
+      "debugging",
+      "GDB",
+      "sanitizer",
+      "multithreading",
+      "RTL-simulator"
+    ],
+    "keywords": [
+      "std::terminate",
+      "std::promise",
+      "ThreadSanitizer",
+      "AddressSanitizer",
+      "GDB multithread",
+      "data race",
+      "deadlock detection",
+      "PPK_ASSERT"
+    ],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-formal-and-verification",
     "title": "形式化验证与仿真协同",
     "path": "wiki/wiki-formal-and-verification.md",
@@ -4882,6 +5273,22 @@
       "source-github-rtlsim-projects",
       "source-industry-rtlsim-practices"
     ]
+  },
+  {
+    "id": "wiki-wiki-logging-and-tracing",
+    "title": "多线程日志与追踪系统",
+    "path": "wiki/wiki-logging-and-tracing.md",
+    "type": "wiki",
+    "tags": [
+      "logging",
+      "tracing",
+      "structured-logging",
+      "multithreading",
+      "performance",
+      "RTL-simulation"
+    ],
+    "keywords": [],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-memory-and-allocator",
@@ -5178,6 +5585,25 @@
     ]
   },
   {
+    "id": "wiki-wiki-plugin-and-ffi",
+    "title": "插件系统与FFI线程安全",
+    "path": "wiki/wiki-plugin-and-ffi.md",
+    "type": "wiki",
+    "tags": [
+      "vpi",
+      "dpi",
+      "plugin",
+      "ffi",
+      "thread-safety",
+      "dynamic-loading",
+      "python",
+      "rust",
+      "RTL-simulation"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-power-and-thermal",
     "title": "电源与热感知RTL仿真",
     "path": "wiki/wiki-power-and-thermal.md",
@@ -5282,6 +5708,34 @@
       "source-ddr-pcie",
       "source-bfm-vip"
     ]
+  },
+  {
+    "id": "wiki-wiki-reproducibility-and-config",
+    "title": "可复现性与配置系统",
+    "path": "wiki/wiki-reproducibility-and-config.md",
+    "type": "wiki",
+    "tags": [
+      "reproducibility",
+      "determinism",
+      "configuration",
+      "CLI11",
+      "yaml-cpp",
+      "toml11",
+      "git-version",
+      "reproducible-build",
+      "RTL-simulator"
+    ],
+    "keywords": [
+      "std::seed_seq",
+      "deterministic simulation",
+      "CLI11",
+      "TOML",
+      "YAML",
+      "cmake git hash",
+      "SOURCE_DATE_EPOCH",
+      "hermetic build"
+    ],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-reset-and-initialization",
@@ -5636,6 +6090,43 @@
     ],
     "keywords": [],
     "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-verilator-deep-dive",
+    "title": "Verilator多线程源码深度剖析",
+    "path": "wiki/wiki-verilator-deep-dive.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "mtask",
+      "partition",
+      "static-scheduling",
+      "thread-pool",
+      "trace",
+      "systemc",
+      "iverilog",
+      "ngspice",
+      "ghdl"
+    ],
+    "keywords": [
+      "V3OrderParallel",
+      "V3ExecGraph",
+      "VlThreadPool",
+      "MTask",
+      "edge-contraction",
+      "critical-path",
+      "sandbag",
+      "fork-join",
+      "NUMA",
+      "TLM-2.0",
+      "MINRES-SCC"
+    ],
+    "related_sources": [
+      "source-verilator-mt-deep",
+      "source-notable-simulators",
+      "source-sim-frameworks"
+    ]
   },
   {
     "id": "wiki-wiki-verilator-lessons",

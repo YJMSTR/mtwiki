@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-07-03T01:08:40.146548
+generated: 2026-07-03T01:19:47.494663
 ---
 
 # Index by Keyword
@@ -135,6 +135,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
 
+## ASan
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+
 ## AVX-512
 
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
@@ -166,6 +170,11 @@ generated: 2026-07-03T01:08:40.146548
 ## Activity Factor
 
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## AddressSanitizer
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
 ## AlphaTensor style EDA
 
@@ -260,9 +269,21 @@ generated: 2026-07-03T01:08:40.146548
 - [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
 - [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
 
+## C foreign function interface
+
+- [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
+
 ## C++ HLS Xilinx
 
 - [High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态](../sources/source-hls-rtl.md) `source`
+
+## C++ configuration library
+
+- [C++ 配置系统与参数管理](../sources/source-config-system.md) `source`
+
+## C++ exception safety
+
+- [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
 
 ## C++ parallel algorithms
 
@@ -325,6 +346,14 @@ generated: 2026-07-03T01:08:40.146548
 ## CIRCT Arcilator
 
 - [CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真](../sources/source-circt-arcilator.md) `source`
+
+## CLI11
+
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
+
+## CMAKE git commit hash
+
+- [版本控制嵌入与构建可复现性](../sources/source-version-build.md) `source`
 
 ## CMOS退火
 
@@ -465,6 +494,14 @@ generated: 2026-07-03T01:08:40.146548
 
 - [RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估](../sources/source-side-channel.md) `source`
 - [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
+
+## DPI context
+
+- [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
+
+## DPI multithreaded
+
+- [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
 
 ## DPI overhead
 
@@ -659,6 +696,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 
+## FSDB trace format
+
+- [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
+
 ## FSM coverage
 
 - [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
@@ -729,6 +770,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [RTL 仿真硬件加速论文地图（ISCA/MICRO/ASPLOS/DAC）](../sources/source-papers-hardware-accel.md) `source`
 - [RTL并行仿真论文全景](../wiki/wiki-papers-landscape.md) `wiki`
+
+## GDB multithread
+
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
 ## GDBWave
 
@@ -1105,6 +1150,11 @@ generated: 2026-07-03T01:08:40.146548
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 
+## MINRES-SCC
+
+- [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
 ## MLIR dialect
 
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
@@ -1123,9 +1173,18 @@ generated: 2026-07-03T01:08:40.146548
 
 - [分布式 RTL 仿真（Multi-Node MPI）资料汇编](../sources/source-distributed-rtl.md) `source`
 
+## MPMC queue
+
+- [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
+
 ## MT_DISABLED
 
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+
+## MTask
+
+- [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## MTask affinity
 
@@ -1185,6 +1244,7 @@ generated: 2026-07-03T01:08:40.146548
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [云原生EDA与容器化](../wiki/wiki-cloud-and-eda.md) `wiki`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
 
 ## NUMA first-touch
@@ -1302,9 +1362,17 @@ generated: 2026-07-03T01:08:40.146548
 
 - [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
 
+## PLI callback thread safety
+
+- [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
+
 ## POR
 
 - [Reset Strategy & Power-On Initialization in RTL Simulation](../sources/source-reset-strategy.md) `source`
+
+## PPK_ASSERT
+
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
 ## PREEMPT_RT
 
@@ -1371,6 +1439,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
 
+## PyBind11 multithreaded
+
+- [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
+
 ## PyGILState_Ensure
 
 - [cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题](../sources/source-cocotb-pyuvm.md) `source`
@@ -1386,6 +1458,10 @@ generated: 2026-07-03T01:08:40.146548
 ## PySerDes
 
 - [混合信号与物理层仿真](../wiki/wiki-mixed-signal.md) `wiki`
+
+## Python C API thread safety
+
+- [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
 
 ## Q-learning
 
@@ -1574,6 +1650,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [协议验证与接口仿真](../wiki/wiki-protocol-verification.md) `wiki`
 
+## Rust FFI thread safety
+
+- [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
+
 ## SAIF
 
 - [RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联](../sources/source-activity-factor.md) `source`
@@ -1651,6 +1731,10 @@ generated: 2026-07-03T01:08:40.146548
 ## SOA
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
+
+## SOURCE_DATE_EPOCH
+
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
 
 ## SPICE RTL interface
 
@@ -1877,6 +1961,11 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Cross-Layer Parallelization of Multi-Abstraction Simulation](../sources/source-cross-layer-parallel.md) `source`
 
+## TLM-2.0
+
+- [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
 ## TLM-2.0 RTL bridge
 
 - [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
@@ -1885,6 +1974,14 @@ generated: 2026-07-03T01:08:40.146548
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
+## TOML
+
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
+
+## TOML configuration C++
+
+- [C++ 配置系统与参数管理](../sources/source-config-system.md) `source`
+
 ## TROJAN-GUARD
 
 - [机器学习与AI在RTL仿真中的应用](../wiki/wiki-ml-and-ai.md) `wiki`
@@ -1892,6 +1989,10 @@ generated: 2026-07-03T01:08:40.146548
 ## TSC frequency
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
+
+## TSan
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
 
 ## TVLA
 
@@ -1912,6 +2013,11 @@ generated: 2026-07-03T01:08:40.146548
 ## Thread PGO
 
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+
+## ThreadSanitizer
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
 ## Threading Analysis
 
@@ -2011,6 +2117,19 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
 
+## UVM-Connect
+
+- [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
+
+## UVMC
+
+- [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
+
+## V3ExecGraph
+
+- [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
 ## V3Order
 
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
@@ -2018,6 +2137,8 @@ generated: 2026-07-03T01:08:40.146548
 ## V3OrderParallel
 
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
+- [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## V3Partition
 
@@ -2046,6 +2167,10 @@ generated: 2026-07-03T01:08:40.146548
 - [RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比](../sources/source-waveform-database.md) `source`
 - [波形可视化工具全景调研](../sources/source-waveform-viz.md) `source`
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
+
+## VCD alternative trace
+
+- [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
 
 ## VCD compression
 
@@ -2104,6 +2229,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
 
+## VPI thread safe
+
+- [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
+
 ## VSCode扩展
 
 - [波形可视化工具全景调研](../sources/source-waveform-viz.md) `source`
@@ -2150,6 +2279,10 @@ generated: 2026-07-03T01:08:40.146548
 ## Verification IP
 
 - [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+
+## Verilated-RTL
+
+- [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
 
 ## Verilator
 
@@ -2218,6 +2351,11 @@ generated: 2026-07-03T01:08:40.146548
 
 - [AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法](../sources/source-axi-protocol.md) `source`
 
+## VlThreadPool
+
+- [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
 ## WLO
 
 - [DSP与信号处理RTL仿真](../wiki/wiki-dsp-and-signal.md) `wiki`
@@ -2258,6 +2396,14 @@ generated: 2026-07-03T01:08:40.146548
 
 - [X-Propagation & Initialization in RTL Simulation](../sources/source-x-propagation.md) `source`
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## YAML
+
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
+
+## YAML config parser C++
+
+- [C++ 配置系统与参数管理](../sources/source-config-system.md) `source`
 
 ## Yale FPGA映射
 
@@ -2373,6 +2519,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
+## assertion
+
+- [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
+
 ## assertion generation
 
 - [LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）](../sources/source-llm-verification.md) `source`
@@ -2421,6 +2571,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [RTL 仿真中的功耗估计方法与工具链](../sources/source-power-rtl.md) `source`
 
+## backtrace
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
+
 ## balanced min-cut
 
 - [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
@@ -2448,6 +2602,10 @@ generated: 2026-07-03T01:08:40.146548
 ## bevy ecs
 
 - [ECS（Entity-Component-System）架构在仿真与数据并行中的应用](../sources/source-ecs-architecture.md) `source`
+
+## binary log format
+
+- [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
 
 ## bit true simulation
 
@@ -2525,6 +2683,10 @@ generated: 2026-07-03T01:08:40.146548
 ## bsp
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
+
+## build reproducibility C++
+
+- [版本控制嵌入与构建可复现性](../sources/source-version-build.md) `source`
 
 ## bulk-synchronous parallelism
 
@@ -2604,6 +2766,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
 
+## chrome trace event format RTL
+
+- [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
+
 ## chunk
 
 - [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
@@ -2648,6 +2814,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [云EDA与SaaS仿真：从Synopsys Cloud到Azure弹性计算的产业迁移](../sources/source-cloud-eda.md) `source`
 
+## cmake git hash
+
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
+
 ## cmb
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
@@ -2675,6 +2845,10 @@ generated: 2026-07-03T01:08:40.146548
 ## cold restore
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
+
+## command line argument parser C++
+
+- [C++ 配置系统与参数管理](../sources/source-config-system.md) `source`
 
 ## compact thermal model
 
@@ -2733,6 +2907,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖](../sources/source-coverage-metrics.md) `source`
 
+## conditional compilation debug RTL
+
+- [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
+
 ## confidentiality
 
 - [RTL 形式化安全验证：信息流跟踪与硬件安全属性证明](../sources/source-formal-security.md) `source`
@@ -2772,6 +2950,10 @@ generated: 2026-07-03T01:08:40.146548
 ## copy-on-write
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## core dump
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
 
 ## correlation power analysis
 
@@ -2815,6 +2997,8 @@ generated: 2026-07-03T01:08:40.146548
 ## critical-path
 
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
+- [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## cross-CPU TSC sync
 
@@ -2823,6 +3007,10 @@ generated: 2026-07-03T01:08:40.146548
 ## cross-stimulus redundancy
 
 - [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
+
+## custom assert
+
+- [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
 
 ## cxxrtl
 
@@ -2854,6 +3042,8 @@ generated: 2026-07-03T01:08:40.146548
 ## data race
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
 ## data-oriented design
 
@@ -2878,6 +3068,11 @@ generated: 2026-07-03T01:08:40.146548
 ## deadlock
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
+
+## deadlock detection
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
 ## delta cycle
 
@@ -2909,6 +3104,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Deterministic RTL Simulation / Record & Replay](../sources/source-deterministic-replay.md) `source`
 
+## deterministic multithreaded simulation
+
+- [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
+
 ## deterministic replay
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
@@ -2917,6 +3116,7 @@ generated: 2026-07-03T01:08:40.146548
 ## deterministic simulation
 
 - [Rust Async / Tokio 在事件驱动仿真器中的应用](../sources/source-rust-async-sim.md) `source`
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
 
 ## deterministic time
 
@@ -2967,9 +3167,17 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Time Warp: Virtual Time and Optimistic Synchronization](../sources/source-timewarp-algorithm.md) `source`
 
+## dlopen thread safety
+
+- [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
+
 ## dynamic binary translation
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
+
+## dynamic loading multithreaded
+
+- [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
 
 ## ecs architecture
 
@@ -2983,6 +3191,7 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## eigenvalue partitioning
 
@@ -3011,6 +3220,10 @@ generated: 2026-07-03T01:08:40.146548
 ## entity component system
 
 - [Rust与ECS架构在仿真器中的应用](../wiki/wiki-rust-and-ecs.md) `wiki`
+
+## environment variable config
+
+- [C++ 配置系统与参数管理](../sources/source-config-system.md) `source`
 
 ## equivalence checking
 
@@ -3054,6 +3267,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
+
+## event-queue
+
+- [其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等](../sources/source-notable-simulators.md) `source`
 
 ## evolutionary algorithm
 
@@ -3126,6 +3343,14 @@ generated: 2026-07-03T01:08:40.146548
 - [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
 - [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 
+## flatbuffers logging
+
+- [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
+
+## floating point determinism
+
+- [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
+
 ## floorplanning
 
 - [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
@@ -3137,6 +3362,10 @@ generated: 2026-07-03T01:08:40.146548
 ## flow graph
 
 - [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
+
+## fork-join
+
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## formal security verification
 
@@ -3207,6 +3436,14 @@ generated: 2026-07-03T01:08:40.146548
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
 
+## gdb multithreaded
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
+
+## gdb script
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
+
 ## gem
 
 - [GitHub 上最新的 RTL 仿真器项目](../sources/source-github-rtlsim-projects.md) `source`
@@ -3227,6 +3464,10 @@ generated: 2026-07-03T01:08:40.146548
 ## ghdl
 
 - [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
+
+## git hash embedding build
+
+- [版本控制嵌入与构建可复现性](../sources/source-version-build.md) `source`
 
 ## glitch
 
@@ -3334,6 +3575,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
 
+## hermetic build
+
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
+
 ## heuristic search
 
 - [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
@@ -3374,6 +3619,10 @@ generated: 2026-07-03T01:08:40.146548
 ## hot block translation
 
 - [JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation](../sources/source-jit-simulation.md) `source`
+
+## hot reload C++ plugin
+
+- [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
 
 ## hot-cold splitting
 
@@ -3521,6 +3770,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
 
+## language binding simulation
+
+- [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
+
 ## latency
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
@@ -3612,6 +3865,10 @@ generated: 2026-07-03T01:08:40.146548
 ## lock-free event queue simulation
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
+
+## lock-free logging
+
+- [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
 
 ## lock-step
 
@@ -3724,6 +3981,10 @@ generated: 2026-07-03T01:08:40.146548
 - [SoA vs AoS 内存布局在 RTL 仿真器中的应用](../sources/source-memory-layout.md) `source`
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
 
+## memory leak detector
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+
 ## memory-level parallelism
 
 - [Prefetching & Cache Line Utilization in RTL Simulation](../sources/source-prefetching.md) `source`
@@ -3797,6 +4058,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Mixed-Signal Simulation (Verilog-AMS)](../sources/source-mixed-signal.md) `source`
 
+## mixed-signal
+
+- [其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等](../sources/source-notable-simulators.md) `source`
+
 ## mixed-signal simulation methods
 
 - [SPICE / FastSPICE Interface and Co-Simulation](../sources/source-spice-interface.md) `source`
@@ -3868,6 +4133,18 @@ generated: 2026-07-03T01:08:40.146548
 ## multithreaded event-driven
 
 - [RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）](../sources/source-papers-parallel-rtl.md) `source`
+
+## multithreaded exception
+
+- [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
+
+## multithreaded logging performance
+
+- [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
+
+## multithreaded performance
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
 
 ## multithreaded replay
 
@@ -4014,6 +4291,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
 
+## parallel-simulation
+
+- [其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等](../sources/source-notable-simulators.md) `source`
+
 ## parallel-vhdl
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
@@ -4103,6 +4384,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [电源与热感知RTL仿真](../wiki/wiki-power-and-thermal.md) `wiki`
 
+## per-thread log buffer
+
+- [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
+
 ## per-thread-cache
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
@@ -4148,6 +4433,10 @@ generated: 2026-07-03T01:08:40.146548
 ## picorv32
 
 - [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
+
+## plugin architecture C++
+
+- [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
 
 ## portable simd rust
 
@@ -4199,6 +4488,18 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 
+## protobuf logging
+
+- [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
+
+## pstack
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
+
+## pthread mutex
+
+- [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
+
 ## pure function
 
 - [VPI/DPI 接口性能与多线程仿真适配](../sources/source-vpi-dpi.md) `source`
@@ -4214,6 +4515,10 @@ generated: 2026-07-03T01:08:40.146548
 ## quantum-based
 
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
+
+## random seed reproducibility
+
+- [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
 
 ## random-access
 
@@ -4299,6 +4604,14 @@ generated: 2026-07-03T01:08:40.146548
 
 - [RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）](../sources/source-papers-parallel-rtl.md) `source`
 
+## reproducible build simulation
+
+- [版本控制嵌入与构建可复现性](../sources/source-version-build.md) `source`
+
+## reproducible parallel simulation
+
+- [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
+
 ## required time
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
@@ -4377,9 +4690,21 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Rust SIMD 与 Rayon 数据并行在数值仿真中的实践](../sources/source-rust-simd-rayon.md) `source`
 
+## sandbag
+
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
+## sanitizer
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+
 ## save-restore
 
 - [状态管理与确定性重放](../wiki/wiki-state-management.md) `wiki`
+
+## sc_thread
+
+- [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
 
 ## schedule.h
 
@@ -4388,6 +4713,10 @@ generated: 2026-07-03T01:08:40.146548
 ## schedule_vthread
 
 - [Icarus Verilog (IVL) 与其他开源仿真器：vthread 模拟线程与事件调度机制](../sources/source-other-simulators.md) `source`
+
+## scheduler-locking
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
 
 ## scheduling
 
@@ -4439,6 +4768,14 @@ generated: 2026-07-03T01:08:40.146548
 
 - [综合约束与逻辑综合影响](../wiki/wiki-synthesis-and-constraints.md) `wiki`
 
+## shared library reload
+
+- [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
+
+## shared-ngspice
+
+- [其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等](../sources/source-notable-simulators.md) `source`
+
 ## signal driver
 
 - [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
@@ -4463,9 +4800,17 @@ generated: 2026-07-03T01:08:40.146548
 
 - [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
 
+## simulation
+
+- [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
+
 ## simulation acceleration
 
 - [Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真](../sources/source-bfm-vip.md) `source`
+
+## simulation debug printf
+
+- [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
 
 ## simulation log
 
@@ -4483,6 +4828,10 @@ generated: 2026-07-03T01:08:40.146548
 ## simulation state compression
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
+
+## simulation trace output
+
+- [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
 
 ## simulator kernel
 
@@ -4538,6 +4887,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Prefetching & Cache Line Utilization in RTL Simulation](../sources/source-prefetching.md) `source`
 
+## spdlog async
+
+- [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
+
 ## spectral clustering
 
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
@@ -4578,10 +4931,32 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
 
+## static-scheduling
+
+- [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
+
 ## std::execution::par
 
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+
+## std::promise
+
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
+
+## std::seed_seq
+
+- [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
+- [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
+
+## std::system_error
+
+- [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
+
+## std::terminate
+
+- [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
+- [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
 ## stratified event
 
@@ -4607,6 +4982,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [SoA vs AoS 内存布局在 RTL 仿真器中的应用](../sources/source-memory-layout.md) `source`
 
+## structured logging simulation
+
+- [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
+
 ## superlinear speedup
 
 - [RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）](../sources/source-papers-parallel-rtl.md) `source`
@@ -4626,6 +5005,10 @@ generated: 2026-07-03T01:08:40.146548
 ## sv-tests
 
 - [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
+
+## svSetScope
+
+- [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
 
 ## swarm intelligence
 
@@ -4724,6 +5107,10 @@ generated: 2026-07-03T01:08:40.146548
 
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 
+## thread apply all bt
+
+- [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
+
 ## thread overhead
 
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
@@ -4747,6 +5134,10 @@ generated: 2026-07-03T01:08:40.146548
 ## thread-pool
 
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+
+## thread-safe error handling
+
+- [Multithreaded Error Handling & Assertions in C++](../sources/source-mt-error-handling.md) `source`
 
 ## thread-specific breakpoint
 
@@ -4928,6 +5319,10 @@ generated: 2026-07-03T01:08:40.146548
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
 
+## version string embedding
+
+- [版本控制嵌入与构建可复现性](../sources/source-version-build.md) `source`
+
 ## vhdl-simulation
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
@@ -4956,6 +5351,7 @@ generated: 2026-07-03T01:08:40.146548
 
 ## vvp
 
+- [其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等](../sources/source-notable-simulators.md) `source`
 - [Icarus Verilog (IVL) 与其他开源仿真器：vthread 模拟线程与事件调度机制](../sources/source-other-simulators.md) `source`
 
 ## wait-free

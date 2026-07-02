@@ -1,6 +1,6 @@
 ---
 title: Index by Source
-generated: 2026-07-03T01:08:40.145037
+generated: 2026-07-03T01:19:47.494663
 ---
 
 # Index by Source
@@ -305,6 +305,10 @@ generated: 2026-07-03T01:08:40.145037
 
 - [NoC与分布式RTL仿真](../wiki/wiki-noc-and-distributed.md) `wiki`
 
+## source-notable-simulators
+
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
 ## source-numa-optimization
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
@@ -379,6 +383,10 @@ generated: 2026-07-03T01:08:40.145037
 
 - [硬件安全与可信验证](../wiki/wiki-security-and-trust.md) `wiki`
 
+## source-sim-frameworks
+
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
 ## source-simd-rtl-simulation
 
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
@@ -452,6 +460,10 @@ generated: 2026-07-03T01:08:40.145037
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+
+## source-verilator-mt-deep
+
+- [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## source-verilator-mt-doc
 
