@@ -25,35 +25,6 @@
     ]
   },
   {
-    "id": "sources-source-activity-factor",
-    "title": "RTL 仿真中的信号翻转率与信号概率：Activity Factor 与功耗关联",
-    "path": "sources/source-activity-factor.md",
-    "type": "source",
-    "source_url": "https://www.cnblogs.com/lelin/p/12548923.html",
-    "source_type": "blog",
-    "tags": [
-      "activity-factor",
-      "signal-probability",
-      "toggle-rate",
-      "rtl-simulation",
-      "power-correlation",
-      "vcd",
-      "saif"
-    ],
-    "keywords": [
-      "toggle rate",
-      "static probability",
-      "signal probability",
-      "switching activity",
-      "VCD",
-      "SAIF",
-      "activity factor",
-      "power correlation RTL gate level",
-      "clock gating",
-      "event propagation"
-    ]
-  },
-  {
     "id": "sources-source-aot-binary-translation",
     "title": "AOT Compilation & Binary Translation in RTL/Hardware Simulation",
     "path": "sources/source-aot-binary-translation.md",
@@ -105,32 +76,6 @@
     ]
   },
   {
-    "id": "sources-source-assertion-verification",
-    "title": "断言驱动验证（ABV）与 SystemVerilog 断言（SVA）的仿真与形式化统一",
-    "path": "sources/source-assertion-verification.md",
-    "type": "source",
-    "source_url": "https://www.mdpi.com/2079-9292/14/8/1687",
-    "source_type": "paper",
-    "tags": [
-      "SVA",
-      "ABV",
-      "assertion-based-verification",
-      "SystemVerilog",
-      "simulation-overhead",
-      "formal-verification",
-      "RTL"
-    ],
-    "keywords": [
-      "SystemVerilog assertion",
-      "SVA runtime overhead",
-      "immediate assertion",
-      "concurrent assertion",
-      "assertion-based verification",
-      "simulation performance",
-      "formal semantics"
-    ]
-  },
-  {
     "id": "sources-source-ast-parser",
     "title": "SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子",
     "path": "sources/source-ast-parser.md",
@@ -175,33 +120,6 @@
       "hyperparameter search",
       "compiler flag tuning",
       "multithreaded application tuning"
-    ]
-  },
-  {
-    "id": "sources-source-axi-protocol",
-    "title": "AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法",
-    "path": "sources/source-axi-protocol.md",
-    "type": "source",
-    "source_url": "https://www.amd.com/zh-cn/products/adaptive-socs-and-fpgas/intellectual-property/axi-vip.html",
-    "source_type": "doc",
-    "tags": [
-      "AXI",
-      "VIP",
-      "Protocol-Checker",
-      "SystemVerilog",
-      "UVM",
-      "Simulation",
-      "RTL"
-    ],
-    "keywords": [
-      "AXI VIP",
-      "AXI Protocol Checker",
-      "Bus Functional Model",
-      "Master/Slave/Passive",
-      "AMBA",
-      "Vivado",
-      "Synopsys VIP",
-      "Cadence VIP"
     ]
   },
   {
@@ -275,35 +193,6 @@
       "EPFL benchmark",
       "OpenROAD benchmarks",
       "digital-design-dataset"
-    ]
-  },
-  {
-    "id": "sources-source-bfm-vip",
-    "title": "Bus Functional Model (BFM) 与 Verification IP (VIP) — 验证方法学、性能优化与协同仿真",
-    "path": "sources/source-bfm-vip.md",
-    "type": "source",
-    "source_url": "https://www.maven-silicon.com/blog/soc-verification-flow-and-methodologies/",
-    "source_type": "blog",
-    "tags": [
-      "BFM",
-      "VIP",
-      "UVM",
-      "Verification-IP",
-      "Simulation-Acceleration",
-      "Co-emulation",
-      "SCE-MI",
-      "RTL"
-    ],
-    "keywords": [
-      "Bus Functional Model",
-      "Verification IP",
-      "UVM VIP",
-      "simulation acceleration",
-      "Veloce",
-      "SCE-MI",
-      "Transactor",
-      "Monitor",
-      "Speed Adapter"
     ]
   },
   {
@@ -386,28 +275,6 @@
       "DOD",
       "loop-tiling",
       "hot-cold-split"
-    ]
-  },
-  {
-    "id": "sources-source-cdc-verification",
-    "title": "CDC Verification & Metastability Simulation in RTL",
-    "path": "sources/source-cdc-verification.md",
-    "type": "source",
-    "source_url": "https://dvcon-proceedings.org/wp-content/uploads/use-of-cdc-jitter-modeling-in-clock-domaincrossing-circuits-in-rtl-design-phase.pdf",
-    "source_type": "paper",
-    "tags": [
-      "CDC",
-      "metastability",
-      "synchronizer",
-      "RTL-simulation",
-      "reconvergence"
-    ],
-    "keywords": [
-      "clock domain crossing",
-      "CDC-jitter",
-      "2-FF synchronizer",
-      "metastability injection",
-      "multi-clock simulation"
     ]
   },
   {
@@ -525,31 +392,6 @@
     ]
   },
   {
-    "id": "sources-source-cloud-eda",
-    "title": "云EDA与SaaS仿真：从Synopsys Cloud到Azure弹性计算的产业迁移",
-    "path": "sources/source-cloud-eda.md",
-    "type": "source",
-    "source_url": "https://www.embedded.com/chip-design-in-the-cloud-now-you-can-have-pay-as-you-go-eda/",
-    "source_type": "blog",
-    "tags": [
-      "cloud-eda",
-      "saas-simulation",
-      "azure-eda",
-      "aws-eda",
-      "flexeda",
-      "burst-compute"
-    ],
-    "keywords": [
-      "Synopsys Cloud",
-      "FlexEDA",
-      "Cadence Cloud",
-      "Rescale",
-      "Azure HBv3",
-      "cloud RTL simulation",
-      "SaaS EDA"
-    ]
-  },
-  {
     "id": "sources-source-cocotb-pyuvm",
     "title": "cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题",
     "path": "sources/source-cocotb-pyuvm.md",
@@ -575,30 +417,6 @@
       "external_waiter",
       "GPI",
       "cosimulation"
-    ]
-  },
-  {
-    "id": "sources-source-communication-rtl",
-    "title": "通信基带 RTL 仿真：从 OFDM 调制解调器到 5G 硬件验证",
-    "path": "sources/source-communication-rtl.md",
-    "type": "source",
-    "source_url": "https://www.design-reuse.com/article/58253-vlsi-implementation-of-ofdm-modem/",
-    "source_type": "blog",
-    "tags": [
-      "OFDM",
-      "RTL-simulation",
-      "communication",
-      "baseband",
-      "5G",
-      "co-simulation",
-      "Verilog"
-    ],
-    "keywords": [
-      "OFDM RTL simulation",
-      "modem hardware simulation",
-      "5G baseband RTL",
-      "wireless communication RTL verification",
-      "bit-true"
     ]
   },
   {
@@ -652,30 +470,6 @@
     ]
   },
   {
-    "id": "sources-source-container-eda",
-    "title": "Docker 与 Kubernetes 在 EDA 仿真中的容器化实践",
-    "path": "sources/source-container-eda.md",
-    "type": "source",
-    "source_url": "https://github.com/zhutmost/eda-in-container",
-    "source_type": "github-repo",
-    "tags": [
-      "docker-eda",
-      "kubernetes-eda",
-      "containerized-simulation",
-      "verilator",
-      "cicd",
-      "github-actions"
-    ],
-    "keywords": [
-      "Docker RTL simulation",
-      "EDA container",
-      "Kubernetes workload",
-      "Verilator Docker",
-      "EDA in container",
-      "eda-in-container"
-    ]
-  },
-  {
     "id": "sources-source-coroutine-simulation",
     "title": "C++20 协程在事件驱动仿真器中的应用",
     "path": "sources/source-coroutine-simulation.md",
@@ -697,31 +491,6 @@
       "co_await simulator",
       "symmetric transfer",
       "stackless coroutine"
-    ]
-  },
-  {
-    "id": "sources-source-coverage-metrics",
-    "title": "RTL 验证覆盖率指标：代码覆盖、功能覆盖与 FSM 覆盖",
-    "path": "sources/source-coverage-metrics.md",
-    "type": "source",
-    "source_url": "https://picture.iczhiku.com/resource/eetop/sHkEeLWAzIrkTXmC.pdf",
-    "source_type": "doc",
-    "tags": [
-      "coverage",
-      "code-coverage",
-      "functional-coverage",
-      "fsm-coverage",
-      "toggle-coverage",
-      "rtl-verification"
-    ],
-    "keywords": [
-      "line coverage",
-      "branch coverage",
-      "condition coverage",
-      "toggle coverage",
-      "FSM coverage",
-      "covergroup",
-      "metric-driven verification"
     ]
   },
   {
@@ -884,33 +653,6 @@
     ]
   },
   {
-    "id": "sources-source-ddr-pcie",
-    "title": "DDR / PCIe / USB 高速接口的 RTL 仿真与验证方法",
-    "path": "sources/source-ddr-pcie.md",
-    "type": "source",
-    "source_url": "https://chipxpert.in/rtl-design-and-verification-for-high-speed-vlsi-interfaces-a-comprehensive-guide/",
-    "source_type": "blog",
-    "tags": [
-      "DDR",
-      "PCIe",
-      "USB",
-      "High-Speed-Interface",
-      "RTL-Simulation",
-      "Signal-Integrity",
-      "UVM"
-    ],
-    "keywords": [
-      "DDR simulation",
-      "PCIe Endpoint",
-      "USB protocol",
-      "high speed VLSI interface",
-      "RTL verification",
-      "emulation",
-      "FPGA prototyping",
-      "formal verification"
-    ]
-  },
-  {
     "id": "sources-source-dead-code-elimination",
     "title": "RTL 编译时死代码消除与冗余移除技术",
     "path": "sources/source-dead-code-elimination.md",
@@ -1023,28 +765,6 @@
     ]
   },
   {
-    "id": "sources-source-dsp-rtl",
-    "title": "DSP RTL 仿真与并行加速：从 FFT/滤波器到大规模 SoC",
-    "path": "sources/source-dsp-rtl.md",
-    "type": "source",
-    "source_url": "https://arxiv.org/abs/2507.08406",
-    "source_type": "paper",
-    "tags": [
-      "RTL-simulation",
-      "DSP",
-      "FFT",
-      "parallel-simulation",
-      "hardware-accelerated-simulation"
-    ],
-    "keywords": [
-      "DSP RTL simulation",
-      "fixed point arithmetic RTL",
-      "FFT hardware simulation",
-      "digital filter RTL verification",
-      "multithreaded RTL"
-    ]
-  },
-  {
     "id": "sources-source-dynamic-programming",
     "title": "动态规划在 VLSI / RTL 设计与仿真中的应用",
     "path": "sources/source-dynamic-programming.md",
@@ -1067,30 +787,6 @@
       "任务调度",
       "资源分配",
       "RTL仿真"
-    ]
-  },
-  {
-    "id": "sources-source-ecs-architecture",
-    "title": "ECS（Entity-Component-System）架构在仿真与数据并行中的应用",
-    "path": "sources/source-ecs-architecture.md",
-    "type": "source",
-    "source_url": "https://github.com/bevyengine/bevy/tree/main/crates/bevy_ecs",
-    "source_type": "github-pr",
-    "tags": [
-      "ecs",
-      "entity-component-system",
-      "data-oriented-design",
-      "bevy",
-      "parallel",
-      "cache-locality",
-      "rust"
-    ],
-    "keywords": [
-      "ECS digital circuit simulation",
-      "bevy ecs",
-      "legion ecs parallel",
-      "data-oriented design",
-      "archetype"
     ]
   },
   {
@@ -1219,113 +915,6 @@
     ]
   },
   {
-    "id": "sources-source-fixed-point",
-    "title": "定点量化与字长优化：从 bit-true 仿真到 RTL 实现",
-    "path": "sources/source-fixed-point.md",
-    "type": "source",
-    "source_url": "https://hls.academy/topics/mathworks/",
-    "source_type": "doc",
-    "tags": [
-      "fixed-point",
-      "quantization",
-      "word-length-optimization",
-      "RTL",
-      "HLS",
-      "bit-true"
-    ],
-    "keywords": [
-      "fixed point quantization RTL",
-      "bit true simulation",
-      "word length optimization RTL",
-      "quantization noise simulation",
-      "SQNR"
-    ]
-  },
-  {
-    "id": "sources-source-formal-security",
-    "title": "RTL 形式化安全验证：信息流跟踪与硬件安全属性证明",
-    "path": "sources/source-formal-security.md",
-    "type": "source",
-    "source_url": "https://dl.acm.org/doi/fullHtml/10.1145/3447867",
-    "source_type": "paper",
-    "tags": [
-      "formal-verification",
-      "security",
-      "information-flow",
-      "RTL",
-      "IFT",
-      "GLIFT",
-      "RTLIFT",
-      "confidentiality",
-      "integrity"
-    ],
-    "keywords": [
-      "formal security verification",
-      "information flow tracking",
-      "GLIFT",
-      "RTLIFT",
-      "confidentiality",
-      "integrity",
-      "isolation",
-      "SAT solving",
-      "equivalence checking",
-      "theorem proving"
-    ]
-  },
-  {
-    "id": "sources-source-formal-verification",
-    "title": "形式化验证与 RTL 仿真结合：BMC、K-Induction 与 Tandem 验证",
-    "path": "sources/source-formal-verification.md",
-    "type": "source",
-    "source_url": "https://arxiv.org/html/2502.13605v1",
-    "source_type": "paper",
-    "tags": [
-      "formal-verification",
-      "BMC",
-      "k-induction",
-      "IC3",
-      "RTL",
-      "Yosys",
-      "SymbiYosys",
-      "rIC3",
-      "JasperGold"
-    ],
-    "keywords": [
-      "bounded model checking",
-      "k-induction",
-      "hardware model checking",
-      "SAT solver",
-      "SMT solver",
-      "RTL verification",
-      "formal simulation tandem"
-    ]
-  },
-  {
-    "id": "sources-source-fpga-emulation",
-    "title": "FPGA 仿真（Emulation）与软件仿真的性能对比及 FireSim 框架",
-    "path": "sources/source-fpga-emulation.md",
-    "type": "source",
-    "source_url": "https://github.com/firesim/firesim",
-    "source_type": "github-repo",
-    "tags": [
-      "fpga",
-      "emulation",
-      "simulation",
-      "firesim",
-      "golden-gate",
-      "fireaxe",
-      "prototyping",
-      "cycle-accurate"
-    ],
-    "keywords": [
-      "FPGA emulation vs simulation",
-      "FireSim performance",
-      "FPGA prototyping RTL speedup",
-      "Golden Gate",
-      "cloud FPGA"
-    ]
-  },
-  {
     "id": "sources-source-gate-optimization",
     "title": "RTL 编译时门级优化：常量传播、门折叠与逻辑重写",
     "path": "sources/source-gate-optimization.md",
@@ -1430,106 +1019,6 @@
     ]
   },
   {
-    "id": "sources-source-gnn-circuit",
-    "title": "图神经网络（GNN）在电路表示学习与 EDA 中的应用",
-    "path": "sources/source-gnn-circuit.md",
-    "type": "source",
-    "source_url": "",
-    "source_type": "\"survey\"  # survey, paper, github",
-    "tags": [
-      "gnn",
-      "circuit-representation",
-      "aig",
-      "gate-level",
-      "eda-ml",
-      "graph-neural-network"
-    ],
-    "keywords": [
-      "GNN circuit representation",
-      "graph neural network hardware",
-      "GNN gate-level prediction",
-      "graph representation RTL",
-      "DeepGate",
-      "AIG embedding"
-    ]
-  },
-  {
-    "id": "sources-source-gnn-optimization",
-    "title": "图神经网络（GNN）与组合优化前沿综述",
-    "path": "sources/source-gnn-optimization.md",
-    "type": "source",
-    "source_url": "",
-    "source_type": "paper",
-    "tags": [
-      "gnn",
-      "graph-neural-network",
-      "combinatorial-optimization",
-      "eda",
-      "placement",
-      "routing",
-      "auto-gnn",
-      "neural-solver"
-    ],
-    "keywords": [
-      "GNN combinatorial optimization",
-      "graph neural network solver",
-      "neural combinatorial optimization",
-      "learn to optimize EDA",
-      "diffusion model optimization"
-    ]
-  },
-  {
-    "id": "sources-source-gpu-optimization",
-    "title": "GPU加速组合优化求解综述",
-    "path": "sources/source-gpu-optimization.md",
-    "type": "source",
-    "source_url": "",
-    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
-    "tags": [
-      "gpu",
-      "cuda",
-      "combinatorial-optimization",
-      "sat-solver",
-      "branch-and-bound",
-      "graph-partitioning",
-      "parallel-computing"
-    ],
-    "keywords": [
-      "GPU SAT solver",
-      "CUDA combinatorial optimization",
-      "parallel branch and bound",
-      "GPU constraint solving",
-      "GPU graph partitioning"
-    ]
-  },
-  {
-    "id": "sources-source-gpu-rtl-simulation",
-    "title": "GPU 加速 RTL 仿真：NVIDIA GEM 与 CUDA 门级并行评估",
-    "path": "sources/source-gpu-rtl-simulation.md",
-    "type": "source",
-    "source_url": "https://github.com/NVlabs/GEM",
-    "source_type": "github-repo",
-    "tags": [
-      "gpu",
-      "cuda",
-      "rtl-simulation",
-      "gate-level",
-      "nvidia",
-      "gem",
-      "aig",
-      "vliw"
-    ],
-    "keywords": [
-      "GPU RTL simulation",
-      "NVIDIA GEM",
-      "CUDA gate-level simulation",
-      "parallel gate evaluation",
-      "AIG",
-      "Boolean processor",
-      "VLIW"
-    ]
-  },
-  {
     "id": "sources-source-graph-traversal",
     "title": "BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用",
     "path": "sources/source-graph-traversal.md",
@@ -1584,32 +1073,6 @@
     ]
   },
   {
-    "id": "sources-source-hardware-security",
-    "title": "RTL 硬件木马检测与可信验证研究综述",
-    "path": "sources/source-hardware-security.md",
-    "type": "source",
-    "source_url": "https://papers.academic-conferences.org/index.php/icair/article/download/4287/3969/15773",
-    "source_type": "paper",
-    "tags": [
-      "hardware-security",
-      "trojan-detection",
-      "trust-verification",
-      "RTL",
-      "simulation",
-      "AI"
-    ],
-    "keywords": [
-      "hardware trojan",
-      "RTL trojan detection",
-      "Trust-Hub",
-      "Verilator",
-      "OpenROAD",
-      "UCI",
-      "GNN",
-      "LLM"
-    ]
-  },
-  {
     "id": "sources-source-hash-optimization",
     "title": "哈希表与字典优化在 RTL 仿真器中的应用",
     "path": "sources/source-hash-optimization.md",
@@ -1632,34 +1095,6 @@
       "sparse hash map",
       "perfect hash function",
       "event queue"
-    ]
-  },
-  {
-    "id": "sources-source-hdl-ecosystem",
-    "title": "HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth",
-    "path": "sources/source-hdl-ecosystem.md",
-    "type": "source",
-    "source_url": "https://arxiv.org/abs/2604.05983",
-    "source_type": "doc",
-    "tags": [
-      "hdl",
-      "chisel",
-      "spinalhdl",
-      "bluespec",
-      "pymtl",
-      "myhdl",
-      "amaranth",
-      "hardware-construction-language"
-    ],
-    "keywords": [
-      "SpinalHDL",
-      "Chisel",
-      "Bluespec BSV",
-      "PyMTL3",
-      "MyHDL",
-      "Amaranth HDL",
-      "nMigen",
-      "硬件描述语言对比"
     ]
   },
   {
@@ -1693,34 +1128,6 @@
       "detour number",
       "congestion cost",
       "line search"
-    ]
-  },
-  {
-    "id": "sources-source-hls-rtl",
-    "title": "High-Level Synthesis (HLS) for RTL：工具链、编译流程与开源生态",
-    "path": "sources/source-hls-rtl.md",
-    "type": "source",
-    "source_url": "https://arxiv.org/abs/2306.15552",
-    "source_type": "paper",
-    "tags": [
-      "hls",
-      "high-level-synthesis",
-      "vitis-hls",
-      "catapult",
-      "legup",
-      "bambu",
-      "systemc",
-      "c-to-rtl"
-    ],
-    "keywords": [
-      "High-Level Synthesis",
-      "Vitis HLS",
-      "LegUp HLS",
-      "Bambu HLS",
-      "SystemC HLS",
-      "C++ HLS Xilinx",
-      "Catapult HLS",
-      "Stratus HLS"
     ]
   },
   {
@@ -1915,59 +1322,6 @@
     ]
   },
   {
-    "id": "sources-source-industry-rtlsim-practices",
-    "title": "业界实践：Google / Intel / NVIDIA 的 RTL 仿真性能优化",
-    "path": "sources/source-industry-rtlsim-practices.md",
-    "type": "source",
-    "source_url": "https://github.com/chipsalliance/chisel/discussions/5142",
-    "source_type": "doc",
-    "tags": [
-      "industry-practice",
-      "RTL-simulation",
-      "GPU-acceleration",
-      "FPGA-emulation",
-      "Google",
-      "Intel",
-      "NVIDIA"
-    ],
-    "keywords": [
-      "FireSim",
-      "Chipyard",
-      "GEM",
-      "ROHD",
-      "ChiselSim",
-      "FPGA-emulation",
-      "GPU",
-      "CUDA"
-    ]
-  },
-  {
-    "id": "sources-source-interactive-debug",
-    "title": "交互式RTL仿真调试与GUI体验调研",
-    "path": "sources/source-interactive-debug.md",
-    "type": "source",
-    "source_url": "https://surfer-project.org/",
-    "source_type": "doc",
-    "tags": [
-      "interactive-debug",
-      "RTL-debugger",
-      "GUI",
-      "GDBWave",
-      "VSRTL",
-      "Surfer",
-      "real-time",
-      "simulator-integration"
-    ],
-    "keywords": [
-      "交互式仿真",
-      "实时波形",
-      "GDB服务器",
-      "后仿真调试",
-      "可视化仿真",
-      "RISC-V调试"
-    ]
-  },
-  {
     "id": "sources-source-ir-optimization",
     "title": "IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术",
     "path": "sources/source-ir-optimization.md",
@@ -2039,55 +1393,6 @@
     ]
   },
   {
-    "id": "sources-source-learn-to-optimize",
-    "title": "量子计算、强化学习与本征优化（Learn-to-Optimize）在 EDA 中的应用综述",
-    "path": "sources/source-learn-to-optimize.md",
-    "type": "source",
-    "source_url": "",
-    "source_type": "paper",
-    "tags": [
-      "quantum-annealing",
-      "reinforcement-learning",
-      "learn-to-optimize",
-      "neural-mip-solver",
-      "chip-placement",
-      "eda",
-      "floorplanning",
-      "vlsi"
-    ],
-    "keywords": [
-      "quantum annealing VLSI",
-      "reinforcement learning combinatorial optimization",
-      "learn to optimize placement",
-      "AlphaTensor style EDA",
-      "neural MIP solver"
-    ]
-  },
-  {
-    "id": "sources-source-license-burst",
-    "title": "EDA 许可证管理与弹性仿真：从固定许可证到按需计费的范式转移",
-    "path": "sources/source-license-burst.md",
-    "type": "source",
-    "source_url": "https://www.synopsys.com/blogs/chip-design/5-ways-flexeda-saas-model-transforms-chip-design.html",
-    "source_type": "blog",
-    "tags": [
-      "eda-license",
-      "flexeda",
-      "burst-simulation",
-      "byol",
-      "subscription-licensing",
-      "cloud-elasticity"
-    ],
-    "keywords": [
-      "EDA license server",
-      "burst simulation",
-      "elastic EDA",
-      "pay-per-use",
-      "token-based licensing",
-      "on-demand simulation"
-    ]
-  },
-  {
     "id": "sources-source-linux-kernel-sync",
     "title": "Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用",
     "path": "sources/source-linux-kernel-sync.md",
@@ -2138,30 +1443,6 @@
       "HITM",
       "cache contention",
       "CPU profiling"
-    ]
-  },
-  {
-    "id": "sources-source-llm-verification",
-    "title": "LLM 辅助 RTL 验证与硬件设计（Copilot for RTL）",
-    "path": "sources/source-llm-verification.md",
-    "type": "source",
-    "source_url": "",
-    "source_type": "\"survey\"  # survey, paper, blog, github",
-    "tags": [
-      "llm",
-      "rtl-verification",
-      "code-generation",
-      "formal-verification",
-      "copilot"
-    ],
-    "keywords": [
-      "LLM verilog verification",
-      "GPT RTL code generation",
-      "AI assisted hardware verification",
-      "LLM formal verification",
-      "ChipNeMo",
-      "VeriAssist",
-      "assertion generation"
     ]
   },
   {
@@ -2402,51 +1683,6 @@
     ]
   },
   {
-    "id": "sources-source-mixed-signal",
-    "title": "Mixed-Signal Simulation (Verilog-AMS)",
-    "path": "sources/source-mixed-signal.md",
-    "type": "source",
-    "source_url": "https://www.mdpi.com/2674-0729/3/3/13",
-    "source_type": "paper",
-    "tags": [
-      "mixed-signal",
-      "Verilog-AMS",
-      "co-simulation",
-      "SPICE",
-      "RTL",
-      "AMS"
-    ],
-    "keywords": [
-      "mixed signal simulation",
-      "Verilog-AMS",
-      "analog digital co-simulation",
-      "SPICE Verilog interface",
-      "VCS AMS"
-    ]
-  },
-  {
-    "id": "sources-source-ml-simulation",
-    "title": "ML/AI 用于仿真加速与 EDA 优化",
-    "path": "sources/source-ml-simulation.md",
-    "type": "source",
-    "source_url": "",
-    "source_type": "\"paper\"  # paper, blog, doc, survey",
-    "tags": [
-      "ml",
-      "simulation-acceleration",
-      "surrogate-model",
-      "reinforcement-learning",
-      "eda-scheduling"
-    ],
-    "keywords": [
-      "machine learning RTL simulation",
-      "neural network circuit simulation",
-      "reinforcement learning simulation scheduling",
-      "surrogate model EDA",
-      "AI driven simulation acceleration"
-    ]
-  },
-  {
     "id": "sources-source-mt-error-handling",
     "title": "Multithreaded Error Handling & Assertions in C++",
     "path": "sources/source-mt-error-handling.md",
@@ -2468,28 +1704,6 @@
       "custom assert",
       "multithreaded exception",
       "C++ exception safety"
-    ]
-  },
-  {
-    "id": "sources-source-multiclock-async",
-    "title": "Multi-Clock & Asynchronous Design Simulation Frameworks",
-    "path": "sources/source-multiclock-async.md",
-    "type": "source",
-    "source_url": "https://users.ece.cmu.edu/~schen1/ece743/PwrPerf_of_GALS.pdf",
-    "source_type": "paper",
-    "tags": [
-      "GALS",
-      "multi-clock",
-      "asynchronous",
-      "event-driven-simulation",
-      "FPGA-prototyping"
-    ],
-    "keywords": [
-      "globally asynchronous locally synchronous",
-      "asynchronous circuit simulation",
-      "event queue",
-      "multiple clock domains",
-      "DVFS"
     ]
   },
   {
@@ -2737,33 +1951,6 @@
     ]
   },
   {
-    "id": "sources-source-papers-hardware-accel",
-    "title": "RTL 仿真硬件加速论文地图（ISCA/MICRO/ASPLOS/DAC）",
-    "path": "sources/source-papers-hardware-accel.md",
-    "type": "source",
-    "source_url": "",
-    "source_type": "paper",
-    "tags": [
-      "RTL-simulation",
-      "hardware-acceleration",
-      "FPGA-emulation",
-      "GPU-simulation",
-      "domain-specific-architecture"
-    ],
-    "keywords": [
-      "FPGA simulation",
-      "GPU RTL simulation",
-      "hardware accelerator",
-      "ASH",
-      "FireSim",
-      "RTLFlow",
-      "GATSPI",
-      "GEM",
-      "Khronos",
-      "dataflow architecture"
-    ]
-  },
-  {
     "id": "sources-source-papers-parallel-rtl",
     "title": "RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）",
     "path": "sources/source-papers-parallel-rtl.md",
@@ -2992,30 +2179,6 @@
     ]
   },
   {
-    "id": "sources-source-phy-serdes",
-    "title": "Physical Layer / SerDes Simulation",
-    "path": "sources/source-phy-serdes.md",
-    "type": "source",
-    "source_url": "https://www.synopsys.com/designware-ip/technical-bulletin/modeling-integration-112g-phy-ip.html",
-    "source_type": "doc",
-    "tags": [
-      "SerDes",
-      "PHY",
-      "IBIS-AMI",
-      "high-speed serial",
-      "channel simulation",
-      "equalization"
-    ],
-    "keywords": [
-      "SerDes RTL simulation",
-      "PHY simulation",
-      "high speed serial simulation",
-      "IBIS-AMI simulation",
-      "PAM-4",
-      "112G"
-    ]
-  },
-  {
     "id": "sources-source-plugin-architecture",
     "title": "C++ 插件系统动态加载（dlopen）的线程安全架构",
     "path": "sources/source-plugin-architecture.md",
@@ -3038,36 +2201,6 @@
       "dynamic loading multithreaded",
       "shared library reload",
       "hot reload C++ plugin"
-    ]
-  },
-  {
-    "id": "sources-source-power-rtl",
-    "title": "RTL 仿真中的功耗估计方法与工具链",
-    "path": "sources/source-power-rtl.md",
-    "type": "source",
-    "source_url": "https://pdfcoffee.com/primetime-px-methodology-for-power-analysis-pdf-free.html",
-    "source_type": "doc",
-    "tags": [
-      "power-estimation",
-      "rtl-simulation",
-      "ptpx",
-      "joules",
-      "vcd",
-      "saif",
-      "toggle-rate",
-      "eda-tools"
-    ],
-    "keywords": [
-      "PrimePower",
-      "PrimeTime PX",
-      "Cadence Joules",
-      "RTL power",
-      "VCD power analysis",
-      "SAIF",
-      "vector-free",
-      "average power",
-      "peak power",
-      "time-based power"
     ]
   },
   {
@@ -3121,82 +2254,6 @@
     ]
   },
   {
-    "id": "sources-source-regression-testing",
-    "title": "RTL 回归测试与 CI/CD 集成：从夜间回归到覆盖率驱动的持续验证",
-    "path": "sources/source-regression-testing.md",
-    "type": "source",
-    "source_url": "https://www.cnblogs.com/loves6036/p/5811661.html",
-    "source_type": "blog",
-    "tags": [
-      "regression-testing",
-      "ci-cd",
-      "nightly-regression",
-      "coverage-driven",
-      "vcs",
-      "uvm",
-      "makefile"
-    ],
-    "keywords": [
-      "regression suite",
-      "nightly regression",
-      "coverage merge",
-      "urg",
-      "autograding",
-      "CI EDA",
-      "batch simulation"
-    ]
-  },
-  {
-    "id": "sources-source-reset-clock",
-    "title": "Reset Synchronization & Glitch-Free Clock Gating in RTL",
-    "path": "sources/source-reset-clock.md",
-    "type": "source",
-    "source_url": "https://ecrionix.org/rtl_design/coding-guidelines/",
-    "source_type": "blog",
-    "tags": [
-      "reset-synchronization",
-      "clock-gating",
-      "RDC",
-      "glitch-free",
-      "RTL-coding"
-    ],
-    "keywords": [
-      "async assert sync deassert",
-      "reset synchronizer",
-      "reset domain crossing",
-      "ICG",
-      "clock gating cell",
-      "glitch"
-    ]
-  },
-  {
-    "id": "sources-source-reset-strategy",
-    "title": "Reset Strategy & Power-On Initialization in RTL Simulation",
-    "path": "sources/source-reset-strategy.md",
-    "type": "source",
-    "source_url": "https://www.realintent.com/reset-domain-crossing-methodology-ai-llm-chips-rivos/",
-    "source_type": "blog",
-    "tags": [
-      "reset-strategy",
-      "power-on-reset",
-      "async-reset-sync-release",
-      "reset-tree",
-      "RDC",
-      "initialization",
-      "RTL-simulation"
-    ],
-    "keywords": [
-      "asynchronous reset",
-      "synchronous reset",
-      "reset synchronizer",
-      "reset domain crossing",
-      "power-on reset",
-      "reset tree",
-      "boot sequence",
-      "POR"
-    ]
-  },
-  {
     "id": "sources-source-roofline-rtl",
     "title": "Roofline 模型在 RTL 仿真中的性能分析",
     "path": "sources/source-roofline-rtl.md",
@@ -3218,55 +2275,6 @@
       "compute ceiling",
       "RTL simulation performance",
       "arithmetic intensity"
-    ]
-  },
-  {
-    "id": "sources-source-rust-async-sim",
-    "title": "Rust Async / Tokio 在事件驱动仿真器中的应用",
-    "path": "sources/source-rust-async-sim.md",
-    "type": "source",
-    "source_url": "https://github.com/rupakm/DesCartes",
-    "source_type": "github-pr",
-    "tags": [
-      "rust",
-      "async",
-      "tokio",
-      "des",
-      "event-driven",
-      "simulation",
-      "concurrency"
-    ],
-    "keywords": [
-      "rust async simulation",
-      "tokio simulation engine",
-      "discrete event simulation",
-      "deterministic simulation",
-      "async await des"
-    ]
-  },
-  {
-    "id": "sources-source-rust-simd-rayon",
-    "title": "Rust SIMD 与 Rayon 数据并行在数值仿真中的实践",
-    "path": "sources/source-rust-simd-rayon.md",
-    "type": "source",
-    "source_url": "https://docs.rs/rayon",
-    "source_type": "doc",
-    "tags": [
-      "rust",
-      "simd",
-      "rayon",
-      "parallel",
-      "data-parallelism",
-      "avx",
-      "vectorization",
-      "performance"
-    ],
-    "keywords": [
-      "rust rayon parallel simulation",
-      "rust simd avx",
-      "portable simd rust",
-      "rayon data parallelism",
-      "work-stealing"
     ]
   },
   {
@@ -3294,30 +2302,6 @@
       "simulation",
       "multithreaded performance",
       "memory leak detector"
-    ]
-  },
-  {
-    "id": "sources-source-sdc-constraints",
-    "title": "SDC 综合约束与 RTL 仿真的关系",
-    "path": "sources/source-sdc-constraints.md",
-    "type": "source",
-    "source_url": "https://www.intel.com/content/www/us/en/docs/programmable/683236/22-3/applying-the-sdc-on-rtl-constraints.html",
-    "source_type": "doc",
-    "tags": [
-      "SDC",
-      "timing-constraints",
-      "synthesis",
-      "RTL",
-      "multi-cycle-path",
-      "false-path"
-    ],
-    "keywords": [
-      "create_clock",
-      "set_false_path",
-      "set_multicycle_path",
-      "SDC-on-RTL",
-      "path-group",
-      "timing-exception"
     ]
   },
   {
@@ -3367,34 +2351,6 @@
       "writer-priority",
       "torn-read",
       "retry"
-    ]
-  },
-  {
-    "id": "sources-source-side-channel",
-    "title": "RTL 级功耗侧信道分析：SCAR 框架与预硅安全评估",
-    "path": "sources/source-side-channel.md",
-    "type": "source",
-    "source_url": "https://www.x-mol.com/paper/1784270070721794048",
-    "source_type": "paper",
-    "tags": [
-      "side-channel",
-      "power-analysis",
-      "RTL",
-      "SCAR",
-      "GNN",
-      "DPA",
-      "CPA",
-      "pre-silicon"
-    ],
-    "keywords": [
-      "SCAR",
-      "power side-channel",
-      "RTL-level analysis",
-      "correlation power analysis",
-      "DPA",
-      "GNN",
-      "CDFG",
-      "pre-silicon"
     ]
   },
   {
@@ -3522,29 +2478,6 @@
     ]
   },
   {
-    "id": "sources-source-spice-interface",
-    "title": "SPICE / FastSPICE Interface and Co-Simulation",
-    "path": "sources/source-spice-interface.md",
-    "type": "source",
-    "source_url": "https://www.mdpi.com/2079-9292/15/8/1687",
-    "source_type": "paper",
-    "tags": [
-      "SPICE",
-      "FastSPICE",
-      "co-simulation",
-      "mixed-signal",
-      "RTL",
-      "EDA"
-    ],
-    "keywords": [
-      "SPICE RTL interface",
-      "fastspice simulation",
-      "SPICE Verilog co-simulation",
-      "analog simulation acceleration",
-      "mixed-signal simulation methods"
-    ]
-  },
-  {
     "id": "sources-source-spike-parallelization",
     "title": "Spike RISC-V 模拟器并行化分析",
     "path": "sources/source-spike-parallelization.md",
@@ -3596,32 +2529,6 @@
       "discrete event",
       "parallel_runtime",
       "Hg::Thread"
-    ]
-  },
-  {
-    "id": "sources-source-sta-timing",
-    "title": "静态时序分析（STA）与 RTL 仿真之间的相关性",
-    "path": "sources/source-sta-timing.md",
-    "type": "source",
-    "source_url": "https://inskill.in/training/vlsi/why-timing-constraints-are-crucial-in-rtl-to-gdsii-flow/",
-    "source_type": "blog",
-    "tags": [
-      "STA",
-      "static-timing-analysis",
-      "setup-hold",
-      "timing-closure",
-      "RTL-simulation",
-      "gate-level-simulation",
-      "correlation"
-    ],
-    "keywords": [
-      "setup time",
-      "hold time",
-      "timing path",
-      "slack",
-      "critical path",
-      "SDF",
-      "timing correlation"
     ]
   },
   {
@@ -3724,33 +2631,6 @@
     ]
   },
   {
-    "id": "sources-source-sv-compiler",
-    "title": "SystemVerilog / UVM 编译器与运行时：开源工具链生态",
-    "path": "sources/source-sv-compiler.md",
-    "type": "source",
-    "source_url": "https://www.chipsalliance.org/news/open-source-systemverilog-tools-in-asic-design/",
-    "source_type": "doc",
-    "tags": [
-      "systemverilog",
-      "surelog",
-      "uhdm",
-      "verilator",
-      "verible",
-      "slang",
-      "uvm",
-      "open-source-eda"
-    ],
-    "keywords": [
-      "SystemVerilog compiler",
-      "Surelog parser",
-      "Verilator UVM",
-      "Verible lint",
-      "slang SystemVerilog",
-      "开源SystemVerilog",
-      "UHDM"
-    ]
-  },
-  {
     "id": "sources-source-swarm-intelligence",
     "title": "禁忌搜索、蚁群与粒子群优化在 EDA 中的应用",
     "path": "sources/source-swarm-intelligence.md",
@@ -3780,31 +2660,6 @@
     ]
   },
   {
-    "id": "sources-source-synthesis-impact",
-    "title": "逻辑综合与工艺映射对 RTL 仿真精度的影响",
-    "path": "sources/source-synthesis-impact.md",
-    "type": "source",
-    "source_url": "https://www.leadsoc.com/rtl-vs-gate-level-simulation-whats-the-difference/",
-    "source_type": "blog",
-    "tags": [
-      "logic-synthesis",
-      "technology-mapping",
-      "RTL-simulation",
-      "gate-level-simulation",
-      "synthesis-mismatch",
-      "X-propagation"
-    ],
-    "keywords": [
-      "synthesis",
-      "GLS",
-      "SDF back-annotation",
-      "X-optimism",
-      "X-pessimism",
-      "timing mismatch",
-      "incomplete sensitivity list"
-    ]
-  },
-  {
     "id": "sources-source-systemc-kernel",
     "title": "SystemC Kernel Implementation & Scheduler Internals",
     "path": "sources/source-systemc-kernel.md",
@@ -3826,35 +2681,6 @@
       "SystemC event notification",
       "SystemC simulation engine",
       "SystemC parallel simulation"
-    ]
-  },
-  {
-    "id": "sources-source-thermal-rtl",
-    "title": "RTL 与热仿真结合：从 Pre-RTL 架构级到 3D IC 热分析",
-    "path": "sources/source-thermal-rtl.md",
-    "type": "source",
-    "source_url": "https://arxiv.org/html/2403.20050v1",
-    "source_type": "paper",
-    "tags": [
-      "thermal-simulation",
-      "pre-rtl",
-      "hotspot",
-      "3d-ic",
-      "microfluidic-cooling",
-      "architecture-level",
-      "temperature-aware"
-    ],
-    "keywords": [
-      "HotSpot",
-      "thermal model",
-      "pre-RTL thermal simulator",
-      "3D IC thermal",
-      "microfluidic cooling",
-      "CoMeT",
-      "Hot-LEGO",
-      "compact thermal model",
-      "RC thermal network",
-      "temperature aware simulation"
     ]
   },
   {
@@ -3916,34 +2742,6 @@
     ]
   },
   {
-    "id": "sources-source-timeseries-db",
-    "title": "时序数据库在 RTL 仿真指标监控中的应用：InfluxDB / TimescaleDB / Prometheus / Grafana",
-    "path": "sources/source-timeseries-db.md",
-    "type": "source",
-    "source_url": "https://www.askantech.com/influxdb-vs-timescaledb-vs-prometheus-time-series-databases-iot-monitoring/",
-    "source_type": "\"blog\"  # github-pr, github-issue, blog, doc, paper, competition",
-    "tags": [
-      "time-series-database",
-      "InfluxDB",
-      "TimescaleDB",
-      "Prometheus",
-      "Grafana",
-      "simulation-metrics",
-      "monitoring",
-      "RTL-verification"
-    ],
-    "keywords": [
-      "InfluxDB",
-      "TimescaleDB",
-      "Prometheus",
-      "Grafana",
-      "metrics",
-      "simulation monitoring",
-      "regression dashboard",
-      "time-series"
-    ]
-  },
-  {
     "id": "sources-source-timewarp-algorithm",
     "title": "Time Warp: Virtual Time and Optimistic Synchronization",
     "path": "sources/source-timewarp-algorithm.md",
@@ -3994,89 +2792,6 @@
     ]
   },
   {
-    "id": "sources-source-trace-analytics",
-    "title": "RTL 仿真数据管理、Trace 分析与回归数据库：从覆盖率到智能调试",
-    "path": "sources/source-trace-analytics.md",
-    "type": "source",
-    "source_url": "https://semiengineering.com/ai-driven-verification-regression-management/",
-    "source_type": "\"blog\"  # github-pr, github-issue, blog, doc, paper, competition",
-    "tags": [
-      "RTL-trace",
-      "simulation-log",
-      "coverage-data",
-      "regression-database",
-      "verification",
-      "AI-regression",
-      "VCS",
-      "Verdi"
-    ],
-    "keywords": [
-      "RTL trace",
-      "coverage",
-      "regression",
-      "simulation log",
-      "UVM",
-      "AI verification",
-      "VCS",
-      "Verdi",
-      "coverage closure"
-    ]
-  },
-  {
-    "id": "sources-source-upf-power",
-    "title": "UPF Power Intent & Low-Power Simulation in RTL",
-    "path": "sources/source-upf-power.md",
-    "type": "source",
-    "source_url": "https://verificationacademy.com/topics/low-power/a-guide-to-upf-based-power-intent-verification-questa-one/",
-    "source_type": "doc",
-    "tags": [
-      "UPF",
-      "IEEE-1801",
-      "power-gating",
-      "low-power",
-      "isolation-cell",
-      "retention-register",
-      "power-aware-simulation",
-      "RTL"
-    ],
-    "keywords": [
-      "UPF",
-      "power intent",
-      "power domain",
-      "isolation",
-      "retention",
-      "level shifter",
-      "power aware simulation",
-      "low power verification"
-    ]
-  },
-  {
-    "id": "sources-source-vcd-alternatives",
-    "title": "VCD 替代波形格式与性能对比调研",
-    "path": "sources/source-vcd-alternatives.md",
-    "type": "source",
-    "source_url": "https://veripool.org/guide/latest/faq.html",
-    "source_type": "doc",
-    "tags": [
-      "VCD",
-      "FST",
-      "FSDB",
-      "GHW",
-      "waveform-format",
-      "compression",
-      "performance",
-      "dump-format"
-    ],
-    "keywords": [
-      "波形格式",
-      "VCD替代",
-      "快速信号跟踪",
-      "二进制波形",
-      "流式dump",
-      "仿真I/O优化"
-    ]
-  },
-  {
     "id": "sources-source-vectorization-rtl",
     "title": "RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂",
     "path": "sources/source-vectorization-rtl.md",
@@ -4103,32 +2818,6 @@
       "supernode",
       "boomerang executor",
       "bit-level activation"
-    ]
-  },
-  {
-    "id": "sources-source-verification-methodology",
-    "title": "基于仿真的验证方法论：约束随机、UVM 与覆盖率驱动验证",
-    "path": "sources/source-verification-methodology.md",
-    "type": "source",
-    "source_url": "https://locusit.com/learning/advanced-and-trending-it-trainings/testbench-architecture-verification-methodology/",
-    "source_type": "doc",
-    "tags": [
-      "UVM",
-      "CRV",
-      "CDV",
-      "verification-methodology",
-      "testbench-acceleration",
-      "RTL-simulation",
-      "coverage"
-    ],
-    "keywords": [
-      "constrained random verification",
-      "UVM",
-      "coverage-driven verification",
-      "testbench acceleration",
-      "hardware-assisted emulation",
-      "co-modeling",
-      "transaction-level modeling"
     ]
   },
   {
@@ -4332,31 +3021,6 @@
     ]
   },
   {
-    "id": "sources-source-vpi-dpi",
-    "title": "VPI/DPI 接口性能与多线程仿真适配",
-    "path": "sources/source-vpi-dpi.md",
-    "type": "source",
-    "source_url": "https://dvcon-proceedings.org/wp-content/uploads/c-you-on-the-faster-side-accelerating-sv-dpi-based-co-simulation.pdf",
-    "source_type": "paper",
-    "tags": [
-      "vpi",
-      "dpi",
-      "systemverilog",
-      "co-simulation",
-      "performance",
-      "multi-threading"
-    ],
-    "keywords": [
-      "VPI callback",
-      "DPI overhead",
-      "DPI-C",
-      "parallel simulation",
-      "PLI",
-      "context import",
-      "pure function"
-    ]
-  },
-  {
     "id": "sources-source-vtune-uprof",
     "title": "Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用",
     "path": "sources/source-vtune-uprof.md",
@@ -4408,61 +3072,6 @@
     ]
   },
   {
-    "id": "sources-source-waveform-database",
-    "title": "RTL 仿真波形数据库格式与工具：VCD / FST / FSDB 全景对比",
-    "path": "sources/source-waveform-database.md",
-    "type": "source",
-    "source_url": "https://github.com/toem/impulse.playground.eda",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
-    "tags": [
-      "waveform-database",
-      "VCD",
-      "FST",
-      "FSDB",
-      "GTKWave",
-      "Surfer",
-      "RTL-simulation",
-      "compression"
-    ],
-    "keywords": [
-      "VCD",
-      "FST",
-      "FSDB",
-      "waveform",
-      "GTKWave",
-      "Surfer",
-      "Verdi",
-      "compression",
-      "random-access"
-    ]
-  },
-  {
-    "id": "sources-source-waveform-viz",
-    "title": "波形可视化工具全景调研",
-    "path": "sources/source-waveform-viz.md",
-    "type": "source",
-    "source_url": "https://github.com/TM90/awesome-hwd-tools",
-    "source_type": "doc",
-    "tags": [
-      "waveform",
-      "visualization",
-      "GTKWave",
-      "Surfer",
-      "Verdi",
-      "VaporView",
-      "WaveDrom",
-      "debug"
-    ],
-    "keywords": [
-      "波形查看器",
-      "VCD",
-      "FST",
-      "RTL调试",
-      "开源EDA",
-      "VSCode扩展"
-    ]
-  },
-  {
     "id": "sources-source-work-stealing",
     "title": "Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术",
     "path": "sources/source-work-stealing.md",
@@ -4485,34 +3094,6 @@
       "Chase-Lev-deque",
       "task-DAG",
       "load-balancing"
-    ]
-  },
-  {
-    "id": "sources-source-x-propagation",
-    "title": "X-Propagation & Initialization in RTL Simulation",
-    "path": "sources/source-x-propagation.md",
-    "type": "source",
-    "source_url": "https://www.einfochips.com/blog/x-propagation-simulation-a-powerful-feature/",
-    "source_type": "blog",
-    "tags": [
-      "X-propagation",
-      "X-optimism",
-      "X-pessimism",
-      "initialization",
-      "RTL-simulation",
-      "SystemVerilog",
-      "GLS"
-    ],
-    "keywords": [
-      "X propagation",
-      "unknown state",
-      "uninitialized register",
-      "X optimism",
-      "X pessimism",
-      "SystemVerilog 4-state",
-      "VCS xprop",
-      "Xcelium",
-      "gate-level simulation"
     ]
   },
   {
@@ -4697,41 +3278,6 @@
     ]
   },
   {
-    "id": "wiki-wiki-cdc-and-clocking",
-    "title": "时钟域跨越与多时钟仿真",
-    "path": "wiki/wiki-cdc-and-clocking.md",
-    "type": "wiki",
-    "tags": [
-      "CDC",
-      "clock-domain-crossing",
-      "metastability",
-      "reset-synchronization",
-      "GALS",
-      "asynchronous-fifo",
-      "multi-clock",
-      "RDC",
-      "ICG"
-    ],
-    "keywords": [
-      "CDC验证",
-      "2-FF同步器",
-      "亚稳态PRNG",
-      "reconvergence",
-      "复位同步",
-      "异步置位同步释放",
-      "RDC",
-      "ICG glitch",
-      "GALS",
-      "异步FIFO",
-      "Yale FPGA映射"
-    ],
-    "related_sources": [
-      "source-cdc-verification",
-      "source-reset-clock",
-      "source-multiclock-async"
-    ]
-  },
-  {
     "id": "wiki-wiki-chisel-and-essent",
     "title": "Chisel/FIRRTL生态与高性能仿真器",
     "path": "wiki/wiki-chisel-and-essent.md",
@@ -4762,44 +3308,6 @@
       "source-essent-simulator",
       "source-cxxrtl",
       "source-chisel-firrtl"
-    ]
-  },
-  {
-    "id": "wiki-wiki-cloud-and-eda",
-    "title": "云原生EDA与容器化",
-    "path": "wiki/wiki-cloud-and-eda.md",
-    "type": "wiki",
-    "tags": [
-      "cloud-eda",
-      "containerization",
-      "docker",
-      "kubernetes",
-      "flexeda",
-      "byol",
-      "burst-simulation",
-      "saas-eda",
-      "numa",
-      "cicd"
-    ],
-    "keywords": [
-      "云EDA",
-      "容器化",
-      "Docker",
-      "Kubernetes",
-      "FlexEDA",
-      "BYOL",
-      "突发仿真",
-      "Synopsys Cloud",
-      "Rescale",
-      "Azure",
-      "GitHub Actions",
-      "NUMA",
-      "静态链接"
-    ],
-    "related_sources": [
-      "source-cloud-eda",
-      "source-container-eda",
-      "source-license-burst"
     ]
   },
   {
@@ -4938,106 +3446,6 @@
     ]
   },
   {
-    "id": "wiki-wiki-coroutine-and-scheduler",
-    "title": "协程与事件调度引擎",
-    "path": "wiki/wiki-coroutine-and-scheduler.md",
-    "type": "wiki",
-    "tags": [
-      "coroutine",
-      "cpp20",
-      "event-scheduler",
-      "event-queue",
-      "lock-free",
-      "zero-copy",
-      "calendar-queue",
-      "ladder-queue",
-      "disruptor",
-      "rtl-simulation"
-    ],
-    "keywords": [
-      "C++20协程",
-      "事件驱动仿真",
-      "无锁队列",
-      "零拷贝事件传递",
-      "Calendar Queue",
-      "Ladder Queue",
-      "Splay Tree",
-      "事件调度引擎"
-    ],
-    "related_sources": [
-      "source-coroutine-simulation",
-      "source-event-scheduler",
-      "source-event-passing"
-    ]
-  },
-  {
-    "id": "wiki-wiki-data-and-interfaces",
-    "title": "仿真数据管理与接口技术",
-    "path": "wiki/wiki-data-and-interfaces.md",
-    "type": "wiki",
-    "tags": [
-      "waveform",
-      "vcd",
-      "fst",
-      "fsdb",
-      "timeseries-db",
-      "vpi",
-      "dpi",
-      "coverage",
-      "regression",
-      "ci-cd",
-      "multi-threading"
-    ],
-    "keywords": [
-      "波形压缩",
-      "FST 45x",
-      "VPI DPI 性能",
-      "覆盖率并行",
-      "回归测试 CI",
-      "时序数据库",
-      "per-thread buffer"
-    ],
-    "related_sources": []
-  },
-  {
-    "id": "wiki-wiki-dsp-and-signal",
-    "title": "DSP与信号处理RTL仿真",
-    "path": "wiki/wiki-dsp-and-signal.md",
-    "type": "wiki",
-    "tags": [
-      "dsp",
-      "rtl-sim",
-      "fixed-point",
-      "quantization",
-      "communication",
-      "baseband",
-      "fft",
-      "viterbi",
-      "OFDM",
-      "5G"
-    ],
-    "keywords": [
-      "DSP RTL",
-      "FFT simulation",
-      "FIR filter RTL",
-      "Viterbi decoder",
-      "fixed-point quantization",
-      "bit-true",
-      "WLO",
-      "SQNR",
-      "OFDM baseband",
-      "co-simulation",
-      "CCSS",
-      "Parendi",
-      "Verilator"
-    ],
-    "related_sources": [
-      "source-dsp-rtl",
-      "source-fixed-point",
-      "source-communication-rtl"
-    ]
-  },
-  {
     "id": "wiki-wiki-error-handling-and-debugging",
     "title": "错误处理与多线程调试",
     "path": "wiki/wiki-error-handling-and-debugging.md",
@@ -5063,39 +3471,6 @@
     "related_sources": []
   },
   {
-    "id": "wiki-wiki-formal-and-verification",
-    "title": "形式化验证与仿真协同",
-    "path": "wiki/wiki-formal-and-verification.md",
-    "type": "wiki",
-    "tags": [
-      "formal-verification",
-      "BMC",
-      "k-induction",
-      "UVM",
-      "CRV",
-      "SVA",
-      "ABV",
-      "tandem-verification",
-      "rtl-sim"
-    ],
-    "keywords": [
-      "有界模型检查",
-      "K-Induction",
-      "IC3",
-      "断言驱动验证",
-      "约束随机",
-      "覆盖率驱动",
-      "SystemVerilog断言",
-      "形式化仿真协同",
-      "Portfolio并行"
-    ],
-    "related_sources": [
-      "source-formal-verification",
-      "source-verification-methodology",
-      "source-assertion-verification"
-    ]
-  },
-  {
     "id": "wiki-wiki-github-projects",
     "title": "GitHub开源项目代码分析",
     "path": "wiki/wiki-github-projects.md",
@@ -5114,38 +3489,6 @@
     ],
     "keywords": [],
     "related_sources": []
-  },
-  {
-    "id": "wiki-wiki-gpu-and-hardware",
-    "title": "GPU与硬件加速RTL仿真",
-    "path": "wiki/wiki-gpu-and-hardware.md",
-    "type": "wiki",
-    "tags": [
-      "gpu",
-      "fpga",
-      "emulation",
-      "cuda",
-      "mlir",
-      "rtl-simulation",
-      "hardware-acceleration",
-      "gem",
-      "arcilator",
-      "firesim"
-    ],
-    "keywords": [
-      "GPU RTL仿真",
-      "FPGA原型验证",
-      "GEM仿真器",
-      "Arcilator",
-      "FireSim",
-      "仿真vs仿真",
-      "硬件加速EDA"
-    ],
-    "related_sources": [
-      "source-gpu-rtl-simulation",
-      "source-circt-arcilator",
-      "source-fpga-emulation"
-    ]
   },
   {
     "id": "wiki-wiki-graph-algorithms",
@@ -5183,58 +3526,11 @@
     ]
   },
   {
-    "id": "wiki-wiki-hdl-ecosystem",
-    "title": "HDL语言生态与编译器前端",
-    "path": "wiki/wiki-hdl-ecosystem.md",
-    "type": "wiki",
-    "tags": [
-      "hdl",
-      "chisel",
-      "spinalhdl",
-      "bluespec",
-      "hls",
-      "systemverilog",
-      "surelog",
-      "uhdm",
-      "slang",
-      "compiler-frontend"
-    ],
-    "keywords": [
-      "HDL生态",
-      "HLS编译器",
-      "SystemVerilog前端",
-      "Surelog UHDM",
-      "Verilator多线程",
-      "RTL仿真器前端"
-    ],
-    "related_sources": []
-  },
-  {
     "id": "wiki-wiki-instruction-level",
     "title": "指令级微架构优化",
     "path": "wiki/wiki-instruction-level.md",
     "type": "wiki",
     "tags": [],
-    "keywords": [],
-    "related_sources": []
-  },
-  {
-    "id": "wiki-wiki-jit-and-compiler",
-    "title": "JIT/AOT编译与代码生成",
-    "path": "wiki/wiki-jit-and-compiler.md",
-    "type": "wiki",
-    "tags": [
-      "JIT",
-      "AOT",
-      "LLVM",
-      "CIRCT",
-      "MLIR",
-      "Verilator",
-      "QEMU",
-      "TCG",
-      "binary-translation",
-      "compiler-pipeline"
-    ],
     "keywords": [],
     "related_sources": []
   },
@@ -5356,121 +3652,6 @@
     "related_sources": []
   },
   {
-    "id": "wiki-wiki-mixed-signal",
-    "title": "混合信号与物理层仿真",
-    "path": "wiki/wiki-mixed-signal.md",
-    "type": "wiki",
-    "tags": [
-      "mixed-signal",
-      "Verilog-AMS",
-      "SPICE",
-      "FastSPICE",
-      "SerDes",
-      "PHY",
-      "IBIS-AMI",
-      "co-simulation",
-      "rtl-sim"
-    ],
-    "keywords": [
-      "Verilog-AMS",
-      "Digital-on-Top",
-      "a2d",
-      "d2a",
-      "MNA",
-      "Newton-Raphson",
-      "FastSPICE",
-      "Lock-step",
-      "Relaxation",
-      "Backtracking",
-      "IBIS-AMI",
-      "PAM-4",
-      "112G",
-      "PySerDes",
-      "眼图",
-      "浴盆曲线"
-    ],
-    "related_sources": [
-      "source-mixed-signal",
-      "source-spice-interface",
-      "source-phy-serdes"
-    ]
-  },
-  {
-    "id": "wiki-wiki-ml-and-ai",
-    "title": "机器学习与AI在RTL仿真中的应用",
-    "path": "wiki/wiki-ml-and-ai.md",
-    "type": "wiki",
-    "tags": [
-      "machine-learning",
-      "ai",
-      "gnn",
-      "llm",
-      "rl",
-      "surrogate-model",
-      "circuit-representation",
-      "eda-ml",
-      "rtl-sim"
-    ],
-    "keywords": [
-      "GraPhSyM",
-      "ChipNeMo",
-      "VeriAssist",
-      "DeepGate",
-      "PolarGate",
-      "Q-learning",
-      "GNN电路嵌入",
-      "AIG嵌入",
-      "LAAG-RV",
-      "TROJAN-GUARD",
-      "DynamicRTL",
-      "GPA"
-    ],
-    "related_sources": [
-      "source-ml-simulation",
-      "source-llm-verification",
-      "source-gnn-circuit"
-    ]
-  },
-  {
-    "id": "wiki-wiki-noc-and-distributed",
-    "title": "NoC与分布式RTL仿真",
-    "path": "wiki/wiki-noc-and-distributed.md",
-    "type": "wiki",
-    "tags": [
-      "noc",
-      "distributed-rtl",
-      "mpi",
-      "chiplet",
-      "multi-die",
-      "axistream",
-      "metro-mpi",
-      "parendi",
-      "parallel-simulation",
-      "rtl-sim"
-    ],
-    "keywords": [
-      "NoC",
-      "Network-on-Chip",
-      "分布式RTL仿真",
-      "Metro-MPI",
-      "Parendi",
-      "ReCONNECT",
-      "Proteus",
-      "Chiplet仿真",
-      "Serial Link",
-      "AXI-Stream",
-      "延迟不敏感接口",
-      "跨层仿真",
-      "BSP",
-      "MPI"
-    ],
-    "related_sources": [
-      "source-noc-simulation",
-      "source-distributed-rtl",
-      "source-chiplet-simulation"
-    ]
-  },
-  {
     "id": "wiki-wiki-os-and-debugging",
     "title": "操作系统调度与多线程调试",
     "path": "wiki/wiki-os-and-debugging.md",
@@ -5551,40 +3732,6 @@
     "related_sources": []
   },
   {
-    "id": "wiki-wiki-pdes-for-rtl",
-    "title": "PDES在RTL仿真中的应用",
-    "path": "wiki/wiki-pdes-for-rtl.md",
-    "type": "wiki",
-    "tags": [
-      "pdes",
-      "rtl-sim",
-      "time-warp",
-      "conservative",
-      "optimistic",
-      "synchronization",
-      "delta-cycle"
-    ],
-    "keywords": [
-      "PDES",
-      "Time Warp",
-      "conservative synchronization",
-      "optimistic synchronization",
-      "anti-message",
-      "delta cycle",
-      "GVT",
-      "rollback",
-      "full-cycle simulation"
-    ],
-    "related_sources": [
-      "source-pdes-making-of-field",
-      "source-timewarp-algorithm",
-      "source-pdes-vhdl-lungeanu",
-      "source-pdes-sync-comparison",
-      "source-pdes-rtlsim-modern",
-      "source-warped2-pdes-engine"
-    ]
-  },
-  {
     "id": "wiki-wiki-plugin-and-ffi",
     "title": "插件系统与FFI线程安全",
     "path": "wiki/wiki-plugin-and-ffi.md",
@@ -5602,43 +3749,6 @@
     ],
     "keywords": [],
     "related_sources": []
-  },
-  {
-    "id": "wiki-wiki-power-and-thermal",
-    "title": "电源与热感知RTL仿真",
-    "path": "wiki/wiki-power-and-thermal.md",
-    "type": "wiki",
-    "tags": [
-      "power-estimation",
-      "thermal-simulation",
-      "toggle-rate",
-      "activity-factor",
-      "ptpx",
-      "joules",
-      "hotspot",
-      "rtl-sim",
-      "energy-aware"
-    ],
-    "keywords": [
-      "PrimeTime PX",
-      "Joules RTL Power",
-      "VCD",
-      "SAIF",
-      "Toggle Rate",
-      "Static Probability",
-      "Activity Factor",
-      "HotSpot",
-      "Hot-LEGO",
-      "CoMeT",
-      "3D IC热仿真",
-      "per-thread counter",
-      "零延迟传播"
-    ],
-    "related_sources": [
-      "source-power-rtl",
-      "source-thermal-rtl",
-      "source-activity-factor"
-    ]
   },
   {
     "id": "wiki-wiki-profiling-tools",
@@ -5674,42 +3784,6 @@
     ]
   },
   {
-    "id": "wiki-wiki-protocol-verification",
-    "title": "协议验证与接口仿真",
-    "path": "wiki/wiki-protocol-verification.md",
-    "type": "wiki",
-    "tags": [
-      "protocol-verification",
-      "AXI",
-      "VIP",
-      "BFM",
-      "UVM",
-      "PCIe",
-      "DDR",
-      "Veloce",
-      "SCE-MI",
-      "rtl-sim"
-    ],
-    "keywords": [
-      "AXI VIP",
-      "Protocol Checker",
-      "Master/Slave/Passive",
-      "Root Port Model",
-      "Transactor",
-      "Monitor",
-      "Speed Adapter",
-      "SCE-MI",
-      "IBIS-AMI",
-      "PHY Training",
-      "UVM Scoreboard"
-    ],
-    "related_sources": [
-      "source-axi-protocol",
-      "source-ddr-pcie",
-      "source-bfm-vip"
-    ]
-  },
-  {
     "id": "wiki-wiki-reproducibility-and-config",
     "title": "可复现性与配置系统",
     "path": "wiki/wiki-reproducibility-and-config.md",
@@ -5738,41 +3812,6 @@
     "related_sources": []
   },
   {
-    "id": "wiki-wiki-reset-and-initialization",
-    "title": "复位策略与初始化",
-    "path": "wiki/wiki-reset-and-initialization.md",
-    "type": "wiki",
-    "tags": [
-      "reset-strategy",
-      "initialization",
-      "X-propagation",
-      "X-optimism",
-      "X-pessimism",
-      "UPF",
-      "power-domain",
-      "low-power",
-      "RDC",
-      "4-state"
-    ],
-    "keywords": [
-      "复位策略",
-      "异步置位同步释放",
-      "X-传播",
-      "SystemVerilog 4-state",
-      "UPF",
-      "电源域",
-      "隔离单元",
-      "保持寄存器",
-      "RDC",
-      "复位同步器"
-    ],
-    "related_sources": [
-      "source-reset-strategy",
-      "source-x-propagation",
-      "source-upf-power"
-    ]
-  },
-  {
     "id": "wiki-wiki-roofline-and-autotuning",
     "title": "Roofline模型与自动调优",
     "path": "wiki/wiki-roofline-and-autotuning.md",
@@ -5780,35 +3819,6 @@
     "tags": [],
     "keywords": [],
     "related_sources": []
-  },
-  {
-    "id": "wiki-wiki-rust-and-ecs",
-    "title": "Rust与ECS架构在仿真器中的应用",
-    "path": "wiki/wiki-rust-and-ecs.md",
-    "type": "wiki",
-    "tags": [
-      "rust",
-      "ecs",
-      "data-oriented-design",
-      "concurrency",
-      "rtl-simulation",
-      "bevy",
-      "rayon"
-    ],
-    "keywords": [
-      "rust rtl simulation",
-      "ecs architecture",
-      "entity component system",
-      "bevy archetype",
-      "rayon work stealing",
-      "simd rtl",
-      "data oriented design"
-    ],
-    "related_sources": [
-      "source-rust-async-sim",
-      "source-ecs-architecture",
-      "source-rust-simd-rayon"
-    ]
   },
   {
     "id": "wiki-wiki-scheduling",
@@ -5836,43 +3846,6 @@
       "source-onetbb-scheduler",
       "source-verilator-mt-code-analysis",
       "source-parendi-asplos25"
-    ]
-  },
-  {
-    "id": "wiki-wiki-security-and-trust",
-    "title": "硬件安全与可信验证",
-    "path": "wiki/wiki-security-and-trust.md",
-    "type": "wiki",
-    "tags": [
-      "hardware-security",
-      "trust-verification",
-      "trojan-detection",
-      "side-channel",
-      "SCAR",
-      "GLIFT",
-      "RTLIFT",
-      "SIFT",
-      "DIFT",
-      "formal-security"
-    ],
-    "keywords": [
-      "硬件木马",
-      "Trust-Hub",
-      "SCAR框架",
-      "GNN侧信道",
-      "DPA",
-      "CPA",
-      "TVLA",
-      "GLIFT",
-      "RTLIFT",
-      "信息流跟踪",
-      "形式化安全验证",
-      "SAT求解"
-    ],
-    "related_sources": [
-      "source-hardware-security",
-      "source-side-channel",
-      "source-formal-security"
     ]
   },
   {
@@ -5971,43 +3944,6 @@
     ]
   },
   {
-    "id": "wiki-wiki-state-management",
-    "title": "状态管理与确定性重放",
-    "path": "wiki/wiki-state-management.md",
-    "type": "wiki",
-    "tags": [
-      "state-management",
-      "checkpoint",
-      "deterministic-replay",
-      "state-compression",
-      "copy-on-write",
-      "multithreading",
-      "rtl-sim"
-    ],
-    "keywords": [
-      "checkpoint",
-      "snapshot",
-      "save-restore",
-      "deterministic replay",
-      "record-replay",
-      "state compression",
-      "copy-on-write",
-      "Time Warp",
-      "rollback",
-      "CXXRTL",
-      "ModelSim",
-      "Xcelium",
-      "rr",
-      "DeLorean",
-      "ReEmu"
-    ],
-    "related_sources": [
-      "source-checkpoint-replay",
-      "source-state-compression",
-      "source-deterministic-replay"
-    ]
-  },
-  {
     "id": "wiki-wiki-sync-overhead",
     "title": "同步开销分析与对策",
     "path": "wiki/wiki-sync-overhead.md",
@@ -6035,42 +3971,6 @@
       "source-verilator-mt-code-analysis",
       "source-pdes-sync-comparison",
       "source-cpp-memory-model"
-    ]
-  },
-  {
-    "id": "wiki-wiki-synthesis-and-constraints",
-    "title": "综合约束与逻辑综合影响",
-    "path": "wiki/wiki-synthesis-and-constraints.md",
-    "type": "wiki",
-    "tags": [
-      "SDC",
-      "logic-synthesis",
-      "STA",
-      "timing-constraints",
-      "synthesis-mismatch",
-      "SDF-back-annotation",
-      "multicycle-path",
-      "false-path",
-      "entity-based-SDC"
-    ],
-    "keywords": [
-      "SDC约束",
-      "逻辑综合",
-      "STA",
-      "setup/hold",
-      "slack",
-      "关键路径",
-      "RTL vs GLS",
-      "SDF反标",
-      "UDSM",
-      "FTGS",
-      "Entity-Based SDC",
-      "CPE约束传播"
-    ],
-    "related_sources": [
-      "source-sdc-constraints",
-      "source-synthesis-impact",
-      "source-sta-timing"
     ]
   },
   {
@@ -6155,41 +4055,6 @@
       "source-verilator-mt-prs",
       "source-verilator-mt-code-analysis",
       "source-verilator-v3variableorder"
-    ]
-  },
-  {
-    "id": "wiki-wiki-visualization-and-debugging",
-    "title": "波形可视化与交互调试",
-    "path": "wiki/wiki-visualization-and-debugging.md",
-    "type": "wiki",
-    "tags": [
-      "waveform",
-      "visualization",
-      "debugging",
-      "GTKWave",
-      "Surfer",
-      "VaporView",
-      "FST",
-      "VCD",
-      "interactive-debug",
-      "trace"
-    ],
-    "keywords": [
-      "波形查看器",
-      "FST格式",
-      "VCD替代",
-      "交互式调试",
-      "GDBWave",
-      "实时波形",
-      "流式dump",
-      "trace buffer",
-      "选择性追踪",
-      "VSCode集成"
-    ],
-    "related_sources": [
-      "source-waveform-viz",
-      "source-interactive-debug",
-      "source-vcd-alternatives"
     ]
   }
 ]
