@@ -154,6 +154,30 @@
     ]
   },
   {
+    "id": "sources-source-autotuning",
+    "title": "自动调优（AutoTuning）与超参数搜索在仿真器中的应用",
+    "path": "sources/source-autotuning.md",
+    "type": "source",
+    "source_url": "https://dspace.mit.edu/bitstream/handle/1721.1/137397/ansel-pact14-opentuner.pdf",
+    "source_type": "paper",
+    "tags": [
+      "autotuning",
+      "OpenTuner",
+      "Bayesian-optimization",
+      "hyperparameter-search",
+      "compiler-flags",
+      "thread-count"
+    ],
+    "keywords": [
+      "autotuning",
+      "OpenTuner",
+      "Bayesian optimization",
+      "hyperparameter search",
+      "compiler flag tuning",
+      "multithreaded application tuning"
+    ]
+  },
+  {
     "id": "sources-source-axi-protocol",
     "title": "AXI Protocol Simulation & Verification — VIP, Protocol Checker 与分层验证方法",
     "path": "sources/source-axi-protocol.md",
@@ -280,6 +304,33 @@
       "Transactor",
       "Monitor",
       "Speed Adapter"
+    ]
+  },
+  {
+    "id": "sources-source-branch-prediction-detailed",
+    "title": "Branch Prediction & Indirect Jump Optimization in RTL Simulation",
+    "path": "sources/source-branch-prediction-detailed.md",
+    "type": "source",
+    "source_url": "https://johnfarrier.com/branch-prediction-the-definitive-guide-for-high-performance-c/",
+    "source_type": "blog",
+    "tags": [
+      "branch-prediction",
+      "indirect-jump",
+      "switch-optimization",
+      "likely-unlikely",
+      "RTL-simulation",
+      "microarchitecture"
+    ],
+    "keywords": [
+      "branch prediction",
+      "indirect jump",
+      "switch statement",
+      "__builtin_expect",
+      "[[likely]]",
+      "jump table",
+      "BTB",
+      "PGO",
+      "NOP insertion"
     ]
   },
   {
@@ -496,6 +547,34 @@
       "Azure HBv3",
       "cloud RTL simulation",
       "SaaS EDA"
+    ]
+  },
+  {
+    "id": "sources-source-cocotb-pyuvm",
+    "title": "cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题",
+    "path": "sources/source-cocotb-pyuvm.md",
+    "type": "source",
+    "source_url": "https://github.com/cocotb/cocotb",
+    "source_type": "github-repo",
+    "tags": [
+      "cocotb",
+      "pyuvm",
+      "VPI",
+      "GIL",
+      "Python",
+      "RTL",
+      "仿真器",
+      "多线程",
+      "协程"
+    ],
+    "keywords": [
+      "PyGILState_Ensure",
+      "PyGILState_Release",
+      "handle_gpi_callback",
+      "_bridge.py",
+      "external_waiter",
+      "GPI",
+      "cosimulation"
     ]
   },
   {
@@ -1435,6 +1514,31 @@
     ]
   },
   {
+    "id": "sources-source-hash-optimization",
+    "title": "哈希表与字典优化在 RTL 仿真器中的应用",
+    "path": "sources/source-hash-optimization.md",
+    "type": "source",
+    "source_url": "https://github.com/Tessil/sparse-map",
+    "source_type": "github",
+    "tags": [
+      "hash-table",
+      "sparse-map",
+      "flat_hash_map",
+      "event-queue",
+      "RTL-simulation",
+      "signal-lookup",
+      "Swiss-table"
+    ],
+    "keywords": [
+      "hash table RTL simulation",
+      "signal lookup optimization",
+      "hierarchical path lookup",
+      "sparse hash map",
+      "perfect hash function",
+      "event queue"
+    ]
+  },
+  {
     "id": "sources-source-hdl-ecosystem",
     "title": "HDL语言生态对比：Chisel vs SpinalHDL vs Bluespec vs PyMTL vs MyHDL vs Amaranth",
     "path": "sources/source-hdl-ecosystem.md",
@@ -2091,6 +2195,32 @@
     ]
   },
   {
+    "id": "sources-source-memory-layout",
+    "title": "SoA vs AoS 内存布局在 RTL 仿真器中的应用",
+    "path": "sources/source-memory-layout.md",
+    "type": "source",
+    "source_url": "https://arxiv.org/html/2403.04714v1",
+    "source_type": "paper",
+    "tags": [
+      "memory-layout",
+      "SoA",
+      "AoS",
+      "cache-locality",
+      "RTL-simulation",
+      "Verilator",
+      "Arcilator",
+      "GSIM"
+    ],
+    "keywords": [
+      "structure of arrays",
+      "array of structures",
+      "signal storage",
+      "V3VariableOrder",
+      "memory layout",
+      "gate evaluation"
+    ]
+  },
+  {
     "id": "sources-source-metaheuristic-eda",
     "title": "遗传算法与模拟退火在 VLSI EDA 中的应用",
     "path": "sources/source-metaheuristic-eda.md",
@@ -2144,6 +2274,35 @@
       "Verilator",
       "multi-tile granule",
       "latency-insensitive interface"
+    ]
+  },
+  {
+    "id": "sources-source-microarchitecture",
+    "title": "Micro-op Fusion, ITLB & TLB Optimization in RTL Simulation",
+    "path": "sources/source-microarchitecture.md",
+    "type": "source",
+    "source_url": "https://www.intel.com/content/dam/develop/external/us/en/documents/runtimeperformanceoptimizationblueprint-largecodepages-q1update.pdf",
+    "source_type": "doc",
+    "tags": [
+      "micro-op-fusion",
+      "ITLB",
+      "TLB",
+      "huge-page",
+      "page-walk",
+      "RTL-simulation",
+      "x86"
+    ],
+    "keywords": [
+      "micro-op fusion",
+      "macro fusion",
+      "ITLB miss",
+      "STLB",
+      "huge page",
+      "2MB page",
+      "1GB page",
+      "page walk",
+      "TLB MPKI",
+      "MADV_HUGEPAGE"
     ]
   },
   {
@@ -2383,6 +2542,109 @@
     ]
   },
   {
+    "id": "sources-source-other-simulators",
+    "title": "Icarus Verilog (IVL) 与其他开源仿真器：vthread 模拟线程与事件调度机制",
+    "path": "sources/source-other-simulators.md",
+    "type": "source",
+    "source_url": "https://github.com/steveicarus/iverilog",
+    "source_type": "github-repo",
+    "tags": [
+      "iverilog",
+      "IVL",
+      "Icarus Verilog",
+      "vthread",
+      "事件调度",
+      "VPI",
+      "开源仿真器",
+      "Verilog"
+    ],
+    "keywords": [
+      "vthread",
+      "schedule_vthread",
+      "schedule.h",
+      "vvp",
+      "vthread_run",
+      "of_FORK",
+      "of_JOIN"
+    ]
+  },
+  {
+    "id": "sources-source-papers-hardware-accel",
+    "title": "RTL 仿真硬件加速论文地图（ISCA/MICRO/ASPLOS/DAC）",
+    "path": "sources/source-papers-hardware-accel.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "paper",
+    "tags": [
+      "RTL-simulation",
+      "hardware-acceleration",
+      "FPGA-emulation",
+      "GPU-simulation",
+      "domain-specific-architecture"
+    ],
+    "keywords": [
+      "FPGA simulation",
+      "GPU RTL simulation",
+      "hardware accelerator",
+      "ASH",
+      "FireSim",
+      "RTLFlow",
+      "GATSPI",
+      "GEM",
+      "Khronos",
+      "dataflow architecture"
+    ]
+  },
+  {
+    "id": "sources-source-papers-parallel-rtl",
+    "title": "RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）",
+    "path": "sources/source-papers-parallel-rtl.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "paper",
+    "tags": [
+      "RTL-simulation",
+      "parallel-simulation",
+      "multithreading",
+      "partitioning",
+      "EDA"
+    ],
+    "keywords": [
+      "RTL parallel simulation",
+      "gate-level simulation",
+      "multithreaded event-driven",
+      "partition-agnostic",
+      "replication-aided partitioning",
+      "superlinear speedup",
+      "thousand-way parallelism"
+    ]
+  },
+  {
+    "id": "sources-source-papers-sim-kernel",
+    "title": "仿真器内核与编译优化论文地图（ASPLOS/DAC/DATE/ICCAD）",
+    "path": "sources/source-papers-sim-kernel.md",
+    "type": "source",
+    "source_url": "",
+    "source_type": "paper",
+    "tags": [
+      "simulator-kernel",
+      "compiled-simulation",
+      "levelized-simulation",
+      "event-driven",
+      "JIT-compilation",
+      "RTL-compiler"
+    ],
+    "keywords": [
+      "compiled code simulation",
+      "levelized event-driven",
+      "simulator kernel",
+      "JIT RTL",
+      "cycle-based simulation",
+      "zero-delay simulation",
+      "logic simulation kernel"
+    ]
+  },
+  {
     "id": "sources-source-parallel-frameworks",
     "title": "OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱",
     "path": "sources/source-parallel-frameworks.md",
@@ -2616,6 +2878,30 @@
     ]
   },
   {
+    "id": "sources-source-prefetching",
+    "title": "Prefetching & Cache Line Utilization in RTL Simulation",
+    "path": "sources/source-prefetching.md",
+    "type": "source",
+    "source_url": "https://paweldziepak.dev/2019/05/02/on-lists-cache-algorithms-and-microarchitecture/",
+    "source_type": "blog",
+    "tags": [
+      "prefetching",
+      "cache-line",
+      "stride-prefetching",
+      "spatial-locality",
+      "software-prefetch",
+      "RTL-simulation"
+    ],
+    "keywords": [
+      "__builtin_prefetch",
+      "hardware prefetcher",
+      "DCU prefetcher",
+      "cache line utilization",
+      "spatial locality",
+      "memory-level parallelism"
+    ]
+  },
+  {
     "id": "sources-source-rcu-userspace",
     "title": "RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现",
     "path": "sources/source-rcu-userspace.md",
@@ -2718,6 +3004,30 @@
     ]
   },
   {
+    "id": "sources-source-roofline-rtl",
+    "title": "Roofline 模型在 RTL 仿真中的性能分析",
+    "path": "sources/source-roofline-rtl.md",
+    "type": "source",
+    "source_url": "https://docs.nersc.gov/tools/performance/roofline/",
+    "source_type": "doc",
+    "tags": [
+      "roofline",
+      "performance-modeling",
+      "bandwidth-bound",
+      "compute-bound",
+      "cache-analysis",
+      "multicore"
+    ],
+    "keywords": [
+      "roofline model",
+      "operational intensity",
+      "memory bandwidth ceiling",
+      "compute ceiling",
+      "RTL simulation performance",
+      "arithmetic intensity"
+    ]
+  },
+  {
     "id": "sources-source-rust-async-sim",
     "title": "Rust Async / Tokio 在事件驱动仿真器中的应用",
     "path": "sources/source-rust-async-sim.md",
@@ -2788,6 +3098,30 @@
       "SDC-on-RTL",
       "path-group",
       "timing-exception"
+    ]
+  },
+  {
+    "id": "sources-source-sensitivity-analysis",
+    "title": "参数敏感性分析与实验设计（DOE）在仿真器性能调优中的应用",
+    "path": "sources/source-sensitivity-analysis.md",
+    "type": "source",
+    "source_url": "https://www.numberanalytics.com/blog/advanced-orthogonal-array-techniques",
+    "source_type": "doc",
+    "tags": [
+      "sensitivity-analysis",
+      "DOE",
+      "orthogonal-array",
+      "factorial-design",
+      "ANOVA",
+      "simulation-tuning"
+    ],
+    "keywords": [
+      "parameter sensitivity analysis",
+      "design of experiments",
+      "orthogonal array testing",
+      "factorial design",
+      "Taguchi method",
+      "simulation performance"
     ]
   },
   {
@@ -2967,6 +3301,35 @@
     ]
   },
   {
+    "id": "sources-source-sst-mana",
+    "title": "SST (Structural Simulation Toolkit) 与高性能离散事件仿真框架",
+    "path": "sources/source-sst-mana.md",
+    "type": "source",
+    "source_url": "https://github.com/sstsimulator/sst-elements",
+    "source_type": "github-repo",
+    "tags": [
+      "SST",
+      "Sandia",
+      "高性能仿真",
+      "MPI",
+      "离散事件仿真",
+      "DES",
+      "多线程",
+      "Mercury",
+      "并行"
+    ],
+    "keywords": [
+      "SST",
+      "MPI",
+      "parallel simulation",
+      "thread.h",
+      "EmberMotifLog",
+      "discrete event",
+      "parallel_runtime",
+      "Hg::Thread"
+    ]
+  },
+  {
     "id": "sources-source-sta-timing",
     "title": "静态时序分析（STA）与 RTL 仿真之间的相关性",
     "path": "sources/source-sta-timing.md",
@@ -3014,6 +3377,29 @@
       "FSDB compression",
       "waveform compression",
       "Siloti"
+    ]
+  },
+  {
+    "id": "sources-source-string-optimization",
+    "title": "字符串与层次化路径优化在 RTL 仿真器中的应用",
+    "path": "sources/source-string-optimization.md",
+    "type": "source",
+    "source_url": "https://github.com/tweag/nickel/issues/774",
+    "source_type": "github-issue",
+    "tags": [
+      "string-optimization",
+      "string-interning",
+      "hierarchical-path",
+      "symbol-table",
+      "RTL-simulation",
+      "Verilator"
+    ],
+    "keywords": [
+      "string optimization RTL",
+      "hierarchical path name optimization",
+      "string interning simulation",
+      "path compression RTL",
+      "symbol table optimization"
     ]
   },
   {
@@ -4319,6 +4705,26 @@
     ]
   },
   {
+    "id": "wiki-wiki-github-projects",
+    "title": "GitHub开源项目代码分析",
+    "path": "wiki/wiki-github-projects.md",
+    "type": "wiki",
+    "tags": [
+      "cocotb",
+      "pyuvm",
+      "Icarus",
+      "IVL",
+      "SST",
+      "Verilator",
+      "CXXRTL",
+      "GIL",
+      "多线程",
+      "仿真器"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-gpu-and-hardware",
     "title": "GPU与硬件加速RTL仿真",
     "path": "wiki/wiki-gpu-and-hardware.md",
@@ -4413,6 +4819,15 @@
     "related_sources": []
   },
   {
+    "id": "wiki-wiki-instruction-level",
+    "title": "指令级微架构优化",
+    "path": "wiki/wiki-instruction-level.md",
+    "type": "wiki",
+    "tags": [],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-jit-and-compiler",
     "title": "JIT/AOT编译与代码生成",
     "path": "wiki/wiki-jit-and-compiler.md",
@@ -4502,6 +4917,36 @@
       "source-hugepages-thp",
       "source-memory-bandwidth"
     ]
+  },
+  {
+    "id": "wiki-wiki-memory-data-structures",
+    "title": "内存布局与数据结构优化",
+    "path": "wiki/wiki-memory-data-structures.md",
+    "type": "wiki",
+    "tags": [
+      "memory-layout",
+      "SoA",
+      "AoS",
+      "hash-table",
+      "string-interning",
+      "cache-locality",
+      "RTL-simulation",
+      "Verilator",
+      "Arcilator",
+      "sparse-map",
+      "flat-hash-map"
+    ],
+    "keywords": [
+      "V3VariableOrder",
+      "tsl::sparse_map",
+      "absl::flat_hash_map",
+      "phmap",
+      "string interning",
+      "SoA bucket",
+      "distributed event queue",
+      "cache line alignment"
+    ],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-mixed-signal",
@@ -4662,6 +5107,41 @@
       "source-manticore-date23",
       "source-verilator-mt-doc"
     ]
+  },
+  {
+    "id": "wiki-wiki-papers-landscape",
+    "title": "RTL并行仿真论文全景",
+    "path": "wiki/wiki-papers-landscape.md",
+    "type": "wiki",
+    "tags": [
+      "RTL-simulation",
+      "parallel-simulation",
+      "multithreading",
+      "hardware-acceleration",
+      "compiled-simulation",
+      "EDA",
+      "ASPLOS",
+      "MICRO",
+      "ISCA",
+      "DAC",
+      "DATE"
+    ],
+    "keywords": [
+      "Parendi",
+      "RepCut",
+      "Manticore",
+      "ASH",
+      "GEM",
+      "Khronos",
+      "FireSim",
+      "Verilator",
+      "Tango",
+      "Cuttlesim",
+      "GATSPI",
+      "GL0AM",
+      "GSIM"
+    ],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-pdes-for-rtl",
@@ -4837,6 +5317,15 @@
       "source-x-propagation",
       "source-upf-power"
     ]
+  },
+  {
+    "id": "wiki-wiki-roofline-and-autotuning",
+    "title": "Roofline模型与自动调优",
+    "path": "wiki/wiki-roofline-and-autotuning.md",
+    "type": "wiki",
+    "tags": [],
+    "keywords": [],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-rust-and-ecs",
