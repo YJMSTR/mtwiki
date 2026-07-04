@@ -1,6 +1,6 @@
 ---
 title: Index by Tag
-generated: 2026-07-03T02:03:03.652584
+generated: 2026-07-05T02:02:16.905659
 ---
 
 # Index by Tag
@@ -46,6 +46,15 @@ generated: 2026-07-03T02:03:03.652584
 
 - [SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子](../sources/source-ast-parser.md) `source`
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
+## AST-pass
+
+- [V3MergeCond 条件合并优化](../sources/source-verilator-V3MergeCond.md) `source`
+- [V3MergeCond 条件合并优化](../wiki/wiki-V3MergeCond.md) `wiki`
+
+## AST-transform
+
+- [Verilator V3Gate 门级优化源码分析](../sources/source-verilator-v3gate.md) `source`
 
 ## ASan
 
@@ -102,6 +111,7 @@ generated: 2026-07-03T02:03:03.652584
 - [多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲](../sources/source-multithread-logging.md) `source`
 - [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
 - [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
 
 ## C++ API
 
@@ -201,6 +211,10 @@ generated: 2026-07-03T02:03:03.652584
 ## Design-Compiler
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+
+## DomScope
+
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
 
 ## E-AIG
 
@@ -467,7 +481,10 @@ generated: 2026-07-03T02:03:03.652584
 ## MTask
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
 - [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## Mercury
 
@@ -484,6 +501,10 @@ generated: 2026-07-03T02:03:03.652584
 ## Mt-KaHyPar
 
 - [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
+
+## NBA-region
+
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
 
 ## NUMA
 
@@ -565,6 +586,11 @@ generated: 2026-07-03T02:03:03.652584
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
 
+## RAII
+
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
+- [Verilator V3ThreadPool 源码分析](../wiki/wiki-verilator-v3threadpool.md) `wiki`
+
 ## RISC-V
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
@@ -642,6 +668,7 @@ generated: 2026-07-03T02:03:03.652584
 - [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
 - [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
 - [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
+- [Verilator V3ThreadPool 源码分析](../wiki/wiki-verilator-v3threadpool.md) `wiki`
 
 ## RTL分区
 
@@ -795,18 +822,45 @@ generated: 2026-07-03T02:03:03.652584
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 
+## V3Gate
+
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
+
+## V3Graph
+
+- [Verilator V3Gate 门级优化源码分析](../sources/source-verilator-v3gate.md) `source`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
+
 ## V3Order
 
 - [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
+
+## V3OrderParallel
+
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
 
 ## V3Partition
 
 - [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
 
+## V3Sched
+
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
+
+## V3ThreadPool
+
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
+
+## V3Trace
+
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
+
 ## VCD
 
 - [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
 
 ## VCS
 
@@ -824,6 +878,11 @@ generated: 2026-07-03T02:03:03.652584
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 - [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
 - [分区算法实现指南](../wiki/wiki-partitioning-implementation.md) `wiki`
+
+## VL_MT_DISABLED
+
+- [Verilator V3Gate 门级优化源码分析](../sources/source-verilator-v3gate.md) `source`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
 
 ## VPI
 
@@ -887,6 +946,15 @@ generated: 2026-07-03T02:03:03.652584
 - [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
 - [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
+
+## activity-flags
+
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
+
+## acyclic-break
+
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
 
 ## advanced-optimization
 
@@ -984,6 +1052,10 @@ generated: 2026-07-03T02:03:03.652584
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
 
+## bipartite-graph
+
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+
 ## bit-slicing
 
 - [RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂](../sources/source-vectorization-rtl.md) `source`
@@ -1053,6 +1125,10 @@ generated: 2026-07-03T02:03:03.652584
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
 - [Prefetching & Cache Line Utilization in RTL Simulation](../sources/source-prefetching.md) `source`
 
+## cache-line-align
+
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
+
 ## cache-locality
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
@@ -1066,6 +1142,7 @@ generated: 2026-07-03T02:03:03.652584
 ## cache-optimization
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## calendar-queue
 
@@ -1155,6 +1232,10 @@ generated: 2026-07-03T02:03:03.652584
 
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 
+## code-motion
+
+- [V3MergeCond 条件合并优化](../sources/source-verilator-V3MergeCond.md) `source`
+
 ## code-patterns
 
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
@@ -1174,6 +1255,11 @@ generated: 2026-07-03T02:03:03.652584
 ## competitive-ratio
 
 - [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
+
+## compile-time
+
+- [Verilator V3Gate 门级优化源码分析](../sources/source-verilator-v3gate.md) `source`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
 
 ## compile-time-optimization
 
@@ -1206,8 +1292,10 @@ generated: 2026-07-03T02:03:03.652584
 
 - [GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响](../sources/source-compiler-flags.md) `source`
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
+- [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 - [编译器优化与SIMD实现](../wiki/wiki-compiler-and-simd.md) `wiki`
+- [Verilator DFG 数据流图编译优化系统](../wiki/wiki-verilator-dfg-compiler.md) `wiki`
 
 ## complementary-predictor
 
@@ -1225,9 +1313,19 @@ generated: 2026-07-03T02:03:03.652584
 
 - [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
 
+## condition-variable
+
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
+- [Verilator V3ThreadPool 源码分析](../wiki/wiki-verilator-v3threadpool.md) `wiki`
+
 ## conditional-compilation
 
 - [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
+
+## conditional-merge
+
+- [V3MergeCond 条件合并优化](../sources/source-verilator-V3MergeCond.md) `source`
+- [V3MergeCond 条件合并优化](../wiki/wiki-V3MergeCond.md) `wiki`
 
 ## configuration
 
@@ -1300,11 +1398,17 @@ generated: 2026-07-03T02:03:03.652584
 ## critical-path
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+- [V3Order 调度顺序与并行分区](../wiki/wiki-V3Order调度顺序.md) `wiki`
 - [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
 
 ## cross-layer-simulation
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
+
+## cse
+
+- [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
 
 ## cxxopts
 
@@ -1326,6 +1430,10 @@ generated: 2026-07-03T02:03:03.652584
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 
+## data-partitioning
+
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
+
 ## data-structures
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
@@ -1333,6 +1441,10 @@ generated: 2026-07-03T02:03:03.652584
 ## dataflow-IR
 
 - [IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术](../sources/source-ir-optimization.md) `source`
+
+## dataflow-graph
+
+- [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
 
 ## dead-code-elimination
 
@@ -1372,6 +1484,11 @@ generated: 2026-07-03T02:03:03.652584
 
 - [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
 
+## dependency-graph
+
+- [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
+
 ## deque
 
 - [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
@@ -1392,6 +1509,11 @@ generated: 2026-07-03T02:03:03.652584
 ## deterministic-replay
 
 - [Deterministic RTL Simulation / Record & Replay](../sources/source-deterministic-replay.md) `source`
+
+## dfg
+
+- [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
+- [Verilator DFG 数据流图编译优化系统](../wiki/wiki-verilator-dfg-compiler.md) `wiki`
 
 ## digital-circuit
 
@@ -1429,6 +1551,11 @@ generated: 2026-07-03T02:03:03.652584
 ## documentation
 
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
+
+## domain-analysis
+
+- [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
 
 ## dpi
 
@@ -1468,6 +1595,10 @@ generated: 2026-07-03T02:03:03.652584
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 
+## eval-loop
+
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
+
 ## event-driven
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
@@ -1492,6 +1623,10 @@ generated: 2026-07-03T02:03:03.652584
 - [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
 - [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
 
+## exec-graph
+
+- [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
+
 ## factorial-design
 
 - [参数敏感性分析与实验设计（DOE）在仿真器性能调优中的应用](../sources/source-sensitivity-analysis.md) `source`
@@ -1500,8 +1635,10 @@ generated: 2026-07-03T02:03:03.652584
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
 - [Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析](../sources/source-linux-perf-tools.md) `source`
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## feedback-arc-set
 
@@ -1588,7 +1725,9 @@ generated: 2026-07-03T02:03:03.652584
 
 ## gate-optimization
 
+- [Verilator V3Gate 门级优化源码分析](../sources/source-verilator-v3gate.md) `source`
 - [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
 
 ## gdb
 
@@ -1654,6 +1793,16 @@ generated: 2026-07-03T02:03:03.652584
 ## graph-algorithms
 
 - [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
+## graph-analysis
+
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
+
+## graph-partitioning
+
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+- [V3Order 调度顺序与并行分区](../wiki/wiki-V3Order调度顺序.md) `wiki`
 
 ## graph-traversal
 
@@ -1959,6 +2108,7 @@ generated: 2026-07-03T02:03:03.652584
 
 - [SoA vs AoS 内存布局在 RTL 仿真器中的应用](../sources/source-memory-layout.md) `source`
 - [内存布局与数据结构优化](../wiki/wiki-memory-data-structures.md) `wiki`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## memory-locality
 
@@ -2020,6 +2170,11 @@ generated: 2026-07-03T02:03:03.652584
 
 - [CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真](../sources/source-circt-arcilator.md) `source`
 
+## move-graph
+
+- [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
+
 ## mpi
 
 - [分布式 RTL 仿真（Multi-Node MPI）资料汇编](../sources/source-distributed-rtl.md) `source`
@@ -2031,6 +2186,8 @@ generated: 2026-07-03T02:03:03.652584
 
 ## mtask
 
+- [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
 - [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
@@ -2105,16 +2262,28 @@ generated: 2026-07-03T02:03:03.652584
 - [Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators](../sources/source-sanitizers.md) `source`
 - [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
+- [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
+- [V3MergeCond 条件合并优化](../sources/source-verilator-V3MergeCond.md) `source`
+- [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 - [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
 - [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
 - [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
+- [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
+- [Verilator V3Gate 门级优化源码分析](../sources/source-verilator-v3gate.md) `source`
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
 - [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
+- [V3MergeCond 条件合并优化](../wiki/wiki-V3MergeCond.md) `wiki`
+- [V3Order 调度顺序与并行分区](../wiki/wiki-V3Order调度顺序.md) `wiki`
 - [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 - [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 - [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
@@ -2122,9 +2291,16 @@ generated: 2026-07-03T02:03:03.652584
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 - [RTL并行仿真论文全景](../wiki/wiki-papers-landscape.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
+- [Wiki: V3ExecGraph 执行图与 MTask 静态调度](../wiki/wiki-verilator-V3ExecGraph执行图.md) `wiki`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+- [Verilator DFG 数据流图编译优化系统](../wiki/wiki-verilator-dfg-compiler.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
 - [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
+- [Verilator V3ThreadPool 源码分析](../wiki/wiki-verilator-v3threadpool.md) `wiki`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## mutex
 
@@ -2189,7 +2365,18 @@ generated: 2026-07-03T02:03:03.652584
 
 ## optimization
 
+- [V3MergeCond 条件合并优化](../sources/source-verilator-V3MergeCond.md) `source`
+- [V3MergeCond 条件合并优化](../wiki/wiki-V3MergeCond.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+
+## order-graph
+
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+
+## ordering
+
+- [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
 
 ## orthogonal-array
 
@@ -2202,6 +2389,10 @@ generated: 2026-07-03T02:03:03.652584
 ## overview
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
+
+## packing
+
+- [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
 
 ## page-walk
 
@@ -2225,6 +2416,20 @@ generated: 2026-07-03T02:03:03.652584
 - [Spike RISC-V 模拟器并行化分析](../sources/source-spike-parallelization.md) `source`
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+
+## parallel-compilation
+
+- [Verilator DFG 数据流图编译优化系统](../wiki/wiki-verilator-dfg-compiler.md) `wiki`
+
+## parallel-compiler
+
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
+
+## parallel-dump
+
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
 
 ## parallel-rtl
 
@@ -2288,6 +2493,7 @@ generated: 2026-07-03T02:03:03.652584
 - [RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）](../sources/source-papers-parallel-rtl.md) `source`
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
@@ -2482,6 +2688,15 @@ generated: 2026-07-03T02:03:03.652584
 
 - [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
+## release-acquire
+
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
+- [Verilator V3ThreadPool 源码分析](../wiki/wiki-verilator-v3threadpool.md) `wiki`
+
+## replication
+
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
+
 ## reproducibility
 
 - [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
@@ -2576,6 +2791,7 @@ generated: 2026-07-03T02:03:03.652584
 - [Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用](../sources/source-linux-kernel-sync.md) `source`
 - [Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编](../sources/source-noc-simulation.md) `source`
 - [SIMD/Vectorization in RTL Simulation and Gate-Level Simulation](../sources/source-simd-rtl-simulation.md) `source`
+- [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
 - [最新研究 landscape (2023-2026)](../wiki/wiki-latest-landscape.md) `wiki`
@@ -2622,7 +2838,10 @@ generated: 2026-07-03T02:03:03.652584
 - [近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用](../sources/source-approximation-algorithms.md) `source`
 - [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
 - [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
 - [Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术](../sources/source-work-stealing.md) `source`
+- [V3Order 调度顺序与并行分区](../wiki/wiki-V3Order调度顺序.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
@@ -2647,6 +2866,8 @@ generated: 2026-07-03T02:03:03.652584
 ## serialization
 
 - [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
+- [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
 
 ## shared-library
 
@@ -2781,6 +3002,7 @@ generated: 2026-07-03T02:03:03.652584
 ## static-scheduling
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
+- [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
 
 ## std::execution
@@ -2930,8 +3152,11 @@ generated: 2026-07-03T02:03:03.652584
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
 - [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+- [Verilator V3ThreadPool 源码分析](../wiki/wiki-verilator-v3threadpool.md) `wiki`
 
 ## thread-safety
 
@@ -2939,6 +3164,10 @@ generated: 2026-07-03T02:03:03.652584
 - [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
 - [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
 - [插件系统与FFI线程安全](../wiki/wiki-plugin-and-ffi.md) `wiki`
+
+## thread-schedule
+
+- [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
 
 ## time-warp
 
@@ -2953,6 +3182,10 @@ generated: 2026-07-03T02:03:03.652584
 ## timing-analysis
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+
+## timing-integration
+
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
 
 ## tlm
 
@@ -2986,7 +3219,9 @@ generated: 2026-07-03T02:03:03.652584
 
 ## tracing
 
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
 - [多线程日志与追踪系统](../wiki/wiki-logging-and-tracing.md) `wiki`
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
 
 ## transactor
 
@@ -3004,6 +3239,10 @@ generated: 2026-07-03T02:03:03.652584
 ## tree-covering
 
 - [动态规划在 VLSI / RTL 设计与仿真中的应用](../sources/source-dynamic-programming.md) `source`
+
+## trigger-vector
+
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
 
 ## uhdm
 
@@ -3054,6 +3293,8 @@ generated: 2026-07-03T02:03:03.652584
 ## variable-ordering
 
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## vectorization
 
@@ -3071,6 +3312,12 @@ generated: 2026-07-03T02:03:03.652584
 - [分布式 RTL 仿真（Multi-Node MPI）资料汇编](../sources/source-distributed-rtl.md) `source`
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
+- [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
+- [V3MergeCond 条件合并优化](../sources/source-verilator-V3MergeCond.md) `source`
+- [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
+- [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+- [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 - [Verilator 多线程源码分析](../sources/source-verilator-mt-code-analysis.md) `source`
 - [Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool](../sources/source-verilator-mt-deep.md) `source`
@@ -3079,10 +3326,23 @@ generated: 2026-07-03T02:03:03.652584
 - [Verilator 多线程相关 PR 分析](../sources/source-verilator-mt-prs.md) `source`
 - [Verilator 多线程相关 PR 深度分析合集](../sources/source-verilator-mt-prs-detailed.md) `source`
 - [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
+- [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
+- [Verilator V3Gate 门级优化源码分析](../sources/source-verilator-v3gate.md) `source`
+- [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
+- [V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译](../sources/source-verilator-v3variableorder-v2.md) `source`
+- [V3MergeCond 条件合并优化](../wiki/wiki-V3MergeCond.md) `wiki`
+- [V3Order 调度顺序与并行分区](../wiki/wiki-V3Order调度顺序.md) `wiki`
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
+- [Wiki: V3ExecGraph 执行图与 MTask 静态调度](../wiki/wiki-verilator-V3ExecGraph执行图.md) `wiki`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+- [Verilator DFG 数据流图编译优化系统](../wiki/wiki-verilator-dfg-compiler.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+- [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
 - [Verilator多线程PR演进与Issue地图](../wiki/wiki-verilator-prs.md) `wiki`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
+- [Verilator V3ThreadPool 源码分析](../wiki/wiki-verilator-v3threadpool.md) `wiki`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## version-embedding
 
@@ -3130,10 +3390,15 @@ generated: 2026-07-03T02:03:03.652584
 ## waveform
 
 - [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
+- [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
 
 ## waveform-compression
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
+
+## wiki
+
+- [Wiki: V3ExecGraph 执行图与 MTask 静态调度](../wiki/wiki-verilator-V3ExecGraph执行图.md) `wiki`
 
 ## word-level-simulation
 

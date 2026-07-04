@@ -1,6 +1,6 @@
 ---
 title: Index by Source
-generated: 2026-07-03T02:03:03.654587
+generated: 2026-07-05T02:02:16.907659
 ---
 
 # Index by Source
@@ -76,6 +76,10 @@ generated: 2026-07-03T02:03:03.654587
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+
+## source-gate-optimization
+
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
 
 ## source-github-rtlsim-projects
 
@@ -195,6 +199,7 @@ generated: 2026-07-03T02:03:03.654587
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
 
 ## source-pdes-rtlsim-modern
 
@@ -238,6 +243,14 @@ generated: 2026-07-03T02:03:03.654587
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
 
+## source-verilator-V3MergeCond
+
+- [V3MergeCond 条件合并优化](../wiki/wiki-V3MergeCond.md) `wiki`
+
+## source-verilator-V3Trace
+
+- [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
+
 ## source-verilator-issue-2913
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
@@ -254,6 +267,7 @@ generated: 2026-07-03T02:03:03.654587
 ## source-verilator-mt-deep
 
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
 
 ## source-verilator-mt-doc
 
@@ -265,10 +279,23 @@ generated: 2026-07-03T02:03:03.654587
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
 
+## source-verilator-partition-evolution
+
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
+
+## source-verilator-v3gate
+
+- [Verilator V3Gate 编译时门优化与多线程准备](../wiki/wiki-verilator-v3gate.md) `wiki`
+
 ## source-verilator-v3variableorder
 
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 - [Verilator多线程化经验总结](../wiki/wiki-verilator-lessons.md) `wiki`
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
+
+## source-verilator-v3variableorder-v2
+
+- [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
 
 ## source-vtune-uprof
 

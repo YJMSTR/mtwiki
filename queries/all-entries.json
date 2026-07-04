@@ -3297,6 +3297,290 @@
     ]
   },
   {
+    "id": "sources-source-verilator-v3dfg",
+    "title": "Verilator V3Dfg 数据流图编译优化系统",
+    "path": "sources/source-verilator-v3dfg.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "dfg",
+      "dataflow-graph",
+      "compiler-optimization",
+      "cse",
+      "rtl-simulation"
+    ],
+    "keywords": [
+      "DfgVertex",
+      "DfgGraph",
+      "DfgEdge",
+      "DfgUserMap",
+      "DfgWorklist",
+      "V3DfgCse",
+      "splitIntoComponents",
+      "extractCyclicComponents",
+      "VL_MT_DISABLED"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-V3ExecGraph执行图",
+    "title": "V3ExecGraph 执行图",
+    "path": "sources/source-verilator-V3ExecGraph执行图.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3ExecGraph.cpp",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "exec-graph",
+      "mtask",
+      "thread-schedule",
+      "static-scheduling",
+      "packing"
+    ],
+    "keywords": [
+      "ExecMTask",
+      "ThreadSchedule",
+      "PackThreads",
+      "MTask",
+      "cross-thread dependency",
+      "sandbagging",
+      "critical path",
+      "hierarchical thread"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-v3gate",
+    "title": "Verilator V3Gate 门级优化源码分析",
+    "path": "sources/source-verilator-v3gate.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3Gate.cpp",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "gate-optimization",
+      "V3Graph",
+      "compile-time",
+      "VL_MT_DISABLED",
+      "AST-transform"
+    ],
+    "keywords": [
+      "V3Gate",
+      "gateAll",
+      "GateInline",
+      "GateDedupe",
+      "GateUnused",
+      "GateGraph",
+      "VL_MT_DISABLED_CODE_UNIT"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-V3MergeCond",
+    "title": "V3MergeCond 条件合并优化",
+    "path": "sources/source-verilator-V3MergeCond.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3MergeCond.cpp",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "optimization",
+      "AST-pass",
+      "conditional-merge",
+      "code-motion"
+    ],
+    "keywords": [
+      "V3MergeCond",
+      "条件合并",
+      "三元操作符",
+      "if-语句转换",
+      "代码运动",
+      "StmtProperties",
+      "CodeMotionAnalysisVisitor",
+      "CodeMotionOptimizeVisitor",
+      "MergeCondVisitor"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-V3OrderMoveGraph移动图",
+    "title": "V3OrderMoveGraph 移动图与多线程调度",
+    "path": "sources/source-verilator-V3OrderMoveGraph移动图.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3OrderMoveGraph.h",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "ordering",
+      "move-graph",
+      "domain-analysis",
+      "serialization",
+      "dependency-graph"
+    ],
+    "keywords": [
+      "OrderMoveGraph",
+      "OrderMoveVertex",
+      "OrderMoveDomScope",
+      "OrderMoveGraphSerializer",
+      "domainsExclusive",
+      "V3OrderProcessDomains",
+      "V3OrderSerial"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-V3Order调度顺序",
+    "title": "V3Order调度顺序",
+    "path": "sources/source-verilator-V3Order调度顺序.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "scheduling",
+      "graph-partitioning",
+      "critical-path",
+      "mtask",
+      "order-graph",
+      "bipartite-graph"
+    ],
+    "keywords": [
+      "V3Order",
+      "OrderGraph",
+      "LogicMTask",
+      "MTaskEdge",
+      "Contraction",
+      "FixDataHazards",
+      "Partitioner",
+      "critical path",
+      "edge contraction",
+      "sibling merge"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-V3Sched调度器",
+    "title": "Verilator V3Sched 调度器核心组",
+    "path": "sources/source-verilator-V3Sched调度器.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "scheduling",
+      "V3Sched",
+      "trigger-vector",
+      "eval-loop",
+      "NBA-region",
+      "partitioning",
+      "replication",
+      "acyclic-break",
+      "timing-integration"
+    ],
+    "keywords": [
+      "Verilator",
+      "调度器",
+      "多线程",
+      "触发向量",
+      "NBA",
+      "Act",
+      "分区",
+      "复制",
+      "组合循环"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-v3threadpool",
+    "title": "Verilator V3ThreadPool 线程池实现",
+    "path": "sources/source-verilator-v3threadpool.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3ThreadPool.h",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "thread-pool",
+      "C++",
+      "V3ThreadPool",
+      "condition-variable",
+      "release-acquire",
+      "RAII"
+    ],
+    "keywords": [
+      "V3ThreadPool",
+      "V3ThreadScope",
+      "std::condition_variable_any",
+      "memory_order_release",
+      "memory_order_acquire",
+      "VL_MT_SAFE",
+      "VL_EXCLUDES",
+      "VL_MT_START"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-V3Trace",
+    "title": "V3Trace 追踪系统",
+    "path": "sources/source-verilator-V3Trace.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3Trace.cpp",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "tracing",
+      "waveform",
+      "VCD",
+      "activity-flags",
+      "parallel-dump",
+      "graph-analysis"
+    ],
+    "keywords": [
+      "V3Trace",
+      "V3TraceDecl",
+      "traceAll",
+      "trace parallelism",
+      "activity flags",
+      "incremental tracing",
+      "full tracing",
+      "AstTraceDecl",
+      "AstTraceInc"
+    ]
+  },
+  {
+    "id": "sources-source-verilator-v3variableorder-v2",
+    "title": "V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译",
+    "path": "sources/source-verilator-v3variableorder-v2.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "variable-ordering",
+      "MTask",
+      "cache-line-align",
+      "thread-pool",
+      "data-partitioning",
+      "false-sharing",
+      "parallel-compiler"
+    ],
+    "keywords": [
+      "V3VariableOrder",
+      "GatherMTaskAffinity",
+      "VariableOrder",
+      "MTaskAffinityMap",
+      "MTaskIdVec",
+      "V3ThreadScope",
+      "cache line alignment",
+      "stratum",
+      "macro-task",
+      "parallel variable ordering"
+    ]
+  },
+  {
     "id": "sources-source-verilator-v3variableorder",
     "title": "Verilator V3VariableOrder: 变量排序优化与多线程感知",
     "path": "sources/source-verilator-v3variableorder.md",
@@ -4439,6 +4723,89 @@
     "related_sources": []
   },
   {
+    "id": "wiki-wiki-V3MergeCond",
+    "title": "V3MergeCond 条件合并优化",
+    "path": "wiki/wiki-V3MergeCond.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "optimization",
+      "AST-pass",
+      "conditional-merge",
+      "multithreading"
+    ],
+    "keywords": [
+      "V3MergeCond",
+      "条件合并",
+      "代码运动",
+      "编译时优化",
+      "多线程性能"
+    ],
+    "related_sources": [
+      "source-verilator-V3MergeCond"
+    ]
+  },
+  {
+    "id": "wiki-wiki-V3Order调度顺序",
+    "title": "V3Order 调度顺序与并行分区",
+    "path": "wiki/wiki-V3Order调度顺序.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "scheduling",
+      "graph-partitioning",
+      "critical-path"
+    ],
+    "keywords": [
+      "V3Order",
+      "OrderGraph",
+      "LogicMTask",
+      "MTaskEdge",
+      "Contraction",
+      "FixDataHazards"
+    ],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-V3Sched调度器",
+    "title": "wiki-V3Sched调度器",
+    "path": "wiki/wiki-V3Sched调度器.md",
+    "type": "wiki",
+    "tags": [],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-v3trace-trace-system",
+    "title": "Verilator V3Trace 追踪系统与并行 Dump",
+    "path": "wiki/wiki-v3trace-trace-system.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "tracing",
+      "VCD",
+      "multithreading",
+      "activity-flags",
+      "parallel-dump",
+      "graph-analysis",
+      "V3Trace"
+    ],
+    "keywords": [
+      "V3Trace",
+      "V3TraceDecl",
+      "trace parallelism",
+      "incremental tracing",
+      "__Vm_traceActivity",
+      "trace_chg",
+      "trace_full",
+      "graph optimization"
+    ],
+    "related_sources": [
+      "source-verilator-V3Trace"
+    ]
+  },
+  {
     "id": "wiki-wiki-verilator-deep-dive",
     "title": "Verilator多线程源码深度剖析",
     "path": "wiki/wiki-verilator-deep-dive.md",
@@ -4476,6 +4843,29 @@
     ]
   },
   {
+    "id": "wiki-wiki-verilator-dfg-compiler",
+    "title": "Verilator DFG 数据流图编译优化系统",
+    "path": "wiki/wiki-verilator-dfg-compiler.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "dfg",
+      "compiler-optimization",
+      "multithreading",
+      "parallel-compilation"
+    ],
+    "keywords": [
+      "DfgGraph",
+      "DfgVertex",
+      "DfgEdge",
+      "DfgUserMap",
+      "CSE",
+      "splitIntoComponents",
+      "component-level-parallelism"
+    ],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-verilator-lessons",
     "title": "Verilator多线程化经验总结",
     "path": "wiki/wiki-verilator-lessons.md",
@@ -4505,6 +4895,34 @@
     ]
   },
   {
+    "id": "wiki-wiki-verilator-move-graph",
+    "title": "Verilator MoveGraph 与多线程调度",
+    "path": "wiki/wiki-verilator-move-graph.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "ordering",
+      "move-graph",
+      "domain-analysis",
+      "serialization",
+      "dependency-graph",
+      "DomScope"
+    ],
+    "keywords": [
+      "OrderMoveGraph",
+      "OrderMoveVertex",
+      "OrderMoveDomScope",
+      "OrderMoveGraphSerializer",
+      "domainsExclusive",
+      "V3OrderProcessDomains",
+      "V3OrderSerial",
+      "RTL",
+      "parallel-simulation"
+    ],
+    "related_sources": []
+  },
+  {
     "id": "wiki-wiki-verilator-prs",
     "title": "Verilator多线程PR演进与Issue地图",
     "path": "wiki/wiki-verilator-prs.md",
@@ -4520,5 +4938,93 @@
     ],
     "keywords": [],
     "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-verilator-V3ExecGraph执行图",
+    "title": "Wiki: V3ExecGraph 执行图与 MTask 静态调度",
+    "path": "wiki/wiki-verilator-V3ExecGraph执行图.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "wiki"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-verilator-v3gate",
+    "title": "Verilator V3Gate 编译时门优化与多线程准备",
+    "path": "wiki/wiki-verilator-v3gate.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "gate-optimization",
+      "V3Gate",
+      "compile-time",
+      "V3Graph",
+      "VL_MT_DISABLED",
+      "V3OrderParallel",
+      "MTask"
+    ],
+    "keywords": [
+      "V3Gate",
+      "gateAll",
+      "GateInline",
+      "GateDedupe",
+      "GateUnused",
+      "GateGraph",
+      "VL_MT_DISABLED_CODE_UNIT",
+      "V3OrderParallel",
+      "MTask",
+      "compile-time-optimization",
+      "RTL-simulation"
+    ],
+    "related_sources": [
+      "source-verilator-v3gate",
+      "source-gate-optimization",
+      "source-verilator-mt-deep",
+      "source-verilator-partition-evolution",
+      "source-parendi-asplos25"
+    ]
+  },
+  {
+    "id": "wiki-wiki-verilator-v3threadpool",
+    "title": "Verilator V3ThreadPool 源码分析",
+    "path": "wiki/wiki-verilator-v3threadpool.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "thread-pool",
+      "condition-variable",
+      "release-acquire",
+      "RAII",
+      "RTL仿真器",
+      "multithreading"
+    ],
+    "keywords": [],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-verilator-v3variableorder",
+    "title": "Verilator V3VariableOrder: 变量排序与多线程感知内存布局",
+    "path": "wiki/wiki-verilator-v3variableorder.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "variable-ordering",
+      "cache-optimization",
+      "MTask",
+      "parallel-compiler",
+      "memory-layout",
+      "false-sharing"
+    ],
+    "keywords": [],
+    "related_sources": [
+      "source-verilator-v3variableorder",
+      "source-verilator-v3variableorder-v2"
+    ]
   }
 ]
