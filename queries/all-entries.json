@@ -1,6 +1,6 @@
 [
   {
-    "id": "sources-source-4state-logic",
+    "id": "source-source-4state-logic",
     "title": "4-State Logic Implementation in RTL Simulation",
     "path": "sources/source-4state-logic.md",
     "type": "source",
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "id": "sources-source-aot-binary-translation",
+    "id": "source-source-aot-binary-translation",
     "title": "AOT Compilation & Binary Translation in RTL/Hardware Simulation",
     "path": "sources/source-aot-binary-translation.md",
     "type": "source",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "id": "sources-source-approximation-algorithms",
+    "id": "source-source-approximation-algorithms",
     "title": "近似算法与在线算法在 VLSI / RTL 设计与仿真中的应用",
     "path": "sources/source-approximation-algorithms.md",
     "type": "source",
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "id": "sources-source-ast-parser",
+    "id": "source-source-ast-parser",
     "title": "SystemVerilog 前端 AST 设计与解析技术：Surelog、slang、UHDM 与解析器组合子",
     "path": "sources/source-ast-parser.md",
     "type": "source",
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "id": "sources-source-auto-vectorization",
+    "id": "source-source-auto-vectorization",
     "title": "向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用",
     "path": "sources/source-auto-vectorization.md",
     "type": "source",
@@ -123,7 +123,7 @@
     ]
   },
   {
-    "id": "sources-source-autotuning",
+    "id": "source-source-autotuning",
     "title": "自动调优（AutoTuning）与超参数搜索在仿真器中的应用",
     "path": "sources/source-autotuning.md",
     "type": "source",
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "id": "sources-source-barrier-variants",
+    "id": "source-source-barrier-variants",
     "title": "Barrier Synchronization Variants 性能对比与实现",
     "path": "sources/source-barrier-variants.md",
     "type": "source",
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "id": "sources-source-benchmark-methodology",
+    "id": "source-source-benchmark-methodology",
     "title": "RTL 仿真器性能基准测试方法论",
     "path": "sources/source-benchmark-methodology.md",
     "type": "source",
@@ -193,7 +193,7 @@
     ]
   },
   {
-    "id": "sources-source-benchmark-suites",
+    "id": "source-source-benchmark-suites",
     "title": "标准 RTL 基准测试集汇总",
     "path": "sources/source-benchmark-suites.md",
     "type": "source",
@@ -220,7 +220,7 @@
     ]
   },
   {
-    "id": "sources-source-branch-prediction-detailed",
+    "id": "source-source-branch-prediction-detailed",
     "title": "Branch Prediction & Indirect Jump Optimization in RTL Simulation",
     "path": "sources/source-branch-prediction-detailed.md",
     "type": "source",
@@ -247,7 +247,7 @@
     ]
   },
   {
-    "id": "sources-source-branch-prediction",
+    "id": "source-source-branch-prediction",
     "title": "Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation",
     "path": "sources/source-branch-prediction.md",
     "type": "source",
@@ -276,7 +276,7 @@
     ]
   },
   {
-    "id": "sources-source-cache-locality",
+    "id": "source-source-cache-locality",
     "title": "Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计",
     "path": "sources/source-cache-locality.md",
     "type": "source",
@@ -302,12 +302,12 @@
     ]
   },
   {
-    "id": "sources-source-checkpoint-replay",
+    "id": "source-source-checkpoint-replay",
     "title": "RTL Simulation Checkpoint / Snapshot Save & Restore",
     "path": "sources/source-checkpoint-replay.md",
     "type": "source",
     "source_url": "https://tomverbeure.github.io/2020/10/26/Simulation-Save-Restore-with-CXXRTL.html",
-    "source_type": "\"blog\"  # blog, doc, paper, github-pr, github-issue",
+    "source_type": "blog",
     "tags": [
       "checkpoint",
       "snapshot",
@@ -327,7 +327,7 @@
     ]
   },
   {
-    "id": "sources-source-chiplet-simulation",
+    "id": "source-source-chiplet-simulation",
     "title": "Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编",
     "path": "sources/source-chiplet-simulation.md",
     "type": "source",
@@ -358,7 +358,7 @@
     ]
   },
   {
-    "id": "sources-source-chisel-firrtl",
+    "id": "source-source-chisel-firrtl",
     "title": "ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真",
     "path": "sources/source-chisel-firrtl.md",
     "type": "source",
@@ -390,7 +390,7 @@
     ]
   },
   {
-    "id": "sources-source-circt-arcilator",
+    "id": "source-source-circt-arcilator",
     "title": "CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真",
     "path": "sources/source-circt-arcilator.md",
     "type": "source",
@@ -416,7 +416,7 @@
     ]
   },
   {
-    "id": "sources-source-circuit-partitioning-tool",
+    "id": "source-source-circuit-partitioning-tool",
     "title": "电路网表超图划分工具与 RTL 实践",
     "path": "sources/source-circuit-partitioning-tool.md",
     "type": "source",
@@ -443,7 +443,7 @@
     ]
   },
   {
-    "id": "sources-source-cocotb-pyuvm",
+    "id": "source-source-cocotb-pyuvm",
     "title": "cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题",
     "path": "sources/source-cocotb-pyuvm.md",
     "type": "source",
@@ -471,12 +471,12 @@
     ]
   },
   {
-    "id": "sources-source-compiler-flags",
+    "id": "source-source-compiler-flags",
     "title": "GCC/Clang 编译器优化选项对 C++ 仿真器性能的影响",
     "path": "sources/source-compiler-flags.md",
     "type": "source",
     "source_url": "https://www.phoronix.com/review/clang-12-opt",
-    "source_type": "\"blog\"  # blog, doc, paper, github-pr, github-issue, competition",
+    "source_type": "blog",
     "tags": [
       "compiler-optimization",
       "GCC",
@@ -496,7 +496,7 @@
     ]
   },
   {
-    "id": "sources-source-config-system",
+    "id": "source-source-config-system",
     "title": "C++ 配置系统与参数管理",
     "path": "sources/source-config-system.md",
     "type": "source",
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "id": "sources-source-constraint-solving",
+    "id": "source-source-constraint-solving",
     "title": "约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用",
     "path": "sources/source-constraint-solving.md",
     "type": "source",
@@ -546,12 +546,12 @@
     ]
   },
   {
-    "id": "sources-source-coroutine-simulation",
+    "id": "source-source-coroutine-simulation",
     "title": "C++20 协程在事件驱动仿真器中的应用",
     "path": "sources/source-coroutine-simulation.md",
     "type": "source",
     "source_url": "https://github.com/cflaviu/co_fsm",
-    "source_type": "\"github\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "github",
     "tags": [
       "cpp20",
       "coroutine",
@@ -570,7 +570,7 @@
     ]
   },
   {
-    "id": "sources-source-coz-causal-profiling",
+    "id": "source-source-coz-causal-profiling",
     "title": "Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用",
     "path": "sources/source-coz-causal-profiling.md",
     "type": "source",
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "id": "sources-source-cpp-memory-model",
+    "id": "source-source-cpp-memory-model",
     "title": "C++ 内存模型与 Atomic 操作：从 happens-before 到 acquire-release",
     "path": "sources/source-cpp-memory-model.md",
     "type": "source",
@@ -619,12 +619,12 @@
     ]
   },
   {
-    "id": "sources-source-critical-path",
+    "id": "source-source-critical-path",
     "title": "关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用",
     "path": "sources/source-critical-path.md",
     "type": "source",
     "source_url": "",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "critical-path",
       "longest-path",
@@ -653,12 +653,12 @@
     ]
   },
   {
-    "id": "sources-source-cross-layer-parallel",
+    "id": "source-source-cross-layer-parallel",
     "title": "Cross-Layer Parallelization of Multi-Abstraction Simulation",
     "path": "sources/source-cross-layer-parallel.md",
     "type": "source",
     "source_url": "https://hal.science/tel-01709813v1/file/main.pdf",
-    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "paper",
     "tags": [
       "parallel-simulation",
       "multi-abstraction",
@@ -676,7 +676,7 @@
     ]
   },
   {
-    "id": "sources-source-cxxrtl-internals",
+    "id": "source-source-cxxrtl-internals",
     "title": "CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值",
     "path": "sources/source-cxxrtl-internals.md",
     "type": "source",
@@ -703,7 +703,7 @@
     ]
   },
   {
-    "id": "sources-source-cxxrtl",
+    "id": "source-source-cxxrtl",
     "title": "cxxrtl / Yosys C++ Backend",
     "path": "sources/source-cxxrtl.md",
     "type": "source",
@@ -729,7 +729,7 @@
     ]
   },
   {
-    "id": "sources-source-dead-code-elimination",
+    "id": "source-source-dead-code-elimination",
     "title": "RTL 编译时死代码消除与冗余移除技术",
     "path": "sources/source-dead-code-elimination.md",
     "type": "source",
@@ -756,7 +756,7 @@
     ]
   },
   {
-    "id": "sources-source-delay-models",
+    "id": "source-source-delay-models",
     "title": "Delay Model Optimization in RTL Simulation",
     "path": "sources/source-delay-models.md",
     "type": "source",
@@ -766,12 +766,12 @@
     "keywords": []
   },
   {
-    "id": "sources-source-deterministic-replay",
+    "id": "source-source-deterministic-replay",
     "title": "Deterministic RTL Simulation / Record & Replay",
     "path": "sources/source-deterministic-replay.md",
     "type": "source",
     "source_url": "https://rr-project.org/",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "deterministic-replay",
       "record-replay",
@@ -791,7 +791,7 @@
     ]
   },
   {
-    "id": "sources-source-deterministic-reproducibility",
+    "id": "source-source-deterministic-reproducibility",
     "title": "多线程确定性可复现与随机种子管理",
     "path": "sources/source-deterministic-reproducibility.md",
     "type": "source",
@@ -813,7 +813,7 @@
     ]
   },
   {
-    "id": "sources-source-distributed-rtl",
+    "id": "source-source-distributed-rtl",
     "title": "分布式 RTL 仿真（Multi-Node MPI）资料汇编",
     "path": "sources/source-distributed-rtl.md",
     "type": "source",
@@ -841,7 +841,7 @@
     ]
   },
   {
-    "id": "sources-source-dynamic-programming",
+    "id": "source-source-dynamic-programming",
     "title": "动态规划在 VLSI / RTL 设计与仿真中的应用",
     "path": "sources/source-dynamic-programming.md",
     "type": "source",
@@ -866,7 +866,7 @@
     ]
   },
   {
-    "id": "sources-source-essent-simulator",
+    "id": "source-source-essent-simulator",
     "title": "ESSENT: High-Performance RTL Simulator",
     "path": "sources/source-essent-simulator.md",
     "type": "source",
@@ -893,12 +893,12 @@
     ]
   },
   {
-    "id": "sources-source-event-passing",
+    "id": "source-source-event-passing",
     "title": "零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道",
     "path": "sources/source-event-passing.md",
     "type": "source",
     "source_url": "https://github.com/cameron314/concurrentqueue",
-    "source_type": "\"github\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "github",
     "tags": [
       "lock-free",
       "event-queue",
@@ -916,12 +916,12 @@
     ]
   },
   {
-    "id": "sources-source-event-scheduler",
+    "id": "source-source-event-scheduler",
     "title": "事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮",
     "path": "sources/source-event-scheduler.md",
     "type": "source",
     "source_url": "https://sigsim.acm.org/conf/mskr/Courseware/Fujimoto/Slides/FujimotoSlides-03-FutureEventList.pdf",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "event-queue",
       "calendar-queue",
@@ -940,7 +940,7 @@
     ]
   },
   {
-    "id": "sources-source-false-sharing",
+    "id": "source-source-false-sharing",
     "title": "False Sharing 检测与修复：高性能多线程编程的隐形杀手",
     "path": "sources/source-false-sharing.md",
     "type": "source",
@@ -966,7 +966,7 @@
     ]
   },
   {
-    "id": "sources-source-ffi-threadsafe",
+    "id": "source-source-ffi-threadsafe",
     "title": "多语言外部接口（FFI）的线程安全实现：Python / Rust / C",
     "path": "sources/source-ffi-threadsafe.md",
     "type": "source",
@@ -991,7 +991,7 @@
     ]
   },
   {
-    "id": "sources-source-fiber-scheduler",
+    "id": "source-source-fiber-scheduler",
     "title": "协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环",
     "path": "sources/source-fiber-scheduler.md",
     "type": "source",
@@ -1015,7 +1015,7 @@
     ]
   },
   {
-    "id": "sources-source-gate-optimization",
+    "id": "source-source-gate-optimization",
     "title": "RTL 编译时门级优化：常量传播、门折叠与逻辑重写",
     "path": "sources/source-gate-optimization.md",
     "type": "source",
@@ -1041,7 +1041,7 @@
     ]
   },
   {
-    "id": "sources-source-gdb-multithread",
+    "id": "source-source-gdb-multithread",
     "title": "Core Dump & GDB Multithreaded Debugging",
     "path": "sources/source-gdb-multithread.md",
     "type": "source",
@@ -1066,7 +1066,7 @@
     ]
   },
   {
-    "id": "sources-source-gem5-parallelization",
+    "id": "source-source-gem5-parallelization",
     "title": "gem5 仿真器并行化分析",
     "path": "sources/source-gem5-parallelization.md",
     "type": "source",
@@ -1092,7 +1092,7 @@
     ]
   },
   {
-    "id": "sources-source-github-rtlsim-projects",
+    "id": "source-source-github-rtlsim-projects",
     "title": "GitHub 上最新的 RTL 仿真器项目",
     "path": "sources/source-github-rtlsim-projects.md",
     "type": "source",
@@ -1119,12 +1119,12 @@
     ]
   },
   {
-    "id": "sources-source-graph-traversal",
+    "id": "source-source-graph-traversal",
     "title": "BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用",
     "path": "sources/source-graph-traversal.md",
     "type": "source",
     "source_url": "",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "graph-traversal",
       "topological-sort",
@@ -1149,7 +1149,7 @@
     ]
   },
   {
-    "id": "sources-source-hardware-ir",
+    "id": "source-source-hardware-ir",
     "title": "Hardware IR 生态：FIRRTL、LLHD、HIR 与 KIR 格式对比",
     "path": "sources/source-hardware-ir.md",
     "type": "source",
@@ -1173,7 +1173,7 @@
     ]
   },
   {
-    "id": "sources-source-hash-optimization",
+    "id": "source-source-hash-optimization",
     "title": "哈希表与字典优化在 RTL 仿真器中的应用",
     "path": "sources/source-hash-optimization.md",
     "type": "source",
@@ -1198,12 +1198,12 @@
     ]
   },
   {
-    "id": "sources-source-heuristic-search",
+    "id": "source-source-heuristic-search",
     "title": "A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用",
     "path": "sources/source-heuristic-search.md",
     "type": "source",
     "source_url": "",
-    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "paper",
     "tags": [
       "A*",
       "heuristic-search",
@@ -1231,7 +1231,7 @@
     ]
   },
   {
-    "id": "sources-source-hpx-runtime",
+    "id": "source-source-hpx-runtime",
     "title": "HPX 并行运行时分析",
     "path": "sources/source-hpx-runtime.md",
     "type": "source",
@@ -1257,7 +1257,7 @@
     ]
   },
   {
-    "id": "sources-source-hugepages-thp",
+    "id": "source-source-hugepages-thp",
     "title": "HugePages 与 Transparent HugePages (THP) 在 HPC 中的 TLB 优化",
     "path": "sources/source-hugepages-thp.md",
     "type": "source",
@@ -1281,7 +1281,7 @@
     ]
   },
   {
-    "id": "sources-source-hypergraph-partitioning",
+    "id": "source-source-hypergraph-partitioning",
     "title": "超图划分在 RTL 电路分区中的应用",
     "path": "sources/source-hypergraph-partitioning.md",
     "type": "source",
@@ -1310,7 +1310,7 @@
     ]
   },
   {
-    "id": "sources-source-icache-optimization",
+    "id": "source-source-icache-optimization",
     "title": "Instruction Cache Optimization for RTL Simulators",
     "path": "sources/source-icache-optimization.md",
     "type": "source",
@@ -1341,7 +1341,7 @@
     ]
   },
   {
-    "id": "sources-source-icarus-ghdl-internals",
+    "id": "source-source-icarus-ghdl-internals",
     "title": "Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储",
     "path": "sources/source-icarus-ghdl-internals.md",
     "type": "source",
@@ -1367,7 +1367,7 @@
     ]
   },
   {
-    "id": "sources-source-ilp-mip-eda",
+    "id": "source-source-ilp-mip-eda",
     "title": "ILP / MIP / CP-SAT 在 EDA 中的应用",
     "path": "sources/source-ilp-mip-eda.md",
     "type": "source",
@@ -1395,7 +1395,7 @@
     ]
   },
   {
-    "id": "sources-source-incremental-evaluation",
+    "id": "source-source-incremental-evaluation",
     "title": "Incremental Evaluation and Lazy Evaluation in RTL Simulation",
     "path": "sources/source-incremental-evaluation.md",
     "type": "source",
@@ -1422,7 +1422,7 @@
     ]
   },
   {
-    "id": "sources-source-ir-optimization",
+    "id": "source-source-ir-optimization",
     "title": "IR 优化与 RTL 仿真：SSA、数据流与流水线优化的编译器技术",
     "path": "sources/source-ir-optimization.md",
     "type": "source",
@@ -1445,7 +1445,7 @@
     ]
   },
   {
-    "id": "sources-source-jit-simulation",
+    "id": "source-source-jit-simulation",
     "title": "JIT Compilation in Simulators: From Instruction Set Simulation to RTL Emulation",
     "path": "sources/source-jit-simulation.md",
     "type": "source",
@@ -1469,7 +1469,7 @@
     ]
   },
   {
-    "id": "sources-source-kahypar-api",
+    "id": "source-source-kahypar-api",
     "title": "KaHyPar C++ API 使用指南与代码示例",
     "path": "sources/source-kahypar-api.md",
     "type": "source",
@@ -1493,7 +1493,7 @@
     ]
   },
   {
-    "id": "sources-source-kahypar-tuning",
+    "id": "source-source-kahypar-tuning",
     "title": "KaHyPar 参数调优与配置详解",
     "path": "sources/source-kahypar-tuning.md",
     "type": "source",
@@ -1520,7 +1520,7 @@
     ]
   },
   {
-    "id": "sources-source-latest-rtlsim-papers",
+    "id": "source-source-latest-rtlsim-papers",
     "title": "最新 RTL 并行仿真论文汇总（2023-2026）",
     "path": "sources/source-latest-rtlsim-papers.md",
     "type": "source",
@@ -1544,7 +1544,7 @@
     ]
   },
   {
-    "id": "sources-source-linux-kernel-sync",
+    "id": "source-source-linux-kernel-sync",
     "title": "Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用",
     "path": "sources/source-linux-kernel-sync.md",
     "type": "source",
@@ -1573,7 +1573,7 @@
     ]
   },
   {
-    "id": "sources-source-linux-perf-tools",
+    "id": "source-source-linux-perf-tools",
     "title": "Linux perf 与 perf c2c 在多线程 C++ 程序中的性能剖析",
     "path": "sources/source-linux-perf-tools.md",
     "type": "source",
@@ -1597,7 +1597,7 @@
     ]
   },
   {
-    "id": "sources-source-llvm-mlir-rtl",
+    "id": "source-source-llvm-mlir-rtl",
     "title": "LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes",
     "path": "sources/source-llvm-mlir-rtl.md",
     "type": "source",
@@ -1623,7 +1623,7 @@
     ]
   },
   {
-    "id": "sources-source-lock-free-cpp",
+    "id": "source-source-lock-free-cpp",
     "title": "C++ Lock-Free 数据结构：从原子操作到无锁队列",
     "path": "sources/source-lock-free-cpp.md",
     "type": "source",
@@ -1649,7 +1649,7 @@
     ]
   },
   {
-    "id": "sources-source-lockfree-queue-impl",
+    "id": "source-source-lockfree-queue-impl",
     "title": "SPSC / MPMC Lock-Free Queue Implementation",
     "path": "sources/source-lockfree-queue-impl.md",
     "type": "source",
@@ -1673,7 +1673,7 @@
     ]
   },
   {
-    "id": "sources-source-manticore-date23",
+    "id": "source-source-manticore-date23",
     "title": "Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)",
     "path": "sources/source-manticore-date23.md",
     "type": "source",
@@ -1700,7 +1700,7 @@
     ]
   },
   {
-    "id": "sources-source-memory-allocators",
+    "id": "source-source-memory-allocators",
     "title": "多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc",
     "path": "sources/source-memory-allocators.md",
     "type": "source",
@@ -1723,7 +1723,7 @@
     ]
   },
   {
-    "id": "sources-source-memory-bandwidth",
+    "id": "source-source-memory-bandwidth",
     "title": "内存带宽瓶颈分析：STREAM Benchmark 与 Roofline 模型",
     "path": "sources/source-memory-bandwidth.md",
     "type": "source",
@@ -1747,7 +1747,7 @@
     ]
   },
   {
-    "id": "sources-source-memory-layout",
+    "id": "source-source-memory-layout",
     "title": "SoA vs AoS 内存布局在 RTL 仿真器中的应用",
     "path": "sources/source-memory-layout.md",
     "type": "source",
@@ -1773,7 +1773,7 @@
     ]
   },
   {
-    "id": "sources-source-metaheuristic-eda",
+    "id": "source-source-metaheuristic-eda",
     "title": "遗传算法与模拟退火在 VLSI EDA 中的应用",
     "path": "sources/source-metaheuristic-eda.md",
     "type": "source",
@@ -1800,7 +1800,7 @@
     ]
   },
   {
-    "id": "sources-source-metro-mpi",
+    "id": "source-source-metro-mpi",
     "title": "Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)",
     "path": "sources/source-metro-mpi.md",
     "type": "source",
@@ -1829,7 +1829,7 @@
     ]
   },
   {
-    "id": "sources-source-microarchitecture",
+    "id": "source-source-microarchitecture",
     "title": "Micro-op Fusion, ITLB & TLB Optimization in RTL Simulation",
     "path": "sources/source-microarchitecture.md",
     "type": "source",
@@ -1858,7 +1858,7 @@
     ]
   },
   {
-    "id": "sources-source-mt-error-handling",
+    "id": "source-source-mt-error-handling",
     "title": "Multithreaded Error Handling & Assertions in C++",
     "path": "sources/source-mt-error-handling.md",
     "type": "source",
@@ -1882,12 +1882,12 @@
     ]
   },
   {
-    "id": "sources-source-multithread-debugging",
+    "id": "source-source-multithread-debugging",
     "title": "多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放",
     "path": "sources/source-multithread-debugging.md",
     "type": "source",
     "source_url": "https://undo.io/resources/gdb-watchpoint/debugging-multithreaded-code-gdb-thread-names/",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "gdb",
       "lldb",
@@ -1913,7 +1913,7 @@
     ]
   },
   {
-    "id": "sources-source-multithread-logging",
+    "id": "source-source-multithread-logging",
     "title": "多线程高性能日志系统：Lock-Free 与 Per-Thread 日志缓冲",
     "path": "sources/source-multithread-logging.md",
     "type": "source",
@@ -1937,7 +1937,7 @@
     ]
   },
   {
-    "id": "sources-source-network-flow",
+    "id": "source-source-network-flow",
     "title": "网络流最小割在 RTL 电路分区中的应用",
     "path": "sources/source-network-flow.md",
     "type": "source",
@@ -1965,7 +1965,7 @@
     ]
   },
   {
-    "id": "sources-source-noc-simulation",
+    "id": "source-source-noc-simulation",
     "title": "Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编",
     "path": "sources/source-noc-simulation.md",
     "type": "source",
@@ -1994,7 +1994,7 @@
     ]
   },
   {
-    "id": "sources-source-notable-simulators",
+    "id": "source-source-notable-simulators",
     "title": "其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等",
     "path": "sources/source-notable-simulators.md",
     "type": "source",
@@ -2018,7 +2018,7 @@
     ]
   },
   {
-    "id": "sources-source-numa-optimization",
+    "id": "source-source-numa-optimization",
     "title": "NUMA 优化与 Thread Pinning：让内存访问不再跨节点",
     "path": "sources/source-numa-optimization.md",
     "type": "source",
@@ -2043,7 +2043,7 @@
     ]
   },
   {
-    "id": "sources-source-onetbb-scheduler",
+    "id": "source-source-onetbb-scheduler",
     "title": "OneTBB 任务调度器与 Work-Stealing 实现分析",
     "path": "sources/source-onetbb-scheduler.md",
     "type": "source",
@@ -2068,12 +2068,12 @@
     ]
   },
   {
-    "id": "sources-source-os-scheduling",
+    "id": "source-source-os-scheduling",
     "title": "Linux 调度器与 CPU 隔离对实时仿真器性能的影响",
     "path": "sources/source-os-scheduling.md",
     "type": "source",
     "source_url": "https://access.redhat.com/documentation/zh-cn/red_hat_openstack_platform/10/html/ovs-dpdk_end_to_end_troubleshooting_guide/_about_the_impact_of_isolcpus_on_emulator_thread_scheduling",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "linux-scheduler",
       "cpu-isolation",
@@ -2099,7 +2099,7 @@
     ]
   },
   {
-    "id": "sources-source-other-simulators",
+    "id": "source-source-other-simulators",
     "title": "Icarus Verilog (IVL) 与其他开源仿真器：vthread 模拟线程与事件调度机制",
     "path": "sources/source-other-simulators.md",
     "type": "source",
@@ -2126,7 +2126,7 @@
     ]
   },
   {
-    "id": "sources-source-papers-parallel-rtl",
+    "id": "source-source-papers-parallel-rtl",
     "title": "RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）",
     "path": "sources/source-papers-parallel-rtl.md",
     "type": "source",
@@ -2150,7 +2150,7 @@
     ]
   },
   {
-    "id": "sources-source-papers-sim-kernel",
+    "id": "source-source-papers-sim-kernel",
     "title": "仿真器内核与编译优化论文地图（ASPLOS/DAC/DATE/ICCAD）",
     "path": "sources/source-papers-sim-kernel.md",
     "type": "source",
@@ -2175,7 +2175,7 @@
     ]
   },
   {
-    "id": "sources-source-parallel-frameworks",
+    "id": "source-source-parallel-frameworks",
     "title": "OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱",
     "path": "sources/source-parallel-frameworks.md",
     "type": "source",
@@ -2198,7 +2198,7 @@
     ]
   },
   {
-    "id": "sources-source-parendi-asplos25",
+    "id": "source-source-parendi-asplos25",
     "title": "Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)",
     "path": "sources/source-parendi-asplos25.md",
     "type": "source",
@@ -2225,7 +2225,7 @@
     ]
   },
   {
-    "id": "sources-source-pdes-making-of-field",
+    "id": "source-source-pdes-making-of-field",
     "title": "Parallel Discrete Event Simulation: The Making of a Field",
     "path": "sources/source-pdes-making-of-field.md",
     "type": "source",
@@ -2250,7 +2250,7 @@
     ]
   },
   {
-    "id": "sources-source-pdes-rtlsim-modern",
+    "id": "source-source-pdes-rtlsim-modern",
     "title": "Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism",
     "path": "sources/source-pdes-rtlsim-modern.md",
     "type": "source",
@@ -2278,7 +2278,7 @@
     ]
   },
   {
-    "id": "sources-source-pdes-sync-comparison",
+    "id": "source-source-pdes-sync-comparison",
     "title": "Optimistic vs Conservative Synchronization in PDES for Circuit Simulation",
     "path": "sources/source-pdes-sync-comparison.md",
     "type": "source",
@@ -2306,7 +2306,7 @@
     ]
   },
   {
-    "id": "sources-source-pdes-vhdl-lungeanu",
+    "id": "source-source-pdes-vhdl-lungeanu",
     "title": "Parallel and Distributed VHDL Simulation",
     "path": "sources/source-pdes-vhdl-lungeanu.md",
     "type": "source",
@@ -2332,7 +2332,7 @@
     ]
   },
   {
-    "id": "sources-source-pgo-lto",
+    "id": "source-source-pgo-lto",
     "title": "Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用",
     "path": "sources/source-pgo-lto.md",
     "type": "source",
@@ -2354,7 +2354,7 @@
     ]
   },
   {
-    "id": "sources-source-plugin-architecture",
+    "id": "source-source-plugin-architecture",
     "title": "C++ 插件系统动态加载（dlopen）的线程安全架构",
     "path": "sources/source-plugin-architecture.md",
     "type": "source",
@@ -2379,7 +2379,7 @@
     ]
   },
   {
-    "id": "sources-source-prefetching",
+    "id": "source-source-prefetching",
     "title": "Prefetching & Cache Line Utilization in RTL Simulation",
     "path": "sources/source-prefetching.md",
     "type": "source",
@@ -2403,83 +2403,7 @@
     ]
   },
   {
-    "id": "sources-source-rcu-userspace",
-    "title": "RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现",
-    "path": "sources/source-rcu-userspace.md",
-    "type": "source",
-    "source_url": "https://lwn.net/Articles/573424/",
-    "source_type": "doc",
-    "tags": [
-      "rcu",
-      "liburcu",
-      "userspace-rcu",
-      "lock-free",
-      "synchronization",
-      "qemu"
-    ],
-    "keywords": [
-      "RCU",
-      "read-copy-update",
-      "liburcu",
-      "QSBR",
-      "grace period",
-      "synchronize_rcu",
-      "rcu_read_lock",
-      "userspace"
-    ]
-  },
-  {
-    "id": "sources-source-ring-buffer-sim",
-    "title": "Ring Buffer / Event Queue for Simulation",
-    "path": "sources/source-ring-buffer-sim.md",
-    "type": "source",
-    "source_url": "https://github.com/hangukquant/disruptor_cpp",
-    "source_type": "github-repo",
-    "tags": [
-      "lock-free",
-      "ring-buffer",
-      "LMAX-Disruptor",
-      "event-queue",
-      "simulation",
-      "SPSC",
-      "MPMC",
-      "C++20"
-    ],
-    "keywords": [
-      "disruptor",
-      "ring buffer",
-      "sequence barrier",
-      "wait strategy",
-      "event processor",
-      "simulation"
-    ]
-  },
-  {
-    "id": "sources-source-roofline-rtl",
-    "title": "Roofline 模型在 RTL 仿真中的性能分析",
-    "path": "sources/source-roofline-rtl.md",
-    "type": "source",
-    "source_url": "https://docs.nersc.gov/tools/performance/roofline/",
-    "source_type": "doc",
-    "tags": [
-      "roofline",
-      "performance-modeling",
-      "bandwidth-bound",
-      "compute-bound",
-      "cache-analysis",
-      "multicore"
-    ],
-    "keywords": [
-      "roofline model",
-      "operational intensity",
-      "memory bandwidth ceiling",
-      "compute ceiling",
-      "RTL simulation performance",
-      "arithmetic intensity"
-    ]
-  },
-  {
-    "id": "sources-source-sanitizers",
+    "id": "source-source-sanitizers",
     "title": "Sanitizers (TSan / ASan / MSan) for Multithreaded Simulators",
     "path": "sources/source-sanitizers.md",
     "type": "source",
@@ -2506,7 +2430,83 @@
     ]
   },
   {
-    "id": "sources-source-sensitivity-analysis",
+    "id": "source-source-rcu-userspace",
+    "title": "RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现",
+    "path": "sources/source-rcu-userspace.md",
+    "type": "source",
+    "source_url": "https://lwn.net/Articles/573424/",
+    "source_type": "doc",
+    "tags": [
+      "rcu",
+      "liburcu",
+      "userspace-rcu",
+      "lock-free",
+      "synchronization",
+      "qemu"
+    ],
+    "keywords": [
+      "RCU",
+      "read-copy-update",
+      "liburcu",
+      "QSBR",
+      "grace period",
+      "synchronize_rcu",
+      "rcu_read_lock",
+      "userspace"
+    ]
+  },
+  {
+    "id": "source-source-ring-buffer-sim",
+    "title": "Ring Buffer / Event Queue for Simulation",
+    "path": "sources/source-ring-buffer-sim.md",
+    "type": "source",
+    "source_url": "https://github.com/hangukquant/disruptor_cpp",
+    "source_type": "github-repo",
+    "tags": [
+      "lock-free",
+      "ring-buffer",
+      "LMAX-Disruptor",
+      "event-queue",
+      "simulation",
+      "SPSC",
+      "MPMC",
+      "C++20"
+    ],
+    "keywords": [
+      "disruptor",
+      "ring buffer",
+      "sequence barrier",
+      "wait strategy",
+      "event processor",
+      "simulation"
+    ]
+  },
+  {
+    "id": "source-source-roofline-rtl",
+    "title": "Roofline 模型在 RTL 仿真中的性能分析",
+    "path": "sources/source-roofline-rtl.md",
+    "type": "source",
+    "source_url": "https://docs.nersc.gov/tools/performance/roofline/",
+    "source_type": "doc",
+    "tags": [
+      "roofline",
+      "performance-modeling",
+      "bandwidth-bound",
+      "compute-bound",
+      "cache-analysis",
+      "multicore"
+    ],
+    "keywords": [
+      "roofline model",
+      "operational intensity",
+      "memory bandwidth ceiling",
+      "compute ceiling",
+      "RTL simulation performance",
+      "arithmetic intensity"
+    ]
+  },
+  {
+    "id": "source-source-sensitivity-analysis",
     "title": "参数敏感性分析与实验设计（DOE）在仿真器性能调优中的应用",
     "path": "sources/source-sensitivity-analysis.md",
     "type": "source",
@@ -2530,7 +2530,7 @@
     ]
   },
   {
-    "id": "sources-source-seqlock",
+    "id": "source-source-seqlock",
     "title": "Seqlock / Sequence Lock — 内核实现与用户空间 C++ 实现",
     "path": "sources/source-seqlock.md",
     "type": "source",
@@ -2555,7 +2555,7 @@
     ]
   },
   {
-    "id": "sources-source-sim-frameworks",
+    "id": "source-source-sim-frameworks",
     "title": "仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真",
     "path": "sources/source-sim-frameworks.md",
     "type": "source",
@@ -2579,7 +2579,7 @@
     ]
   },
   {
-    "id": "sources-source-simd-gate-eval",
+    "id": "source-source-simd-gate-eval",
     "title": "SIMD 在门级（Gate-Level）评估中的具体实现",
     "path": "sources/source-simd-gate-eval.md",
     "type": "source",
@@ -2604,7 +2604,7 @@
     ]
   },
   {
-    "id": "sources-source-simd-rtl-simulation",
+    "id": "source-source-simd-rtl-simulation",
     "title": "SIMD/Vectorization in RTL Simulation and Gate-Level Simulation",
     "path": "sources/source-simd-rtl-simulation.md",
     "type": "source",
@@ -2630,7 +2630,7 @@
     ]
   },
   {
-    "id": "sources-source-simulation-trace",
+    "id": "source-source-simulation-trace",
     "title": "仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译",
     "path": "sources/source-simulation-trace.md",
     "type": "source",
@@ -2655,7 +2655,7 @@
     ]
   },
   {
-    "id": "sources-source-simulator-profiling",
+    "id": "source-source-simulator-profiling",
     "title": "仿真器性能分析与 Profiling 指南",
     "path": "sources/source-simulator-profiling.md",
     "type": "source",
@@ -2679,7 +2679,7 @@
     ]
   },
   {
-    "id": "sources-source-spectral-clustering",
+    "id": "source-source-spectral-clustering",
     "title": "谱聚类与图拉普拉斯在 RTL 电路分区中的应用",
     "path": "sources/source-spectral-clustering.md",
     "type": "source",
@@ -2704,7 +2704,7 @@
     ]
   },
   {
-    "id": "sources-source-spike-parallelization",
+    "id": "source-source-spike-parallelization",
     "title": "Spike RISC-V 模拟器并行化分析",
     "path": "sources/source-spike-parallelization.md",
     "type": "source",
@@ -2729,7 +2729,7 @@
     ]
   },
   {
-    "id": "sources-source-sst-mana",
+    "id": "source-source-sst-mana",
     "title": "SST (Structural Simulation Toolkit) 与高性能离散事件仿真框架",
     "path": "sources/source-sst-mana.md",
     "type": "source",
@@ -2758,12 +2758,12 @@
     ]
   },
   {
-    "id": "sources-source-state-compression",
+    "id": "source-source-state-compression",
     "title": "Simulation State Compression / Deduplication & Waveform Compression",
     "path": "sources/source-state-compression.md",
     "type": "source",
     "source_url": "https://numbda.cs.tsinghua.edu.cn/papers/glsvlsi23_2.pdf",
-    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "paper",
     "tags": [
       "state-compression",
       "waveform-compression",
@@ -2782,7 +2782,7 @@
     ]
   },
   {
-    "id": "sources-source-string-optimization",
+    "id": "source-source-string-optimization",
     "title": "字符串与层次化路径优化在 RTL 仿真器中的应用",
     "path": "sources/source-string-optimization.md",
     "type": "source",
@@ -2805,7 +2805,7 @@
     ]
   },
   {
-    "id": "sources-source-structured-logging",
+    "id": "source-source-structured-logging",
     "title": "结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化",
     "path": "sources/source-structured-logging.md",
     "type": "source",
@@ -2829,7 +2829,7 @@
     ]
   },
   {
-    "id": "sources-source-surelog-slang-internals",
+    "id": "source-source-surelog-slang-internals",
     "title": "Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能",
     "path": "sources/source-surelog-slang-internals.md",
     "type": "source",
@@ -2857,7 +2857,7 @@
     ]
   },
   {
-    "id": "sources-source-swarm-intelligence",
+    "id": "source-source-swarm-intelligence",
     "title": "禁忌搜索、蚁群与粒子群优化在 EDA 中的应用",
     "path": "sources/source-swarm-intelligence.md",
     "type": "source",
@@ -2886,12 +2886,12 @@
     ]
   },
   {
-    "id": "sources-source-systemc-kernel",
+    "id": "source-source-systemc-kernel",
     "title": "SystemC Kernel Implementation & Scheduler Internals",
     "path": "sources/source-systemc-kernel.md",
     "type": "source",
     "source_url": "https://errbits.com/articles/systemc-scheduler-internals.html",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "SystemC",
       "kernel",
@@ -2910,7 +2910,7 @@
     ]
   },
   {
-    "id": "sources-source-task-scheduler",
+    "id": "source-source-task-scheduler",
     "title": "任务调度器与负载均衡设计：Work-Stealing、优先级队列与线程亲和性",
     "path": "sources/source-task-scheduler.md",
     "type": "source",
@@ -2933,7 +2933,7 @@
     ]
   },
   {
-    "id": "sources-source-thread-local-storage",
+    "id": "source-source-thread-local-storage",
     "title": "Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator",
     "path": "sources/source-thread-local-storage.md",
     "type": "source",
@@ -2959,7 +2959,7 @@
     ]
   },
   {
-    "id": "sources-source-thread-pool-impl",
+    "id": "source-source-thread-pool-impl",
     "title": "C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列",
     "path": "sources/source-thread-pool-impl.md",
     "type": "source",
@@ -2982,12 +2982,12 @@
     ]
   },
   {
-    "id": "sources-source-timekeeping-simulation",
+    "id": "source-source-timekeeping-simulation",
     "title": "仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟",
     "path": "sources/source-timekeeping-simulation.md",
     "type": "source",
     "source_url": "https://www.qemu.org/docs/master/devel/replay.html",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "rdtsc",
       "TSC",
@@ -3014,7 +3014,7 @@
     ]
   },
   {
-    "id": "sources-source-timewarp-algorithm",
+    "id": "source-source-timewarp-algorithm",
     "title": "Time Warp: Virtual Time and Optimistic Synchronization",
     "path": "sources/source-timewarp-algorithm.md",
     "type": "source",
@@ -3040,12 +3040,12 @@
     ]
   },
   {
-    "id": "sources-source-tlm-rtl",
+    "id": "source-source-tlm-rtl",
     "title": "TLM-2.0 / Mixed Abstraction Simulation with RTL",
     "path": "sources/source-tlm-rtl.md",
     "type": "source",
     "source_url": "https://dvcon-proceedings.org/wp-content/uploads/bridging-the-gap-between-tlm-2-0-at-models-and-rtl-experiments-and-opportunities.pdf",
-    "source_type": "\"paper\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "paper",
     "tags": [
       "TLM-2.0",
       "RTL",
@@ -3064,7 +3064,7 @@
     ]
   },
   {
-    "id": "sources-source-vectorization-rtl",
+    "id": "source-source-vectorization-rtl",
     "title": "RTL 编译时向量化与位切片优化：字级仿真、位级压缩与数据流分裂",
     "path": "sources/source-vectorization-rtl.md",
     "type": "source",
@@ -3093,239 +3093,7 @@
     ]
   },
   {
-    "id": "sources-source-verilator-issue-2913",
-    "title": "Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown",
-    "path": "sources/source-verilator-issue-2913.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator/issues/2913",
-    "source_type": "github-issue",
-    "tags": [
-      "rtl-sim",
-      "multithreading",
-      "verilator",
-      "synchronization",
-      "overhead"
-    ],
-    "keywords": [
-      "verilator",
-      "multithreading",
-      "slowdown",
-      "tiny design",
-      "thread overhead",
-      "Gantt",
-      "macro-task"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-mt-code-analysis",
-    "title": "Verilator 多线程源码分析",
-    "path": "sources/source-verilator-mt-code-analysis.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator",
-    "source_type": "github-code",
-    "tags": [
-      "github",
-      "parallel-code",
-      "cpp",
-      "rtl-simulator",
-      "verilator",
-      "thread-pool"
-    ],
-    "keywords": [
-      "verilator",
-      "V3ThreadPool",
-      "V3ThreadScope",
-      "V3OrderParallel",
-      "edge-contraction",
-      "critical-path",
-      "partitioner"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-mt-deep",
-    "title": "Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool",
-    "path": "sources/source-verilator-mt-deep.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator",
-    "source_type": "github-repo",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "mtask",
-      "partition",
-      "thread-pool",
-      "RTL-simulation"
-    ],
-    "keywords": [
-      "V3OrderParallel",
-      "V3ExecGraph",
-      "VlThreadPool",
-      "MTask",
-      "static-scheduling",
-      "critical-path"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-mt-doc",
-    "title": "Verilator 官方文档：多线程仿真与性能优化",
-    "path": "sources/source-verilator-mt-doc.md",
-    "type": "source",
-    "source_url": "https://verilator.org/guide/latest/verilating.html#multithreading / https://verilator.org/guide/latest/simulating.html",
-    "source_type": "doc",
-    "tags": [
-      "rtl-sim",
-      "multithreading",
-      "verilator",
-      "documentation",
-      "performance",
-      "NUMA",
-      "PGO"
-    ],
-    "keywords": [
-      "verilator",
-      "--threads",
-      "macro-task",
-      "thread affinity",
-      "NUMA",
-      "profile-guided optimization",
-      "numactl",
-      "lstopo",
-      "L3 cluster"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-mt-issues",
-    "title": "Verilator 多线程性能 Issue 与调度器重设计讨论合集",
-    "path": "sources/source-verilator-mt-issues.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator/issues",
-    "source_type": "github-issue",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "performance",
-      "scheduler",
-      "issue",
-      "discussion"
-    ],
-    "keywords": [
-      "MTask",
-      "slowdown",
-      "scheduler",
-      "generated clock",
-      "active region",
-      "nba region",
-      "trace",
-      "prof-exec"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-mt-prs-detailed",
-    "title": "Verilator 多线程相关 PR 深度分析合集",
-    "path": "sources/source-verilator-mt-prs-detailed.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator",
-    "source_type": "github-pr",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "mtask",
-      "partition",
-      "scheduler",
-      "v3partition",
-      "v3order"
-    ],
-    "keywords": [
-      "MTask",
-      "ExecMTask",
-      "V3Partition",
-      "V3Order",
-      "ThreadSchedule",
-      "PartContraction",
-      "V3Sched",
-      "V3ExecGraph"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-mt-prs",
-    "title": "Verilator 多线程相关 PR 分析",
-    "path": "sources/source-verilator-mt-prs.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator/pulls",
-    "source_type": "github-pr",
-    "tags": [
-      "github",
-      "parallel-code",
-      "cpp",
-      "verilator",
-      "thread-pool",
-      "pr-analysis"
-    ],
-    "keywords": [
-      "verilator",
-      "thread-pool",
-      "V3ThreadPool",
-      "MT_DISABLED",
-      "partitioner",
-      "edge-contraction"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-partition-evolution",
-    "title": "V3Partition / V3Order 代码演进历史（2020-2025）",
-    "path": "sources/source-verilator-partition-evolution.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator",
-    "source_type": "github-commit",
-    "tags": [
-      "verilator",
-      "v3partition",
-      "v3order",
-      "code-evolution",
-      "refactoring",
-      "multithreading"
-    ],
-    "keywords": [
-      "V3Partition",
-      "V3Order",
-      "V3OrderParallel",
-      "V3ExecGraph",
-      "V3Sched",
-      "PartContraction",
-      "MTask",
-      "commit-history"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-v3dfg",
-    "title": "Verilator V3Dfg 数据流图编译优化系统",
-    "path": "sources/source-verilator-v3dfg.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator/tree/master/src/",
-    "source_type": "github-code",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "dfg",
-      "dataflow-graph",
-      "compiler-optimization",
-      "cse",
-      "rtl-simulation"
-    ],
-    "keywords": [
-      "DfgVertex",
-      "DfgGraph",
-      "DfgEdge",
-      "DfgUserMap",
-      "DfgWorklist",
-      "V3DfgCse",
-      "splitIntoComponents",
-      "extractCyclicComponents",
-      "VL_MT_DISABLED"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-V3ExecGraph执行图",
+    "id": "source-source-verilator-V3ExecGraph执行图",
     "title": "V3ExecGraph 执行图",
     "path": "sources/source-verilator-V3ExecGraph执行图.md",
     "type": "source",
@@ -3352,33 +3120,7 @@
     ]
   },
   {
-    "id": "sources-source-verilator-v3gate",
-    "title": "Verilator V3Gate 门级优化源码分析",
-    "path": "sources/source-verilator-v3gate.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3Gate.cpp",
-    "source_type": "github-code",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "gate-optimization",
-      "V3Graph",
-      "compile-time",
-      "VL_MT_DISABLED",
-      "AST-transform"
-    ],
-    "keywords": [
-      "V3Gate",
-      "gateAll",
-      "GateInline",
-      "GateDedupe",
-      "GateUnused",
-      "GateGraph",
-      "VL_MT_DISABLED_CODE_UNIT"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-V3MergeCond",
+    "id": "source-source-verilator-V3MergeCond",
     "title": "V3MergeCond 条件合并优化",
     "path": "sources/source-verilator-V3MergeCond.md",
     "type": "source",
@@ -3405,7 +3147,7 @@
     ]
   },
   {
-    "id": "sources-source-verilator-V3OrderMoveGraph移动图",
+    "id": "source-source-verilator-V3OrderMoveGraph移动图",
     "title": "V3OrderMoveGraph 移动图与多线程调度",
     "path": "sources/source-verilator-V3OrderMoveGraph移动图.md",
     "type": "source",
@@ -3431,7 +3173,7 @@
     ]
   },
   {
-    "id": "sources-source-verilator-V3Order调度顺序",
+    "id": "source-source-verilator-V3Order调度顺序",
     "title": "V3Order调度顺序",
     "path": "sources/source-verilator-V3Order调度顺序.md",
     "type": "source",
@@ -3461,7 +3203,7 @@
     ]
   },
   {
-    "id": "sources-source-verilator-V3Sched调度器",
+    "id": "source-source-verilator-V3Sched调度器",
     "title": "Verilator V3Sched 调度器核心组",
     "path": "sources/source-verilator-V3Sched调度器.md",
     "type": "source",
@@ -3493,35 +3235,7 @@
     ]
   },
   {
-    "id": "sources-source-verilator-v3threadpool",
-    "title": "Verilator V3ThreadPool 线程池实现",
-    "path": "sources/source-verilator-v3threadpool.md",
-    "type": "source",
-    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3ThreadPool.h",
-    "source_type": "github-code",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "thread-pool",
-      "C++",
-      "V3ThreadPool",
-      "condition-variable",
-      "release-acquire",
-      "RAII"
-    ],
-    "keywords": [
-      "V3ThreadPool",
-      "V3ThreadScope",
-      "std::condition_variable_any",
-      "memory_order_release",
-      "memory_order_acquire",
-      "VL_MT_SAFE",
-      "VL_EXCLUDES",
-      "VL_MT_START"
-    ]
-  },
-  {
-    "id": "sources-source-verilator-V3Trace",
+    "id": "source-source-verilator-V3Trace",
     "title": "V3Trace 追踪系统",
     "path": "sources/source-verilator-V3Trace.md",
     "type": "source",
@@ -3550,7 +3264,293 @@
     ]
   },
   {
-    "id": "sources-source-verilator-v3variableorder-v2",
+    "id": "source-source-verilator-issue-2913",
+    "title": "Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown",
+    "path": "sources/source-verilator-issue-2913.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/issues/2913",
+    "source_type": "github-issue",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "verilator",
+      "synchronization",
+      "overhead"
+    ],
+    "keywords": [
+      "verilator",
+      "multithreading",
+      "slowdown",
+      "tiny design",
+      "thread overhead",
+      "Gantt",
+      "macro-task"
+    ]
+  },
+  {
+    "id": "source-source-verilator-mt-code-analysis",
+    "title": "Verilator 多线程源码分析",
+    "path": "sources/source-verilator-mt-code-analysis.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-code",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "rtl-simulator",
+      "verilator",
+      "thread-pool"
+    ],
+    "keywords": [
+      "verilator",
+      "V3ThreadPool",
+      "V3ThreadScope",
+      "V3OrderParallel",
+      "edge-contraction",
+      "critical-path",
+      "partitioner"
+    ]
+  },
+  {
+    "id": "source-source-verilator-mt-deep",
+    "title": "Verilator 多线程源码深度分析：V3OrderParallel、V3ExecGraph、VlThreadPool",
+    "path": "sources/source-verilator-mt-deep.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-repo",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "mtask",
+      "partition",
+      "thread-pool",
+      "RTL-simulation"
+    ],
+    "keywords": [
+      "V3OrderParallel",
+      "V3ExecGraph",
+      "VlThreadPool",
+      "MTask",
+      "static-scheduling",
+      "critical-path"
+    ]
+  },
+  {
+    "id": "source-source-verilator-mt-doc",
+    "title": "Verilator 官方文档：多线程仿真与性能优化",
+    "path": "sources/source-verilator-mt-doc.md",
+    "type": "source",
+    "source_url": "https://verilator.org/guide/latest/verilating.html#multithreading / https://verilator.org/guide/latest/simulating.html",
+    "source_type": "doc",
+    "tags": [
+      "rtl-sim",
+      "multithreading",
+      "verilator",
+      "documentation",
+      "performance",
+      "NUMA",
+      "PGO"
+    ],
+    "keywords": [
+      "verilator",
+      "--threads",
+      "macro-task",
+      "thread affinity",
+      "NUMA",
+      "profile-guided optimization",
+      "numactl",
+      "lstopo",
+      "L3 cluster"
+    ]
+  },
+  {
+    "id": "source-source-verilator-mt-issues",
+    "title": "Verilator 多线程性能 Issue 与调度器重设计讨论合集",
+    "path": "sources/source-verilator-mt-issues.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/issues",
+    "source_type": "github-issue",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "performance",
+      "scheduler",
+      "issue",
+      "discussion"
+    ],
+    "keywords": [
+      "MTask",
+      "slowdown",
+      "scheduler",
+      "generated clock",
+      "active region",
+      "nba region",
+      "trace",
+      "prof-exec"
+    ]
+  },
+  {
+    "id": "source-source-verilator-mt-prs-detailed",
+    "title": "Verilator 多线程相关 PR 深度分析合集",
+    "path": "sources/source-verilator-mt-prs-detailed.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-pr",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "mtask",
+      "partition",
+      "scheduler",
+      "v3partition",
+      "v3order"
+    ],
+    "keywords": [
+      "MTask",
+      "ExecMTask",
+      "V3Partition",
+      "V3Order",
+      "ThreadSchedule",
+      "PartContraction",
+      "V3Sched",
+      "V3ExecGraph"
+    ]
+  },
+  {
+    "id": "source-source-verilator-mt-prs",
+    "title": "Verilator 多线程相关 PR 分析",
+    "path": "sources/source-verilator-mt-prs.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/pulls",
+    "source_type": "github-pr",
+    "tags": [
+      "github",
+      "parallel-code",
+      "cpp",
+      "verilator",
+      "thread-pool",
+      "pr-analysis"
+    ],
+    "keywords": [
+      "verilator",
+      "thread-pool",
+      "V3ThreadPool",
+      "MT_DISABLED",
+      "partitioner",
+      "edge-contraction"
+    ]
+  },
+  {
+    "id": "source-source-verilator-partition-evolution",
+    "title": "V3Partition / V3Order 代码演进历史（2020-2025）",
+    "path": "sources/source-verilator-partition-evolution.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator",
+    "source_type": "github-commit",
+    "tags": [
+      "verilator",
+      "v3partition",
+      "v3order",
+      "code-evolution",
+      "refactoring",
+      "multithreading"
+    ],
+    "keywords": [
+      "V3Partition",
+      "V3Order",
+      "V3OrderParallel",
+      "V3ExecGraph",
+      "V3Sched",
+      "PartContraction",
+      "MTask",
+      "commit-history"
+    ]
+  },
+  {
+    "id": "source-source-verilator-v3dfg",
+    "title": "Verilator V3Dfg 数据流图编译优化系统",
+    "path": "sources/source-verilator-v3dfg.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "dfg",
+      "dataflow-graph",
+      "compiler-optimization",
+      "cse",
+      "rtl-simulation"
+    ],
+    "keywords": [
+      "DfgVertex",
+      "DfgGraph",
+      "DfgEdge",
+      "DfgUserMap",
+      "DfgWorklist",
+      "V3DfgCse",
+      "splitIntoComponents",
+      "extractCyclicComponents",
+      "VL_MT_DISABLED"
+    ]
+  },
+  {
+    "id": "source-source-verilator-v3gate",
+    "title": "Verilator V3Gate 门级优化源码分析",
+    "path": "sources/source-verilator-v3gate.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3Gate.cpp",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "gate-optimization",
+      "V3Graph",
+      "compile-time",
+      "VL_MT_DISABLED",
+      "AST-transform"
+    ],
+    "keywords": [
+      "V3Gate",
+      "gateAll",
+      "GateInline",
+      "GateDedupe",
+      "GateUnused",
+      "GateGraph",
+      "VL_MT_DISABLED_CODE_UNIT"
+    ]
+  },
+  {
+    "id": "source-source-verilator-v3threadpool",
+    "title": "Verilator V3ThreadPool 线程池实现",
+    "path": "sources/source-verilator-v3threadpool.md",
+    "type": "source",
+    "source_url": "https://github.com/verilator/verilator/tree/master/src/V3ThreadPool.h",
+    "source_type": "github-code",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "thread-pool",
+      "C++",
+      "V3ThreadPool",
+      "condition-variable",
+      "release-acquire",
+      "RAII"
+    ],
+    "keywords": [
+      "V3ThreadPool",
+      "V3ThreadScope",
+      "std::condition_variable_any",
+      "memory_order_release",
+      "memory_order_acquire",
+      "VL_MT_SAFE",
+      "VL_EXCLUDES",
+      "VL_MT_START"
+    ]
+  },
+  {
+    "id": "source-source-verilator-v3variableorder-v2",
     "title": "V3VariableOrder 变量排序：MTask 亲和性与无锁并行编译",
     "path": "sources/source-verilator-v3variableorder-v2.md",
     "type": "source",
@@ -3581,12 +3581,12 @@
     ]
   },
   {
-    "id": "sources-source-verilator-v3variableorder",
+    "id": "source-source-verilator-v3variableorder",
     "title": "Verilator V3VariableOrder: 变量排序优化与多线程感知",
     "path": "sources/source-verilator-v3variableorder.md",
     "type": "source",
     "source_url": "https://github.com/verilator/verilator/blob/master/src/V3VariableOrder.cpp / https://github.com/verilator/verilator/blob/master/src/V3VariableOrder.h",
-    "source_type": "\"github-pr\"  # 核心改进来自 PR #5406",
+    "source_type": "github-pr",
     "tags": [
       "rtl-sim",
       "multithreading",
@@ -3607,7 +3607,7 @@
     ]
   },
   {
-    "id": "sources-source-version-build",
+    "id": "source-source-version-build",
     "title": "版本控制嵌入与构建可复现性",
     "path": "sources/source-version-build.md",
     "type": "source",
@@ -3630,12 +3630,12 @@
     ]
   },
   {
-    "id": "sources-source-vpi-dpi-threadsafe",
+    "id": "source-source-vpi-dpi-threadsafe",
     "title": "VPI/DPI/PLI 在多线程仿真器中的线程安全实现",
     "path": "sources/source-vpi-dpi-threadsafe.md",
     "type": "source",
     "source_url": "",
-    "source_type": "\"doc\"  # github-pr, github-issue, blog, doc, paper, competition",
+    "source_type": "doc",
     "tags": [
       "vpi",
       "dpi",
@@ -3656,7 +3656,7 @@
     ]
   },
   {
-    "id": "sources-source-vtune-uprof",
+    "id": "source-source-vtune-uprof",
     "title": "Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用",
     "path": "sources/source-vtune-uprof.md",
     "type": "source",
@@ -3681,7 +3681,7 @@
     ]
   },
   {
-    "id": "sources-source-warped2-pdes-engine",
+    "id": "source-source-warped2-pdes-engine",
     "title": "Warped2: An Open-Source PDES Engine with Time Warp Synchronization",
     "path": "sources/source-warped2-pdes-engine.md",
     "type": "source",
@@ -3707,7 +3707,7 @@
     ]
   },
   {
-    "id": "sources-source-work-stealing-deque",
+    "id": "source-source-work-stealing-deque",
     "title": "Work-Stealing Deque Implementation",
     "path": "sources/source-work-stealing-deque.md",
     "type": "source",
@@ -3733,7 +3733,7 @@
     ]
   },
   {
-    "id": "sources-source-work-stealing",
+    "id": "source-source-work-stealing",
     "title": "Work Stealing 调度：从 Cilk 到 TBB 和 Rayon 的负载均衡艺术",
     "path": "sources/source-work-stealing.md",
     "type": "source",
@@ -3785,6 +3785,60 @@
       "source-incremental-evaluation",
       "source-delay-models"
     ]
+  },
+  {
+    "id": "wiki-wiki-V3MergeCond",
+    "title": "V3MergeCond 条件合并优化",
+    "path": "wiki/wiki-V3MergeCond.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "optimization",
+      "AST-pass",
+      "conditional-merge",
+      "multithreading"
+    ],
+    "keywords": [
+      "V3MergeCond",
+      "条件合并",
+      "代码运动",
+      "编译时优化",
+      "多线程性能"
+    ],
+    "related_sources": [
+      "source-verilator-V3MergeCond"
+    ]
+  },
+  {
+    "id": "wiki-wiki-V3Order调度顺序",
+    "title": "V3Order 调度顺序与并行分区",
+    "path": "wiki/wiki-V3Order调度顺序.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "scheduling",
+      "graph-partitioning",
+      "critical-path"
+    ],
+    "keywords": [
+      "V3Order",
+      "OrderGraph",
+      "LogicMTask",
+      "MTaskEdge",
+      "Contraction",
+      "FixDataHazards"
+    ],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-V3Sched调度器",
+    "title": "wiki-V3Sched调度器",
+    "path": "wiki/wiki-V3Sched调度器.md",
+    "type": "wiki",
+    "tags": [],
+    "keywords": [],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-advanced-optimization",
@@ -4723,60 +4777,6 @@
     "related_sources": []
   },
   {
-    "id": "wiki-wiki-V3MergeCond",
-    "title": "V3MergeCond 条件合并优化",
-    "path": "wiki/wiki-V3MergeCond.md",
-    "type": "wiki",
-    "tags": [
-      "verilator",
-      "optimization",
-      "AST-pass",
-      "conditional-merge",
-      "multithreading"
-    ],
-    "keywords": [
-      "V3MergeCond",
-      "条件合并",
-      "代码运动",
-      "编译时优化",
-      "多线程性能"
-    ],
-    "related_sources": [
-      "source-verilator-V3MergeCond"
-    ]
-  },
-  {
-    "id": "wiki-wiki-V3Order调度顺序",
-    "title": "V3Order 调度顺序与并行分区",
-    "path": "wiki/wiki-V3Order调度顺序.md",
-    "type": "wiki",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "scheduling",
-      "graph-partitioning",
-      "critical-path"
-    ],
-    "keywords": [
-      "V3Order",
-      "OrderGraph",
-      "LogicMTask",
-      "MTaskEdge",
-      "Contraction",
-      "FixDataHazards"
-    ],
-    "related_sources": []
-  },
-  {
-    "id": "wiki-wiki-V3Sched调度器",
-    "title": "wiki-V3Sched调度器",
-    "path": "wiki/wiki-V3Sched调度器.md",
-    "type": "wiki",
-    "tags": [],
-    "keywords": [],
-    "related_sources": []
-  },
-  {
     "id": "wiki-wiki-v3trace-trace-system",
     "title": "Verilator V3Trace 追踪系统与并行 Dump",
     "path": "wiki/wiki-v3trace-trace-system.md",
@@ -4804,6 +4804,19 @@
     "related_sources": [
       "source-verilator-V3Trace"
     ]
+  },
+  {
+    "id": "wiki-wiki-verilator-V3ExecGraph执行图",
+    "title": "Wiki: V3ExecGraph 执行图与 MTask 静态调度",
+    "path": "wiki/wiki-verilator-V3ExecGraph执行图.md",
+    "type": "wiki",
+    "tags": [
+      "verilator",
+      "multithreading",
+      "wiki"
+    ],
+    "keywords": [],
+    "related_sources": []
   },
   {
     "id": "wiki-wiki-verilator-deep-dive",
@@ -4940,19 +4953,6 @@
     "related_sources": []
   },
   {
-    "id": "wiki-wiki-verilator-V3ExecGraph执行图",
-    "title": "Wiki: V3ExecGraph 执行图与 MTask 静态调度",
-    "path": "wiki/wiki-verilator-V3ExecGraph执行图.md",
-    "type": "wiki",
-    "tags": [
-      "verilator",
-      "multithreading",
-      "wiki"
-    ],
-    "keywords": [],
-    "related_sources": []
-  },
-  {
     "id": "wiki-wiki-verilator-v3gate",
     "title": "Verilator V3Gate 编译时门优化与多线程准备",
     "path": "wiki/wiki-verilator-v3gate.md",
@@ -5026,5 +5026,69 @@
       "source-verilator-v3variableorder",
       "source-verilator-v3variableorder-v2"
     ]
+  },
+  {
+    "id": "wiki-wiki-pointer-order-nondeterminism",
+    "title": "指针序非确定性与内容键修复",
+    "path": "wiki/wiki-pointer-order-nondeterminism.md",
+    "type": "wiki",
+    "tags": [
+      "nondeterminism",
+      "pointer-ordering",
+      "std-set",
+      "allocator",
+      "reproducibility",
+      "content-key",
+      "fingerprint",
+      "determinism-gate",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "pointer order",
+      "std::set pointer key",
+      "std::less pointer",
+      "allocator nondeterminism",
+      "ASLR",
+      "content fingerprint",
+      "schedule fingerprint",
+      "twin A/B",
+      "deliverable gate",
+      "SuperNode",
+      "transitive reduction",
+      "exact replay"
+    ],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-bounded-lookahead-rtl-sim",
+    "title": "有界前瞻：多线程 RTL 仿真的 worker 内乱序执行",
+    "path": "wiki/wiki-bounded-lookahead-rtl-sim.md",
+    "type": "wiki",
+    "tags": [
+      "lookahead",
+      "out-of-order",
+      "worker-chain",
+      "owner-ready",
+      "token-grouping",
+      "DAG-transitive-reduction",
+      "head-priority",
+      "stall-hiding",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "bounded lookahead",
+      "worker idle spin",
+      "conservative edge",
+      "chain-aware reduction",
+      "synthetic chain edge",
+      "publisher sibling",
+      "doneBit",
+      "cold tail",
+      "inline hot path",
+      "head priority",
+      "IPC stall hiding",
+      "window sweep"
+    ],
+    "related_sources": []
   }
 ]

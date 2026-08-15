@@ -1,6 +1,6 @@
 ---
 title: Index by Tag
-generated: 2026-07-05T02:02:16.905659
+generated: 2026-08-04T13:56:42.693505
 ---
 
 # Index by Tag
@@ -182,6 +182,10 @@ generated: 2026-07-05T02:02:16.905659
 ## DAG
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+
+## DAG-transitive-reduction
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## DATE
 
@@ -960,6 +964,10 @@ generated: 2026-07-05T02:02:16.905659
 
 - [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
 
+## allocator
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## amd
 
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
@@ -1350,6 +1358,10 @@ generated: 2026-07-05T02:02:16.905659
 
 - [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
 
+## content-key
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## core-dump
 
 - [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
@@ -1502,6 +1514,10 @@ generated: 2026-07-05T02:02:16.905659
 - [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
 - [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
 
+## determinism-gate
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## deterministic-debugging
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
@@ -1653,6 +1669,10 @@ generated: 2026-07-05T02:02:16.905659
 
 - [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
 - [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
+
+## fingerprint
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## firrtl
 
@@ -1843,6 +1863,10 @@ generated: 2026-07-05T02:02:16.905659
 
 - [哈希表与字典优化在 RTL 仿真器中的应用](../sources/source-hash-optimization.md) `source`
 - [内存布局与数据结构优化](../wiki/wiki-memory-data-structures.md) `wiki`
+
+## head-priority
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## header-only
 
@@ -2073,6 +2097,10 @@ generated: 2026-07-05T02:02:16.905659
 ## longest-path
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
+
+## lookahead
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## many-core
 
@@ -2328,6 +2356,10 @@ generated: 2026-07-05T02:02:16.905659
 
 - [Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编](../sources/source-noc-simulation.md) `source`
 
+## nondeterminism
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## null-message
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
@@ -2382,6 +2414,10 @@ generated: 2026-07-05T02:02:16.905659
 
 - [参数敏感性分析与实验设计（DOE）在仿真器性能调优中的应用](../sources/source-sensitivity-analysis.md) `source`
 
+## out-of-order
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## overhead
 
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
@@ -2389,6 +2425,10 @@ generated: 2026-07-05T02:02:16.905659
 ## overview
 
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
+
+## owner-ready
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## packing
 
@@ -2570,6 +2610,10 @@ generated: 2026-07-05T02:02:16.905659
 - [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
 - [插件系统与FFI线程安全](../wiki/wiki-plugin-and-ffi.md) `wiki`
 
+## pointer-ordering
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## post-link-optimization
 
 - [Profile-Guided Optimization (PGO)、LTO 与 BOLT 在编译器优化中的应用](../sources/source-pgo-lto.md) `source`
@@ -2700,6 +2744,7 @@ generated: 2026-07-05T02:02:16.905659
 ## reproducibility
 
 - [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 - [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
 
 ## reproducible-build
@@ -2772,9 +2817,11 @@ generated: 2026-07-05T02:02:16.905659
 - [Verilator 官方文档：多线程仿真与性能优化](../sources/source-verilator-mt-doc.md) `source`
 - [Verilator V3VariableOrder: 变量排序优化与多线程感知](../sources/source-verilator-v3variableorder.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
@@ -2991,6 +3038,10 @@ generated: 2026-07-05T02:02:16.905659
 
 - [零拷贝 / 无锁事件传递：SPSC/MPMC 队列、Disruptor 与并发事件通道](../sources/source-event-passing.md) `source`
 
+## stall-hiding
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## state-compression
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
@@ -3004,6 +3055,10 @@ generated: 2026-07-05T02:02:16.905659
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
 - [V3ExecGraph 执行图](../sources/source-verilator-V3ExecGraph执行图.md) `source`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
+## std-set
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## std::execution
 
@@ -3194,6 +3249,10 @@ generated: 2026-07-05T02:02:16.905659
 ## tls
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
+
+## token-grouping
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## toml11
 
@@ -3415,6 +3474,10 @@ generated: 2026-07-05T02:02:16.905659
 - [锁-free队列实现代码库](../wiki/wiki-lockfree-queues.md) `wiki`
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [线程池与调度器实现代码库](../wiki/wiki-thread-pool-and-scheduler.md) `wiki`
+
+## worker-chain
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## x86
 

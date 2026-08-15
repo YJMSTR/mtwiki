@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-07-05T02:02:16.907659
+generated: 2026-08-04T13:56:42.695933
 ---
 
 # Index by Keyword
@@ -113,6 +113,10 @@ generated: 2026-07-05T02:02:16.907659
 ## ASH
 
 - [RTL并行仿真论文全景](../wiki/wiki-papers-landscape.md) `wiki`
+
+## ASLR
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## AST
 
@@ -662,6 +666,10 @@ generated: 2026-07-05T02:02:16.907659
 ## I-cache
 
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
+
+## IPC stall hiding
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## IPU
 
@@ -1233,6 +1241,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 
+## SuperNode
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## Surelog
 
 - [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
@@ -1731,6 +1743,10 @@ generated: 2026-07-05T02:02:16.907659
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 
+## allocator nondeterminism
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## ant colony optimization
 
 - [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
@@ -1854,6 +1870,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
 
+## bounded lookahead
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## branch and cut
 
 - [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
@@ -1950,6 +1970,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
 
+## chain-aware reduction
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## chandy-misra-bryant
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
@@ -2018,6 +2042,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 
+## cold tail
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## command line argument parser C++
 
 - [C++ 配置系统与参数管理](../sources/source-config-system.md) `source`
@@ -2083,6 +2111,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
 
+## conservative edge
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## conservative-vs-optimistic
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
@@ -2098,6 +2130,10 @@ generated: 2026-07-05T02:02:16.907659
 ## constraint programming
 
 - [ILP / MIP / CP-SAT 在 EDA 中的应用](../sources/source-ilp-mip-eda.md) `source`
+
+## content fingerprint
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## core dump
 
@@ -2191,6 +2227,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
 
+## deliverable gate
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## delta cycle
 
 - [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
@@ -2282,6 +2322,10 @@ generated: 2026-07-05T02:02:16.907659
 - [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
 - [Verilator MoveGraph 与多线程调度](../wiki/wiki-verilator-move-graph.md) `wiki`
 
+## doneBit
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## dynamic binary translation
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
@@ -2365,6 +2409,10 @@ generated: 2026-07-05T02:02:16.907659
 ## evolutionary algorithm
 
 - [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
+
+## exact replay
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## external_waiter
 
@@ -2632,6 +2680,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
 
+## head priority
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## heisenbug
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
@@ -2748,6 +2800,10 @@ generated: 2026-07-05T02:02:16.907659
 ## inertial-delay
 
 - [4-State 逻辑与增量评估](../wiki/wiki-4state-and-evaluation.md) `wiki`
+
+## inline hot path
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## instance caching
 
@@ -3410,6 +3466,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [C++ 插件系统动态加载（dlopen）的线程安全架构](../sources/source-plugin-architecture.md) `source`
 
+## pointer order
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## pop
 
 - [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
@@ -3443,6 +3503,10 @@ generated: 2026-07-05T02:02:16.907659
 ## pthread mutex
 
 - [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
+
+## publisher sibling
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## quality_preset
 
@@ -3577,6 +3641,10 @@ generated: 2026-07-05T02:02:16.907659
 ## sc_thread
 
 - [仿真框架与库的多线程支持：SystemC、UVM-SystemC、TLM-2.0 与协同仿真](../sources/source-sim-frameworks.md) `source`
+
+## schedule fingerprint
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## schedule.h
 
@@ -3787,6 +3855,10 @@ generated: 2026-07-05T02:02:16.907659
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 - [同步屏障与编译器优化](../wiki/wiki-barrier-and-compiler.md) `wiki`
 
+## std::less pointer
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## std::promise
 
 - [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
@@ -3795,6 +3867,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [多线程确定性可复现与随机种子管理](../sources/source-deterministic-reproducibility.md) `source`
 - [可复现性与配置系统](../wiki/wiki-reproducibility-and-config.md) `wiki`
+
+## std::set pointer key
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## std::system_error
 
@@ -3892,6 +3968,10 @@ generated: 2026-07-05T02:02:16.907659
 ## synchronizes-with
 
 - [C++ 内存模型与 Atomic 操作：从 happens-before 到 acquire-release](../sources/source-cpp-memory-model.md) `source`
+
+## synthetic chain edge
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## tabu search
 
@@ -4073,6 +4153,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [TLM-2.0 / Mixed Abstraction Simulation with RTL](../sources/source-tlm-rtl.md) `source`
 
+## transitive reduction
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## translation block
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
@@ -4097,6 +4181,10 @@ generated: 2026-07-05T02:02:16.907659
 ## tsl::sparse_map
 
 - [内存布局与数据结构优化](../wiki/wiki-memory-data-structures.md) `wiki`
+
+## twin A/B
+
+- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## uProf
 
@@ -4183,6 +4271,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 
+## window sweep
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
 ## wire
 
 - [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
@@ -4214,6 +4306,10 @@ generated: 2026-07-05T02:02:16.907659
 
 - [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
 - [可复用的代码模式](../wiki/wiki-code-patterns.md) `wiki`
+
+## worker idle spin
+
+- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## write_cxxrtl
 
