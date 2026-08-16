@@ -15,8 +15,8 @@ last_updated: "2026-08-02"
 
 本页以 gsim-mt 生成器 v430 非确定性战役为案例，提炼可复用的机制分析、证据分层、调查方法论和修复模式。
 
-> **源文档**：`/home/zhangyangjie/test/gsim-mt-nondeterminism-analysis.zh.md`（完整分析）
-> **台账**：`/home/zhangyangjie/test/gsim-task-verilator-dual-default4488/candidates.jsonl` v430/v432/v436/v437/v438
+> **源文档**：`<workspace>/gsim-mt-nondeterminism-analysis.zh.md`（完整分析）
+> **台账**：`<workspace>/gsim-task-verilator-dual-default4488/candidates.jsonl` v430/v432/v436/v437/v438
 
 ---
 
@@ -362,5 +362,5 @@ max-cycle-ratio 预检的"删除节点降 II"给出的是**数学上界，不是
 
 ## 参考来源
 
-- `/home/zhangyangjie/test/gsim-mt-nondeterminism-analysis.zh.md` - v430 非确定性完整分析（含容器/算法流程附录）
-- `/home/zhangyangjie/test/gsim-task-verilator-dual-default4488/candidates.jsonl` - 台账 v430（bug 本体）、v432（名字键）、v436（seed 重放）、v437（lineno 键）、v438（交付门体系）
+- `<workspace>/gsim-mt-nondeterminism-analysis.zh.md` - v430 非确定性完整分析（含容器/算法流程附录）
+- `<workspace>/gsim-task-verilator-dual-default4488/candidates.jsonl` - 台账 v430（bug 本体）、v432（名字键）、v436（seed 重放）、v437（lineno 键）、v438（交付门体系）

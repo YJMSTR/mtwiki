@@ -17,8 +17,8 @@ gsim-mt 的 dense 执行器把 45,163 个 SCC 收缩成 ~12,500 个 MTask，按�
 
 有界前瞻（Bounded Lookahead）在 head 阻塞时让 worker 扫描链后方窗口内已就绪的条目提前执行，用独立条目的工作填掉 stall 气泡。
 
-> **源文档**：`/home/zhangyangjie/test/gsim-mt-lookahead-algorithm.zh.md`（完整设计与证明）
-> **台账**：`/home/zhangyangjie/test/gsim-task-verilator-dual-default4488/candidates.jsonl` v422/v426/v427/v428/v429/v434/v435
+> **源文档**：`<workspace>/gsim-mt-lookahead-algorithm.zh.md`（完整设计与证明）
+> **台账**：`<workspace>/gsim-task-verilator-dual-default4488/candidates.jsonl` v422/v426/v427/v428/v429/v434/v435
 
 ---
 
@@ -246,5 +246,5 @@ perf 专项（C50000，对照 vs N=128）：
 
 ## 参考来源
 
-- `/home/zhangyangjie/test/gsim-mt-lookahead-algorithm.zh.md` - 有界前瞻完整设计与证明
-- `/home/zhangyangjie/test/gsim-task-verilator-dual-default4488/candidates.jsonl` - 台账 v422（W1 验证）、v426（N=16 晋级）、v427（N=128 晋级）、v428（Linux 验证）、v429（批量否决）、v434（窗口扫描）、v435（预取否决）
+- `<workspace>/gsim-mt-lookahead-algorithm.zh.md` - 有界前瞻完整设计与证明
+- `<workspace>/gsim-task-verilator-dual-default4488/candidates.jsonl` - 台账 v422（W1 验证）、v426（N=16 晋级）、v427（N=128 晋级）、v428（Linux 验证）、v429（批量否决）、v434（窗口扫描）、v435（预取否决）
