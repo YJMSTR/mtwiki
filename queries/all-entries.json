@@ -5029,7 +5029,7 @@
   },
   {
     "id": "wiki-wiki-pointer-order-nondeterminism",
-    "title": "指针序非确定性与内容键修复",
+    "title": "指针迭代非确定性下的确定性代码生成",
     "path": "wiki/wiki-pointer-order-nondeterminism.md",
     "type": "wiki",
     "tags": [
@@ -5053,31 +5053,35 @@
       "schedule fingerprint",
       "twin A/B",
       "deliverable gate",
-      "SuperNode",
+      "graph coarsening",
       "transitive reduction",
-      "exact replay"
+      "exact replay",
+      "seed replay"
     ],
     "related_sources": []
   },
   {
     "id": "wiki-wiki-bounded-lookahead-rtl-sim",
-    "title": "有界前瞻：多线程 RTL 仿真的 worker 内乱序执行",
+    "title": "静态调度 worker 链中的有界乱序填补",
     "path": "wiki/wiki-bounded-lookahead-rtl-sim.md",
     "type": "wiki",
     "tags": [
       "lookahead",
       "out-of-order",
+      "static-schedule",
       "worker-chain",
       "owner-ready",
       "token-grouping",
       "DAG-transitive-reduction",
       "head-priority",
       "stall-hiding",
+      "head-of-line-blocking",
       "rtl-sim"
     ],
     "keywords": [
       "bounded lookahead",
       "worker idle spin",
+      "head-of-line blocking",
       "conservative edge",
       "chain-aware reduction",
       "synthetic chain edge",

@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-08-04T13:56:42.695933
+generated: 2026-08-16T12:29:43.597548
 ---
 
 # Index by Keyword
@@ -116,7 +116,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## ASLR
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## AST
 
@@ -669,7 +669,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## IPC stall hiding
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## IPU
 
@@ -1241,10 +1241,6 @@ generated: 2026-08-04T13:56:42.695933
 
 - [网络流最小割在 RTL 电路分区中的应用](../sources/source-network-flow.md) `source`
 
-## SuperNode
-
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
-
 ## Surelog
 
 - [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
@@ -1745,7 +1741,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## allocator nondeterminism
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## ant colony optimization
 
@@ -1872,7 +1868,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## bounded lookahead
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## branch and cut
 
@@ -1972,7 +1968,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## chain-aware reduction
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## chandy-misra-bryant
 
@@ -2044,7 +2040,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## cold tail
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## command line argument parser C++
 
@@ -2113,7 +2109,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## conservative edge
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## conservative-vs-optimistic
 
@@ -2133,7 +2129,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## content fingerprint
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## core dump
 
@@ -2229,7 +2225,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## deliverable gate
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## delta cycle
 
@@ -2324,7 +2320,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## doneBit
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## dynamic binary translation
 
@@ -2412,7 +2408,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## exact replay
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## external_waiter
 
@@ -2623,6 +2619,10 @@ generated: 2026-08-04T13:56:42.695933
 
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 
+## graph coarsening
+
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
 ## graph optimization
 
 - [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
@@ -2682,7 +2682,11 @@ generated: 2026-08-04T13:56:42.695933
 
 ## head priority
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
+## head-of-line blocking
+
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## heisenbug
 
@@ -2803,7 +2807,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## inline hot path
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## instance caching
 
@@ -3468,7 +3472,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## pointer order
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## pop
 
@@ -3506,7 +3510,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## publisher sibling
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## quality_preset
 
@@ -3644,7 +3648,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## schedule fingerprint
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## schedule.h
 
@@ -3673,6 +3677,10 @@ generated: 2026-08-04T13:56:42.695933
 ## sea-of-nodes
 
 - [编译器前端与IR设计](../wiki/wiki-compiler-frontend.md) `wiki`
+
+## seed replay
+
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## self-adaptive
 
@@ -3857,7 +3865,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## std::less pointer
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## std::promise
 
@@ -3870,7 +3878,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## std::set pointer key
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## std::system_error
 
@@ -3971,7 +3979,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## synthetic chain edge
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## tabu search
 
@@ -4155,7 +4163,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## transitive reduction
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## translation block
 
@@ -4184,7 +4192,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## twin A/B
 
-- [指针序非确定性与内容键修复](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+- [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## uProf
 
@@ -4273,7 +4281,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## window sweep
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## wire
 
@@ -4309,7 +4317,7 @@ generated: 2026-08-04T13:56:42.695933
 
 ## worker idle spin
 
-- [有界前瞻：多线程 RTL 仿真的 worker 内乱序执行](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+- [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
 ## write_cxxrtl
 
