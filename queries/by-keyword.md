@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-08-16T12:29:43.597548
+generated: 2026-08-22T01:21:30.659015
 ---
 
 # Index by Keyword
@@ -77,6 +77,10 @@ generated: 2026-08-16T12:29:43.597548
 ## A*搜索
 
 - [图算法在RTL仿真中的应用](../wiki/wiki-graph-algorithms.md) `wiki`
+
+## A/B isolation
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## ABA-problem
 
@@ -872,6 +876,14 @@ generated: 2026-08-16T12:29:43.597548
 ## NoC
 
 - [Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编](../sources/source-noc-simulation.md) `source`
+
+## O1 fallback
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
+## O3 optimizer explosion
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## OmniSim
 
@@ -1726,6 +1738,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [ESSENT: High-Performance RTL Simulator](../sources/source-essent-simulator.md) `source`
 
+## advisory review
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
+
 ## ahead-of-time compilation
 
 - [AOT Compilation & Binary Translation in RTL/Hardware Simulation](../sources/source-aot-binary-translation.md) `source`
@@ -1866,6 +1882,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
 
+## boot transient
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
 ## bounded lookahead
 
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
@@ -1906,6 +1926,10 @@ generated: 2026-08-16T12:29:43.597548
 ## bulk-synchronous parallelism
 
 - [Manticore: Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism (ASPOS'24 / DATE'23)](../sources/source-manticore-date23.md) `source`
+
+## byte-identical generation
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## cache coherence
 
@@ -1957,6 +1981,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
+
+## census before emit
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## centralized barrier
 
@@ -2050,6 +2078,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [V3Partition / V3Order 代码演进历史（2020-2025）](../sources/source-verilator-partition-evolution.md) `source`
 
+## compare and branch
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
 ## compare-and-swap
 
 - [C++ Lock-Free 数据结构：从原子操作到无锁队列](../sources/source-lock-free-cpp.md) `source`
@@ -2102,6 +2134,14 @@ generated: 2026-08-16T12:29:43.597548
 ## conditional compilation debug RTL
 
 - [仿真追踪与调试输出：VCD/FSDB 波形格式与条件编译](../sources/source-simulation-trace.md) `source`
+
+## conditional store
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## confound retraction
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## congestion cost
 
@@ -2161,6 +2201,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
 
+## cross-TU counter
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
 ## cross-stimulus redundancy
 
 - [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
@@ -2210,6 +2254,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
 
+## dead store elimination
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
 ## deadlock
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
@@ -2218,6 +2266,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
 - [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
+
+## default-off knob
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## default_preset.ini
 
@@ -2279,6 +2331,10 @@ generated: 2026-08-16T12:29:43.597548
 ## digital-design-dataset
 
 - [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+
+## direction flip
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## discrete event
 
@@ -2347,6 +2403,10 @@ generated: 2026-08-16T12:29:43.597548
 ## elaboration
 
 - [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
+
+## emitBodyLock escaping
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## emulator
 
@@ -2448,6 +2508,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [C++ 内存模型与 Atomic 操作：从 happens-before 到 acquire-release](../sources/source-cpp-memory-model.md) `source`
 
+## fetch_add contention
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
 ## fiber task switching
 
 - [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
@@ -2467,6 +2531,10 @@ generated: 2026-08-16T12:29:43.597548
 ## fixed vertices
 
 - [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
+
+## flag-off identity
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## flamegraph
 
@@ -2772,9 +2840,18 @@ generated: 2026-08-16T12:29:43.597548
 
 - [自动调优（AutoTuning）与超参数搜索在仿真器中的应用](../sources/source-autotuning.md) `source`
 
+## icache pressure
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
 ## icount virtual clock
 
 - [仿真器中的高精度时间keeping — TSC、rdtsc、clock_gettime 与虚拟时钟](../sources/source-timekeeping-simulation.md) `source`
+
+## idempotent write
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## if-语句转换
 
@@ -2808,6 +2885,10 @@ generated: 2026-08-16T12:29:43.597548
 ## inline hot path
 
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
+## inline namespace counter
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## instance caching
 
@@ -2902,6 +2983,10 @@ generated: 2026-08-16T12:29:43.597548
 ## lazy evaluation
 
 - [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
+
+## leanest emission
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
 
 ## levelization
 
@@ -3043,6 +3128,10 @@ generated: 2026-08-16T12:29:43.597548
 ## massive parallelism
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+
+## matched control build
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## max flow min cut
 
@@ -3226,6 +3315,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
 
+## necessary not sufficient
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
 ## net dependency
 
 - [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
@@ -3237,6 +3330,14 @@ generated: 2026-08-16T12:29:43.597548
 ## network-on-chip
 
 - [Fast Behavioural RTL Simulation of 10B Transistor SoC Designs with Metro-MPI (DATE'23)](../sources/source-metro-mpi.md) `source`
+
+## no-consumer store
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## null verdict
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## null-message
 
@@ -3303,6 +3404,10 @@ generated: 2026-08-16T12:29:43.597548
 ## pahole
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
+
+## paired interleaved runs
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## par-gem5
 
@@ -3540,6 +3645,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
 
+## read-side census
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
 ## real-time simulation
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
@@ -3571,6 +3680,10 @@ generated: 2026-08-16T12:29:43.597548
 ## replication-aided partitioning
 
 - [RTL 并行仿真论文地图（DAC/ICCAD/DATE/ASPLOS）](../sources/source-papers-parallel-rtl.md) `source`
+
+## report-only instrumentation
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## reproducible build simulation
 
@@ -3629,6 +3742,10 @@ generated: 2026-08-16T12:29:43.597548
 ## rr record replay
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
+
+## runtime-inert
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## sandbag
 
@@ -3711,6 +3828,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [Seqlock / Sequence Lock — 内核实现与用户空间 C++ 实现](../sources/source-seqlock.md) `source`
 
+## session noise
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
+
 ## setup time
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
@@ -3726,6 +3847,10 @@ generated: 2026-08-16T12:29:43.597548
 ## sibling merge
 
 - [V3Order调度顺序](../sources/source-verilator-V3Order调度顺序.md) `source`
+
+## sign consistency
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## signal driver
 
@@ -3780,6 +3905,14 @@ generated: 2026-08-16T12:29:43.597548
 
 - [RTL Simulation Checkpoint / Snapshot Save & Restore](../sources/source-checkpoint-replay.md) `source`
 
+## single variable rule
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
+
+## single-writer classification
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
 ## slack
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
@@ -3805,9 +3938,17 @@ generated: 2026-08-16T12:29:43.597548
 
 - [哈希表与字典优化在 RTL 仿真器中的应用](../sources/source-hash-optimization.md) `source`
 
+## sparse write
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
 ## spatial locality
 
 - [Prefetching & Cache Line Utilization in RTL Simulation](../sources/source-prefetching.md) `source`
+
+## spawn guard
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## spdlog async
 
@@ -3893,9 +4034,25 @@ generated: 2026-08-16T12:29:43.597548
 
 - [C++ 线程池实现汇编：Fork-Join、Work-Stealing 与轻量级任务队列](../sources/source-thread-pool-impl.md) `source`
 
+## steady-state fraction
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
 ## steal
 
 - [Work-Stealing Deque Implementation](../sources/source-work-stealing-deque.md) `source`
+
+## store buffer absorption
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## store elision
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## store site instrumentation
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## stratified event
 
@@ -4029,6 +4186,14 @@ generated: 2026-08-16T12:29:43.597548
 ## tcmalloc size class
 
 - [多线程内存分配器性能对比：jemalloc / tcmalloc / mimalloc](../sources/source-memory-allocators.md) `source`
+
+## text bloat
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## text identity
+
+- [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
 ## thousand-way parallelism
 
@@ -4198,6 +4363,14 @@ generated: 2026-08-16T12:29:43.597548
 
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
 
+## unchanged store
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## unchanged store fraction
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
 ## user-level threading simulation
 
 - [协程与 Fiber 任务调度：C++20 无栈协程、栈切换与事件循环](../sources/source-fiber-scheduler.md) `source`
@@ -4205,6 +4378,10 @@ generated: 2026-08-16T12:29:43.597548
 ## userspace
 
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
+
+## value-change census
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## variable ordering
 
@@ -4279,6 +4456,10 @@ generated: 2026-08-16T12:29:43.597548
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
 
+## width class
+
+- [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
 ## window sweep
 
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
@@ -4318,6 +4499,14 @@ generated: 2026-08-16T12:29:43.597548
 ## worker idle spin
 
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
+
+## write combining
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## write skipping
+
+- [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
 
 ## write_cxxrtl
 

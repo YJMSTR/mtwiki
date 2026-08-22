@@ -5094,5 +5094,118 @@
       "window sweep"
     ],
     "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-value-change-census",
+    "title": "变值普查：生成代码仿真器中的值变化测量纪律",
+    "path": "wiki/wiki-value-change-census.md",
+    "type": "wiki",
+    "tags": [
+      "census",
+      "instrumentation",
+      "measurement",
+      "value-change",
+      "store-site",
+      "counters",
+      "atomicity",
+      "single-writer",
+      "codegen",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "value-change census",
+      "census before emit",
+      "store site instrumentation",
+      "unchanged store fraction",
+      "idempotent write",
+      "inline namespace counter",
+      "cross-TU counter",
+      "fetch_add contention",
+      "single-writer classification",
+      "O3 optimizer explosion",
+      "O1 fallback",
+      "steady-state fraction",
+      "boot transient",
+      "report-only instrumentation",
+      "width class"
+    ],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-conditional-store-elision",
+    "title": "条件存储与写省略：周期仿真器中跳过幂等写为何失败",
+    "path": "wiki/wiki-conditional-store-elision.md",
+    "type": "wiki",
+    "tags": [
+      "conditional-store",
+      "store-elision",
+      "idempotent-write",
+      "value-change",
+      "census",
+      "store-buffer",
+      "write-combining",
+      "icache",
+      "text-growth",
+      "codegen",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "conditional store",
+      "store elision",
+      "unchanged store",
+      "idempotent write",
+      "write skipping",
+      "sparse write",
+      "compare and branch",
+      "store buffer absorption",
+      "write combining",
+      "text bloat",
+      "icache pressure",
+      "leanest emission",
+      "dead store elimination",
+      "no-consumer store",
+      "read-side census",
+      "necessary not sufficient"
+    ],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-ab-isolation-discipline",
+    "title": "生成代码仿真器的 A/B 隔离纪律",
+    "path": "wiki/wiki-ab-isolation-discipline.md",
+    "type": "wiki",
+    "tags": [
+      "ab-testing",
+      "isolation",
+      "measurement",
+      "byte-identity",
+      "matched-control",
+      "single-variable",
+      "confound",
+      "codegen-knob",
+      "default-off",
+      "noise-discipline",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "A/B isolation",
+      "flag-off identity",
+      "byte-identical generation",
+      "runtime-inert",
+      "text identity",
+      "matched control build",
+      "single variable rule",
+      "confound retraction",
+      "paired interleaved runs",
+      "session noise",
+      "sign consistency",
+      "direction flip",
+      "null verdict",
+      "default-off knob",
+      "emitBodyLock escaping",
+      "spawn guard",
+      "advisory review"
+    ],
+    "related_sources": []
   }
 ]
