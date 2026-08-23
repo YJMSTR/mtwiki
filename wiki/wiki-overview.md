@@ -106,10 +106,11 @@ Verilator Issue #2913 是一个经典实证：一个仅32-bit Fibonacci生成器
 
 ## 相关页面：测量与验证纪律
 
-优化方向的判断最终落在测量上。以下三页提炼生成代码仿真器上"先测后改"的配套纪律：
+优化方向的判断最终落在测量上。以下四页提炼生成代码仿真器上"先测后改"的配套纪律：
 
 - [[wiki-value-change-census]] - 变值普查：在发射任何跳过/条件化代码之前，先在精确站点上数清值变化比例（census-before-emit、跨 TU inline 计数器、单写者降级、插桩 TU 的 -O3 爆炸与 -O1 回退）
 - [[wiki-conditional-store-elision]] - 条件存储与写省略：96–97% 不变写库存为何仍不足以变现（compare+branch 恒定成本 vs 已被存储缓冲吸收的写流量、文本膨胀的 icache 税）
 - [[wiki-ab-isolation-discipline]] - A/B 隔离纪律：flag-off 字节恒等、runtime-inert ≠ 文本恒等、同生成器匹配对照、符号一致性与方向翻转判零
+- [[wiki-generator-speed]] - 生成器速度工程：阶段计时器先于前提（发射占比 1.6% 的实测纠偏与隐藏重复构建）、canon 哈希按记录并行的恒等条件、合并循环调度构建的数据结构/备忘录化优化、quotient 图上双向搜索的不 sound 证伪与带证据回滚、生成器改动的三重确定性门禁
 
 其他入口：[[wiki-scheduling]]（调度与负载均衡）、[[wiki-sync-overhead]]（同步开销）、[[wiki-sparse-parallelization]]（稀疏并行化）、[[wiki-simd-and-icache]]（生成代码的 icache 压力）、[[wiki-profiling-tools]]（剖析工具）。

@@ -5207,5 +5207,55 @@
       "advisory review"
     ],
     "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-generator-speed",
+    "title": "生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门",
+    "path": "wiki/wiki-generator-speed.md",
+    "type": "wiki",
+    "tags": [
+      "generator-speed",
+      "phase-timers",
+      "premise-check",
+      "content-hash",
+      "parallel-hash",
+      "schedule-construction",
+      "memoization",
+      "quotient-graph",
+      "bidirectional-search",
+      "determinism-gate",
+      "byte-identity",
+      "differential-harness",
+      "codegen",
+      "rtl-sim"
+    ],
+    "keywords": [
+      "generator speed",
+      "phase timer",
+      "premise check",
+      "emission fraction",
+      "hidden duplicate build",
+      "debug dump cost",
+      "order-free hash",
+      "per-record parallel hashing",
+      "sorted serialization",
+      "canon hash",
+      "identity hash",
+      "std::set to sorted vector",
+      "flat vector adjacency",
+      "reachability query",
+      "path query",
+      "merge-generation memoization",
+      "bidirectional search unsound",
+      "quotient graph invariant",
+      "gP reverse of gS",
+      "revert with evidence",
+      "byte-identical model",
+      "seed replay",
+      "canon point",
+      "differential harness",
+      "pure decision function"
+    ],
+    "related_sources": []
   }
 ]

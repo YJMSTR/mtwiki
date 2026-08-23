@@ -1,6 +1,6 @@
 ---
 title: Index by Tag
-generated: 2026-08-22T01:21:30.657196
+generated: 2026-08-23T23:45:48.934254
 ---
 
 # Index by Tag
@@ -1056,6 +1056,10 @@ generated: 2026-08-22T01:21:30.657196
 - [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
+## bidirectional-search
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## binary-format
 
 - [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
@@ -1111,6 +1115,7 @@ generated: 2026-08-22T01:21:30.657196
 ## byte-identity
 
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## c++
 
@@ -1268,6 +1273,7 @@ generated: 2026-08-22T01:21:30.657196
 ## codegen
 
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
 ## codegen-knob
@@ -1391,6 +1397,10 @@ generated: 2026-08-22T01:21:30.657196
 ## constraint-solving
 
 - [约束求解与 SAT/SMT 在 VLSI / RTL 验证与优化中的应用](../sources/source-constraint-solving.md) `source`
+
+## content-hash
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## content-key
 
@@ -1558,6 +1568,7 @@ generated: 2026-08-22T01:21:30.657196
 
 ## determinism-gate
 
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 - [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## deterministic-debugging
@@ -1572,6 +1583,10 @@ generated: 2026-08-22T01:21:30.657196
 
 - [Verilator V3Dfg 数据流图编译优化系统](../sources/source-verilator-v3dfg.md) `source`
 - [Verilator DFG 数据流图编译优化系统](../wiki/wiki-verilator-dfg-compiler.md) `wiki`
+
+## differential-harness
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## digital-circuit
 
@@ -1803,6 +1818,10 @@ generated: 2026-08-22T01:21:30.657196
 ## gem5
 
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
+
+## generator-speed
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## genetic-algorithm
 
@@ -2182,6 +2201,10 @@ generated: 2026-08-22T01:21:30.657196
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
+## memoization
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## memory
 
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
@@ -2543,6 +2566,10 @@ generated: 2026-08-22T01:21:30.657196
 - [V3Trace 追踪系统](../sources/source-verilator-V3Trace.md) `source`
 - [Verilator V3Trace 追踪系统与并行 Dump](../wiki/wiki-v3trace-trace-system.md) `wiki`
 
+## parallel-hash
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## parallel-rtl
 
 - [Modern PDES in RTL Simulation: Parendi, DSIM, and Million-Gate Parallelism](../sources/source-pdes-rtlsim-modern.md) `source`
@@ -2668,6 +2695,10 @@ generated: 2026-08-22T01:21:30.657196
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 - [SIMD与指令缓存优化](../wiki/wiki-simd-and-icache.md) `wiki`
 
+## phase-timers
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## placement
 
 - [遗传算法与模拟退火在 VLSI EDA 中的应用](../sources/source-metaheuristic-eda.md) `source`
@@ -2702,6 +2733,10 @@ generated: 2026-08-22T01:21:30.657196
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
 - [Prefetching & Cache Line Utilization in RTL Simulation](../sources/source-prefetching.md) `source`
+
+## premise-check
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## preset
 
@@ -2754,6 +2789,10 @@ generated: 2026-08-22T01:21:30.657196
 ## queue
 
 - [SPSC / MPMC Lock-Free Queue Implementation](../sources/source-lockfree-queue-impl.md) `source`
+
+## quotient-graph
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## race-condition
 
@@ -2893,6 +2932,7 @@ generated: 2026-08-22T01:21:30.657196
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
 - [多线程RTL仿真器优化概述](../wiki/wiki-overview.md) `wiki`
 - [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
@@ -2947,6 +2987,10 @@ generated: 2026-08-22T01:21:30.657196
 ## scala
 
 - [ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真](../sources/source-chisel-firrtl.md) `source`
+
+## schedule-construction
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## scheduler
 

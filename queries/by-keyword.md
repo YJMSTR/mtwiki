@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-08-22T01:21:30.659015
+generated: 2026-08-23T23:45:48.973955
 ---
 
 # Index by Keyword
@@ -1831,6 +1831,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 
+## bidirectional search unsound
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## binary log format
 
 - [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
@@ -1931,6 +1935,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
+## byte-identical model
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## cache coherence
 
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
@@ -1976,6 +1984,14 @@ generated: 2026-08-22T01:21:30.659015
 ## calendar queue simulation
 
 - [事件调度引擎优化：Calendar Queue、Ladder Queue、Splay Tree 与数字事件轮](../sources/source-event-scheduler.md) `source`
+
+## canon hash
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
+## canon point
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## causal profiling
 
@@ -2267,6 +2283,10 @@ generated: 2026-08-22T01:21:30.659015
 - [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
 - [错误处理与多线程调试](../wiki/wiki-error-handling-and-debugging.md) `wiki`
 
+## debug dump cost
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## default-off knob
 
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
@@ -2327,6 +2347,10 @@ generated: 2026-08-22T01:21:30.659015
 ## detour number
 
 - [A* 启发式搜索与迷宫布线算法在 VLSI/EDA 中的应用](../sources/source-heuristic-search.md) `source`
+
+## differential harness
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## digital-design-dataset
 
@@ -2403,6 +2427,10 @@ generated: 2026-08-22T01:21:30.659015
 ## elaboration
 
 - [Surelog / UHDM / slang 前端解析内核实现分析：AST 设计与解析器性能](../sources/source-surelog-slang-internals.md) `source`
+
+## emission fraction
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## emitBodyLock escaping
 
@@ -2541,6 +2569,10 @@ generated: 2026-08-22T01:21:30.659015
 - [仿真器性能分析与 Profiling 指南](../sources/source-simulator-profiling.md) `source`
 - [性能基准测试与剖析方法论](../wiki/wiki-benchmark-and-profiling.md) `wiki`
 
+## flat vector adjacency
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## flatbuffers logging
 
 - [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
@@ -2607,6 +2639,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [Barrier Synchronization Variants 性能对比与实现](../sources/source-barrier-variants.md) `source`
 
+## gP reverse of gS
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## gate evaluation
 
 - [SoA vs AoS 内存布局在 RTL 仿真器中的应用](../sources/source-memory-layout.md) `source`
@@ -2653,6 +2689,10 @@ generated: 2026-08-22T01:21:30.659015
 ## generated clock
 
 - [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
+
+## generator speed
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## genetic algorithm
 
@@ -2772,6 +2812,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [电路网表超图划分工具与 RTL 实践](../sources/source-circuit-partitioning-tool.md) `source`
 
+## hidden duplicate build
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## hierarchical mixed signal simulation
 
 - [Cross-Layer Parallelization of Multi-Abstraction Simulation](../sources/source-cross-layer-parallel.md) `source`
@@ -2852,6 +2896,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
+## identity hash
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## if-语句转换
 
@@ -3184,6 +3232,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [Verilator V3ThreadPool 线程池实现](../sources/source-verilator-v3threadpool.md) `source`
 
+## merge-generation memoization
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## mesh topology
 
 - [Network-on-Chip (NoC) RTL 仿真与性能分析资料汇编](../sources/source-noc-simulation.md) `source`
@@ -3393,6 +3445,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
 
+## order-free hash
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## orthogonal array testing
 
 - [参数敏感性分析与实验设计（DOE）在仿真器性能调优中的应用](../sources/source-sensitivity-analysis.md) `source`
@@ -3497,6 +3553,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [字符串与层次化路径优化在 RTL 仿真器中的应用](../sources/source-string-optimization.md) `source`
 
+## path query
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## path-based timing analysis
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
@@ -3516,6 +3576,10 @@ generated: 2026-08-22T01:21:30.659015
 ## per-CPU variable
 
 - [Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用](../sources/source-linux-kernel-sync.md) `source`
+
+## per-record parallel hashing
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## per-thread accumulator
 
@@ -3563,6 +3627,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [OpenMP、TBB 与 C++17 Parallel Algorithms 性能对比与陷阱](../sources/source-parallel-frameworks.md) `source`
 
+## phase timer
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## phmap
 
 - [内存布局与数据结构优化](../wiki/wiki-memory-data-structures.md) `wiki`
@@ -3586,6 +3654,10 @@ generated: 2026-08-22T01:21:30.659015
 ## prefetching
 
 - [Cache Locality 优化：从 AoS/SoA 到预取与数据导向设计](../sources/source-cache-locality.md) `source`
+
+## premise check
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## prof-exec
 
@@ -3617,6 +3689,10 @@ generated: 2026-08-22T01:21:30.659015
 
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
+## pure decision function
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## quality_preset
 
 - [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
@@ -3624,6 +3700,10 @@ generated: 2026-08-22T01:21:30.659015
 ## quantum-based
 
 - [gem5 仿真器并行化分析](../sources/source-gem5-parallelization.md) `source`
+
+## quotient graph invariant
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## random seed reproducibility
 
@@ -3640,6 +3720,10 @@ generated: 2026-08-22T01:21:30.659015
 ## reachability
 
 - [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
+
+## reachability query
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## read-copy-update
 
@@ -3708,6 +3792,10 @@ generated: 2026-08-22T01:21:30.659015
 ## reverse debugging
 
 - [多线程仿真器调试技术综述 — GDB、LLDB、rr 与确定性重放](../sources/source-multithread-debugging.md) `source`
+
+## revert with evidence
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## riften::Deque
 
@@ -3797,6 +3885,7 @@ generated: 2026-08-22T01:21:30.659015
 
 ## seed replay
 
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 - [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
 
 ## self-adaptive
@@ -3930,6 +4019,10 @@ generated: 2026-08-22T01:21:30.659015
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 - [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
 
+## sorted serialization
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
 ## sparse computation
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
@@ -4020,6 +4113,10 @@ generated: 2026-08-22T01:21:30.659015
 ## std::set pointer key
 
 - [指针迭代非确定性下的确定性代码生成](../wiki/wiki-pointer-order-nondeterminism.md) `wiki`
+
+## std::set to sorted vector
+
+- [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## std::system_error
 
