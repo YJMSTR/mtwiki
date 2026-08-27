@@ -5257,5 +5257,82 @@
       "pure decision function"
     ],
     "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-emission-text-budget",
+    "title": "发射文本预算：生成模型体积的归因与削减",
+    "path": "wiki/wiki-emission-text-budget.md",
+    "type": "wiki",
+    "tags": [
+      "emission",
+      "model-size",
+      "codegen",
+      "census-before-emit",
+      "identifier-bloat",
+      "name-interning",
+      "runtime-gated-emission",
+      "dead-text",
+      "default-flip",
+      "legacy-escape",
+      "byte-identity"
+    ],
+    "keywords": [
+      "emitted model size",
+      "identifier bytes census",
+      "qualified identifier bloat",
+      "evaluation body copies",
+      "dense only codegen",
+      "sparse dispatch runtime dead text",
+      "SerialFast fallback",
+      "name interning",
+      "token boundary rewrite",
+      "InstInfo baked strings",
+      "name keyed rename map",
+      "REG DST RESET twins",
+      "IO accessor contract",
+      "blackbox function names",
+      "default on knobs",
+      "escape hatch",
+      "fir gate explicit off"
+    ],
+    "related_sources": []
+  },
+  {
+    "id": "wiki-wiki-build-wall-attribution",
+    "title": "构建墙归因：从文本预算到前端超线性的排查梯子",
+    "path": "wiki/wiki-build-wall-attribution.md",
+    "type": "wiki",
+    "tags": [
+      "build-time",
+      "frontend-superlinearity",
+      "per-tu-timing",
+      "stub-decomposition",
+      "giant-functions",
+      "chunking",
+      "tu-granularity",
+      "amdahl",
+      "false-verification",
+      "attribution-ladder"
+    ],
+    "keywords": [
+      "build wall attribution",
+      "optimizer bound myth",
+      "per TU timing",
+      "same-size TU comparison",
+      "straggler TU",
+      "stub decomposition",
+      "clang frontend superlinear",
+      "million statement function",
+      "optnone ineffective",
+      "chain-called chunk functions",
+      "if stack reopen",
+      "reset body chunking",
+      "cpp-max-size sweep",
+      "non-monotonic TU size",
+      "verilate jobs Amdahl",
+      "false verification trap",
+      "include resolution failure"
+    ],
+    "related_sources": []
   }
 ]

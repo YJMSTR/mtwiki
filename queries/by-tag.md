@@ -1,6 +1,6 @@
 ---
 title: Index by Tag
-generated: 2026-08-23T23:45:48.934254
+generated: 2026-08-27T22:15:50.543733
 ---
 
 # Index by Tag
@@ -976,6 +976,10 @@ generated: 2026-08-23T23:45:48.934254
 
 - [Intel VTune Profiler 与 AMD uProf 在多线程分析中的应用](../sources/source-vtune-uprof.md) `source`
 
+## amdahl
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## ant-colony-optimization
 
 - [禁忌搜索、蚁群与粒子群优化在 EDA 中的应用](../sources/source-swarm-intelligence.md) `source`
@@ -1019,6 +1023,10 @@ generated: 2026-08-23T23:45:48.934254
 ## atomicity
 
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
+
+## attribution-ladder
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## auto-vectorization
 
@@ -1112,9 +1120,14 @@ generated: 2026-08-23T23:45:48.934254
 
 - [版本控制嵌入与构建可复现性](../sources/source-version-build.md) `source`
 
+## build-time
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## byte-identity
 
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 - [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
 ## c++
@@ -1186,6 +1199,10 @@ generated: 2026-08-23T23:45:48.934254
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
+## census-before-emit
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## checklist
 
 - [操作系统调度与多线程调试](../wiki/wiki-os-and-debugging.md) `wiki`
@@ -1209,6 +1226,10 @@ generated: 2026-08-23T23:45:48.934254
 
 - [ChiselSim / Chisel + FIRRTL 生态与 RTL 仿真](../sources/source-chisel-firrtl.md) `source`
 - [Chisel/FIRRTL生态与高性能仿真器](../wiki/wiki-chisel-and-essent.md) `wiki`
+
+## chunking
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## ci
 
@@ -1273,6 +1294,7 @@ generated: 2026-08-23T23:45:48.934254
 ## codegen
 
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 - [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
@@ -1511,6 +1533,10 @@ generated: 2026-08-23T23:45:48.934254
 - [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
 - [编译时RTL优化技术](../wiki/wiki-compile-optimization.md) `wiki`
 
+## dead-text
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## deadlock
 
 - [Core Dump & GDB Multithreaded Debugging](../sources/source-gdb-multithread.md) `source`
@@ -1529,6 +1555,10 @@ generated: 2026-08-23T23:45:48.934254
 ## deduplication
 
 - [Simulation State Compression / Deduplication & Waveform Compression](../sources/source-state-compression.md) `source`
+
+## default-flip
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## default-off
 
@@ -1649,6 +1679,10 @@ generated: 2026-08-23T23:45:48.934254
 
 - [谱聚类与图拉普拉斯在 RTL 电路分区中的应用](../sources/source-spectral-clustering.md) `source`
 
+## emission
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## emulator
 
 - [Linux 调度器与 CPU 隔离对实时仿真器性能的影响](../sources/source-os-scheduling.md) `source`
@@ -1712,6 +1746,10 @@ generated: 2026-08-23T23:45:48.934254
 - [Cache与内存优化](../wiki/wiki-cache-and-memory.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 - [Verilator V3VariableOrder: 变量排序与多线程感知内存布局](../wiki/wiki-verilator-v3variableorder.md) `wiki`
+
+## false-verification
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## feedback-arc-set
 
@@ -1779,6 +1817,10 @@ generated: 2026-08-23T23:45:48.934254
 
 - [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
 
+## frontend-superlinearity
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## fsm
 
 - [C++20 协程在事件驱动仿真器中的应用](../sources/source-coroutine-simulation.md) `source`
@@ -1833,6 +1875,10 @@ generated: 2026-08-23T23:45:48.934254
 - [其他值得关注的仿真器多线程/并行实现：Icarus Verilog、ngspice、GHDL 等](../sources/source-notable-simulators.md) `source`
 - [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
 - [Verilator多线程源码深度剖析](../wiki/wiki-verilator-deep-dive.md) `wiki`
+
+## giant-functions
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## gil
 
@@ -2009,6 +2055,10 @@ generated: 2026-08-23T23:45:48.934254
 
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
 
+## identifier-bloat
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## incremental-evaluation
 
 - [Incremental Evaluation and Lazy Evaluation in RTL Simulation](../sources/source-incremental-evaluation.md) `source`
@@ -2108,6 +2158,10 @@ generated: 2026-08-23T23:45:48.934254
 ## learn-to-optimize
 
 - [前沿优化技术](../wiki/wiki-advanced-optimization.md) `wiki`
+
+## legacy-escape
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## lessons-learned
 
@@ -2289,6 +2343,10 @@ generated: 2026-08-23T23:45:48.934254
 
 - [CIRCT / Arcilator：基于 MLIR 的编译器 IR 级 RTL 仿真](../sources/source-circt-arcilator.md) `source`
 
+## model-size
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## move-graph
 
 - [V3OrderMoveGraph 移动图与多线程调度](../sources/source-verilator-V3OrderMoveGraph移动图.md) `source`
@@ -2424,6 +2482,10 @@ generated: 2026-08-23T23:45:48.934254
 ## mutex
 
 - [VPI/DPI/PLI 在多线程仿真器中的线程安全实现](../sources/source-vpi-dpi-threadsafe.md) `source`
+
+## name-interning
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## nested-parallelism
 
@@ -2657,6 +2719,10 @@ generated: 2026-08-23T23:45:48.934254
 ## per-cpu
 
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
+
+## per-tu-timing
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## percpu
 
@@ -2967,6 +3033,10 @@ generated: 2026-08-23T23:45:48.934254
 
 - [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
 
+## runtime-gated-emission
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## rust
 
 - [多语言外部接口（FFI）的线程安全实现：Python / Rust / C](../sources/source-ffi-threadsafe.md) `source`
@@ -3229,6 +3299,10 @@ generated: 2026-08-23T23:45:48.934254
 - [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
 - [多线程日志与追踪系统](../wiki/wiki-logging-and-tracing.md) `wiki`
 
+## stub-decomposition
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## supernode
 
 - [最新 RTL 并行仿真论文汇总（2023-2026）](../sources/source-latest-rtlsim-papers.md) `source`
@@ -3449,6 +3523,10 @@ generated: 2026-08-23T23:45:48.934254
 ## trigger-vector
 
 - [Verilator V3Sched 调度器核心组](../sources/source-verilator-V3Sched调度器.md) `source`
+
+## tu-granularity
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## uhdm
 

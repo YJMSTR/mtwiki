@@ -1,6 +1,6 @@
 ---
 title: Index by Keyword
-generated: 2026-08-23T23:45:48.973955
+generated: 2026-08-27T22:15:50.546820
 ---
 
 # Index by Keyword
@@ -671,6 +671,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [Instruction Cache Optimization for RTL Simulators](../sources/source-icache-optimization.md) `source`
 
+## IO accessor contract
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## IPC stall hiding
 
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
@@ -690,6 +694,10 @@ generated: 2026-08-23T23:45:48.973955
 ## IWLS benchmarks
 
 - [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
+
+## InstInfo baked strings
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## JIT RTL
 
@@ -1050,6 +1058,10 @@ generated: 2026-08-23T23:45:48.973955
 - [RCU (Read-Copy-Update) in Userspace — liburcu 与 QEMU 实现](../sources/source-rcu-userspace.md) `source`
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
 
+## REG DST RESET twins
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## RISC-V benchmark
 
 - [标准 RTL 基准测试集汇总](../sources/source-benchmark-suites.md) `source`
@@ -1227,6 +1239,10 @@ generated: 2026-08-23T23:45:48.973955
 ## Serial Link
 
 - [Multi-Die / Chiplet RTL 仿真与跨层设计资料汇编](../sources/source-chiplet-simulation.md) `source`
+
+## SerialFast fallback
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## Siloti
 
@@ -1870,6 +1886,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [cxxrtl / Yosys C++ Backend](../sources/source-cxxrtl.md) `source`
 
+## blackbox function names
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## block weights
 
 - [KaHyPar C++ API 使用指南与代码示例](../sources/source-kahypar-api.md) `source`
@@ -1926,6 +1946,10 @@ generated: 2026-08-23T23:45:48.973955
 ## build reproducibility C++
 
 - [版本控制嵌入与构建可复现性](../sources/source-version-build.md) `source`
+
+## build wall attribution
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## bulk-synchronous parallelism
 
@@ -2014,6 +2038,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [静态调度 worker 链中的有界乱序填补](../wiki/wiki-bounded-lookahead-rtl-sim.md) `wiki`
 
+## chain-called chunk functions
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## chandy-misra-bryant
 
 - [Parallel Discrete Event Simulation: The Making of a Field](../sources/source-pdes-making-of-field.md) `source`
@@ -2049,6 +2077,10 @@ generated: 2026-08-23T23:45:48.973955
 ## circuit-simulation
 
 - [Optimistic vs Conservative Synchronization in PDES for Circuit Simulation](../sources/source-pdes-sync-comparison.md) `source`
+
+## clang frontend superlinear
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## clock_gettime vDSO
 
@@ -2199,6 +2231,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [cocotb / pyuvm: Python Testbench 与 RTL 仿真器的交互及 GIL 多线程问题](../sources/source-cocotb-pyuvm.md) `source`
 
+## cpp-max-size sweep
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## critical path
 
 - [Coz Causal Profiling — 因果剖析器在并行程序中的原理与应用](../sources/source-coz-causal-profiling.md) `source`
@@ -2287,6 +2323,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
+## default on knobs
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## default-off knob
 
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
@@ -2307,6 +2347,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [Parallel and Distributed VHDL Simulation](../sources/source-pdes-vhdl-lungeanu.md) `source`
 - [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
+## dense only codegen
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## dependency graph
 
@@ -2436,6 +2480,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
 
+## emitted model size
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## emulator
 
 - [Linux Kernel Synchronization Primitives — Futex、Per-CPU 变量与内核级技术在用户空间仿真器中的应用](../sources/source-linux-kernel-sync.md) `source`
@@ -2448,6 +2496,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [C++ 配置系统与参数管理](../sources/source-config-system.md) `source`
 
+## escape hatch
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## eval commit
 
 - [CXXRTL / Yosys Simulation Loop 内核实现分析：编译时生成与增量求值](../sources/source-cxxrtl-internals.md) `source`
@@ -2455,6 +2507,10 @@ generated: 2026-08-23T23:45:48.973955
 ## eval-commit
 
 - [开源仿真器内核实现对比](../wiki/wiki-simulator-internals.md) `wiki`
+
+## evaluation body copies
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## event pool
 
@@ -2516,6 +2572,10 @@ generated: 2026-08-23T23:45:48.973955
 - [性能剖析与基准测试工具](../wiki/wiki-profiling-tools.md) `wiki`
 - [同步开销分析与对策](../wiki/wiki-sync-overhead.md) `wiki`
 
+## false verification trap
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## false-sharing
 
 - [False Sharing 检测与修复：高性能多线程编程的隐形杀手](../sources/source-false-sharing.md) `source`
@@ -2547,6 +2607,10 @@ generated: 2026-08-23T23:45:48.973955
 ## fine-grained parallelism
 
 - [Parendi: Thousand-Way Parallel RTL Simulation (ASPOS'25)](../sources/source-parendi-asplos25.md) `source`
+
+## fir gate explicit off
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
 
 ## first-touch
 
@@ -2897,9 +2961,17 @@ generated: 2026-08-23T23:45:48.973955
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
+## identifier bytes census
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## identity hash
 
 - [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
+
+## if stack reopen
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## if-语句转换
 
@@ -2908,6 +2980,10 @@ generated: 2026-08-23T23:45:48.973955
 ## implicit redundancy
 
 - [RTL 编译时死代码消除与冗余移除技术](../sources/source-dead-code-elimination.md) `source`
+
+## include resolution failure
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## incremental evaluation
 
@@ -3261,6 +3337,10 @@ generated: 2026-08-23T23:45:48.973955
 - [调度与负载均衡](../wiki/wiki-scheduling.md) `wiki`
 - [稀疏计算并行化策略](../wiki/wiki-sparse-parallelization.md) `wiki`
 
+## million statement function
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## mimalloc
 
 - [内存分配与带宽优化](../wiki/wiki-memory-and-allocator.md) `wiki`
@@ -3363,6 +3443,14 @@ generated: 2026-08-23T23:45:48.973955
 - [RTL 仿真器性能基准测试方法论](../sources/source-benchmark-methodology.md) `source`
 - [Verilator Issue #2913: Using multiple threads on tiny design shows dramatic slowdown](../sources/source-verilator-issue-2913.md) `source`
 
+## name interning
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
+## name keyed rename map
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## nba region
 
 - [Verilator 多线程性能 Issue 与调度器重设计讨论合集](../sources/source-verilator-mt-issues.md) `source`
@@ -3386,6 +3474,10 @@ generated: 2026-08-23T23:45:48.973955
 ## no-consumer store
 
 - [条件存储与写省略：周期仿真器中跳过幂等写为何失败](../wiki/wiki-conditional-store-elision.md) `wiki`
+
+## non-monotonic TU size
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## null verdict
 
@@ -3444,6 +3536,14 @@ generated: 2026-08-23T23:45:48.973955
 ## optimization pass
 
 - [LLVM/MLIR for RTL Optimization: CIRCT, Hardware Dialects, and Compiler Passes](../sources/source-llvm-mlir-rtl.md) `source`
+
+## optimizer bound myth
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
+## optnone ineffective
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## order-free hash
 
@@ -3569,6 +3669,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [Warped2: An Open-Source PDES Engine with Time Warp Synchronization](../sources/source-warped2-pdes-engine.md) `source`
 
+## per TU timing
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## per-CPU
 
 - [高级同步原语与内核技术](../wiki/wiki-advanced-sync.md) `wiki`
@@ -3693,6 +3797,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [生成器速度工程：生成代码仿真器生成期优化的前提验证与守恒门](../wiki/wiki-generator-speed.md) `wiki`
 
+## qualified identifier bloat
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## quality_preset
 
 - [KaHyPar 参数调优与配置详解](../sources/source-kahypar-tuning.md) `source`
@@ -3781,6 +3889,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [关键路径分析 / 最长路径算法在 RTL/电路时序分析中的应用](../sources/source-critical-path.md) `source`
 
+## reset body chunking
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## restrict keyword
 
 - [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
@@ -3834,6 +3946,10 @@ generated: 2026-08-23T23:45:48.973955
 ## runtime-inert
 
 - [生成代码仿真器的 A/B 隔离纪律](../wiki/wiki-ab-isolation-discipline.md) `wiki`
+
+## same-size TU comparison
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## sandbag
 
@@ -4027,6 +4143,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [Branch Prediction & Speculative Execution in Sparse/Event-Driven Simulation](../sources/source-branch-prediction.md) `source`
 
+## sparse dispatch runtime dead text
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## sparse hash map
 
 - [哈希表与字典优化在 RTL 仿真器中的应用](../sources/source-hash-optimization.md) `source`
@@ -4151,6 +4271,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [变值普查：生成代码仿真器中的值变化测量纪律](../wiki/wiki-value-change-census.md) `wiki`
 
+## straggler TU
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
+
 ## stratified event
 
 - [Icarus Verilog / GHDL 内核实现分析：仿真循环、事件调度与值存储](../sources/source-icarus-ghdl-internals.md) `source`
@@ -4182,6 +4306,10 @@ generated: 2026-08-23T23:45:48.973955
 ## structured logging simulation
 
 - [结构化与二进制日志格式：从 JSON 到 Protobuf/FlatBuffers 的高性能序列化](../sources/source-structured-logging.md) `source`
+
+## stub decomposition
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## superlinear speedup
 
@@ -4378,6 +4506,10 @@ generated: 2026-08-23T23:45:48.973955
 
 - [Thread-Local Storage 最佳实践：从 thread_local 到 per-thread allocator](../sources/source-thread-local-storage.md) `source`
 
+## token boundary rewrite
+
+- [发射文本预算：生成模型体积的归因与削减](../wiki/wiki-emission-text-budget.md) `wiki`
+
 ## topological sort
 
 - [BFS/DFS/拓扑排序在 RTL 仿真与电路分析中的应用](../sources/source-graph-traversal.md) `source`
@@ -4487,6 +4619,10 @@ generated: 2026-08-23T23:45:48.973955
 ## vectorization
 
 - [向量化 / 自动向量化（Auto-Vectorization）在 RTL 仿真器中的应用](../sources/source-auto-vectorization.md) `source`
+
+## verilate jobs Amdahl
+
+- [构建墙归因：从文本预算到前端超线性的排查梯子](../wiki/wiki-build-wall-attribution.md) `wiki`
 
 ## verilator
 
