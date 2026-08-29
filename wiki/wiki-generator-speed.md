@@ -231,3 +231,17 @@ T32 冠军图实测：cycRej **3,286,710 → 200,279（16×）**，merges 32,887
 **架构级洞察**：seed2 机制天然将确定性范围限定在调度决策（图构造之后），因此图构造的确定性修复不会使调优种子失效。这与"确定性 vs 质量"的紧张关系形成对照——决策回放不仅零税，而且对上游代码变化天然鲁棒。新鲜搜索的 MAXMT 扫描（1800 最优）仍对无种子生成有价值。
 
 T16 恢复（v457 种子）是类似跟进。
+
+
+### 追记补 4：新 RTL（kunminghu-v3）适配的 splitArray 动态索引问题（2026-08-29）
+
+上游 kunminghu-v3（253 提交）引入 FTQ `curPerfMeta` 结构（120 处引用，旧 RTL 为 0），其中 `cfiAttr[newBranchInfo.cfiPosition]` 使用**运行时计算的索引**——`cfiPosition = bits(add(io.fromBackend.resolve[1].bits.ftqOffset, T_3), 4, 0)`。gsim 的 `getIdx()` 只解析常量索引（`OP_INDEX_INT`），对动态表达式返回 (-1,-1)，`distributeTree` 断言失败。**上游 gsim 同样未修**（同断言存在，`hasVarIdx` 定义但从未用作守卫）——这是 gsim 图模型对动态索引寄存器数组的架构级缺口。
+
+**三次尝试的教训**：
+1. 跳过不拆（skip）：数组留在 partialVisited，拓扑排序断言——splitArray 本身是 Kahn 拓扑排序的一部分，数组拆分用来打断依赖环，不拆 = 环未断
+2. 标记已访问绕过（mark-visited）：环上的组合逻辑链（FTQ _T_149→150→151）卡死——自环仍在
+3. mux 展开（advisory 建议）：`member[i] = mux(idx==i, rhs, member[i])`——正确方向但 false 分支引用 member[i] 产生自环
+
+**根因**：寄存器数组的 `connect arr[idx], val` 是时钟沿语义（`arr[idx]$NEXT = val`），mux 展开必须走寄存器的 $NEXT 机制（如同静态索引写），不能组合自赋值。修复需要理解 splitArrayNode 对静态索引寄存器写如何挂 resetTree/$NEXT，然后把动态索引树路由到相同机制。
+
+**资产已保全**：mux-expansion 半成品在 `stash@{0}`（/tmp/gsim-wip-b1-lookahead），新 FIR 在 build-sv/rtl/（1.46GB），旧 v86 冻结在 rtl-v86-frozen/。工作树已恢复干净（FIR 门 22/22）。
