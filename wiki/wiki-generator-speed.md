@@ -245,3 +245,16 @@ T16 恢复（v457 种子）是类似跟进。
 **根因**：寄存器数组的 `connect arr[idx], val` 是时钟沿语义（`arr[idx]$NEXT = val`），mux 展开必须走寄存器的 $NEXT 机制（如同静态索引写），不能组合自赋值。修复需要理解 splitArrayNode 对静态索引寄存器写如何挂 resetTree/$NEXT，然后把动态索引树路由到相同机制。
 
 **资产已保全**：mux-expansion 半成品在 `stash@{0}`（/tmp/gsim-wip-b1-lookahead），新 FIR 在 build-sv/rtl/（1.46GB），旧 v86 冻结在 rtl-v86-frozen/。工作树已恢复干净（FIR 门 22/22）。
+
+
+### 追记补 5：新 RTL（kunminghu-v3）适配完成——when-展开方案（2026-08-30）
+
+**最终方案**：`distributeTree` 对 (-1,-1) 动态索引写做**when-展开**。到达 distributeTree 的树是 `arr[dynIdx] = when(cond, rhs, prev)`（AST2Graph 的 last-connect 机制保证两分支齐全），对每个成员 i 发射 `arr[i] = when(dynIdx == i, 原树, EMPTY)`：lvalue 保持数组引用+常量索引 i，`updateWithSplittedArray` 后续改写为成员引用；动态**读**本来就有支持（updateWithSplittedArray 的 mux 链分支）。提交 770bab7。
+
+**之前三次失败的教训**（见追记补 4）：跳过/标记已访/自引用 mux 都不行——分别破坏拓扑排序、留环、造自环。when-展开复用全部现有机制（when 合并、静态分支改写），是唯一与图算法相容的表达。
+
+**配套修复**：新 RTL 的 DPI extmodule（TopdownIQInfoHelper_80/238、TopdownRobInfoHelper_318_352）需要在 difftest-extmodule.cpp 手写 wrapper（gsim 只发声明，定义来自 difftest 侧）。参数映射已验证无缓冲区溢出。
+
+**验证**：727 cpp / sccs=65965（新 RTL 比 v86 大 46%）→ 编译 → CoreMark 2-iteration **HIT GOOD TRAP**（663758 指令 / 304246 周期 / IPC 2.18），NEMU difftest 全程零失配。旧 RTL FIR 门 22/22 不受影响。
+
+**新 RTL 特性**：~12k 周期慢启动（C8000 仅 6 指令，C16000 起 IPC 2.40）——kunminghu-v3 的 boot 特性，非卡死。旧 C5000/C50000 门是周期检查点，不跨 boot 时间变化迁移；新参考点 = 完整工作负载 663758 指令、trap pc 0x80001ca0。
