@@ -258,3 +258,21 @@ T16 恢复（v457 种子）是类似跟进。
 **验证**：727 cpp / sccs=65965（新 RTL 比 v86 大 46%）→ 编译 → CoreMark 2-iteration **HIT GOOD TRAP**（663758 指令 / 304246 周期 / IPC 2.18），NEMU difftest 全程零失配。旧 RTL FIR 门 22/22 不受影响。
 
 **新 RTL 特性**：~12k 周期慢启动（C8000 仅 6 指令，C16000 起 IPC 2.40）——kunminghu-v3 的 boot 特性，非卡死。旧 C5000/C50000 门是周期检查点，不跨 boot 时间变化迁移；新参考点 = 完整工作负载 663758 指令、trap pc 0x80001ca0。
+
+
+### 追记补 6：新 RTL 冠军注册 + 种子合同（2026-08-30）
+
+新 RTL（kunminghu-v3）两个档位冠军注册，均带 write==replay 验证的种子：
+
+| 冠军 | linux-30k | mtasks | 种子验证 |
+|---|---|---|---|
+| newrtl-t32-compact-v1 | **7.01s** | 10463 | 9/9 钉点，哈希一致 |
+| newrtl-t16-compact-v1 | **8.21s** | 6258 | 9/9 钉点，哈希一致 |
+
+（正确性合同：coremark 全量 difftest HIT GOOD TRAP 663,758 指令零失配，四个配置位一致。）
+
+COMPACT 在新 RTL 上 -5.1%（T16 交错 3 对），与旧 RTL 的 -8.4% 方向一致。
+
+**坑**：种子写运行若 `--dir/model` 目录不存在，会在最终 dumpMtCoarseRegionReport 崩溃（cppEmitter 会建目录但这个报告 fopen 不会）——生成前必须 `mkdir -p <dir>/model`。种子写耗时约为普通生成 2.2×（2095s vs 937s，含决策记录开销）。
+
+**下一个杠杆**：两个新冠军都是无调优新鲜调度——旧 RTL 从种子调优获得 ~10%，新 RTL 同一机制可用。
