@@ -276,3 +276,22 @@ COMPACT 在新 RTL 上 -5.1%（T16 交错 3 对），与旧 RTL 的 -8.4% 方向
 **坑**：种子写运行若 `--dir/model` 目录不存在，会在最终 dumpMtCoarseRegionReport 崩溃（cppEmitter 会建目录但这个报告 fopen 不会）——生成前必须 `mkdir -p <dir>/model`。种子写耗时约为普通生成 2.2×（2095s vs 937s，含决策记录开销）。
 
 **下一个杠杆**：两个新冠军都是无调优新鲜调度——旧 RTL 从种子调优获得 ~10%，新 RTL 同一机制可用。
+
+
+### 追记补 7：新 RTL 单线程 + Verilator 对比完成（2026-08-30）
+
+Linux 30k 周期、无 difftest、线程宽度匹配、CPU 隔离串行测量（README 提交 bafb638 + 42731c2）：
+
+| 线程 | gsim | Verilator | 加速比 |
+|---|---|---|---|
+| 1 | 37.7s（纯串行模型，367 cpp）| 269s | **7.1×** |
+| 16 | 8.21s（T16c 冠军）| 15.4-15.9s | **1.9×** |
+| 32 | 7.01s（T32c 冠军）| **构建不出**（UNOPTTHREADS）| 2.2× vs V-T16 |
+
+**关键发现：Verilator 5.034 无法为此网表做 32 线程划分**（75 分钟 verilation 后 UNOPTTHREADS 报错退出）——新 RTL 的组合结构触及 Verilator 线程调度极限，而 gsim-mt 的 SCC/MTask 划分正常处理 T32。这是网表结构层面的发现（老 RTL 的 V-T32 能建，9.73-9.84s）。
+
+**跨仿真器功能交叉验证**：Verilator T1/T16 与 gsim T1/T16c/T32c 五个独立生成的仿真器在同一窗口全部提交精确一致的 86,469 条指令。
+
+**Verilator 构建坑**（记录备查）：(1) 独立 difftest_verilog 的输出绝不可写进集成构建目录（endpoint step 端口不匹配破坏 Verilator，这也是 FIR 事故的诱因）；(2) generated-src 必须来自集成 elaboration（带后缀的 DPI wrapper 只在那里生成）；(3) EMU_THREADS 宏改变全部编译 flags → 跨线程数构建 ccache 全 miss；(4) 串行 gsim 生成必须 env -i 清掉 gen-env.sh 残留（GSIM_MT_DENSE_EXECUTOR_CODEGEN 会让串行发射断言 useCoarseMt）。
+
+串行基线已注册 champions/newrtl-serial-baseline（含 6 次运行 + HIT GOOD TRAP 门）。
