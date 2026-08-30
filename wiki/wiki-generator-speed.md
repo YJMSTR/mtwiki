@@ -295,3 +295,18 @@ Linux 30k 周期、无 difftest、线程宽度匹配、CPU 隔离串行测量（
 **Verilator 构建坑**（记录备查）：(1) 独立 difftest_verilog 的输出绝不可写进集成构建目录（endpoint step 端口不匹配破坏 Verilator，这也是 FIR 事故的诱因）；(2) generated-src 必须来自集成 elaboration（带后缀的 DPI wrapper 只在那里生成）；(3) EMU_THREADS 宏改变全部编译 flags → 跨线程数构建 ccache 全 miss；(4) 串行 gsim 生成必须 env -i 清掉 gen-env.sh 残留（GSIM_MT_DENSE_EXECUTOR_CODEGEN 会让串行发射断言 useCoarseMt）。
 
 串行基线已注册 champions/newrtl-serial-baseline（含 6 次运行 + HIT GOOD TRAP 门）。
+
+
+### 追记补 8：2× 同线程 Verilator 达成——MAXMT 随图规模重整（2026-08-30）
+
+**目标**：新 RTL 同线程达到 Verilator 2×。**达成**：gsim T16 MAXMT=1700 = **7.19s** vs V-T16 15.35s = **2.13×**（保守配对 2.10×），正确性门 HIT GOOD TRAP 位一致，种子 write==replay 字节一致（`1380be88`）。注册 `newrtl-t16-compact-v2`，README `21392ef`。
+
+**方法**：MAXMT=800 是从 v86（45,163 sccs）抄来的配方；kunminghu-v3 大 46%（65,965 sccs），交错扫描 {800,1100,1400,1700,2000,2400}（热身丢弃、固定掩码、串行机器）：
+
+| MAXMT | 800 | 1100 | 1400 | 1700 | 2000 | 2400 |
+|---|---|---|---|---|---|---|
+| 均值 s | 8.17 | 8.14 | 7.57 | **7.25** | 7.20 | 7.62 |
+
+曲线在 1700-2000 见底（5 对决胜 7.192 vs 7.198 平手），2400 回升——最优点随图规模上移约 2 倍，与"任务预算应随 SCC 数缩放"的直觉一致。
+
+**流程规则**：跨 RTL 迁移配方时 MAXMT 必须重扫（图规模变了最优点就变）；本例 +11.4% 性能全来自这一个参数。缓存控制：ccache 只影响构建墙钟（key 含预处理源码，不同模型必 miss，运行时不受影响）；bench 前热身丢弃（页缓存）；交错轮次控频率漂移。
