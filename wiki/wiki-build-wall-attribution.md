@@ -118,3 +118,14 @@ stub 变体放在 `/tmp` 编译，`#include "SimTop.h"` 解析失败**秒退**�
 - [[wiki-emission-text-budget]] — 文本侧的普查与削减（本页第 1 级假说的来源）
 - [[wiki-generator-speed]] — 生成器侧的速度工程
 - [[wiki-benchmark-and-profiling]] — 测量纪律总论
+
+
+### 追记：difftest extmodule 手写适配器的持久化（2026-08-30）
+
+新 RTL 的 DPI extmodule（TopdownIQInfoHelper_80/_238、TopdownRobInfoHelper_318_352）需要手写 C++ 适配器（gsim 只发声明）。**difftest 的 Scala 侧本应生成它们**（TopdownIQInfo.scala 的 createCppExtModule 注册了 _BitInt 签名模板）但条目从未落到生成的 difftest-extmodule.cpp——而 createCppDPICModule 的条目正常落到 difftest-dpic-ext.cpp。这是 difftest 子模块的缺陷候选（上游可修）。
+
+**风险**：每次 Chisel elaboration 重新生成 build/generated-src/difftest-extmodule.cpp，静默摧毁手写适配器 → 未来从冠军模型重建 emu 必然链接失败（正是种子本来要保证的可复现性缺口）。
+
+**已持久化**（champions/newrtl-v1-baseline/）：完整工作副本 difftest-extmodule.cpp、独立适配块 topdown-extmodule-adapters.cpp（自带用法说明）、集成版 difftest-dpic-ext.integrated.cpp（Verilator 链接需要）、REBUILD.md（五个踩坑记录）。
+
+**规则：RTL/elaboration 重生成后必须重新追加 topdown 适配器，直到发射逻辑修进 difftest Scala。**
