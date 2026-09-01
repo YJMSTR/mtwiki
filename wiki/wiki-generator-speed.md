@@ -352,3 +352,14 @@ Linux 30k 周期、无 difftest、线程宽度匹配、CPU 隔离串行测量（
 **实现陷阱（重要）**：第一版把惩罚加在 PackThreads 指派器——但配方走 SCHED_ORDER 路径，旋钮静默无效，模型与冠军字节一致。**规则：任何指派/调度旋钮改动的验证必须包含模型哈希对比**（若与基线一致 = 旋钮没接上）。
 
 **状态**：2.5× 未达（差 7.2%，需 ≤6.54s）；t16-25x-terminal-final 的"不可达"结论被部分推翻——归因支持的杠杆确实落地了一个。下一级杠杆是分区器级状态-CCD 重分区（把 81MB 状态按 CCD 划分所有权），仍是项目级工作。
+
+
+### 追记补 12：B1-B3 执行与 harness 代差规则（2026-09-01）
+
+**B1（v86-T16 重注册）**：MAXMT=1200 注册为 xiangshan-t16-compact-v2，同 harness 5 对 **-12.1%**（5/5 全负区间分离 [5.44-5.50] vs [6.09-6.30]）。种子 write==replay 字节验证。
+
+**harness 代差规则（重要协议）**：advisory 红灯（ic 46,562 vs 46,540）的根因——difftest 子模块更新（45638f514）前构建的冠军 emu 与当前 harness 构建是**不同系统**（不同 boot 流程/陷阱 pc/周期计数），各自对各自的 NEMU 门正确，但**跨 harness 对比无效**。规则：旧冠军 emu 参与任何对比前必须在当前 harness 上重建基线。
+
+**B2（T32 扫描）**：lvlSum 探针选 m4800 + CCD250，linux-100k vs 冠军 m2400 = -0.4%（噪声）——T32 档平台期；T32 24.2s ≈ T16 24.8s，档位扩展在 100k 负载饱和。
+
+**B3 汇总（README 双表 + workload 刷新）**：linux-100k T16 2.18×/T8 2.07×，CoreMark C50000 2.27×，T1 7.1×。Arcilator（D3）按用户指示跳过：上游 HEAD（本机构建 llvm/circt）对香山的 seq.firreg async reset 不支持——与 GSIM 论文记载一致；FIR→MLIR 的 XMR/bind 障碍已解（--verification-flavor=none --default-layer-specialization=disable），构建配方留存 /tmp/circt。
