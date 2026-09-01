@@ -363,3 +363,14 @@ Linux 30k 周期、无 difftest、线程宽度匹配、CPU 隔离串行测量（
 **B2（T32 扫描）**：lvlSum 探针选 m4800 + CCD250，linux-100k vs 冠军 m2400 = -0.4%（噪声）——T32 档平台期；T32 24.2s ≈ T16 24.8s，档位扩展在 100k 负载饱和。
 
 **B3 汇总（README 双表 + workload 刷新）**：linux-100k T16 2.18×/T8 2.07×，CoreMark C50000 2.27×，T1 7.1×。Arcilator（D3）按用户指示跳过：上游 HEAD（本机构建 llvm/circt）对香山的 seq.firreg async reset 不支持——与 GSIM 论文记载一致；FIR→MLIR 的 XMR/bind 障碍已解（--verification-flavor=none --default-layer-specialization=disable），构建配方留存 /tmp/circt。
+
+
+### 追记补 13：B4 状态-所有者布局——CCD 项目最小切片（2026-09-01，提交 c7ce312）
+
+`GSIM_EMIT_STATE_BY_OWNER=1`（默认关）：把状态成员声明按其所有者 mtask 的 worker 所在 CCD 重排（稳定索引排序，45281/66120 super 归因），每 CCD 的写入状态聚成连续 arena——纯布局、语义零变、FIR 门 22/22。
+
+**结果**：5 对 vs v3 冠军 **-1.28%**（5/5 全负、区间分离），门位一致——真实但低于 3% 注册线，记录不注册。与本会话 CCD 亲和指派项（-4.76%）叠加：T16 会话进程 7.19s → 6.93s 观测最佳。
+
+**教训**：(1) gcc/clang 对 SuperNode* 的 stable_sort 触发 deprecated temporary-buffer Werror——用索引排序+原序决胜等价替代；(2) MtDenseScc 携带 cppIds（非成员节点）——scc→supernode→node 的映射链要走 supersrc。
+
+深层重分区（任务级发射分区+跨 CCD 边特化）理论余量 ~13%，留作后续项目。
